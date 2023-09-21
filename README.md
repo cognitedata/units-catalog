@@ -70,6 +70,23 @@ To ensure the integrity of the catalog, the following tests are conducted:
 Some of the units are sourced from QUDT.org, which is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 These are marked with the `qudt.org` source.
 
+## Code ownership
+Copyright 2023 Cognite AS
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+This license applies to any code/data file in this repository, unless otherwise noted.
+
 ## Contribution
 
 To maintain the consistency and quality of the unit catalog, please ensure any contributions adhere to the established structure and guidelines. Before submitting any additions or modifications, ensure that all tests pass.

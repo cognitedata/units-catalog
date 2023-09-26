@@ -18,11 +18,6 @@ class UnitTest {
     }
 
     @Test
-    fun testThatGithubActionsAlertsOnFail() {
-        assertEquals("true", "This test should fail")
-    }
-
-    @Test
     fun convertBetweenUnits() {
         val unitService = UnitService.service
         val unitCelcius = unitService.getUnitByExternalId("temperature:deg_c")

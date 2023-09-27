@@ -15,13 +15,13 @@
             "GradC",
             "grdC",
             "GRDC",
-            "\u00b0C",
-            "\u00baC",
+            "°C",
+            "ºC",
             "CELSIUS",
-            "\u00b0 C",
-            "\u00ba C",
+            "° C",
+            "º C",
             "oC",
-            "\u00b0C: degree Celsius",
+            "°C: degree Celsius",
             "Deg.C",
             "degC:",
             "deg C:",
@@ -38,7 +38,7 @@
             "Deg C:",
             "DEGC:",
             "Deg C",
-            "\ufffdC",
+            "�C",
             "Deg c",
             "DegC:",
             "deg.C:",
@@ -64,8 +64,8 @@
             "deg F",
             "degF",
             "Fahrenheit",
-            "\u00b0F",
-            "\u00baF",
+            "°F",
+            "ºF",
             "degf",
             "f",
             "fahrenheit",
@@ -175,10 +175,10 @@
     },
     {
         "externalId": "energy:megaw-hr",
-        "name": "MW\u22c5hr",
+        "name": "MW⋅hr",
         "longName": "Megawatt Hour",
         "aliasNames": [
-            "MW\u22c5hr",
+            "MW⋅hr",
             "Megawatt Hour"
         ],
         "quantity": "Energy",
@@ -287,10 +287,10 @@
     },
     {
         "externalId": "energy:ft-lb_f",
-        "name": "ft\u22c5lbf",
+        "name": "ft⋅lbf",
         "longName": "Foot Pound Force",
         "aliasNames": [
-            "ft\u22c5lbf",
+            "ft⋅lbf",
             "Foot Pound Force"
         ],
         "quantity": "Energy",
@@ -319,10 +319,10 @@
     },
     {
         "externalId": "energy:teraw-hr",
-        "name": "TW\u22c5hr",
+        "name": "TW⋅hr",
         "longName": "Terawatt Hour",
         "aliasNames": [
-            "TW\u22c5hr",
+            "TW⋅hr",
             "Terawatt Hour"
         ],
         "quantity": "Energy",
@@ -335,10 +335,10 @@
     },
     {
         "externalId": "energy:microj",
-        "name": "\u00b5J",
+        "name": "µJ",
         "longName": "Micro Joule",
         "aliasNames": [
-            "\u00b5J",
+            "µJ",
             "Micro Joule"
         ],
         "quantity": "Energy",
@@ -431,10 +431,10 @@
     },
     {
         "externalId": "energy:kilov-a-hr",
-        "name": "kV\u22c5A/hr",
+        "name": "kV⋅A/hr",
         "longName": "Kilovolt Ampere Hour",
         "aliasNames": [
-            "kV\u22c5A/hr",
+            "kV⋅A/hr",
             "Kilovolt Ampere Hour"
         ],
         "quantity": "Energy",
@@ -463,10 +463,10 @@
     },
     {
         "externalId": "energy:w-sec",
-        "name": "W\u22c5s",
+        "name": "W⋅s",
         "longName": "Watt Second",
         "aliasNames": [
-            "W\u22c5s",
+            "W⋅s",
             "Watt Second"
         ],
         "quantity": "Energy",
@@ -511,10 +511,10 @@
     },
     {
         "externalId": "energy:kilow-hr",
-        "name": "kW\u22c5h",
+        "name": "kW⋅h",
         "longName": "Kilowatthour",
         "aliasNames": [
-            "kW\u22c5h",
+            "kW⋅h",
             "Kilowatthour"
         ],
         "quantity": "Energy",
@@ -527,10 +527,10 @@
     },
     {
         "externalId": "energy:w-hr",
-        "name": "W\u22c5hr",
+        "name": "W⋅hr",
         "longName": "Watthour",
         "aliasNames": [
-            "W\u22c5hr",
+            "W⋅hr",
             "Watthour"
         ],
         "quantity": "Energy",
@@ -591,10 +591,10 @@
     },
     {
         "externalId": "energy:megav-a-hr",
-        "name": "MV\u22c5A\u22c5hr",
+        "name": "MV⋅A⋅hr",
         "longName": "Megavolt Ampere Hour",
         "aliasNames": [
-            "MV\u22c5A\u22c5hr",
+            "MV⋅A⋅hr",
             "Megavolt Ampere Hour"
         ],
         "quantity": "Energy",
@@ -655,10 +655,10 @@
     },
     {
         "externalId": "energy:gigaw-hr",
-        "name": "GW\u22c5hr",
+        "name": "GW⋅hr",
         "longName": "Gigawatt Hour",
         "aliasNames": [
-            "GW\u22c5hr",
+            "GW⋅hr",
             "Gigawatt Hour"
         ],
         "quantity": "Energy",
@@ -687,10 +687,10 @@
     },
     {
         "externalId": "volume:decim3",
-        "name": "dm\u00b3",
+        "name": "dm³",
         "longName": "Cubic Decimetre",
         "aliasNames": [
-            "dm\u00b3",
+            "dm³",
             "Cubic Decimetre"
         ],
         "quantity": "Volume",
@@ -767,10 +767,10 @@
     },
     {
         "externalId": "volume:in3",
-        "name": "in\u00b3",
+        "name": "in³",
         "longName": "Cubic Inch",
         "aliasNames": [
-            "in\u00b3",
+            "in³",
             "Cubic Inch"
         ],
         "quantity": "Volume",
@@ -783,10 +783,10 @@
     },
     {
         "externalId": "volume:microm3",
-        "name": "\u00b5m\u00b3",
+        "name": "µm³",
         "longName": "Cubic micrometres (microns)",
         "aliasNames": [
-            "\u00b5m\u00b3",
+            "µm³",
             "Cubic micrometres (microns)"
         ],
         "quantity": "Volume",
@@ -799,10 +799,10 @@
     },
     {
         "externalId": "volume:millim3",
-        "name": "mm\u00b3",
+        "name": "mm³",
         "longName": "Cubic Millimetre",
         "aliasNames": [
-            "mm\u00b3",
+            "mm³",
             "Cubic Millimetre"
         ],
         "quantity": "Volume",
@@ -815,10 +815,10 @@
     },
     {
         "externalId": "volume:decam3",
-        "name": "dam\u00b3",
+        "name": "dam³",
         "longName": "Cubic Decametre",
         "aliasNames": [
-            "dam\u00b3",
+            "dam³",
             "Cubic Decametre"
         ],
         "quantity": "Volume",
@@ -831,10 +831,10 @@
     },
     {
         "externalId": "volume:ft3",
-        "name": "ft\u00b3",
+        "name": "ft³",
         "longName": "Cubic Foot",
         "aliasNames": [
-            "ft\u00b3",
+            "ft³",
             "Cubic Foot"
         ],
         "quantity": "Volume",
@@ -847,10 +847,10 @@
     },
     {
         "externalId": "volume:centim3",
-        "name": "cm\u00b3",
+        "name": "cm³",
         "longName": "cubic centimetre",
         "aliasNames": [
-            "cm\u00b3",
+            "cm³",
             "cubic centimetre"
         ],
         "quantity": "Volume",
@@ -863,10 +863,10 @@
     },
     {
         "externalId": "volume:yd3",
-        "name": "yd\u00b3",
+        "name": "yd³",
         "longName": "Cubic Yard",
         "aliasNames": [
-            "yd\u00b3",
+            "yd³",
             "Cubic Yard"
         ],
         "quantity": "Volume",
@@ -895,10 +895,10 @@
     },
     {
         "externalId": "volume:mi3",
-        "name": "mi\u00b3",
+        "name": "mi³",
         "longName": "Cubic Mile",
         "aliasNames": [
-            "mi\u00b3",
+            "mi³",
             "Cubic Mile"
         ],
         "quantity": "Volume",
@@ -911,10 +911,10 @@
     },
     {
         "externalId": "volume:m3",
-        "name": "m\u00b3",
+        "name": "m³",
         "longName": "cubic metre",
         "aliasNames": [
-            "m\u00b3",
+            "m³",
             "cubic metre"
         ],
         "quantity": "Volume",
@@ -927,10 +927,10 @@
     },
     {
         "externalId": "volume:kilo-ft3",
-        "name": "k.ft\u00b3",
+        "name": "k.ft³",
         "longName": "Thousand Cubic Foot",
         "aliasNames": [
-            "k.ft\u00b3",
+            "k.ft³",
             "Thousand Cubic Foot"
         ],
         "quantity": "Volume",
@@ -1309,10 +1309,10 @@
     },
     {
         "externalId": "pressure:kilogm-per-m-sec2",
-        "name": "kg/(m\u22c5s\u00b2)",
+        "name": "kg/(m⋅s²)",
         "longName": "Kilograms per metre per square second",
         "aliasNames": [
-            "kg/(m\u22c5s\u00b2)",
+            "kg/(m⋅s²)",
             "Kilograms per metre per square second"
         ],
         "quantity": "Pressure",
@@ -1485,10 +1485,10 @@
     },
     {
         "externalId": "pressure:lb_f-per-ft2",
-        "name": "lbf/ft\u00b2",
+        "name": "lbf/ft²",
         "longName": "Pound Force per Square Foot",
         "aliasNames": [
-            "lbf/ft\u00b2",
+            "lbf/ft²",
             "Pound Force per Square Foot"
         ],
         "quantity": "Pressure",
@@ -1501,10 +1501,10 @@
     },
     {
         "externalId": "pressure:kilogm_f-per-centim2",
-        "name": "kgf/cm\u00b2",
+        "name": "kgf/cm²",
         "longName": "Kilogram Force per Square Centimetre",
         "aliasNames": [
-            "kgf/cm\u00b2",
+            "kgf/cm²",
             "Kilogram Force per Square Centimetre"
         ],
         "quantity": "Pressure",
@@ -1549,10 +1549,10 @@
     },
     {
         "externalId": "pressure:n-per-m2",
-        "name": "N/m\u00b2",
+        "name": "N/m²",
         "longName": "Newtons Per Square Metre",
         "aliasNames": [
-            "N/m\u00b2",
+            "N/m²",
             "Newtons Per Square Metre"
         ],
         "quantity": "Pressure",
@@ -1629,10 +1629,10 @@
     },
     {
         "externalId": "pressure:kilogm_f-per-m2",
-        "name": "kgf/m\u00b2",
+        "name": "kgf/m²",
         "longName": "Kilogram Force Per Square Metre",
         "aliasNames": [
-            "kgf/m\u00b2",
+            "kgf/m²",
             "Kilogram Force Per Square Metre"
         ],
         "quantity": "Pressure",
@@ -2207,10 +2207,10 @@
     },
     {
         "externalId": "angle:deg",
-        "name": "\u00b0",
+        "name": "°",
         "longName": "Degree",
         "aliasNames": [
-            "\u00b0",
+            "°",
             "Degree",
             "degrees"
         ],
@@ -2224,10 +2224,10 @@
     },
     {
         "externalId": "energy_per_area:j-per-centim2",
-        "name": "J/cm\u00b2",
+        "name": "J/cm²",
         "longName": "Joule Per Square Centimetre",
         "aliasNames": [
-            "J/cm\u00b2",
+            "J/cm²",
             "Joule Per Square Centimetre"
         ],
         "quantity": "Energy Per Area",
@@ -2240,10 +2240,10 @@
     },
     {
         "externalId": "energy_per_area:w-sec-per-m2",
-        "name": "W\u22c5s/m\u00b2",
+        "name": "W⋅s/m²",
         "longName": "Watt seconds per square metre",
         "aliasNames": [
-            "W\u22c5s/m\u00b2",
+            "W⋅s/m²",
             "Watt seconds per square metre"
         ],
         "quantity": "Energy Per Area",
@@ -2256,10 +2256,10 @@
     },
     {
         "externalId": "energy_per_area:ft-lb_f-per-ft2",
-        "name": "ft\u22c5lbf/ft\u00b2",
+        "name": "ft⋅lbf/ft²",
         "longName": "Foot Pound per Square Foot",
         "aliasNames": [
-            "ft\u22c5lbf/ft\u00b2",
+            "ft⋅lbf/ft²",
             "Foot Pound per Square Foot"
         ],
         "quantity": "Energy Per Area",
@@ -2272,10 +2272,10 @@
     },
     {
         "externalId": "energy_per_area:btu_it-per-ft2",
-        "name": "Btu{IT}/ft\u00b2",
+        "name": "Btu{IT}/ft²",
         "longName": "BTU per Square Foot",
         "aliasNames": [
-            "Btu{IT}/ft\u00b2",
+            "Btu{IT}/ft²",
             "BTU per Square Foot"
         ],
         "quantity": "Energy Per Area",
@@ -2288,10 +2288,10 @@
     },
     {
         "externalId": "energy_per_area:kilocal-per-centim2",
-        "name": "kcal/cm\u00b2",
+        "name": "kcal/cm²",
         "longName": "Kilocalorie per Square Centimetre",
         "aliasNames": [
-            "kcal/cm\u00b2",
+            "kcal/cm²",
             "Kilocalorie per Square Centimetre"
         ],
         "quantity": "Energy Per Area",
@@ -2304,10 +2304,10 @@
     },
     {
         "externalId": "energy_per_area:j-per-m2",
-        "name": "J/m\u00b2",
+        "name": "J/m²",
         "longName": "Joule per Square Metre",
         "aliasNames": [
-            "J/m\u00b2",
+            "J/m²",
             "Joule per Square Metre"
         ],
         "quantity": "Energy Per Area",
@@ -2320,10 +2320,10 @@
     },
     {
         "externalId": "energy_per_area:megaj-per-m2",
-        "name": "MJ/m\u00b2",
+        "name": "MJ/m²",
         "longName": "Megajoule Per Square Metre",
         "aliasNames": [
-            "MJ/m\u00b2",
+            "MJ/m²",
             "Megajoule Per Square Metre"
         ],
         "quantity": "Energy Per Area",
@@ -2336,10 +2336,10 @@
     },
     {
         "externalId": "power_per_area:milliw-per-m2",
-        "name": "mW/m\u00b2",
+        "name": "mW/m²",
         "longName": "Milliwatt Per Square Metre",
         "aliasNames": [
-            "mW/m\u00b2",
+            "mW/m²",
             "Milliwatt Per Square Metre"
         ],
         "quantity": "Power Per Area",
@@ -2352,10 +2352,10 @@
     },
     {
         "externalId": "power_per_area:btu_it-per-hr-ft2",
-        "name": "Btu{IT}/(hr\u22c5ft\u00b2)",
+        "name": "Btu{IT}/(hr⋅ft²)",
         "longName": "BTU per Hour Square Foot",
         "aliasNames": [
-            "Btu{IT}/(hr\u22c5ft\u00b2)",
+            "Btu{IT}/(hr⋅ft²)",
             "BTU per Hour Square Foot"
         ],
         "quantity": "Power Per Area",
@@ -2368,10 +2368,10 @@
     },
     {
         "externalId": "power_per_area:j-per-centim2-day",
-        "name": "J/(cm\u00b2\u22c5day)",
+        "name": "J/(cm²⋅day)",
         "longName": "Joules per square centimetre per day",
         "aliasNames": [
-            "J/(cm\u00b2\u22c5day)",
+            "J/(cm²⋅day)",
             "Joules per square centimetre per day"
         ],
         "quantity": "Power Per Area",
@@ -2384,10 +2384,10 @@
     },
     {
         "externalId": "power_per_area:w-per-in2",
-        "name": "W/in\u00b2",
+        "name": "W/in²",
         "longName": "Watt per Square Inch",
         "aliasNames": [
-            "W/in\u00b2",
+            "W/in²",
             "Watt per Square Inch"
         ],
         "quantity": "Power Per Area",
@@ -2400,10 +2400,10 @@
     },
     {
         "externalId": "power_per_area:ft-lb_f-per-ft2-sec",
-        "name": "ft\u22c5lbf/ft\u00b2s",
+        "name": "ft⋅lbf/ft²s",
         "longName": "Foot Pound Force per Square Foot Second",
         "aliasNames": [
-            "ft\u22c5lbf/ft\u00b2s",
+            "ft⋅lbf/ft²s",
             "Foot Pound Force per Square Foot Second"
         ],
         "quantity": "Power Per Area",
@@ -2416,10 +2416,10 @@
     },
     {
         "externalId": "power_per_area:w-per-m2",
-        "name": "W/m\u00b2",
+        "name": "W/m²",
         "longName": "watt per square metre",
         "aliasNames": [
-            "W/m\u00b2",
+            "W/m²",
             "W/m2",
             "watt per square metre"
         ],
@@ -2433,10 +2433,10 @@
     },
     {
         "externalId": "power_per_area:w-per-centim2",
-        "name": "W/cm\u00b2",
+        "name": "W/cm²",
         "longName": "Watt per Square Centimetre",
         "aliasNames": [
-            "W/cm\u00b2",
+            "W/cm²",
             "W/cm2",
             "Watt per Square Centimetre"
         ],
@@ -2450,10 +2450,10 @@
     },
     {
         "externalId": "power_per_area:btu_it-per-sec-ft2",
-        "name": "Btu{IT}/(s\u22c5ft\u00b2)",
+        "name": "Btu{IT}/(s⋅ft²)",
         "longName": "BTU per Second Square Foot",
         "aliasNames": [
-            "Btu{IT}/(s\u22c5ft\u00b2)",
+            "Btu{IT}/(s⋅ft²)",
             "BTU per Second Square Foot"
         ],
         "quantity": "Power Per Area",
@@ -2466,10 +2466,10 @@
     },
     {
         "externalId": "power_per_area:w-per-ft2",
-        "name": "W/ft\u00b2",
+        "name": "W/ft²",
         "longName": "Watt per Square Foot",
         "aliasNames": [
-            "W/ft\u00b2",
+            "W/ft²",
             "Watt per Square Foot"
         ],
         "quantity": "Power Per Area",

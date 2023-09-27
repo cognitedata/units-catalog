@@ -751,10 +751,10 @@
     },
     {
         "externalId": "volume:microl",
-        "name": "\u00ce\u00bcL",
+        "name": "μL",
         "longName": "Microlitre",
         "aliasNames": [
-            "\u00ce\u00bcL",
+            "μL",
             "Microlitre"
         ],
         "quantity": "Volume",
@@ -1031,7 +1031,7 @@
         ],
         "quantity": "Fraction",
         "conversion": {
-            "multiplier": 1.0,
+            "multiplier": 0.01,
             "offset": 0.0
         },
         "source": null,
@@ -1046,7 +1046,7 @@
         ],
         "quantity": "Fraction",
         "conversion": {
-            "multiplier": 0.01,
+            "multiplier": 1.0,
             "offset": 0.0
         },
         "source": null,
@@ -1437,10 +1437,10 @@
     },
     {
         "externalId": "pressure:centim_h2o",
-        "name": "cmH\u00e2\u0082\u00820",
+        "name": "cmH₂O",
         "longName": "Conventional Centimetre Of Water",
         "aliasNames": [
-            "cmH\u00e2\u0082\u00820",
+            "cmH₂O",
             "Conventional Centimetre Of Water"
         ],
         "quantity": "Pressure",

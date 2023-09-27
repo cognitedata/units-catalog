@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cognite.timeseries
+package com.cognite.units
 
 /* How to convert from a unit to the base unit, given a conversion factor:
  * baseUnitValue = (unitValue + shift) * multiplier

@@ -48,9 +48,12 @@ class UnitService(unitsPath: URL, systemPath: URL) {
     private fun loadUnits(unitsPath: URL) {
         val units = unitsPath.readText()
         val mapper: ObjectMapper = jacksonObjectMapper()
+
+        // 1. Syntax Check: Every unit item in `units.json` must have the specified keys
         val listOfUnits: List<TypedUnit> = mapper.readValue<List<TypedUnit>>(units)
 
         listOfUnits.forEach {
+            // 2. Unique IDs: All unit `externalIds` in `units.json` must be unique
             assert(unitsByExternalId[it.externalId] == null) { "Duplicate externalId ${it.externalId}" }
             unitsByExternalId[it.externalId] = it
 
@@ -58,6 +61,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             unitsByQuantityAndAlias.computeIfAbsent(it.quantity) { LinkedHashMap() }
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C")
             it.aliasNames.toSet().forEach { alias ->
+                // 6. Unique aliases: All pairs of (alias and quantity) must be unique, for all aliases in `aliasNames`
                 assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
                     "Duplicate alias $alias for quantity ${it.quantity}"
                 }
@@ -73,14 +77,20 @@ class UnitService(unitsPath: URL, systemPath: URL) {
 
         listOfSystems.forEach {
             val system = it.name
+            // check for duplicate systems
             assert(defaultUnitByQuantityAndSystem[system] == null) { "Duplicate system $system" }
             defaultUnitByQuantityAndSystem[system] = it.quantities.associate { sq ->
+                // 3. Reference Validation: There should be no references to non-existent unit `externalIds` in
+                // `unitSystems.json`
                 val unit = getUnitByExternalId(sq.unitExternalId)
+                // 5. Consistent References: All quantity references in `unitSystems.json` must exist in `units.json`
                 assert(unitsByQuantity.containsKey(sq.name)) { "Unknown quantity ${sq.name}" }
                 sq.name to unit
             }.toMutableMap()
         }
+        // check if a default system is defined
         assert(defaultUnitByQuantityAndSystem.containsKey("default")) { "Missing default system" }
+        // 4. Default Quantities: All quantities must be present in the `unitSystems.json` for the default quantity
         assert(defaultUnitByQuantityAndSystem["default"]!!.size == unitsByQuantity.size) {
             "Missing units in default system"
         }

@@ -35,23 +35,23 @@ class UnitTest {
     @Test
     fun convertBetweenUnits() {
         val unitService = UnitService.service
-        val unitCelcius = unitService.getUnitByExternalId("temperature:deg_c")
+        val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
         val unitFahrenheit = unitService.getUnitByExternalId("temperature:deg_f")
 
-        assertEquals(50.0, unitService.convertBetweenUnits(unitCelcius, unitFahrenheit, 10.0))
+        assertEquals(50.0, unitService.convertBetweenUnits(unitCelsius, unitFahrenheit, 10.0))
         assertEquals(50.0, unitService.convertBetweenUnits(unitFahrenheit, unitFahrenheit, 50.0))
-        assertEquals(33.8, unitService.convertBetweenUnits(unitCelcius, unitFahrenheit, 1.0))
-        assertEquals(0.555555555556, unitService.convertBetweenUnits(unitFahrenheit, unitCelcius, 33.0))
+        assertEquals(33.8, unitService.convertBetweenUnits(unitCelsius, unitFahrenheit, 1.0))
+        assertEquals(0.555555555556, unitService.convertBetweenUnits(unitFahrenheit, unitCelsius, 33.0))
     }
 
     @Test
     fun convertToSystem() {
         val unitService = UnitService.service
-        val unitCelcius = unitService.getUnitByExternalId("temperature:deg_c")
+        val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
         val unitFahrenheit = unitService.getUnitByExternalId("temperature:deg_f")
-        assertEquals(unitCelcius, unitService.getUnitBySystem(unitCelcius, "SI (Engineering)"))
-        assertEquals(unitCelcius, unitService.getUnitBySystem(unitFahrenheit, "SI (Engineering)"))
-        assertEquals(unitFahrenheit, unitService.getUnitBySystem(unitCelcius, "Imperial"))
+        assertEquals(unitCelsius, unitService.getUnitBySystem(unitCelsius, "SI (Engineering)"))
+        assertEquals(unitCelsius, unitService.getUnitBySystem(unitFahrenheit, "SI (Engineering)"))
+        assertEquals(unitFahrenheit, unitService.getUnitBySystem(unitCelsius, "Imperial"))
         // fallback to default
         val unitPercent = unitService.getUnitByExternalId("fraction:percent")
         val unitFraction = unitService.getUnitByExternalId("fraction:fraction")
@@ -61,18 +61,18 @@ class UnitTest {
     @Test
     fun convertVarianceBetweenUnits() {
         val unitService = UnitService.service
-        val unitCelcius = unitService.getUnitByExternalId("temperature:deg_c")
+        val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
         val unitFahrenheit = unitService.getUnitByExternalId("temperature:deg_f")
         assertEquals(
             81.0 / 25,
-            unitService.convertBetweenUnitsSquareMultiplier(unitCelcius, unitFahrenheit, 1.0),
+            unitService.convertBetweenUnitsSquareMultiplier(unitCelsius, unitFahrenheit, 1.0),
             1e-12,
         )
-        assertEquals(3.15, unitService.convertBetweenUnitsSquareMultiplier(unitCelcius, unitCelcius, 3.15))
-        assertEquals(0.0, unitService.convertBetweenUnitsSquareMultiplier(unitFahrenheit, unitCelcius, 0.0))
+        assertEquals(3.15, unitService.convertBetweenUnitsSquareMultiplier(unitCelsius, unitCelsius, 3.15))
+        assertEquals(0.0, unitService.convertBetweenUnitsSquareMultiplier(unitFahrenheit, unitCelsius, 0.0))
         assertEquals(
             25.0 / 81,
-            unitService.convertBetweenUnitsSquareMultiplier(unitFahrenheit, unitCelcius, 1.0),
+            unitService.convertBetweenUnitsSquareMultiplier(unitFahrenheit, unitCelsius, 1.0),
             1e-12,
         )
     }

@@ -16,6 +16,7 @@ Each item in the `units.json` has the following structure:
     "externalId": "string",
     "name": "string",
     "longName": "string",
+    "symbol": "string",
     "aliasNames": ["string", ...],
     "quantity": "string",
     "conversion": {
@@ -28,8 +29,9 @@ Each item in the `units.json` has the following structure:
 ```
 
 - `externalId`: The external identifier for the unit. Its structure follows the pattern `{quantity}:{unit}` (e.g., `temperature:deg_c`), adhering to the **snake_case** convention.
-- `name`: The primary symbol/name of the unit (e.g., `°C`).
+- `name`: The primary name of the unit (e.g., `DEG_C`).
 - `longName`: A descriptive name for the unit (e.g., `degree Celsius`).
+- `symbol`: The symbol for the unit (e.g., `°C`).
 - `aliasNames`: An array of possible **aliases** for the unit.
 - `quantity`: Specifies the physical quantity the unit measures (e.g., `Temperature`).
 - `conversion`: An object containing **multiplier** and **offset** values for converting between units.
@@ -65,6 +67,7 @@ To ensure the integrity of the catalog, the following tests are conducted:
 4. **Default Quantities**: All quantities must be present in the `unitSystems.json` for the default quantity.
 5. **Consistent References**: All quantity references in `unitSystems.json` must exist in `units.json`.
 6. **Unique aliases**: All pairs of (`alias` and `quantity`) must be unique, for all **aliases** in `aliasNames`.
+7. **ExternalId Format**: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both `quantity` and `unit` are in **snake_case**.
 
 ## Attribution
 Some of the units are sourced from QUDT.org, which is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

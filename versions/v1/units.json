@@ -1,7 +1,7 @@
 [
     {
         "externalId": "temperature:deg_c",
-        "name": "°C",
+        "name": "DEG_C",
         "longName": "degree Celsius",
         "aliasNames": [
             "°C",
@@ -15,13 +15,13 @@
             "GradC",
             "grdC",
             "GRDC",
-            "\u00b0C",
-            "\u00baC",
+            "°C",
+            "ºC",
             "CELSIUS",
-            "\u00b0 C",
-            "\u00ba C",
+            "° C",
+            "º C",
             "oC",
-            "\u00b0C: degree Celsius",
+            "°C: degree Celsius",
             "Deg.C",
             "degC:",
             "deg C:",
@@ -38,7 +38,7 @@
             "Deg C:",
             "DEGC:",
             "Deg C",
-            "\ufffdC",
+            "�C",
             "Deg c",
             "DegC:",
             "deg.C:",
@@ -52,11 +52,12 @@
             "offset": 273.15
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DEG_C"
+        "sourceReference": "http://qudt.org/vocab/unit/DEG_C",
+        "symbol": "°C"
     },
     {
         "externalId": "temperature:deg_f",
-        "name": "°F",
+        "name": "DEG_F",
         "longName": "degree Fahrenheit",
         "aliasNames": [
             "°F",
@@ -64,8 +65,8 @@
             "deg F",
             "degF",
             "Fahrenheit",
-            "\u00b0F",
-            "\u00baF",
+            "°F",
+            "ºF",
             "degf",
             "f",
             "fahrenheit",
@@ -83,7 +84,8 @@
             "offset": 459.67
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DEG_F"
+        "sourceReference": "http://qudt.org/vocab/unit/DEG_F",
+        "symbol": "°F"
     },
     {
         "externalId": "temperature:k",
@@ -123,11 +125,12 @@
             "offset": 0.0
         },
         "source": "APIRP661",
-        "sourceReference": "http://qudt.org/vocab/unit/K"
+        "sourceReference": "http://qudt.org/vocab/unit/K",
+        "symbol": "K"
     },
     {
         "externalId": "temperature:deg_r",
-        "name": "°R",
+        "name": "DEG_R",
         "longName": "degree Rankine",
         "aliasNames": [
             "°R",
@@ -155,11 +158,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DEG_R"
+        "sourceReference": "http://qudt.org/vocab/unit/DEG_R",
+        "symbol": "°R"
     },
     {
         "externalId": "temperature_gradient:k-per-m",
-        "name": "K/m",
+        "name": "K-PER-M",
         "longName": "Kelvins per metre",
         "aliasNames": [
             "K/m",
@@ -171,14 +175,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/K-PER-M"
+        "sourceReference": "http://qudt.org/vocab/unit/K-PER-M",
+        "symbol": "K/m"
     },
     {
         "externalId": "energy:megaw-hr",
-        "name": "MW\u22c5hr",
+        "name": "MegaW-HR",
         "longName": "Megawatt Hour",
         "aliasNames": [
-            "MW\u22c5hr",
+            "MW⋅hr",
             "Megawatt Hour"
         ],
         "quantity": "Energy",
@@ -187,11 +192,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaW-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaW-HR",
+        "symbol": "MW⋅hr"
     },
     {
         "externalId": "energy:megaev",
-        "name": "MeV",
+        "name": "MegaEV",
         "longName": "Mega Electron Volt",
         "aliasNames": [
             "MeV",
@@ -203,11 +209,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaEV"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaEV",
+        "symbol": "MeV"
     },
     {
         "externalId": "energy:millij",
-        "name": "mJ",
+        "name": "MilliJ",
         "longName": "Millijoule",
         "aliasNames": [
             "mJ",
@@ -219,11 +226,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MilliJ"
+        "sourceReference": "http://qudt.org/vocab/unit/MilliJ",
+        "symbol": "mJ"
     },
     {
         "externalId": "energy:teraj",
-        "name": "TJ",
+        "name": "TeraJ",
         "longName": "Terajoule",
         "aliasNames": [
             "TJ",
@@ -235,11 +243,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TeraJ"
+        "sourceReference": "http://qudt.org/vocab/unit/TeraJ",
+        "symbol": "TJ"
     },
     {
         "externalId": "energy:ev",
-        "name": "eV",
+        "name": "EV",
         "longName": "Electron Volt",
         "aliasNames": [
             "eV",
@@ -251,11 +260,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/EV"
+        "sourceReference": "http://qudt.org/vocab/unit/EV",
+        "symbol": "eV"
     },
     {
         "externalId": "energy:megatoe",
-        "name": "megatoe",
+        "name": "MegaTOE",
         "longName": "Megaton of Oil Equivalent",
         "aliasNames": [
             "megatoe",
@@ -267,11 +277,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaTOE"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaTOE",
+        "symbol": "megatoe"
     },
     {
         "externalId": "energy:toe",
-        "name": "toe",
+        "name": "TOE",
         "longName": "Ton of Oil Equivalent",
         "aliasNames": [
             "toe",
@@ -283,14 +294,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TOE"
+        "sourceReference": "http://qudt.org/vocab/unit/TOE",
+        "symbol": "toe"
     },
     {
         "externalId": "energy:ft-lb_f",
-        "name": "ft\u22c5lbf",
+        "name": "FT-LB_F",
         "longName": "Foot Pound Force",
         "aliasNames": [
-            "ft\u22c5lbf",
+            "ft⋅lbf",
             "Foot Pound Force"
         ],
         "quantity": "Energy",
@@ -299,11 +311,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F"
+        "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F",
+        "symbol": "ft⋅lbf"
     },
     {
         "externalId": "energy:petaj",
-        "name": "PJ",
+        "name": "PetaJ",
         "longName": "Petajoule",
         "aliasNames": [
             "PJ",
@@ -315,14 +328,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/PetaJ"
+        "sourceReference": "http://qudt.org/vocab/unit/PetaJ",
+        "symbol": "PJ"
     },
     {
         "externalId": "energy:teraw-hr",
-        "name": "TW\u22c5hr",
+        "name": "TeraW-HR",
         "longName": "Terawatt Hour",
         "aliasNames": [
-            "TW\u22c5hr",
+            "TW⋅hr",
             "Terawatt Hour"
         ],
         "quantity": "Energy",
@@ -331,14 +345,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TeraW-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/TeraW-HR",
+        "symbol": "TW⋅hr"
     },
     {
         "externalId": "energy:microj",
-        "name": "\u00b5J",
+        "name": "MicroJ",
         "longName": "Micro Joule",
         "aliasNames": [
-            "\u00b5J",
+            "µJ",
             "Micro Joule"
         ],
         "quantity": "Energy",
@@ -347,11 +362,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MicroJ"
+        "sourceReference": "http://qudt.org/vocab/unit/MicroJ",
+        "symbol": "µJ"
     },
     {
         "externalId": "energy:btu_th",
-        "name": "Btu{th}",
+        "name": "BTU_TH",
         "longName": "British Thermal Unit (Thermochemical Definition)",
         "aliasNames": [
             "Btu{th}",
@@ -363,11 +379,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/BTU_TH"
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_TH",
+        "symbol": "Btu{th}"
     },
     {
         "externalId": "energy:exaj",
-        "name": "EJ",
+        "name": "ExaJ",
         "longName": "Exajoule",
         "aliasNames": [
             "EJ",
@@ -379,11 +396,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/ExaJ"
+        "sourceReference": "http://qudt.org/vocab/unit/ExaJ",
+        "symbol": "EJ"
     },
     {
         "externalId": "energy:cal_th",
-        "name": "cal",
+        "name": "CAL_TH",
         "longName": "Thermochemical Calorie",
         "aliasNames": [
             "cal",
@@ -395,11 +413,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/CAL_TH"
+        "sourceReference": "http://qudt.org/vocab/unit/CAL_TH",
+        "symbol": "cal"
     },
     {
         "externalId": "energy:gigaj",
-        "name": "GJ",
+        "name": "GigaJ",
         "longName": "Gigajoule",
         "aliasNames": [
             "GJ",
@@ -411,11 +430,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/GigaJ"
+        "sourceReference": "http://qudt.org/vocab/unit/GigaJ",
+        "symbol": "GJ"
     },
     {
         "externalId": "energy:kilobtu_th",
-        "name": "kBtu{th}",
+        "name": "KiloBTU_TH",
         "longName": "Kilo British Thermal Unit (Thermochemical Definition)",
         "aliasNames": [
             "kBtu{th}",
@@ -427,14 +447,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_TH"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_TH",
+        "symbol": "kBtu{th}"
     },
     {
         "externalId": "energy:kilov-a-hr",
-        "name": "kV\u22c5A/hr",
+        "name": "KiloV-A-HR",
         "longName": "Kilovolt Ampere Hour",
         "aliasNames": [
-            "kV\u22c5A/hr",
+            "kV⋅A/hr",
             "Kilovolt Ampere Hour"
         ],
         "quantity": "Energy",
@@ -443,11 +464,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloV-A-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloV-A-HR",
+        "symbol": "kV⋅A/hr"
     },
     {
         "externalId": "energy:gigaev",
-        "name": "GeV",
+        "name": "GigaEV",
         "longName": "Giga Electron Volt",
         "aliasNames": [
             "GeV",
@@ -459,14 +481,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/GigaEV"
+        "sourceReference": "http://qudt.org/vocab/unit/GigaEV",
+        "symbol": "GeV"
     },
     {
         "externalId": "energy:w-sec",
-        "name": "W\u22c5s",
+        "name": "W-SEC",
         "longName": "Watt Second",
         "aliasNames": [
-            "W\u22c5s",
+            "W⋅s",
             "Watt Second"
         ],
         "quantity": "Energy",
@@ -475,7 +498,8 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/W-SEC"
+        "sourceReference": "http://qudt.org/vocab/unit/W-SEC",
+        "symbol": "W⋅s"
     },
     {
         "externalId": "energy:j",
@@ -491,11 +515,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/J"
+        "sourceReference": "http://qudt.org/vocab/unit/J",
+        "symbol": "J"
     },
     {
         "externalId": "energy:kilocal",
-        "name": "kcal",
+        "name": "KiloCAL",
         "longName": "Kilocalorie",
         "aliasNames": [
             "kcal",
@@ -507,14 +532,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloCAL"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloCAL",
+        "symbol": "kcal"
     },
     {
         "externalId": "energy:kilow-hr",
-        "name": "kW\u22c5h",
+        "name": "KiloW-HR",
         "longName": "Kilowatthour",
         "aliasNames": [
-            "kW\u22c5h",
+            "kW⋅h",
             "Kilowatthour"
         ],
         "quantity": "Energy",
@@ -523,14 +549,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloW-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloW-HR",
+        "symbol": "kW⋅h"
     },
     {
         "externalId": "energy:w-hr",
-        "name": "W\u22c5hr",
+        "name": "W-HR",
         "longName": "Watthour",
         "aliasNames": [
-            "W\u22c5hr",
+            "W⋅hr",
             "Watthour"
         ],
         "quantity": "Energy",
@@ -539,11 +566,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/W-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/W-HR",
+        "symbol": "W⋅hr"
     },
     {
         "externalId": "energy:kiloev",
-        "name": "keV",
+        "name": "KiloEV",
         "longName": "Kilo Electron Volt",
         "aliasNames": [
             "keV",
@@ -555,11 +583,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloEV"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloEV",
+        "symbol": "keV"
     },
     {
         "externalId": "energy:cal_it",
-        "name": "cal{IT}",
+        "name": "CAL_IT",
         "longName": "International Table calorie",
         "aliasNames": [
             "cal{IT}",
@@ -571,11 +600,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/CAL_IT"
+        "sourceReference": "http://qudt.org/vocab/unit/CAL_IT",
+        "symbol": "cal{IT}"
     },
     {
         "externalId": "energy:megaj",
-        "name": "MJ",
+        "name": "MegaJ",
         "longName": "Megajoule",
         "aliasNames": [
             "MJ",
@@ -587,14 +617,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaJ"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaJ",
+        "symbol": "MJ"
     },
     {
         "externalId": "energy:megav-a-hr",
-        "name": "MV\u22c5A\u22c5hr",
+        "name": "MegaV-A-HR",
         "longName": "Megavolt Ampere Hour",
         "aliasNames": [
-            "MV\u22c5A\u22c5hr",
+            "MV⋅A⋅hr",
             "Megavolt Ampere Hour"
         ],
         "quantity": "Energy",
@@ -603,11 +634,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaV-A-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaV-A-HR",
+        "symbol": "MV⋅A⋅hr"
     },
     {
         "externalId": "energy:btu_it",
-        "name": "Btu{IT}",
+        "name": "BTU_IT",
         "longName": "British Thermal Unit (International Definition)",
         "aliasNames": [
             "Btu{IT}",
@@ -619,11 +651,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/BTU_IT"
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_IT",
+        "symbol": "Btu{IT}"
     },
     {
         "externalId": "energy:kilobtu_it",
-        "name": "kBtu{IT}",
+        "name": "KiloBTU_IT",
         "longName": "Kilo British Thermal Unit (International Definition)",
         "aliasNames": [
             "kBtu{IT}",
@@ -635,11 +668,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_IT"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_IT",
+        "symbol": "kBtu{IT}"
     },
     {
         "externalId": "energy:kiloj",
-        "name": "kJ",
+        "name": "KiloJ",
         "longName": "Kilojoule",
         "aliasNames": [
             "kJ",
@@ -651,14 +685,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloJ"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloJ",
+        "symbol": "kJ"
     },
     {
         "externalId": "energy:gigaw-hr",
-        "name": "GW\u22c5hr",
+        "name": "GigaW-HR",
         "longName": "Gigawatt Hour",
         "aliasNames": [
-            "GW\u22c5hr",
+            "GW⋅hr",
             "Gigawatt Hour"
         ],
         "quantity": "Energy",
@@ -667,11 +702,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/GigaW-HR"
+        "sourceReference": "http://qudt.org/vocab/unit/GigaW-HR",
+        "symbol": "GW⋅hr"
     },
     {
         "externalId": "volume:megal",
-        "name": "ML",
+        "name": "MegaL",
         "longName": "Megalitre",
         "aliasNames": [
             "ML",
@@ -683,14 +719,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaL"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaL",
+        "symbol": "ML"
     },
     {
         "externalId": "volume:decim3",
-        "name": "dm\u00b3",
+        "name": "DeciM3",
         "longName": "Cubic Decimetre",
         "aliasNames": [
-            "dm\u00b3",
+            "dm³",
             "Cubic Decimetre"
         ],
         "quantity": "Volume",
@@ -699,11 +736,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DeciM3"
+        "sourceReference": "http://qudt.org/vocab/unit/DeciM3",
+        "symbol": "dm³"
     },
     {
         "externalId": "volume:millil",
-        "name": "mL",
+        "name": "MilliL",
         "longName": "Millilitre",
         "aliasNames": [
             "mL",
@@ -715,11 +753,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MilliL"
+        "sourceReference": "http://qudt.org/vocab/unit/MilliL",
+        "symbol": "mL"
     },
     {
         "externalId": "volume:decal",
-        "name": "daL",
+        "name": "DecaL",
         "longName": "Decalitre",
         "aliasNames": [
             "daL",
@@ -731,7 +770,8 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DecaL"
+        "sourceReference": "http://qudt.org/vocab/unit/DecaL",
+        "symbol": "daL"
     },
     {
         "externalId": "volume:l",
@@ -747,11 +787,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/L"
+        "sourceReference": "http://qudt.org/vocab/unit/L",
+        "symbol": "L"
     },
     {
         "externalId": "volume:microl",
-        "name": "μL",
+        "name": "MicroL",
         "longName": "Microlitre",
         "aliasNames": [
             "μL",
@@ -763,14 +804,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MicroL"
+        "sourceReference": "http://qudt.org/vocab/unit/MicroL",
+        "symbol": "μL"
     },
     {
         "externalId": "volume:in3",
-        "name": "in\u00b3",
+        "name": "IN3",
         "longName": "Cubic Inch",
         "aliasNames": [
-            "in\u00b3",
+            "in³",
             "Cubic Inch"
         ],
         "quantity": "Volume",
@@ -779,14 +821,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/IN3"
+        "sourceReference": "http://qudt.org/vocab/unit/IN3",
+        "symbol": "in³"
     },
     {
         "externalId": "volume:microm3",
-        "name": "\u00b5m\u00b3",
+        "name": "MicroM3",
         "longName": "Cubic micrometres (microns)",
         "aliasNames": [
-            "\u00b5m\u00b3",
+            "µm³",
             "Cubic micrometres (microns)"
         ],
         "quantity": "Volume",
@@ -795,14 +838,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MicroM3"
+        "sourceReference": "http://qudt.org/vocab/unit/MicroM3",
+        "symbol": "µm³"
     },
     {
         "externalId": "volume:millim3",
-        "name": "mm\u00b3",
+        "name": "MilliM3",
         "longName": "Cubic Millimetre",
         "aliasNames": [
-            "mm\u00b3",
+            "mm³",
             "Cubic Millimetre"
         ],
         "quantity": "Volume",
@@ -811,14 +855,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MilliM3"
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM3",
+        "symbol": "mm³"
     },
     {
         "externalId": "volume:decam3",
-        "name": "dam\u00b3",
+        "name": "DecaM3",
         "longName": "Cubic Decametre",
         "aliasNames": [
-            "dam\u00b3",
+            "dam³",
             "Cubic Decametre"
         ],
         "quantity": "Volume",
@@ -827,14 +872,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DecaM3"
+        "sourceReference": "http://qudt.org/vocab/unit/DecaM3",
+        "symbol": "dam³"
     },
     {
         "externalId": "volume:ft3",
-        "name": "ft\u00b3",
+        "name": "FT3",
         "longName": "Cubic Foot",
         "aliasNames": [
-            "ft\u00b3",
+            "ft³",
             "Cubic Foot"
         ],
         "quantity": "Volume",
@@ -843,14 +889,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/FT3"
+        "sourceReference": "http://qudt.org/vocab/unit/FT3",
+        "symbol": "ft³"
     },
     {
         "externalId": "volume:centim3",
-        "name": "cm\u00b3",
+        "name": "CentiM3",
         "longName": "cubic centimetre",
         "aliasNames": [
-            "cm\u00b3",
+            "cm³",
             "cubic centimetre"
         ],
         "quantity": "Volume",
@@ -859,14 +906,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/CentiM3"
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM3",
+        "symbol": "cm³"
     },
     {
         "externalId": "volume:yd3",
-        "name": "yd\u00b3",
+        "name": "YD3",
         "longName": "Cubic Yard",
         "aliasNames": [
-            "yd\u00b3",
+            "yd³",
             "Cubic Yard"
         ],
         "quantity": "Volume",
@@ -875,11 +923,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/YD3"
+        "sourceReference": "http://qudt.org/vocab/unit/YD3",
+        "symbol": "yd³"
     },
     {
         "externalId": "volume:kilol",
-        "name": "kL",
+        "name": "KiloL",
         "longName": "Kilolitre",
         "aliasNames": [
             "kL",
@@ -891,14 +940,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloL"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloL",
+        "symbol": "kL"
     },
     {
         "externalId": "volume:mi3",
-        "name": "mi\u00b3",
+        "name": "MI3",
         "longName": "Cubic Mile",
         "aliasNames": [
-            "mi\u00b3",
+            "mi³",
             "Cubic Mile"
         ],
         "quantity": "Volume",
@@ -907,14 +957,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MI3"
+        "sourceReference": "http://qudt.org/vocab/unit/MI3",
+        "symbol": "mi³"
     },
     {
         "externalId": "volume:m3",
-        "name": "m\u00b3",
+        "name": "M3",
         "longName": "cubic metre",
         "aliasNames": [
-            "m\u00b3",
+            "m³",
             "cubic metre"
         ],
         "quantity": "Volume",
@@ -923,14 +974,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/M3"
+        "sourceReference": "http://qudt.org/vocab/unit/M3",
+        "symbol": "m³"
     },
     {
         "externalId": "volume:kilo-ft3",
-        "name": "k.ft\u00b3",
+        "name": "Kilo-FT3",
         "longName": "Thousand Cubic Foot",
         "aliasNames": [
-            "k.ft\u00b3",
+            "k.ft³",
             "Thousand Cubic Foot"
         ],
         "quantity": "Volume",
@@ -939,11 +991,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/Kilo-FT3"
+        "sourceReference": "http://qudt.org/vocab/unit/Kilo-FT3",
+        "symbol": "k.ft³"
     },
     {
         "externalId": "volume:hectol",
-        "name": "hL",
+        "name": "HectoL",
         "longName": "Hectolitre",
         "aliasNames": [
             "hL",
@@ -955,11 +1008,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/HectoL"
+        "sourceReference": "http://qudt.org/vocab/unit/HectoL",
+        "symbol": "hL"
     },
     {
         "externalId": "volume:oz_vol_uk",
-        "name": "oz{UK}",
+        "name": "OZ_VOL_UK",
         "longName": "Fluid Ounce (UK)",
         "aliasNames": [
             "oz{UK}",
@@ -971,11 +1025,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/OZ_VOL_UK"
+        "sourceReference": "http://qudt.org/vocab/unit/OZ_VOL_UK",
+        "symbol": "oz{UK}"
     },
     {
         "externalId": "volume:decil",
-        "name": "dL",
+        "name": "DeciL",
         "longName": "Decilitre",
         "aliasNames": [
             "dL",
@@ -987,11 +1042,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DeciL"
+        "sourceReference": "http://qudt.org/vocab/unit/DeciL",
+        "symbol": "dL"
     },
     {
         "externalId": "volume:bbl_uk_pet",
-        "name": "bbl{UK petroleum}",
+        "name": "BBL_UK_PET",
         "longName": "Barrel (UK Petroleum)",
         "aliasNames": [
             "bbl{UK petroleum}",
@@ -1003,11 +1059,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/BBL_UK_PET"
+        "sourceReference": "http://qudt.org/vocab/unit/BBL_UK_PET",
+        "symbol": "bbl{UK petroleum}"
     },
     {
         "externalId": "volume:bbl_us",
-        "name": "bbl{US petroleum}",
+        "name": "BBL_US",
         "longName": "Barrel (US)",
         "aliasNames": [
             "bbl{US petroleum}",
@@ -1019,11 +1076,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/BBL_US"
+        "sourceReference": "http://qudt.org/vocab/unit/BBL_US",
+        "symbol": "bbl{US petroleum}"
     },
     {
         "externalId": "fraction:percent",
-        "name": "%",
+        "name": "percent",
         "longName": "Percent",
         "aliasNames": [
             "%",
@@ -1035,7 +1093,8 @@
             "offset": 0.0
         },
         "source": null,
-        "sourceReference": null
+        "sourceReference": null,
+        "symbol": "%"
     },
     {
         "externalId": "fraction:fraction",
@@ -1050,11 +1109,12 @@
             "offset": 0.0
         },
         "source": null,
-        "sourceReference": null
+        "sourceReference": null,
+        "symbol": "fraction"
     },
     {
         "externalId": "mass:slug",
-        "name": "slug",
+        "name": "SLUG",
         "longName": "Slug",
         "aliasNames": [
             "slug",
@@ -1066,11 +1126,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/SLUG"
+        "sourceReference": "http://qudt.org/vocab/unit/SLUG",
+        "symbol": "slug"
     },
     {
         "externalId": "mass:oz",
-        "name": "oz",
+        "name": "OZ",
         "longName": "Ounce Mass",
         "aliasNames": [
             "oz",
@@ -1082,11 +1143,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/OZ"
+        "sourceReference": "http://qudt.org/vocab/unit/OZ",
+        "symbol": "oz"
     },
     {
         "externalId": "mass:milligm",
-        "name": "mg",
+        "name": "MilliGM",
         "longName": "Milligram",
         "aliasNames": [
             "mg",
@@ -1098,11 +1160,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MilliGM"
+        "sourceReference": "http://qudt.org/vocab/unit/MilliGM",
+        "symbol": "mg"
     },
     {
         "externalId": "mass:ton_long",
-        "name": "t{long}",
+        "name": "TON_LONG",
         "longName": "Long Ton",
         "aliasNames": [
             "t{long}",
@@ -1114,11 +1177,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TON_LONG"
+        "sourceReference": "http://qudt.org/vocab/unit/TON_LONG",
+        "symbol": "t{long}"
     },
     {
         "externalId": "mass:decitonne",
-        "name": "dt",
+        "name": "DeciTONNE",
         "longName": "DeciTonne",
         "aliasNames": [
             "dt",
@@ -1130,11 +1194,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/DeciTONNE"
+        "sourceReference": "http://qudt.org/vocab/unit/DeciTONNE",
+        "symbol": "dt"
     },
     {
         "externalId": "mass:kiloton_metric",
-        "name": "kton{short}",
+        "name": "KiloTON_Metric",
         "longName": "Metric KiloTON",
         "aliasNames": [
             "kton{short}",
@@ -1146,11 +1211,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloTON_Metric"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloTON_Metric",
+        "symbol": "kton{short}"
     },
     {
         "externalId": "mass:ton_metric",
-        "name": "t",
+        "name": "TON_Metric",
         "longName": "Metric Ton",
         "aliasNames": [
             "t",
@@ -1162,11 +1228,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TON_Metric"
+        "sourceReference": "http://qudt.org/vocab/unit/TON_Metric",
+        "symbol": "t"
     },
     {
         "externalId": "mass:kilotonne",
-        "name": "kt",
+        "name": "KiloTONNE",
         "longName": "KiloTonne",
         "aliasNames": [
             "kt",
@@ -1178,11 +1245,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloTONNE"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloTONNE",
+        "symbol": "kt"
     },
     {
         "externalId": "mass:ton_short",
-        "name": "ton{short}",
+        "name": "TON_SHORT",
         "longName": "Short Ton",
         "aliasNames": [
             "ton{short}",
@@ -1194,11 +1262,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TON_SHORT"
+        "sourceReference": "http://qudt.org/vocab/unit/TON_SHORT",
+        "symbol": "ton{short}"
     },
     {
         "externalId": "mass:ton_us",
-        "name": "ton{US}",
+        "name": "TON_US",
         "longName": "Ton (US)",
         "aliasNames": [
             "ton{US}",
@@ -1210,11 +1279,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TON_US"
+        "sourceReference": "http://qudt.org/vocab/unit/TON_US",
+        "symbol": "ton{US}"
     },
     {
         "externalId": "mass:megagm",
-        "name": "Mg",
+        "name": "MegaGM",
         "longName": "Megagram",
         "aliasNames": [
             "Mg",
@@ -1226,11 +1296,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaGM"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaGM",
+        "symbol": "Mg"
     },
     {
         "externalId": "mass:gm",
-        "name": "g",
+        "name": "GM",
         "longName": "Gram",
         "aliasNames": [
             "g",
@@ -1242,11 +1313,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/GM"
+        "sourceReference": "http://qudt.org/vocab/unit/GM",
+        "symbol": "g"
     },
     {
         "externalId": "mass:tonne",
-        "name": "t",
+        "name": "TONNE",
         "longName": "Tonne",
         "aliasNames": [
             "Tonne"
@@ -1257,11 +1329,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TONNE"
+        "sourceReference": "http://qudt.org/vocab/unit/TONNE",
+        "symbol": "t"
     },
     {
         "externalId": "mass:lb",
-        "name": "lbm",
+        "name": "LB",
         "longName": "Pound Mass",
         "aliasNames": [
             "lbm",
@@ -1273,11 +1346,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/LB"
+        "sourceReference": "http://qudt.org/vocab/unit/LB",
+        "symbol": "lbm"
     },
     {
         "externalId": "mass:ton_uk",
-        "name": "ton{UK}",
+        "name": "TON_UK",
         "longName": "Ton (UK)",
         "aliasNames": [
             "ton{UK}",
@@ -1289,11 +1363,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TON_UK"
+        "sourceReference": "http://qudt.org/vocab/unit/TON_UK",
+        "symbol": "ton{UK}"
     },
     {
         "externalId": "mass:kilogm",
-        "name": "kg",
+        "name": "KiloGM",
         "longName": "kilogram",
         "aliasNames": [
             "kg",
@@ -1305,14 +1380,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloGM"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM",
+        "symbol": "kg"
     },
     {
         "externalId": "pressure:kilogm-per-m-sec2",
-        "name": "kg/(m\u22c5s\u00b2)",
+        "name": "KiloGM-PER-M-SEC2",
         "longName": "Kilograms per metre per square second",
         "aliasNames": [
-            "kg/(m\u22c5s\u00b2)",
+            "kg/(m⋅s²)",
             "Kilograms per metre per square second"
         ],
         "quantity": "Pressure",
@@ -1321,11 +1397,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-M-SEC2"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-M-SEC2",
+        "symbol": "kg/(m⋅s²)"
     },
     {
         "externalId": "pressure:megabar",
-        "name": "Mbar",
+        "name": "MegaBAR",
         "longName": "Megabar",
         "aliasNames": [
             "Mbar",
@@ -1337,11 +1414,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaBAR"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaBAR",
+        "symbol": "Mbar"
     },
     {
         "externalId": "pressure:hectopa",
-        "name": "hPa",
+        "name": "HectoPA",
         "longName": "Hectopascal",
         "aliasNames": [
             "hPa",
@@ -1353,11 +1431,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/HectoPA"
+        "sourceReference": "http://qudt.org/vocab/unit/HectoPA",
+        "symbol": "hPa"
     },
     {
         "externalId": "pressure:kilolb_f-per-in2",
-        "name": "kpsi",
+        "name": "KiloLB_F-PER-IN2",
         "longName": "Kilopound Force Per Square Inch",
         "aliasNames": [
             "kpsi",
@@ -1369,11 +1448,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloLB_F-PER-IN2"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloLB_F-PER-IN2",
+        "symbol": "kpsi"
     },
     {
         "externalId": "pressure:gigapa",
-        "name": "GPa",
+        "name": "GigaPA",
         "longName": "Gigapascal",
         "aliasNames": [
             "GPa",
@@ -1385,11 +1465,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/GigaPA"
+        "sourceReference": "http://qudt.org/vocab/unit/GigaPA",
+        "symbol": "GPa"
     },
     {
         "externalId": "pressure:kilopa",
-        "name": "kPa",
+        "name": "KiloPA",
         "longName": "Kilopascal",
         "aliasNames": [
             "kPa",
@@ -1401,11 +1482,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloPA"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloPA",
+        "symbol": "kPa"
     },
     {
         "externalId": "pressure:atm",
-        "name": "atm",
+        "name": "ATM",
         "longName": "Standard Atmosphere",
         "aliasNames": [
             "atm",
@@ -1417,11 +1499,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/ATM"
+        "sourceReference": "http://qudt.org/vocab/unit/ATM",
+        "symbol": "atm"
     },
     {
         "externalId": "pressure:torr",
-        "name": "Torr",
+        "name": "TORR",
         "longName": "Torr",
         "aliasNames": [
             "Torr",
@@ -1433,11 +1516,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/TORR"
+        "sourceReference": "http://qudt.org/vocab/unit/TORR",
+        "symbol": "Torr"
     },
     {
         "externalId": "pressure:centim_h2o",
-        "name": "cmH₂O",
+        "name": "CentiM_H2O",
         "longName": "Conventional Centimetre Of Water",
         "aliasNames": [
             "cmH₂O",
@@ -1449,11 +1533,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/CentiM_H2O"
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM_H2O",
+        "symbol": "cmH₂O"
     },
     {
         "externalId": "pressure:megapa",
-        "name": "MPa",
+        "name": "MegaPA",
         "longName": "Megapascal",
         "aliasNames": [
             "MPa",
@@ -1465,11 +1550,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MegaPA"
+        "sourceReference": "http://qudt.org/vocab/unit/MegaPA",
+        "symbol": "MPa"
     },
     {
         "externalId": "pressure:psi",
-        "name": "psi",
+        "name": "PSI",
         "longName": "PSI",
         "aliasNames": [
             "psi",
@@ -1481,14 +1567,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/PSI"
+        "sourceReference": "http://qudt.org/vocab/unit/PSI",
+        "symbol": "psi"
     },
     {
         "externalId": "pressure:lb_f-per-ft2",
-        "name": "lbf/ft\u00b2",
+        "name": "LB_F-PER-FT2",
         "longName": "Pound Force per Square Foot",
         "aliasNames": [
-            "lbf/ft\u00b2",
+            "lbf/ft²",
             "Pound Force per Square Foot"
         ],
         "quantity": "Pressure",
@@ -1497,14 +1584,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/LB_F-PER-FT2"
+        "sourceReference": "http://qudt.org/vocab/unit/LB_F-PER-FT2",
+        "symbol": "lbf/ft²"
     },
     {
         "externalId": "pressure:kilogm_f-per-centim2",
-        "name": "kgf/cm\u00b2",
+        "name": "KiloGM_F-PER-CentiM2",
         "longName": "Kilogram Force per Square Centimetre",
         "aliasNames": [
-            "kgf/cm\u00b2",
+            "kgf/cm²",
             "Kilogram Force per Square Centimetre"
         ],
         "quantity": "Pressure",
@@ -1513,11 +1601,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-CentiM2"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-CentiM2",
+        "symbol": "kgf/cm²"
     },
     {
         "externalId": "pressure:bar",
-        "name": "bar",
+        "name": "BAR",
         "longName": "Bar",
         "aliasNames": [
             "bar",
@@ -1529,11 +1618,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/BAR"
+        "sourceReference": "http://qudt.org/vocab/unit/BAR",
+        "symbol": "bar"
     },
     {
         "externalId": "pressure:millibar",
-        "name": "mbar",
+        "name": "MilliBAR",
         "longName": "Millibar",
         "aliasNames": [
             "mbar",
@@ -1545,14 +1635,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MilliBAR"
+        "sourceReference": "http://qudt.org/vocab/unit/MilliBAR",
+        "symbol": "mbar"
     },
     {
         "externalId": "pressure:n-per-m2",
-        "name": "N/m\u00b2",
+        "name": "N-PER-M2",
         "longName": "Newtons Per Square Metre",
         "aliasNames": [
-            "N/m\u00b2",
+            "N/m²",
             "Newtons Per Square Metre"
         ],
         "quantity": "Pressure",
@@ -1561,11 +1652,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/N-PER-M2"
+        "sourceReference": "http://qudt.org/vocab/unit/N-PER-M2",
+        "symbol": "N/m²"
     },
     {
         "externalId": "pressure:atm_t",
-        "name": "at",
+        "name": "ATM_T",
         "longName": "Technical Atmosphere",
         "aliasNames": [
             "at",
@@ -1577,11 +1669,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/ATM_T"
+        "sourceReference": "http://qudt.org/vocab/unit/ATM_T",
+        "symbol": "at"
     },
     {
         "externalId": "pressure:millim_hg",
-        "name": "mmHg",
+        "name": "MilliM_HG",
         "longName": "Millimetre of Mercury",
         "aliasNames": [
             "mmHg",
@@ -1593,11 +1686,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/MilliM_HG"
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM_HG",
+        "symbol": "mmHg"
     },
     {
         "externalId": "pressure:kilobar",
-        "name": "kbar",
+        "name": "KiloBAR",
         "longName": "Kilobar",
         "aliasNames": [
             "kbar",
@@ -1609,11 +1703,12 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloBAR"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloBAR",
+        "symbol": "kbar"
     },
     {
         "externalId": "pressure:pa",
-        "name": "Pa",
+        "name": "PA",
         "longName": "pascal",
         "aliasNames": [
             "Pa",
@@ -1625,14 +1720,15 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/PA"
+        "sourceReference": "http://qudt.org/vocab/unit/PA",
+        "symbol": "Pa"
     },
     {
         "externalId": "pressure:kilogm_f-per-m2",
-        "name": "kgf/m\u00b2",
+        "name": "KiloGM_F-PER-M2",
         "longName": "Kilogram Force Per Square Metre",
         "aliasNames": [
-            "kgf/m\u00b2",
+            "kgf/m²",
             "Kilogram Force Per Square Metre"
         ],
         "quantity": "Pressure",
@@ -1641,6 +1737,7 @@
             "offset": 0.0
         },
         "source": "qudt.org",
-        "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-M2"
+        "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-M2",
+        "symbol": "kgf/m²"
     }
 ]

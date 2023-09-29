@@ -26,6 +26,7 @@ data class TypedUnit(
     val externalId: String,
     val name: String,
     val longName: String,
+    val symbol: String,
     val aliasNames: List<String>,
     val quantity: String,
     val conversion: Conversion,

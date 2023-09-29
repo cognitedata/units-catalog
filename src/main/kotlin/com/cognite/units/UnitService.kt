@@ -45,6 +45,12 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         loadSystem(systemPath)
     }
 
+    private fun generateExpectedExternalId(unit: TypedUnit): String {
+        val sanitizedQuantity = unit.quantity.toLowerCase().replace(" ", "_")
+        val sanitizedName = unit.name.toLowerCase().replace(" ", "_")
+        return "$sanitizedQuantity:$sanitizedName"
+    }
+
     private fun loadUnits(unitsPath: URL) {
         val units = unitsPath.readText()
         val mapper: ObjectMapper = jacksonObjectMapper()
@@ -56,6 +62,12 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             // 2. Unique IDs: All unit `externalIds` in `units.json` must be unique
             assert(unitsByExternalId[it.externalId] == null) { "Duplicate externalId ${it.externalId}" }
             unitsByExternalId[it.externalId] = it
+
+            // 7. ExternalId Format: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both
+            // `quantity` and `unit` are in snake_case.
+            assert(it.externalId == generateExpectedExternalId(it)) {
+                "Invalid externalId ${it.externalId} for unit ${it.name} (${it.quantity})"
+            }
 
             unitsByQuantity.computeIfAbsent(it.quantity) { ArrayList() }.add(it)
             unitsByQuantityAndAlias.computeIfAbsent(it.quantity) { LinkedHashMap() }

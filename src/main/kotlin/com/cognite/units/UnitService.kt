@@ -48,7 +48,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
 
     private fun sanitizeIdentifier(identifier: String): String {
         // remove all special characters except - and _
-        return identifier.toLowerCase().replace(Regex("[^a-z0-9_-]"), "_")
+        return identifier.lowercase().replace(Regex("[^a-z0-9_-]"), "_")
     }
 
     private fun generateExpectedExternalId(unit: TypedUnit): String {
@@ -72,7 +72,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
                     throw IllegalArgumentException(errorMessage)
                 }
             } catch (e: Exception) {
-                throw IllegalArgumentException(errorMessage)
+                throw IllegalArgumentException(errorMessage, e)
             }
         }
         return unit.sourceReference

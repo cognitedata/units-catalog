@@ -52,7 +52,7 @@
       "offset": 273.15
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_C",
+    "sourceReference": "http://qudt.org/vocab/unit/DEG",
     "symbol": "°C"
   },
   {

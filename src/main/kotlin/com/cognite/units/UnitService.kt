@@ -18,6 +18,7 @@ package com.cognite.units
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
+import java.net.URI
 import java.net.URL
 import kotlin.math.abs
 import kotlin.math.ceil
@@ -45,10 +46,36 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         loadSystem(systemPath)
     }
 
+    private fun sanitizeIdentifier(identifier: String): String {
+        // remove all special characters except - and _
+        return identifier.toLowerCase().replace(Regex("[^a-z0-9_-]"), "_")
+    }
+
     private fun generateExpectedExternalId(unit: TypedUnit): String {
-        val sanitizedQuantity = unit.quantity.toLowerCase().replace(" ", "_")
-        val sanitizedName = unit.name.toLowerCase().replace(" ", "_")
+        val sanitizedQuantity = sanitizeIdentifier(unit.quantity)
+        val sanitizedName = sanitizeIdentifier(unit.name)
         return "$sanitizedQuantity:$sanitizedName"
+    }
+
+    private fun generatedExpectedSourceReference(unit: TypedUnit): String? {
+        if (unit.source == "qudt.org") {
+            return "http://qudt.org/vocab/unit/${unit.name}"
+        }
+
+        val errorMessage = "Invalid sourceReference ${unit.sourceReference} for unit ${unit.name} (${unit.quantity})"
+
+        // check reference is a valid http(s) url if present
+        if (unit.sourceReference != null) {
+            try {
+                val url = URI.create(unit.sourceReference).toURL()
+                if (url.protocol != "http" && url.protocol != "https") {
+                    throw IllegalArgumentException(errorMessage)
+                }
+            } catch (e: Exception) {
+                throw IllegalArgumentException(errorMessage)
+            }
+        }
+        return unit.sourceReference
     }
 
     private fun loadUnits(unitsPath: URL) {
@@ -67,6 +94,11 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             // `quantity` and `unit` are in snake_case.
             assert(it.externalId == generateExpectedExternalId(it)) {
                 "Invalid externalId ${it.externalId} for unit ${it.name} (${it.quantity})"
+            }
+
+            // if source is qudt.org, reference should be in the format http://qudt.org/vocab/unit/{unit.name}
+            assert(it.sourceReference?.equals(generatedExpectedSourceReference(it)) ?: true) {
+                "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
             }
 
             unitsByQuantity.computeIfAbsent(it.quantity) { ArrayList() }.add(it)

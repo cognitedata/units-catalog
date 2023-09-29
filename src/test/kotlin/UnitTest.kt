@@ -98,6 +98,19 @@ class UnitTest {
     }
 
     @Test
+    fun jsonWithInvalidExternalId() {
+        try {
+            UnitService(getTestResource("invalidExternalId.json"), getTestResource("unitSystems.json"))
+            fail("Expected AssertionError")
+        } catch (e: AssertionError) {
+            assertEquals(
+                "Invalid externalId temperaturegradient:k-per-m for unit K-PER-M (Temperature Gradient)",
+                e.message
+            )
+        }
+    }
+
+    @Test
     fun lookupUnits() {
         val unitService = UnitService.service
         assertEquals(

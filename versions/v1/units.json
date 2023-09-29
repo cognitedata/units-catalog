@@ -15,13 +15,13 @@
             "GradC",
             "grdC",
             "GRDC",
-            "\u00b0C",
-            "\u00baC",
+            "°C",
+            "ºC",
             "CELSIUS",
-            "\u00b0 C",
-            "\u00ba C",
+            "° C",
+            "º C",
             "oC",
-            "\u00b0C: degree Celsius",
+            "°C: degree Celsius",
             "Deg.C",
             "degC:",
             "deg C:",
@@ -38,7 +38,7 @@
             "Deg C:",
             "DEGC:",
             "Deg C",
-            "\ufffdC",
+            "�C",
             "Deg c",
             "DegC:",
             "deg.C:",
@@ -64,8 +64,8 @@
             "deg F",
             "degF",
             "Fahrenheit",
-            "\u00b0F",
-            "\u00baF",
+            "°F",
+            "ºF",
             "degf",
             "f",
             "fahrenheit",
@@ -175,10 +175,10 @@
     },
     {
         "externalId": "energy:megaw-hr",
-        "name": "MW\u22c5hr",
+        "name": "MW⋅hr",
         "longName": "Megawatt Hour",
         "aliasNames": [
-            "MW\u22c5hr",
+            "MW⋅hr",
             "Megawatt Hour"
         ],
         "quantity": "Energy",
@@ -287,10 +287,10 @@
     },
     {
         "externalId": "energy:ft-lb_f",
-        "name": "ft\u22c5lbf",
+        "name": "ft⋅lbf",
         "longName": "Foot Pound Force",
         "aliasNames": [
-            "ft\u22c5lbf",
+            "ft⋅lbf",
             "Foot Pound Force"
         ],
         "quantity": "Energy",
@@ -319,10 +319,10 @@
     },
     {
         "externalId": "energy:teraw-hr",
-        "name": "TW\u22c5hr",
+        "name": "TW⋅hr",
         "longName": "Terawatt Hour",
         "aliasNames": [
-            "TW\u22c5hr",
+            "TW⋅hr",
             "Terawatt Hour"
         ],
         "quantity": "Energy",
@@ -335,10 +335,10 @@
     },
     {
         "externalId": "energy:microj",
-        "name": "\u00b5J",
+        "name": "µJ",
         "longName": "Micro Joule",
         "aliasNames": [
-            "\u00b5J",
+            "µJ",
             "Micro Joule"
         ],
         "quantity": "Energy",
@@ -431,10 +431,10 @@
     },
     {
         "externalId": "energy:kilov-a-hr",
-        "name": "kV\u22c5A/hr",
+        "name": "kV⋅A/hr",
         "longName": "Kilovolt Ampere Hour",
         "aliasNames": [
-            "kV\u22c5A/hr",
+            "kV⋅A/hr",
             "Kilovolt Ampere Hour"
         ],
         "quantity": "Energy",
@@ -463,10 +463,10 @@
     },
     {
         "externalId": "energy:w-sec",
-        "name": "W\u22c5s",
+        "name": "W⋅s",
         "longName": "Watt Second",
         "aliasNames": [
-            "W\u22c5s",
+            "W⋅s",
             "Watt Second"
         ],
         "quantity": "Energy",
@@ -511,10 +511,10 @@
     },
     {
         "externalId": "energy:kilow-hr",
-        "name": "kW\u22c5h",
+        "name": "kW⋅h",
         "longName": "Kilowatthour",
         "aliasNames": [
-            "kW\u22c5h",
+            "kW⋅h",
             "Kilowatthour"
         ],
         "quantity": "Energy",
@@ -527,10 +527,10 @@
     },
     {
         "externalId": "energy:w-hr",
-        "name": "W\u22c5hr",
+        "name": "W⋅hr",
         "longName": "Watthour",
         "aliasNames": [
-            "W\u22c5hr",
+            "W⋅hr",
             "Watthour"
         ],
         "quantity": "Energy",
@@ -591,10 +591,10 @@
     },
     {
         "externalId": "energy:megav-a-hr",
-        "name": "MV\u22c5A\u22c5hr",
+        "name": "MV⋅A⋅hr",
         "longName": "Megavolt Ampere Hour",
         "aliasNames": [
-            "MV\u22c5A\u22c5hr",
+            "MV⋅A⋅hr",
             "Megavolt Ampere Hour"
         ],
         "quantity": "Energy",
@@ -655,10 +655,10 @@
     },
     {
         "externalId": "energy:gigaw-hr",
-        "name": "GW\u22c5hr",
+        "name": "GW⋅hr",
         "longName": "Gigawatt Hour",
         "aliasNames": [
-            "GW\u22c5hr",
+            "GW⋅hr",
             "Gigawatt Hour"
         ],
         "quantity": "Energy",
@@ -687,10 +687,10 @@
     },
     {
         "externalId": "volume:decim3",
-        "name": "dm\u00b3",
+        "name": "dm³",
         "longName": "Cubic Decimetre",
         "aliasNames": [
-            "dm\u00b3",
+            "dm³",
             "Cubic Decimetre"
         ],
         "quantity": "Volume",
@@ -767,10 +767,10 @@
     },
     {
         "externalId": "volume:in3",
-        "name": "in\u00b3",
+        "name": "in³",
         "longName": "Cubic Inch",
         "aliasNames": [
-            "in\u00b3",
+            "in³",
             "Cubic Inch"
         ],
         "quantity": "Volume",
@@ -783,10 +783,10 @@
     },
     {
         "externalId": "volume:microm3",
-        "name": "\u00b5m\u00b3",
+        "name": "µm³",
         "longName": "Cubic micrometres (microns)",
         "aliasNames": [
-            "\u00b5m\u00b3",
+            "µm³",
             "Cubic micrometres (microns)"
         ],
         "quantity": "Volume",
@@ -799,10 +799,10 @@
     },
     {
         "externalId": "volume:millim3",
-        "name": "mm\u00b3",
+        "name": "mm³",
         "longName": "Cubic Millimetre",
         "aliasNames": [
-            "mm\u00b3",
+            "mm³",
             "Cubic Millimetre"
         ],
         "quantity": "Volume",
@@ -815,10 +815,10 @@
     },
     {
         "externalId": "volume:decam3",
-        "name": "dam\u00b3",
+        "name": "dam³",
         "longName": "Cubic Decametre",
         "aliasNames": [
-            "dam\u00b3",
+            "dam³",
             "Cubic Decametre"
         ],
         "quantity": "Volume",
@@ -831,10 +831,10 @@
     },
     {
         "externalId": "volume:ft3",
-        "name": "ft\u00b3",
+        "name": "ft³",
         "longName": "Cubic Foot",
         "aliasNames": [
-            "ft\u00b3",
+            "ft³",
             "Cubic Foot"
         ],
         "quantity": "Volume",
@@ -847,10 +847,10 @@
     },
     {
         "externalId": "volume:centim3",
-        "name": "cm\u00b3",
+        "name": "cm³",
         "longName": "cubic centimetre",
         "aliasNames": [
-            "cm\u00b3",
+            "cm³",
             "cubic centimetre"
         ],
         "quantity": "Volume",
@@ -863,10 +863,10 @@
     },
     {
         "externalId": "volume:yd3",
-        "name": "yd\u00b3",
+        "name": "yd³",
         "longName": "Cubic Yard",
         "aliasNames": [
-            "yd\u00b3",
+            "yd³",
             "Cubic Yard"
         ],
         "quantity": "Volume",
@@ -895,10 +895,10 @@
     },
     {
         "externalId": "volume:mi3",
-        "name": "mi\u00b3",
+        "name": "mi³",
         "longName": "Cubic Mile",
         "aliasNames": [
-            "mi\u00b3",
+            "mi³",
             "Cubic Mile"
         ],
         "quantity": "Volume",
@@ -911,10 +911,10 @@
     },
     {
         "externalId": "volume:m3",
-        "name": "m\u00b3",
+        "name": "m³",
         "longName": "cubic metre",
         "aliasNames": [
-            "m\u00b3",
+            "m³",
             "cubic metre"
         ],
         "quantity": "Volume",
@@ -927,10 +927,10 @@
     },
     {
         "externalId": "volume:kilo-ft3",
-        "name": "k.ft\u00b3",
+        "name": "k.ft³",
         "longName": "Thousand Cubic Foot",
         "aliasNames": [
-            "k.ft\u00b3",
+            "k.ft³",
             "Thousand Cubic Foot"
         ],
         "quantity": "Volume",
@@ -1309,10 +1309,10 @@
     },
     {
         "externalId": "pressure:kilogm-per-m-sec2",
-        "name": "kg/(m\u22c5s\u00b2)",
+        "name": "kg/(m⋅s²)",
         "longName": "Kilograms per metre per square second",
         "aliasNames": [
-            "kg/(m\u22c5s\u00b2)",
+            "kg/(m⋅s²)",
             "Kilograms per metre per square second"
         ],
         "quantity": "Pressure",
@@ -1485,10 +1485,10 @@
     },
     {
         "externalId": "pressure:lb_f-per-ft2",
-        "name": "lbf/ft\u00b2",
+        "name": "lbf/ft²",
         "longName": "Pound Force per Square Foot",
         "aliasNames": [
-            "lbf/ft\u00b2",
+            "lbf/ft²",
             "Pound Force per Square Foot"
         ],
         "quantity": "Pressure",
@@ -1501,10 +1501,10 @@
     },
     {
         "externalId": "pressure:kilogm_f-per-centim2",
-        "name": "kgf/cm\u00b2",
+        "name": "kgf/cm²",
         "longName": "Kilogram Force per Square Centimetre",
         "aliasNames": [
-            "kgf/cm\u00b2",
+            "kgf/cm²",
             "Kilogram Force per Square Centimetre"
         ],
         "quantity": "Pressure",
@@ -1549,10 +1549,10 @@
     },
     {
         "externalId": "pressure:n-per-m2",
-        "name": "N/m\u00b2",
+        "name": "N/m²",
         "longName": "Newtons Per Square Metre",
         "aliasNames": [
-            "N/m\u00b2",
+            "N/m²",
             "Newtons Per Square Metre"
         ],
         "quantity": "Pressure",
@@ -1629,10 +1629,10 @@
     },
     {
         "externalId": "pressure:kilogm_f-per-m2",
-        "name": "kgf/m\u00b2",
+        "name": "kgf/m²",
         "longName": "Kilogram Force Per Square Metre",
         "aliasNames": [
-            "kgf/m\u00b2",
+            "kgf/m²",
             "Kilogram Force Per Square Metre"
         ],
         "quantity": "Pressure",
@@ -1642,5 +1642,842 @@
         },
         "source": "qudt.org",
         "sourceReference": "http://qudt.org/vocab/unit/KiloGM_F-PER-M2"
+    },
+    {
+        "externalId": "length:millim",
+        "name": "mm",
+        "longName": "Millimetre",
+        "aliasNames": [
+            "mm",
+            "Millimetre"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM"
+    },
+    {
+        "externalId": "length:yd",
+        "name": "yd",
+        "longName": "Yard",
+        "aliasNames": [
+            "yd",
+            "Yard"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 0.9144,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/YD"
+    },
+    {
+        "externalId": "length:centim",
+        "name": "cm",
+        "longName": "Centimetre",
+        "aliasNames": [
+            "cm",
+            "Centimetre"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 0.01,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM"
+    },
+    {
+        "externalId": "length:in",
+        "name": "in",
+        "longName": "Inch",
+        "aliasNames": [
+            "in",
+            "Inch"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 0.0254,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/IN"
+    },
+    {
+        "externalId": "length:kilom",
+        "name": "km",
+        "longName": "Kilometre",
+        "aliasNames": [
+            "km",
+            "Kilometre"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloM"
+    },
+    {
+        "externalId": "length:decim",
+        "name": "dm",
+        "longName": "Decimetre",
+        "aliasNames": [
+            "dm",
+            "Decimetre"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 0.1,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DeciM"
+    },
+    {
+        "externalId": "length:decam",
+        "name": "dam",
+        "longName": "Decametre",
+        "aliasNames": [
+            "dam",
+            "Decametre"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 10.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DecaM"
+    },
+    {
+        "externalId": "length:ft",
+        "name": "ft",
+        "longName": "Foot",
+        "aliasNames": [
+            "ft",
+            "Foot"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 0.3048,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT"
+    },
+    {
+        "externalId": "length:mi",
+        "name": "mi",
+        "longName": "International Mile",
+        "aliasNames": [
+            "mi",
+            "International Mile"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 1609.344,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI"
+    },
+    {
+        "externalId": "length:m",
+        "name": "m",
+        "longName": "metre",
+        "aliasNames": [
+            "m",
+            "metre"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/M"
+    },
+    {
+        "externalId": "length:mi_n",
+        "name": "nmi",
+        "longName": "Nautical Mile",
+        "aliasNames": [
+            "nmi",
+            "Nautical Mile"
+        ],
+        "quantity": "Length",
+        "conversion": {
+            "multiplier": 1852.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI_N"
+    },
+    {
+        "externalId": "velocity:m-per-min",
+        "name": "m/min",
+        "longName": "Metre per Minute",
+        "aliasNames": [
+            "m/min",
+            "Metre per Minute"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.0166666667,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/M-PER-MIN"
+    },
+    {
+        "externalId": "velocity:kn",
+        "name": "kn",
+        "longName": "Knot",
+        "aliasNames": [
+            "kn",
+            "Knot"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.5144444444444445,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KN"
+    },
+    {
+        "externalId": "velocity:m-per-sec",
+        "name": "m/s",
+        "longName": "metre per second",
+        "aliasNames": [
+            "m/s",
+            "metre per second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/M-PER-SEC"
+    },
+    {
+        "externalId": "velocity:ft-per-hr",
+        "name": "ft/hr",
+        "longName": "Foot per Hour",
+        "aliasNames": [
+            "ft/hr",
+            "Foot per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 8.466666666666667e-05,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-PER-HR"
+    },
+    {
+        "externalId": "velocity:kilom-per-sec",
+        "name": "km/s",
+        "longName": "Kilometre per Second",
+        "aliasNames": [
+            "km/s",
+            "Kilometre per Second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 1000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloM-PER-SEC"
+    },
+    {
+        "externalId": "velocity:mi-per-hr",
+        "name": "mi/hr",
+        "longName": "Mile per Hour",
+        "aliasNames": [
+            "mi/hr",
+            "Mile per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.44704,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI-PER-HR"
+    },
+    {
+        "externalId": "velocity:kilom-per-day",
+        "name": "km/day",
+        "longName": "Kilometres per day",
+        "aliasNames": [
+            "km/day",
+            "Kilometres per day"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.0115740740740741,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloM-PER-DAY"
+    },
+    {
+        "externalId": "velocity:ft-per-sec",
+        "name": "ft/s",
+        "longName": "Foot per Second",
+        "aliasNames": [
+            "ft/s",
+            "Foot per Second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.3048,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-PER-SEC"
+    },
+    {
+        "externalId": "velocity:millim-per-sec",
+        "name": "mm/s",
+        "longName": "Millimetre Per Second",
+        "aliasNames": [
+            "mm/s",
+            "Millimetre Per Second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM-PER-SEC"
+    },
+    {
+        "externalId": "velocity:mi-per-min",
+        "name": "mi/min",
+        "longName": "Mile per Minute",
+        "aliasNames": [
+            "mi/min",
+            "Mile per Minute"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 26.8224,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI-PER-MIN"
+    },
+    {
+        "externalId": "velocity:centim-per-hr",
+        "name": "cm/hr",
+        "longName": "Centimetre Per Hour",
+        "aliasNames": [
+            "cm/hr",
+            "Centimetre Per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 2.777778e-06,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM-PER-HR"
+    },
+    {
+        "externalId": "velocity:in-per-sec",
+        "name": "in/s",
+        "longName": "Inch per Second",
+        "aliasNames": [
+            "in/s",
+            "Inch per Second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.0254,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/IN-PER-SEC"
+    },
+    {
+        "externalId": "velocity:millim-per-min",
+        "name": "mm/min",
+        "longName": "Millimetre Per Minute",
+        "aliasNames": [
+            "mm/min",
+            "Millimetre Per Minute"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 1.666667e-05,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM-PER-MIN"
+    },
+    {
+        "externalId": "velocity:m-per-hr",
+        "name": "m/h",
+        "longName": "Metre per Hour",
+        "aliasNames": [
+            "m/h",
+            "Metre per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.000277777778,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/M-PER-HR"
+    },
+    {
+        "externalId": "velocity:ft-per-min",
+        "name": "ft/min",
+        "longName": "Foot per Minute",
+        "aliasNames": [
+            "ft/min",
+            "Foot per Minute"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.00508,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-PER-MIN"
+    },
+    {
+        "externalId": "velocity:mi-per-sec",
+        "name": "mi/sec",
+        "longName": "Mile per Second",
+        "aliasNames": [
+            "mi/sec",
+            "Mile per Second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 1609.344,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI-PER-SEC"
+    },
+    {
+        "externalId": "velocity:millim-per-day",
+        "name": "mm/day",
+        "longName": "millimetres per day",
+        "aliasNames": [
+            "mm/day",
+            "millimetres per day"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 1.15741e-08,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM-PER-DAY"
+    },
+    {
+        "externalId": "velocity:ft-per-day",
+        "name": "ft/day",
+        "longName": "Foot per Day",
+        "aliasNames": [
+            "ft/day",
+            "Foot per Day"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 3.52777777777778e-06,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-PER-DAY"
+    },
+    {
+        "externalId": "velocity:millim-per-hr",
+        "name": "mm/hr",
+        "longName": "Millimetre Per Hour",
+        "aliasNames": [
+            "mm/hr",
+            "mm/h",
+            "Millimetre Per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 2.777778e-07,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliM-PER-HR"
+    },
+    {
+        "externalId": "velocity:kilom-per-hr",
+        "name": "km/hr",
+        "longName": "Kilometre per Hour",
+        "aliasNames": [
+            "km/hr",
+            "kph",
+            "Kilometre per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.2777777777777778,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloM-PER-HR"
+    },
+    {
+        "externalId": "velocity:centim-per-sec",
+        "name": "cm/s",
+        "longName": "centimetre per second",
+        "aliasNames": [
+            "cm/s",
+            "centimetre per second"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.01,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/CentiM-PER-SEC"
+    },
+    {
+        "externalId": "velocity:mi_n-per-hr",
+        "name": "nmi/hr",
+        "longName": "Nautical Mile per Hour",
+        "aliasNames": [
+            "nmi/hr",
+            "Nautical Mile per Hour"
+        ],
+        "quantity": "Velocity",
+        "conversion": {
+            "multiplier": 0.514444,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MI_N-PER-HR"
+    },
+    {
+        "externalId": "angle:rad",
+        "name": "rad",
+        "longName": "radian",
+        "aliasNames": [
+            "rad",
+            "radian"
+        ],
+        "quantity": "Angle",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/RAD"
+    },
+    {
+        "externalId": "angle:rev",
+        "name": "rev",
+        "longName": "Revolution",
+        "aliasNames": [
+            "rev",
+            "Revolution"
+        ],
+        "quantity": "Angle",
+        "conversion": {
+            "multiplier": 6.28318531,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/REV"
+    },
+    {
+        "externalId": "angle:deg",
+        "name": "°",
+        "longName": "Degree",
+        "aliasNames": [
+            "°",
+            "Degree",
+            "degrees"
+        ],
+        "quantity": "Angle",
+        "conversion": {
+            "multiplier": 0.0174532925,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/DEG"
+    },
+    {
+        "externalId": "energy_per_area:j-per-centim2",
+        "name": "J/cm²",
+        "longName": "Joule Per Square Centimetre",
+        "aliasNames": [
+            "J/cm²",
+            "Joule Per Square Centimetre"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 10000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/J-PER-CentiM2"
+    },
+    {
+        "externalId": "energy_per_area:w-sec-per-m2",
+        "name": "W⋅s/m²",
+        "longName": "Watt seconds per square metre",
+        "aliasNames": [
+            "W⋅s/m²",
+            "Watt seconds per square metre"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-SEC-PER-M2"
+    },
+    {
+        "externalId": "energy_per_area:ft-lb_f-per-ft2",
+        "name": "ft⋅lbf/ft²",
+        "longName": "Foot Pound per Square Foot",
+        "aliasNames": [
+            "ft⋅lbf/ft²",
+            "Foot Pound per Square Foot"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 14.5939042,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F-PER-FT2"
+    },
+    {
+        "externalId": "energy_per_area:btu_it-per-ft2",
+        "name": "Btu{IT}/ft²",
+        "longName": "BTU per Square Foot",
+        "aliasNames": [
+            "Btu{IT}/ft²",
+            "BTU per Square Foot"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 11356.5267,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-FT2"
+    },
+    {
+        "externalId": "energy_per_area:kilocal-per-centim2",
+        "name": "kcal/cm²",
+        "longName": "Kilocalorie per Square Centimetre",
+        "aliasNames": [
+            "kcal/cm²",
+            "Kilocalorie per Square Centimetre"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 4.184e-07,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/KiloCAL-PER-CentiM2"
+    },
+    {
+        "externalId": "energy_per_area:j-per-m2",
+        "name": "J/m²",
+        "longName": "Joule per Square Metre",
+        "aliasNames": [
+            "J/m²",
+            "Joule per Square Metre"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/J-PER-M2"
+    },
+    {
+        "externalId": "energy_per_area:megaj-per-m2",
+        "name": "MJ/m²",
+        "longName": "Megajoule Per Square Metre",
+        "aliasNames": [
+            "MJ/m²",
+            "Megajoule Per Square Metre"
+        ],
+        "quantity": "Energy Per Area",
+        "conversion": {
+            "multiplier": 1000000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MegaJ-PER-M2"
+    },
+    {
+        "externalId": "power_per_area:milliw-per-m2",
+        "name": "mW/m²",
+        "longName": "Milliwatt Per Square Metre",
+        "aliasNames": [
+            "mW/m²",
+            "Milliwatt Per Square Metre"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 0.001,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/MilliW-PER-M2"
+    },
+    {
+        "externalId": "power_per_area:btu_it-per-hr-ft2",
+        "name": "Btu{IT}/(hr⋅ft²)",
+        "longName": "BTU per Hour Square Foot",
+        "aliasNames": [
+            "Btu{IT}/(hr⋅ft²)",
+            "BTU per Hour Square Foot"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 3.15459075,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-HR-FT2"
+    },
+    {
+        "externalId": "power_per_area:j-per-centim2-day",
+        "name": "J/(cm²⋅day)",
+        "longName": "Joules per square centimetre per day",
+        "aliasNames": [
+            "J/(cm²⋅day)",
+            "Joules per square centimetre per day"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 0.115740740740741,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/J-PER-CentiM2-DAY"
+    },
+    {
+        "externalId": "power_per_area:w-per-in2",
+        "name": "W/in²",
+        "longName": "Watt per Square Inch",
+        "aliasNames": [
+            "W/in²",
+            "Watt per Square Inch"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 1550.0031,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-PER-IN2"
+    },
+    {
+        "externalId": "power_per_area:ft-lb_f-per-ft2-sec",
+        "name": "ft⋅lbf/ft²s",
+        "longName": "Foot Pound Force per Square Foot Second",
+        "aliasNames": [
+            "ft⋅lbf/ft²s",
+            "Foot Pound Force per Square Foot Second"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 14.5939042,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F-PER-FT2-SEC"
+    },
+    {
+        "externalId": "power_per_area:w-per-m2",
+        "name": "W/m²",
+        "longName": "watt per square metre",
+        "aliasNames": [
+            "W/m²",
+            "W/m2",
+            "watt per square metre"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-PER-M2"
+    },
+    {
+        "externalId": "power_per_area:w-per-centim2",
+        "name": "W/cm²",
+        "longName": "Watt per Square Centimetre",
+        "aliasNames": [
+            "W/cm²",
+            "W/cm2",
+            "Watt per Square Centimetre"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 10000.0,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-PER-CentiM2"
+    },
+    {
+        "externalId": "power_per_area:btu_it-per-sec-ft2",
+        "name": "Btu{IT}/(s⋅ft²)",
+        "longName": "BTU per Second Square Foot",
+        "aliasNames": [
+            "Btu{IT}/(s⋅ft²)",
+            "BTU per Second Square Foot"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 11356.5267,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-SEC-FT2"
+    },
+    {
+        "externalId": "power_per_area:w-per-ft2",
+        "name": "W/ft²",
+        "longName": "Watt per Square Foot",
+        "aliasNames": [
+            "W/ft²",
+            "Watt per Square Foot"
+        ],
+        "quantity": "Power Per Area",
+        "conversion": {
+            "multiplier": 10.7639104,
+            "offset": 0.0
+        },
+        "source": "qudt.org",
+        "sourceReference": "http://qudt.org/vocab/unit/W-PER-FT2"
     }
 ]

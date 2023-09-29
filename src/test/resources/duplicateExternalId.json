@@ -1,7 +1,7 @@
 [
   {
     "externalId": "temperature:deg",
-    "name": "°C",
+    "name": "DEG",
     "longName": "degree Celsius",
     "aliasNames": [
       "°C",
@@ -52,11 +52,12 @@
       "offset": 273.15
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_C"
+    "sourceReference": "http://qudt.org/vocab/unit/DEG_C",
+    "symbol": "°C"
   },
   {
     "externalId": "temperature:deg_f",
-    "name": "°F",
+    "name": "DEG_F",
     "longName": "degree Fahrenheit",
     "aliasNames": [
       "°F",
@@ -83,7 +84,8 @@
       "offset": 459.67
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_F"
+    "sourceReference": "http://qudt.org/vocab/unit/DEG_F",
+    "symbol": "°F"
   },
   {
     "externalId": "temperature:k",
@@ -123,11 +125,12 @@
       "offset": 0.0
     },
     "source": "APIRP661",
-    "sourceReference": "http://qudt.org/vocab/unit/K"
+    "sourceReference": "http://qudt.org/vocab/unit/K",
+    "symbol": "K"
   },
   {
     "externalId": "temperature:deg",
-    "name": "°R",
+    "name": "DEG",
     "longName": "degree Rankine",
     "aliasNames": [
       "°R",
@@ -155,11 +158,12 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_R"
+    "sourceReference": "http://qudt.org/vocab/unit/DEG_R",
+    "symbol": "°R"
   },
   {
     "externalId": "temperature_gradient:k-per-m",
-    "name": "K/m",
+    "name": "K-PER-M",
     "longName": "Kelvins per metre",
     "aliasNames": [
       "K/m",
@@ -171,6 +175,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/K-PER-M"
+    "sourceReference": "http://qudt.org/vocab/unit/K-PER-M",
+    "symbol": "K/m"
   }
 ]

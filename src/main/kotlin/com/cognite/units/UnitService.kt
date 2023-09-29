@@ -101,8 +101,8 @@ class UnitService(unitsPath: URL, systemPath: URL) {
                 "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
             }
 
-            val sourceIsQudt = it.source?.contains("qudt") ?: false
-            val sourceReferenceContainsQudt = it.sourceReference?.contains("qudt.org") ?: false
+            val sourceIsQudt = it.source.equals("qudt.org")
+            val sourceReferenceContainsQudt = it.sourceReference?.contains("qudt") ?: false
             assert(sourceIsQudt == sourceReferenceContainsQudt) {
                 "Qudt: Inconsistent source ${it.source} and sourceReference ${it.sourceReference} for unit ${it.name}"
             }

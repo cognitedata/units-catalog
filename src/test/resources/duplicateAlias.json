@@ -126,7 +126,7 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "APIRP661",
+    "source": "qudt.org",
     "sourceReference": "http://qudt.org/vocab/unit/K",
     "symbol": "K"
   },

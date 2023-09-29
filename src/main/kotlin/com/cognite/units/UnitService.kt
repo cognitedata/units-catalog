@@ -101,6 +101,12 @@ class UnitService(unitsPath: URL, systemPath: URL) {
                 "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
             }
 
+            val sourceIsQudt = it.source?.contains("qudt") ?: false
+            val sourceReferenceContainsQudt = it.sourceReference?.contains("qudt.org") ?: false
+            assert(sourceIsQudt == sourceReferenceContainsQudt) {
+                "Qudt: Inconsistent source ${it.source} and sourceReference ${it.sourceReference} for unit ${it.name}"
+            }
+
             unitsByQuantity.computeIfAbsent(it.quantity) { ArrayList() }.add(it)
             unitsByQuantityAndAlias.computeIfAbsent(it.quantity) { LinkedHashMap() }
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C")

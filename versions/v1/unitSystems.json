@@ -29,6 +29,26 @@
             {
                 "name": "Pressure",
                 "unitExternalId": "pressure:pa"
+            },
+            {
+                "name": "Length",
+                "unitExternalId": "length:m"
+            },
+            {
+                "name": "Velocity",
+                "unitExternalId": "velocity:kilom-per-hr"
+            },
+            {
+                "name": "Angle",
+                "unitExternalId": "angle:deg"
+            },
+            {
+                "name": "Energy Per Area",
+                "unitExternalId": "energy_per_area:j-per-m2"
+            },
+            {
+                "name": "Power Per Area",
+                "unitExternalId": "power_per_area:w-per-m2"
             }
         ]
     },
@@ -54,6 +74,14 @@
             {
                 "name": "Pressure",
                 "unitExternalId": "pressure:pa"
+            },
+            {
+                "name": "Length",
+                "unitExternalId": "length:m"
+            },
+            {
+                "name": "Velocity",
+                "unitExternalId": "velocity:m-per-sec"
             }
         ]
     },
@@ -79,6 +107,14 @@
             {
                 "name": "Pressure",
                 "unitExternalId": "pressure:bar"
+            },
+            {
+                "name": "Length",
+                "unitExternalId": "length:m"
+            },
+            {
+                "name": "Velocity",
+                "unitExternalId": "velocity:m-per-sec"
             }
         ]
     },
@@ -104,6 +140,22 @@
             {
                 "name": "Pressure",
                 "unitExternalId": "pressure:psi"
+            },
+            {
+                "name": "Length",
+                "unitExternalId": "length:ft"
+            },
+            {
+                "name": "Velocity",
+                "unitExternalId": "velocity:ft-per-sec"
+            },
+            {
+                "name": "Energy Per Area",
+                "unitExternalId": "energy_per_area:ft-lb_f-per-ft2"
+            },
+            {
+                "name": "Power Per Area",
+                "unitExternalId": "power_per_area:ft-lb_f-per-ft2-sec"
             }
         ]
     }

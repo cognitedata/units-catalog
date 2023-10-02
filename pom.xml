@@ -10,6 +10,8 @@
 
   <properties>
     <kotlin.version>1.9.10</kotlin.version>
+    <!-- For reproducible builds -->
+    <project.build.outputTimestamp>2020-01-01T01:01:00Z</project.build.outputTimestamp>
   </properties>
 
   <dependencies>

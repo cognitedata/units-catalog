@@ -1,0 +1,56 @@
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.xml]
+indent_size = 2
+
+[*.{libsonnet,jsonnet}]
+indent_size = 2
+
+# Do not allow IntelliJ to add spaces here
+[*.{kt,kts}]
+indent_size = 4
+ij_continuation_indent_size = 4
+
+ij_any_spaces_around_equality_operators = true
+ij_kotlin_call_parameters_wrap = normal
+ij_kotlin_keep_blank_lines_before_right_brace = 0
+ij_kotlin_imports_layout=*,java.**,javax.**,kotlin.**,^
+ij_kotlin_method_parameters_new_line_after_left_paren = true
+ij_kotlin_method_parameters_right_paren_on_new_line = true
+# Do not use star import on any packages
+ij_kotlin_packages_to_use_import_on_demand = None
+ij_kotlin_name_count_to_use_star_import = 1000000
+ij_kotlin_name_count_to_use_star_import_for_members = 1000000
+# Enable trailing commas
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+
+max_line_length = 120
+# TODO: try enabling the default ktlint_official
+ktlint_code_style = intellij_idea
+# TODO: reduce this list of exceptions
+ktlint_standard_filename = disabled
+ktlint_standard_enum-entry-name-case = disabled
+ktlint_standard_spacing-between-declarations-with-annotations = disabled
+ktlint_standard_package-name = disabled
+ktlint_standard_annotation = disabled
+ktlint_standard_annotation-spacing = disabled
+ktlint_standard_class-naming = disabled
+ktlint_standard_comment-wrapping = disabled
+ktlint_standard_string-template-indent = disabled
+ktlint_standard_multiline-expression-wrapping = disabled
+ktlint_standard_function-signature = disabled
+ktlint_standard_no-blank-line-in-list = disabled
+ktlint_standard_blank-line-before-declaration = disabled
+ktlint_standard_string-template-indent = disabled
+
+[*.{yaml,yml}]
+ij_yaml_indent_sequence_value = false

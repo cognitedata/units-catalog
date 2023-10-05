@@ -105,7 +105,7 @@ class UnitTest {
         } catch (e: AssertionError) {
             assertEquals(
                 "Invalid externalId temperaturegradient:k-per-m for unit K-PER-M (Temperature Gradient)",
-                e.message
+                e.message,
             )
         }
     }

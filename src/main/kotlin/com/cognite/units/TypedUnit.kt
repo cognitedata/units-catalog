@@ -22,6 +22,7 @@ data class Conversion(
     val multiplier: Double,
     val offset: Double,
 )
+
 data class TypedUnit(
     val externalId: String,
     val name: String,
@@ -38,6 +39,7 @@ data class SystemQuantity(
     val name: String,
     val unitExternalId: String,
 )
+
 data class UnitSystem(
     val name: String,
     val quantities: List<SystemQuantity>,

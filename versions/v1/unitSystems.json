@@ -1,162 +1,377 @@
 [
-    {
-        "name": "default",
-        "quantities": [
-            {
-                "name": "Temperature",
-                "unitExternalId": "temperature:deg_c"
-            },
-            {
-                "name": "Temperature Gradient",
-                "unitExternalId": "temperature_gradient:k-per-m"
-            },
-            {
-                "name": "Energy",
-                "unitExternalId": "energy:j"
-            },
-            {
-                "name": "Volume",
-                "unitExternalId": "volume:m3"
-            },
-            {
-                "name": "Fraction",
-                "unitExternalId": "fraction:percent"
-            },
-            {
-                "name": "Mass",
-                "unitExternalId": "mass:kilogm"
-            },
-            {
-                "name": "Pressure",
-                "unitExternalId": "pressure:pa"
-            },
-            {
-                "name": "Length",
-                "unitExternalId": "length:m"
-            },
-            {
-                "name": "Velocity",
-                "unitExternalId": "velocity:kilom-per-hr"
-            },
-            {
-                "name": "Angle",
-                "unitExternalId": "angle:deg"
-            },
-            {
-                "name": "Energy Per Area",
-                "unitExternalId": "energy_per_area:j-per-m2"
-            },
-            {
-                "name": "Power Per Area",
-                "unitExternalId": "power_per_area:w-per-m2"
-            }
-        ]
-    },
-    {
-        "name": "SI",
-        "quantities": [
-            {
-                "name": "Temperature",
-                "unitExternalId": "temperature:k"
-            },
-            {
-                "name": "Energy",
-                "unitExternalId": "energy:j"
-            },
-            {
-                "name": "Volume",
-                "unitExternalId": "volume:m3"
-            },
-            {
-                "name": "Mass",
-                "unitExternalId": "mass:kilogm"
-            },
-            {
-                "name": "Pressure",
-                "unitExternalId": "pressure:pa"
-            },
-            {
-                "name": "Length",
-                "unitExternalId": "length:m"
-            },
-            {
-                "name": "Velocity",
-                "unitExternalId": "velocity:m-per-sec"
-            }
-        ]
-    },
-    {
-        "name": "SI (Engineering)",
-        "quantities": [
-            {
-                "name": "Temperature",
-                "unitExternalId": "temperature:deg_c"
-            },
-            {
-                "name": "Energy",
-                "unitExternalId": "energy:j"
-            },
-            {
-                "name": "Volume",
-                "unitExternalId": "volume:m3"
-            },
-            {
-                "name": "Mass",
-                "unitExternalId": "mass:kilogm"
-            },
-            {
-                "name": "Pressure",
-                "unitExternalId": "pressure:bar"
-            },
-            {
-                "name": "Length",
-                "unitExternalId": "length:m"
-            },
-            {
-                "name": "Velocity",
-                "unitExternalId": "velocity:m-per-sec"
-            }
-        ]
-    },
-    {
-        "name": "Imperial",
-        "quantities": [
-            {
-                "name": "Temperature",
-                "unitExternalId": "temperature:deg_f"
-            },
-            {
-                "name": "Energy",
-                "unitExternalId": "energy:btu_th"
-            },
-            {
-                "name": "Volume",
-                "unitExternalId": "volume:ft3"
-            },
-            {
-                "name": "Mass",
-                "unitExternalId": "mass:lb"
-            },
-            {
-                "name": "Pressure",
-                "unitExternalId": "pressure:psi"
-            },
-            {
-                "name": "Length",
-                "unitExternalId": "length:ft"
-            },
-            {
-                "name": "Velocity",
-                "unitExternalId": "velocity:ft-per-sec"
-            },
-            {
-                "name": "Energy Per Area",
-                "unitExternalId": "energy_per_area:ft-lb_f-per-ft2"
-            },
-            {
-                "name": "Power Per Area",
-                "unitExternalId": "power_per_area:ft-lb_f-per-ft2-sec"
-            }
-        ]
-    }
+  {
+    "name": "default",
+    "quantities": [
+      {
+        "name": "Acceleration",
+        "unitExternalId": "acceleration:m-per-sec2"
+      },
+      {
+        "name": "Amount Of Substance",
+        "unitExternalId": "amount_of_substance:mol"
+      },
+      {
+        "name": "Amount Of Substance Per Unit Volume",
+        "unitExternalId": "amount_of_substance_per_unit_volume:mol-per-m3"
+      },
+      {
+        "name": "Angle",
+        "unitExternalId": "angle:deg"
+      },
+      {
+        "name": "Angular Acceleration",
+        "unitExternalId": "angular_acceleration:rev-per-sec2"
+      },
+      {
+        "name": "Angular Velocity",
+        "unitExternalId": "angular_velocity:rev-per-sec"
+      },
+      {
+        "name": "Area",
+        "unitExternalId": "area:m2"
+      },
+      {
+        "name": "Capacitance",
+        "unitExternalId": "capacitance:farad"
+      },
+      {
+        "name": "Density",
+        "unitExternalId": "density:kilogm-per-m3"
+      },
+      {
+        "name": "Dimensionless",
+        "unitExternalId": "dimensionless:unitless"
+      },
+      {
+        "name": "Dimensionless Ratio",
+        "unitExternalId": "dimensionless_ratio:fraction"
+      },
+      {
+        "name": "Dynamic Viscosity",
+        "unitExternalId": "dynamic_viscosity:pa-sec"
+      },
+      {
+        "name": "Electric Current",
+        "unitExternalId": "electric_current:a"
+      },
+      {
+        "name": "Electric Potential",
+        "unitExternalId": "electric_potential:v"
+      },
+      {
+        "name": "Energy",
+        "unitExternalId": "energy:j"
+      },
+      {
+        "name": "Energy Density",
+        "unitExternalId": "energy_density:j-per-m3"
+      },
+      {
+        "name": "Force",
+        "unitExternalId": "force:n"
+      },
+      {
+        "name": "Frequency",
+        "unitExternalId": "frequency:hz"
+      },
+      {
+        "name": "Inductance",
+        "unitExternalId": "inductance:h"
+      },
+      {
+        "name": "Length",
+        "unitExternalId": "length:m"
+      },
+      {
+        "name": "Mass",
+        "unitExternalId": "mass:kilogm"
+      },
+      {
+        "name": "Mass Concentration",
+        "unitExternalId": "mass_concentration:kilogm-per-m3"
+      },
+      {
+        "name": "Mass Flow Rate",
+        "unitExternalId": "mass_flow_rate:kilogm-per-sec"
+      },
+      {
+        "name": "Permeability",
+        "unitExternalId": "permeability:h-per-m"
+      },
+      {
+        "name": "Power",
+        "unitExternalId": "power:w"
+      },
+      {
+        "name": "Pressure",
+        "unitExternalId": "pressure:bar"
+      },
+      {
+        "name": "Resistance",
+        "unitExternalId": "resistance:ohm"
+      },
+      {
+        "name": "Surface Tension",
+        "unitExternalId": "surface_tension:j-per-m2"
+      },
+      {
+        "name": "Temperature",
+        "unitExternalId": "temperature:deg_c"
+      },
+      {
+        "name": "Temperature Gradient",
+        "unitExternalId": "temperature_gradient:k-per-m"
+      },
+      {
+        "name": "Time",
+        "unitExternalId": "time:sec"
+      },
+      {
+        "name": "Torque",
+        "unitExternalId": "torque:n-m"
+      },
+      {
+        "name": "Velocity",
+        "unitExternalId": "velocity:m-per-sec"
+      },
+      {
+        "name": "Volume",
+        "unitExternalId": "volume:m3"
+      },
+      {
+        "name": "Volume Flow Rate",
+        "unitExternalId": "volume_flow_rate:m3-per-sec"
+      },
+      {
+        "name": "Volume Fraction",
+        "unitExternalId": "volume_fraction:m3-per-m3"
+      }
+    ]
+  },
+  {
+    "name": "SI",
+    "quantities": [
+      {
+        "name": "Acceleration",
+        "unitExternalId": "acceleration:m-per-sec2"
+      },
+      {
+        "name": "Amount Of Substance",
+        "unitExternalId": "amount_of_substance:mol"
+      },
+      {
+        "name": "Amount Of Substance Per Unit Volume",
+        "unitExternalId": "amount_of_substance_per_unit_volume:mol-per-m3"
+      },
+      {
+        "name": "Angle",
+        "unitExternalId": "angle:rad"
+      },
+      {
+        "name": "Angular Acceleration",
+        "unitExternalId": "angular_acceleration:rev-per-sec2"
+      },
+      {
+        "name": "Angular Velocity",
+        "unitExternalId": "angular_velocity:rev-per-sec"
+      },
+      {
+        "name": "Area",
+        "unitExternalId": "area:m2"
+      },
+      {
+        "name": "Capacitance",
+        "unitExternalId": "capacitance:farad"
+      },
+      {
+        "name": "Density",
+        "unitExternalId": "density:kilogm-per-m3"
+      },
+      {
+        "name": "Dimensionless",
+        "unitExternalId": "dimensionless:unitless"
+      },
+      {
+        "name": "Dimensionless Ratio",
+        "unitExternalId": "dimensionless_ratio:fraction"
+      },
+      {
+        "name": "Dynamic Viscosity",
+        "unitExternalId": "dynamic_viscosity:pa-sec"
+      },
+      {
+        "name": "Electric Current",
+        "unitExternalId": "electric_current:a"
+      },
+      {
+        "name": "Electric Potential",
+        "unitExternalId": "electric_potential:v"
+      },
+      {
+        "name": "Energy",
+        "unitExternalId": "energy:j"
+      },
+      {
+        "name": "Energy Density",
+        "unitExternalId": "energy_density:j-per-m3"
+      },
+      {
+        "name": "Force",
+        "unitExternalId": "force:n"
+      },
+      {
+        "name": "Frequency",
+        "unitExternalId": "frequency:hz"
+      },
+      {
+        "name": "Inductance",
+        "unitExternalId": "inductance:h"
+      },
+      {
+        "name": "Length",
+        "unitExternalId": "length:m"
+      },
+      {
+        "name": "Mass",
+        "unitExternalId": "mass:kilogm"
+      },
+      {
+        "name": "Mass Concentration",
+        "unitExternalId": "mass_concentration:kilogm-per-m3"
+      },
+      {
+        "name": "Mass Flow Rate",
+        "unitExternalId": "mass_flow_rate:kilogm-per-sec"
+      },
+      {
+        "name": "Permeability",
+        "unitExternalId": "permeability:h-per-m"
+      },
+      {
+        "name": "Power",
+        "unitExternalId": "power:w"
+      },
+      {
+        "name": "Pressure",
+        "unitExternalId": "pressure:pa"
+      },
+      {
+        "name": "Resistance",
+        "unitExternalId": "resistance:ohm"
+      },
+      {
+        "name": "Surface Tension",
+        "unitExternalId": "surface_tension:j-per-m2"
+      },
+      {
+        "name": "Temperature",
+        "unitExternalId": "temperature:k"
+      },
+      {
+        "name": "Temperature Gradient",
+        "unitExternalId": "temperature_gradient:k-per-m"
+      },
+      {
+        "name": "Time",
+        "unitExternalId": "time:sec"
+      },
+      {
+        "name": "Torque",
+        "unitExternalId": "torque:n-m"
+      },
+      {
+        "name": "Velocity",
+        "unitExternalId": "velocity:m-per-sec"
+      },
+      {
+        "name": "Volume",
+        "unitExternalId": "volume:m3"
+      },
+      {
+        "name": "Volume Flow Rate",
+        "unitExternalId": "volume_flow_rate:m3-per-sec"
+      },
+      {
+        "name": "Volume Fraction",
+        "unitExternalId": "volume_fraction:m3-per-m3"
+      }
+    ]
+  },
+  {
+    "name": "Imperial",
+    "quantities": [
+      {
+        "name": "Acceleration",
+        "unitExternalId": "acceleration:ft-per-sec2"
+      },
+      {
+        "name": "Area",
+        "unitExternalId": "area:ft2"
+      },
+      {
+        "name": "Density",
+        "unitExternalId": "density:lb-per-ft3"
+      },
+      {
+        "name": "Dynamic Viscosity",
+        "unitExternalId": "dynamic_viscosity:lb-per-ft-sec"
+      },
+      {
+        "name": "Energy",
+        "unitExternalId": "energy:btu_it"
+      },
+      {
+        "name": "Energy Density",
+        "unitExternalId": "energy_density:btu_it-per-ft3"
+      },
+      {
+        "name": "Force",
+        "unitExternalId": "force:lb_f"
+      },
+      {
+        "name": "Length",
+        "unitExternalId": "length:ft"
+      },
+      {
+        "name": "Mass",
+        "unitExternalId": "mass:lb"
+      },
+      {
+        "name": "Mass Flow Rate",
+        "unitExternalId": "mass_flow_rate:lb-per-sec"
+      },
+      {
+        "name": "Power",
+        "unitExternalId": "power:hp"
+      },
+      {
+        "name": "Pressure",
+        "unitExternalId": "pressure:psi"
+      },
+      {
+        "name": "Surface Tension",
+        "unitExternalId": "surface_tension:ft-lb_f-per-ft2"
+      },
+      {
+        "name": "Temperature",
+        "unitExternalId": "temperature:deg_f"
+      },
+      {
+        "name": "Torque",
+        "unitExternalId": "torque:lb_f-ft"
+      },
+      {
+        "name": "Velocity",
+        "unitExternalId": "velocity:ft-per-sec"
+      },
+      {
+        "name": "Volume",
+        "unitExternalId": "volume:ft3"
+      },
+      {
+        "name": "Volume Flow Rate",
+        "unitExternalId": "volume_flow_rate:ft3-per-sec"
+      }
+    ]
+  }
 ]

@@ -138,11 +138,11 @@ class UnitService(unitsPath: URL, systemPath: URL) {
                 sq.name to unit
             }.toMutableMap()
         }
-        // check if a default system is defined
-        assert(defaultUnitByQuantityAndSystem.containsKey("default")) { "Missing default system" }
-        // 4. Default Quantities: All quantities must be present in the `unitSystems.json` for the default quantity
-        assert(defaultUnitByQuantityAndSystem["default"]!!.size == unitsByQuantity.size) {
-            "Missing units in default system"
+        // check if a Default system is defined
+        assert(defaultUnitByQuantityAndSystem.containsKey("Default")) { "Missing Default system" }
+        // 4. Default Quantities: All quantities must be present in the `unitSystems.json` for the Default quantity
+        assert(defaultUnitByQuantityAndSystem["Default"]!!.size == unitsByQuantity.size) {
+            "Missing units in Default system"
         }
     }
 
@@ -168,7 +168,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             throw IllegalArgumentException("Unknown system $targetSystem")
         }
         return defaultUnitByQuantityAndSystem[targetSystem]!![sourceUnit.quantity]
-            ?: defaultUnitByQuantityAndSystem["default"]!![sourceUnit.quantity] ?: throw IllegalArgumentException(
+            ?: defaultUnitByQuantityAndSystem["Default"]!![sourceUnit.quantity] ?: throw IllegalArgumentException(
             "Cannot convert from ${sourceUnit.quantity}",
         )
     }

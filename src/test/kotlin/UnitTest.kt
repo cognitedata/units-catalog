@@ -49,10 +49,10 @@ class UnitTest {
         val unitService = UnitService.service
         val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
         val unitFahrenheit = unitService.getUnitByExternalId("temperature:deg_f")
-        assertEquals(unitCelsius, unitService.getUnitBySystem(unitCelsius, "default"))
-        assertEquals(unitCelsius, unitService.getUnitBySystem(unitFahrenheit, "default"))
+        assertEquals(unitCelsius, unitService.getUnitBySystem(unitCelsius, "Default"))
+        assertEquals(unitCelsius, unitService.getUnitBySystem(unitFahrenheit, "Default"))
         assertEquals(unitFahrenheit, unitService.getUnitBySystem(unitCelsius, "Imperial"))
-        // fallback to default
+        // fallback to Default
         val unitPercent = unitService.getUnitByExternalId("dimensionless_ratio:percent")
         val unitFraction = unitService.getUnitByExternalId("dimensionless_ratio:fraction")
         assertEquals(unitFraction, unitService.getUnitBySystem(unitPercent, "Imperial"))

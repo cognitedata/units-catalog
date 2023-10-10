@@ -4,9 +4,50 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.cognite.timeseries</groupId>
-  <artifactId>units</artifactId>
+  <groupId>com.cognite.units</groupId>
+  <artifactId>units-catalog</artifactId>
   <version>0.1</version>
+
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>A comprehensive unit catalog for Cognite Data Fusion (CDF) with a focus on standardization, comprehensiveness, and consistency.</description>
+  <url>https://github.com/cognitedata/units-catalog</url>
+
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>Cognite AS</name>
+    <url>https://cognite.com</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Dimitry Hoff</name>
+      <email>dimitry.hoff@cognite.com</email>
+      <organization>Cognite</organization>
+      <organizationUrl>https://cognite.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/cognitedata/units-catalog.git</connection>
+    <developerConnection>scm:git:ssh://github.com:cognitedata/units-catalog.git</developerConnection>
+    <url>https://github.com/cognitedata/units-catalog/tree/main</url>
+  </scm>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <kotlin.version>1.9.10</kotlin.version>

@@ -129,7 +129,7 @@
           <executions>
             <execution>
               <id>attach-javadoc</id>
-              <phase>pre-site</phase>
+              <phase>deploy</phase>
               <goals>
                 <goal>javadocJar</goal>
               </goals>

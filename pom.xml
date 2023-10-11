@@ -42,7 +42,7 @@
     <kotlin.version>1.9.10</kotlin.version>
     <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-    <maven-javadoc-plugin.version>3.6.0</maven-javadoc-plugin.version>
+    <maven-dokka-plugin.version>1.9.0</maven-dokka-plugin.version>
     <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
     <!-- For reproducible builds -->
     <project.build.outputTimestamp>2020-01-01T01:01:00Z</project.build.outputTimestamp>
@@ -123,17 +123,15 @@
           </executions>
         </plugin>
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${maven-javadoc-plugin.version}</version>
-          <configuration>
-            <doclint>none</doclint>
-          </configuration>
+          <groupId>org.jetbrains.dokka</groupId>
+          <artifactId>dokka-maven-plugin</artifactId>
+          <version>${maven-dokka-plugin.version}</version>
           <executions>
             <execution>
               <id>attach-javadoc</id>
+              <phase>pre-site</phase>
               <goals>
-                <goal>jar</goal>
+                <goal>javadocJar</goal>
               </goals>
             </execution>
           </executions>
@@ -176,6 +174,10 @@
         <configuration>
           <jvmTarget>1.8</jvmTarget>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.jetbrains.dokka</groupId>
+        <artifactId>dokka-maven-plugin</artifactId>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -233,8 +235,8 @@
             <artifactId>maven-source-plugin</artifactId>
           </plugin>
           <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-javadoc-plugin</artifactId>
+            <groupId>org.jetbrains.dokka</groupId>
+            <artifactId>dokka-maven-plugin</artifactId>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>

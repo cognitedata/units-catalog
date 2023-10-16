@@ -6,7 +6,7 @@
 
   <groupId>com.cognite.units</groupId>
   <artifactId>units-catalog</artifactId>
-  <version>0.1</version>
+  <version>0.1.1</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A comprehensive unit catalog for Cognite Data Fusion (CDF) with a focus on standardization, comprehensiveness, and consistency.</description>

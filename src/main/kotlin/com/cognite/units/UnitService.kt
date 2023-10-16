@@ -146,6 +146,8 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         }
     }
 
+    fun getUnits(): List<TypedUnit> = unitsByExternalId.values.toList()
+
     fun getUnitByExternalId(externalId: String): TypedUnit {
         return unitsByExternalId[externalId] ?: throw IllegalArgumentException("Unknown unit '$externalId'")
     }

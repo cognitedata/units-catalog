@@ -1,0 +1,31 @@
+name: python-ci-main
+
+on:
+  pull_request:
+    paths:
+      - '/versions/v1/units.json'
+    branches:
+      - main
+
+jobs:
+  compare-json:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        path: main
+
+    - name: Checkout PR
+      uses: actions/checkout@v3
+      with:
+        path: pr
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Compare JSON
+      run: python ./src/compare_external_ids.py

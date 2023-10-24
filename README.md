@@ -68,6 +68,7 @@ To ensure the integrity of the catalog, the following tests are conducted:
 5. **Consistent References**: All quantity references in `unitSystems.json` must exist in `units.json`.
 6. **Unique aliases**: All pairs of (`alias` and `quantity`) must be unique, for all **aliases** in `aliasNames`.
 7. **ExternalId Format**: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both `quantity` and `unit` are in **snake_case**.
+8. **Avoid breaking changes**: There can be no removals of unit `externalIds` in `units.json`. Only additions are supported.
 
 ## Attribution
 Some of the units are sourced from QUDT.org, which is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

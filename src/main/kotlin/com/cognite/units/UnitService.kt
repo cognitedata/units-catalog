@@ -59,7 +59,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
 
     private fun generatedExpectedSourceReference(unit: TypedUnit): String? {
         if (unit.source == "qudt.org") {
-            return "http://qudt.org/vocab/unit/${unit.name}"
+            return "https://qudt.org/vocab/unit/${unit.name}"
         }
 
         val errorMessage = "Invalid sourceReference ${unit.sourceReference} for unit ${unit.name} (${unit.quantity})"
@@ -96,7 +96,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
                 "Invalid externalId ${it.externalId} for unit ${it.name} (${it.quantity})"
             }
 
-            // if source is qudt.org, reference should be in the format http://qudt.org/vocab/unit/{unit.name}
+            // if source is qudt.org, reference should be in the format https://qudt.org/vocab/unit/{unit.name}
             assert(it.sourceReference?.equals(generatedExpectedSourceReference(it)) ?: true) {
                 "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
             }

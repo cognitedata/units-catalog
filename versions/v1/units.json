@@ -45,7 +45,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-PER-SEC2"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-PER-SEC2"
   },
   {
     "externalId": "acceleration:in-per-sec2",
@@ -94,7 +94,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/IN-PER-SEC2"
+    "sourceReference": "https://qudt.org/vocab/unit/IN-PER-SEC2"
   },
   {
     "externalId": "acceleration:m-per-sec2",
@@ -151,7 +151,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M-PER-SEC2"
+    "sourceReference": "https://qudt.org/vocab/unit/M-PER-SEC2"
   },
   {
     "externalId": "amount_of_substance:centimol",
@@ -170,7 +170,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiMOL"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiMOL"
   },
   {
     "externalId": "amount_of_substance:kilomol",
@@ -189,7 +189,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloMOL"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloMOL"
   },
   {
     "externalId": "amount_of_substance:micromol",
@@ -208,7 +208,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroMOL"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL"
   },
   {
     "externalId": "amount_of_substance:millimol",
@@ -227,7 +227,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliMOL"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliMOL"
   },
   {
     "externalId": "amount_of_substance:mol",
@@ -245,7 +245,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MOL"
+    "sourceReference": "https://qudt.org/vocab/unit/MOL"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:centimol-per-l",
@@ -302,7 +302,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiMOL-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiMOL-PER-L"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:kilomol-per-m3",
@@ -360,7 +360,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloMOL-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloMOL-PER-M3"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:micromol-per-l",
@@ -419,7 +419,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroMOL-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL-PER-L"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-l",
@@ -476,7 +476,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliMOL-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliMOL-PER-L"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-m3",
@@ -534,7 +534,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliMOL-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliMOL-PER-M3"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:mol-per-decim3",
@@ -588,7 +588,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MOL-PER-DeciM3"
+    "sourceReference": "https://qudt.org/vocab/unit/MOL-PER-DeciM3"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:mol-per-l",
@@ -636,7 +636,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MOL-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/MOL-PER-L"
   },
   {
     "externalId": "amount_of_substance_per_unit_volume:mol-per-m3",
@@ -684,7 +684,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MOL-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/MOL-PER-M3"
   },
   {
     "externalId": "angle:deg",
@@ -703,7 +703,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG"
+    "sourceReference": "https://qudt.org/vocab/unit/DEG"
   },
   {
     "externalId": "angle:grad",
@@ -721,7 +721,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GRAD"
+    "sourceReference": "https://qudt.org/vocab/unit/GRAD"
   },
   {
     "externalId": "angle:microrad",
@@ -739,7 +739,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroRAD"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroRAD"
   },
   {
     "externalId": "angle:millirad",
@@ -757,7 +757,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliRAD"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliRAD"
   },
   {
     "externalId": "angle:rad",
@@ -775,7 +775,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/RAD"
+    "sourceReference": "https://qudt.org/vocab/unit/RAD"
   },
   {
     "externalId": "angle:rev",
@@ -794,7 +794,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/REV"
+    "sourceReference": "https://qudt.org/vocab/unit/REV"
   },
   {
     "externalId": "angular_acceleration:rev-per-sec2",
@@ -842,7 +842,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/REV-PER-SEC2"
+    "sourceReference": "https://qudt.org/vocab/unit/REV-PER-SEC2"
   },
   {
     "externalId": "angular_velocity:rev-per-hr",
@@ -891,7 +891,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/REV-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/REV-PER-HR"
   },
   {
     "externalId": "angular_velocity:rev-per-min",
@@ -939,7 +939,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/REV-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/REV-PER-MIN"
   },
   {
     "externalId": "angular_velocity:rev-per-sec",
@@ -980,7 +980,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/REV-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/REV-PER-SEC"
   },
   {
     "externalId": "area:centim2",
@@ -1001,7 +1001,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiM2"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiM2"
   },
   {
     "externalId": "area:decim2",
@@ -1022,7 +1022,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciM2"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciM2"
   },
   {
     "externalId": "area:ft2",
@@ -1041,7 +1041,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT2"
+    "sourceReference": "https://qudt.org/vocab/unit/FT2"
   },
   {
     "externalId": "area:in2",
@@ -1060,7 +1060,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/IN2"
+    "sourceReference": "https://qudt.org/vocab/unit/IN2"
   },
   {
     "externalId": "area:m2",
@@ -1080,7 +1080,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M2"
+    "sourceReference": "https://qudt.org/vocab/unit/M2"
   },
   {
     "externalId": "area:millim2",
@@ -1101,7 +1101,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliM2"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM2"
   },
   {
     "externalId": "area:yd2",
@@ -1120,7 +1120,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD2"
+    "sourceReference": "https://qudt.org/vocab/unit/YD2"
   },
   {
     "externalId": "capacitance:farad",
@@ -1138,7 +1138,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FARAD"
+    "sourceReference": "https://qudt.org/vocab/unit/FARAD"
   },
   {
     "externalId": "capacitance:microfarad",
@@ -1156,7 +1156,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroFARAD"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroFARAD"
   },
   {
     "externalId": "capacitance:millifarad",
@@ -1175,7 +1175,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliFARAD"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliFARAD"
   },
   {
     "externalId": "density:kilogm-per-m3",
@@ -1221,7 +1221,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M3"
   },
   {
     "externalId": "density:lb-per-ft3",
@@ -1272,7 +1272,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-FT3"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT3"
   },
   {
     "externalId": "density:lb-per-gal",
@@ -1299,7 +1299,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-GAL"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-GAL"
   },
   {
     "externalId": "density:lb-per-in3",
@@ -1350,7 +1350,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-IN3"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-IN3"
   },
   {
     "externalId": "density:lb-per-yd3",
@@ -1401,7 +1401,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-YD3"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-YD3"
   },
   {
     "externalId": "density:oz-per-gal",
@@ -1428,7 +1428,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/OZ-PER-GAL"
+    "sourceReference": "https://qudt.org/vocab/unit/OZ-PER-GAL"
   },
   {
     "externalId": "density:oz-per-in3",
@@ -1479,7 +1479,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/OZ-PER-IN3"
+    "sourceReference": "https://qudt.org/vocab/unit/OZ-PER-IN3"
   },
   {
     "externalId": "dimensionless:num",
@@ -1498,7 +1498,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/NUM"
+    "sourceReference": "https://qudt.org/vocab/unit/NUM"
   },
   {
     "externalId": "dimensionless:unitless",
@@ -1517,7 +1517,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/UNITLESS"
+    "sourceReference": "https://qudt.org/vocab/unit/UNITLESS"
   },
   {
     "externalId": "dimensionless_ratio:fraction",
@@ -1536,7 +1536,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FRACTION"
+    "sourceReference": "https://qudt.org/vocab/unit/FRACTION"
   },
   {
     "externalId": "dimensionless_ratio:percent",
@@ -1555,7 +1555,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/PERCENT"
+    "sourceReference": "https://qudt.org/vocab/unit/PERCENT"
   },
   {
     "externalId": "dimensionless_ratio:ppm",
@@ -1573,7 +1573,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/PPM"
+    "sourceReference": "https://qudt.org/vocab/unit/PPM"
   },
   {
     "externalId": "dimensionless_ratio:ppth",
@@ -1592,7 +1592,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/PPTH"
+    "sourceReference": "https://qudt.org/vocab/unit/PPTH"
   },
   {
     "externalId": "dimensionless_ratio:unitless",
@@ -1611,7 +1611,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/UNITLESS"
+    "sourceReference": "https://qudt.org/vocab/unit/UNITLESS"
   },
   {
     "externalId": "dynamic_viscosity:lb-per-ft-hr",
@@ -1758,7 +1758,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-FT-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT-HR"
   },
   {
     "externalId": "dynamic_viscosity:lb-per-ft-sec",
@@ -1873,7 +1873,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-FT-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT-SEC"
   },
   {
     "externalId": "dynamic_viscosity:millipa-sec",
@@ -1902,7 +1902,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliPA-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliPA-SEC"
   },
   {
     "externalId": "dynamic_viscosity:pa-sec",
@@ -1927,7 +1927,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/PA-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/PA-SEC"
   },
   {
     "externalId": "electric_current:a",
@@ -1944,7 +1944,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/A"
+    "sourceReference": "https://qudt.org/vocab/unit/A"
   },
   {
     "externalId": "electric_current:kiloa",
@@ -1962,7 +1962,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloA"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloA"
   },
   {
     "externalId": "electric_current:megaa",
@@ -1981,7 +1981,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaA"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaA"
   },
   {
     "externalId": "electric_current:millia",
@@ -2000,7 +2000,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliA"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliA"
   },
   {
     "externalId": "electric_potential:kilov",
@@ -2019,7 +2019,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloV"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloV"
   },
   {
     "externalId": "electric_potential:megav",
@@ -2038,7 +2038,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaV"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaV"
   },
   {
     "externalId": "electric_potential:microv",
@@ -2057,7 +2057,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroV"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroV"
   },
   {
     "externalId": "electric_potential:milliv",
@@ -2076,7 +2076,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliV"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliV"
   },
   {
     "externalId": "electric_potential:v",
@@ -2093,7 +2093,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/V"
+    "sourceReference": "https://qudt.org/vocab/unit/V"
   },
   {
     "externalId": "energy:btu_it",
@@ -2112,7 +2112,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_IT"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT"
   },
   {
     "externalId": "energy:btu_th",
@@ -2131,7 +2131,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_TH"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_TH"
   },
   {
     "externalId": "energy:cal_it",
@@ -2150,7 +2150,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CAL_IT"
+    "sourceReference": "https://qudt.org/vocab/unit/CAL_IT"
   },
   {
     "externalId": "energy:cal_th",
@@ -2169,7 +2169,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CAL_TH"
+    "sourceReference": "https://qudt.org/vocab/unit/CAL_TH"
   },
   {
     "externalId": "energy:ft-lb_f",
@@ -2201,7 +2201,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-LB_F"
   },
   {
     "externalId": "energy:gigaj",
@@ -2220,7 +2220,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GigaJ"
+    "sourceReference": "https://qudt.org/vocab/unit/GigaJ"
   },
   {
     "externalId": "energy:gigaw-hr",
@@ -2252,7 +2252,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GigaW-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/GigaW-HR"
   },
   {
     "externalId": "energy:j",
@@ -2269,7 +2269,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/J"
+    "sourceReference": "https://qudt.org/vocab/unit/J"
   },
   {
     "externalId": "energy:kilobtu_it",
@@ -2288,7 +2288,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_IT"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloBTU_IT"
   },
   {
     "externalId": "energy:kilobtu_th",
@@ -2307,7 +2307,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_TH"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloBTU_TH"
   },
   {
     "externalId": "energy:kilocal",
@@ -2326,7 +2326,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloCAL"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloCAL"
   },
   {
     "externalId": "energy:kiloj",
@@ -2345,7 +2345,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloJ"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloJ"
   },
   {
     "externalId": "energy:kilov-a-hr",
@@ -2394,7 +2394,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloV-A-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloV-A-HR"
   },
   {
     "externalId": "energy:kilow-hr",
@@ -2428,7 +2428,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloW-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloW-HR"
   },
   {
     "externalId": "energy:megaj",
@@ -2447,7 +2447,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaJ"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaJ"
   },
   {
     "externalId": "energy:megatoe",
@@ -2466,7 +2466,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaTOE"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaTOE"
   },
   {
     "externalId": "energy:megav-a-hr",
@@ -2515,7 +2515,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaV-A-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaV-A-HR"
   },
   {
     "externalId": "energy:megaw-hr",
@@ -2545,7 +2545,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaW-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaW-HR"
   },
   {
     "externalId": "energy:microj",
@@ -2564,7 +2564,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroJ"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroJ"
   },
   {
     "externalId": "energy:millij",
@@ -2583,7 +2583,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliJ"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliJ"
   },
   {
     "externalId": "energy:teraj",
@@ -2602,7 +2602,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TeraJ"
+    "sourceReference": "https://qudt.org/vocab/unit/TeraJ"
   },
   {
     "externalId": "energy:teraw-hr",
@@ -2634,7 +2634,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TeraW-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/TeraW-HR"
   },
   {
     "externalId": "energy:toe",
@@ -2653,7 +2653,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TOE"
+    "sourceReference": "https://qudt.org/vocab/unit/TOE"
   },
   {
     "externalId": "energy:v-a-hr",
@@ -2686,7 +2686,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/V-A-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/V-A-HR"
   },
   {
     "externalId": "energy:w-hr",
@@ -2712,7 +2712,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/W-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/W-HR"
   },
   {
     "externalId": "energy:w-sec",
@@ -2735,7 +2735,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/W-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/W-SEC"
   },
   {
     "externalId": "energy_density:btu_it-per-ft3",
@@ -2785,7 +2785,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-FT3"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-PER-FT3"
   },
   {
     "externalId": "energy_density:btu_th-per-ft3",
@@ -2835,7 +2835,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_TH-PER-FT3"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_TH-PER-FT3"
   },
   {
     "externalId": "energy_density:j-per-m3",
@@ -2873,7 +2873,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/J-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-M3"
   },
   {
     "externalId": "energy_density:megaj-per-m3",
@@ -2931,7 +2931,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaJ-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaJ-PER-M3"
   },
   {
     "externalId": "energy_density:w-hr-per-m3",
@@ -3032,7 +3032,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/W-HR-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/W-HR-PER-M3"
   },
   {
     "externalId": "force:centin",
@@ -3051,7 +3051,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiN"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiN"
   },
   {
     "externalId": "force:kilolb_f",
@@ -3070,7 +3070,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloLB_F"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloLB_F"
   },
   {
     "externalId": "force:kilon",
@@ -3089,7 +3089,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloN"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloN"
   },
   {
     "externalId": "force:lb_f",
@@ -3108,7 +3108,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB_F"
+    "sourceReference": "https://qudt.org/vocab/unit/LB_F"
   },
   {
     "externalId": "force:megalb_f",
@@ -3127,7 +3127,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaLB_F"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaLB_F"
   },
   {
     "externalId": "force:n",
@@ -3144,7 +3144,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/N"
+    "sourceReference": "https://qudt.org/vocab/unit/N"
   },
   {
     "externalId": "force:oz_f",
@@ -3163,7 +3163,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/OZ_F"
+    "sourceReference": "https://qudt.org/vocab/unit/OZ_F"
   },
   {
     "externalId": "frequency:hz",
@@ -3181,7 +3181,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/HZ"
+    "sourceReference": "https://qudt.org/vocab/unit/HZ"
   },
   {
     "externalId": "frequency:kilohz",
@@ -3200,7 +3200,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloHZ"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloHZ"
   },
   {
     "externalId": "frequency:num-per-hr",
@@ -3251,7 +3251,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/NUM-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/NUM-PER-HR"
   },
   {
     "externalId": "frequency:num-per-sec",
@@ -3294,7 +3294,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/NUM-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/NUM-PER-SEC"
   },
   {
     "externalId": "frequency:num-per-yr",
@@ -3342,7 +3342,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/NUM-PER-YR"
+    "sourceReference": "https://qudt.org/vocab/unit/NUM-PER-YR"
   },
   {
     "externalId": "inductance:h",
@@ -3359,7 +3359,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/H"
+    "sourceReference": "https://qudt.org/vocab/unit/H"
   },
   {
     "externalId": "inductance:microh",
@@ -3378,7 +3378,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroH"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroH"
   },
   {
     "externalId": "length:btu_it-per-lb_f",
@@ -3428,7 +3428,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-LB_F"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-PER-LB_F"
   },
   {
     "externalId": "length:centim",
@@ -3449,7 +3449,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiM"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiM"
   },
   {
     "externalId": "length:decim",
@@ -3470,7 +3470,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciM"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciM"
   },
   {
     "externalId": "length:ft",
@@ -3489,7 +3489,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT"
+    "sourceReference": "https://qudt.org/vocab/unit/FT"
   },
   {
     "externalId": "length:in",
@@ -3508,7 +3508,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/IN"
+    "sourceReference": "https://qudt.org/vocab/unit/IN"
   },
   {
     "externalId": "length:kilom",
@@ -3529,7 +3529,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloM"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloM"
   },
   {
     "externalId": "length:m",
@@ -3549,7 +3549,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M"
+    "sourceReference": "https://qudt.org/vocab/unit/M"
   },
   {
     "externalId": "length:mi",
@@ -3568,7 +3568,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MI"
+    "sourceReference": "https://qudt.org/vocab/unit/MI"
   },
   {
     "externalId": "length:microm",
@@ -3589,7 +3589,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroM"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroM"
   },
   {
     "externalId": "length:milliin",
@@ -3608,7 +3608,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliIN"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliIN"
   },
   {
     "externalId": "length:millim",
@@ -3629,7 +3629,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliM"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM"
   },
   {
     "externalId": "length:yd",
@@ -3648,7 +3648,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD"
+    "sourceReference": "https://qudt.org/vocab/unit/YD"
   },
   {
     "externalId": "mass:centigm",
@@ -3667,7 +3667,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiGM"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiGM"
   },
   {
     "externalId": "mass:gm",
@@ -3686,7 +3686,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GM"
+    "sourceReference": "https://qudt.org/vocab/unit/GM"
   },
   {
     "externalId": "mass:kilogm",
@@ -3704,7 +3704,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM"
   },
   {
     "externalId": "mass:kilotonne",
@@ -3723,7 +3723,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloTONNE"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloTONNE"
   },
   {
     "externalId": "mass:lb",
@@ -3742,7 +3742,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB"
+    "sourceReference": "https://qudt.org/vocab/unit/LB"
   },
   {
     "externalId": "mass:milligm",
@@ -3761,7 +3761,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliGM"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM"
   },
   {
     "externalId": "mass:oz",
@@ -3780,7 +3780,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/OZ"
+    "sourceReference": "https://qudt.org/vocab/unit/OZ"
   },
   {
     "externalId": "mass:tonne",
@@ -3799,7 +3799,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TONNE"
+    "sourceReference": "https://qudt.org/vocab/unit/TONNE"
   },
   {
     "externalId": "mass_concentration:kilogm-per-m3",
@@ -3845,7 +3845,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M3"
   },
   {
     "externalId": "mass_concentration:milligm-per-millil",
@@ -3896,7 +3896,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliGM-PER-MilliL"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM-PER-MilliL"
   },
   {
     "externalId": "mass_flow_rate:gm-per-min",
@@ -3945,7 +3945,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GM-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-MIN"
   },
   {
     "externalId": "mass_flow_rate:gm-per-sec",
@@ -3986,7 +3986,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GM-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-SEC"
   },
   {
     "externalId": "mass_flow_rate:kilogm-per-day",
@@ -4021,7 +4021,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-DAY"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-DAY"
   },
   {
     "externalId": "mass_flow_rate:kilogm-per-hr",
@@ -4063,7 +4063,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-HR"
   },
   {
     "externalId": "mass_flow_rate:kilogm-per-min",
@@ -4104,7 +4104,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-MIN"
   },
   {
     "externalId": "mass_flow_rate:kilogm-per-sec",
@@ -4139,7 +4139,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-SEC"
   },
   {
     "externalId": "mass_flow_rate:lb-per-hr",
@@ -4190,7 +4190,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-HR"
   },
   {
     "externalId": "mass_flow_rate:lb-per-min",
@@ -4241,7 +4241,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-MIN"
   },
   {
     "externalId": "mass_flow_rate:milligm-per-sec",
@@ -4282,7 +4282,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliGM-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM-PER-SEC"
   },
   {
     "externalId": "mass_flow_rate:tonne-per-day",
@@ -4323,7 +4323,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TONNE-PER-DAY"
+    "sourceReference": "https://qudt.org/vocab/unit/TONNE-PER-DAY"
   },
   {
     "externalId": "mass_flow_rate:tonne-per-hr",
@@ -4372,7 +4372,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TONNE-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/TONNE-PER-HR"
   },
   {
     "externalId": "mass_flow_rate:tonne-per-min",
@@ -4421,7 +4421,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TONNE-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/TONNE-PER-MIN"
   },
   {
     "externalId": "mass_flow_rate:tonne-per-sec",
@@ -4462,7 +4462,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TONNE-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/TONNE-PER-SEC"
   },
   {
     "externalId": "permeability:h-per-m",
@@ -4500,7 +4500,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/H-PER-M"
+    "sourceReference": "https://qudt.org/vocab/unit/H-PER-M"
   },
   {
     "externalId": "power:btu_it-per-hr",
@@ -4550,7 +4550,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-PER-HR"
   },
   {
     "externalId": "power:btu_it-per-sec",
@@ -4592,7 +4592,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BTU_IT-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-PER-SEC"
   },
   {
     "externalId": "power:ft-lb_f-per-hr",
@@ -4737,7 +4737,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-LB_F-PER-HR"
   },
   {
     "externalId": "power:ft-lb_f-per-min",
@@ -4882,7 +4882,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-LB_F-PER-MIN"
   },
   {
     "externalId": "power:ft-lb_f-per-sec",
@@ -4996,7 +4996,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-LB_F-PER-SEC"
   },
   {
     "externalId": "power:gigaw",
@@ -5015,7 +5015,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GigaW"
+    "sourceReference": "https://qudt.org/vocab/unit/GigaW"
   },
   {
     "externalId": "power:hp",
@@ -5033,7 +5033,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/HP"
+    "sourceReference": "https://qudt.org/vocab/unit/HP"
   },
   {
     "externalId": "power:j-per-hr",
@@ -5066,7 +5066,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/J-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-HR"
   },
   {
     "externalId": "power:j-per-sec",
@@ -5095,7 +5095,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/J-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-SEC"
   },
   {
     "externalId": "power:kilobtu_it-per-hr",
@@ -5143,7 +5143,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloBTU_IT-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloBTU_IT-PER-HR"
   },
   {
     "externalId": "power:kilocal-per-min",
@@ -5192,7 +5192,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloCAL-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloCAL-PER-MIN"
   },
   {
     "externalId": "power:kilocal-per-sec",
@@ -5233,7 +5233,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloCAL-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloCAL-PER-SEC"
   },
   {
     "externalId": "power:kilow",
@@ -5252,7 +5252,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloW"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloW"
   },
   {
     "externalId": "power:megabtu_it-per-hr",
@@ -5279,7 +5279,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaBTU_IT-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaBTU_IT-PER-HR"
   },
   {
     "externalId": "power:megaj-per-sec",
@@ -5320,7 +5320,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaJ-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaJ-PER-SEC"
   },
   {
     "externalId": "power:megaw",
@@ -5338,7 +5338,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaW"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaW"
   },
   {
     "externalId": "power:milliw",
@@ -5356,7 +5356,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliW"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliW"
   },
   {
     "externalId": "power:teraw",
@@ -5375,7 +5375,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/TeraW"
+    "sourceReference": "https://qudt.org/vocab/unit/TeraW"
   },
   {
     "externalId": "power:w",
@@ -5392,7 +5392,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/W"
+    "sourceReference": "https://qudt.org/vocab/unit/W"
   },
   {
     "externalId": "pressure:atm",
@@ -5411,7 +5411,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/ATM"
+    "sourceReference": "https://qudt.org/vocab/unit/ATM"
   },
   {
     "externalId": "pressure:bar",
@@ -5429,7 +5429,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/BAR"
+    "sourceReference": "https://qudt.org/vocab/unit/BAR"
   },
   {
     "externalId": "pressure:gigapa",
@@ -5448,7 +5448,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GigaPA"
+    "sourceReference": "https://qudt.org/vocab/unit/GigaPA"
   },
   {
     "externalId": "pressure:hectopa",
@@ -5467,7 +5467,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/HectoPA"
+    "sourceReference": "https://qudt.org/vocab/unit/HectoPA"
   },
   {
     "externalId": "pressure:kilobar",
@@ -5486,7 +5486,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloBAR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloBAR"
   },
   {
     "externalId": "pressure:kilogm-per-m-sec2",
@@ -5625,7 +5625,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-M-SEC2"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M-SEC2"
   },
   {
     "externalId": "pressure:kilolb_f-per-in2",
@@ -5675,7 +5675,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloLB_F-PER-IN2"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloLB_F-PER-IN2"
   },
   {
     "externalId": "pressure:kilopa",
@@ -5694,7 +5694,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloPA"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloPA"
   },
   {
     "externalId": "pressure:lb_f-per-ft2",
@@ -5742,7 +5742,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB_F-PER-FT2"
+    "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-FT2"
   },
   {
     "externalId": "pressure:lb_f-per-in2",
@@ -5791,7 +5791,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB_F-PER-IN2"
+    "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-IN2"
   },
   {
     "externalId": "pressure:megabar",
@@ -5810,7 +5810,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaBAR"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaBAR"
   },
   {
     "externalId": "pressure:megapa",
@@ -5829,7 +5829,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaPA"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaPA"
   },
   {
     "externalId": "pressure:micropa",
@@ -5848,7 +5848,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroPA"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroPA"
   },
   {
     "externalId": "pressure:millibar",
@@ -5867,7 +5867,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliBAR"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliBAR"
   },
   {
     "externalId": "pressure:millipa",
@@ -5886,7 +5886,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliPA"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliPA"
   },
   {
     "externalId": "pressure:n-per-centim2",
@@ -5928,7 +5928,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/N-PER-CentiM2"
+    "sourceReference": "https://qudt.org/vocab/unit/N-PER-CentiM2"
   },
   {
     "externalId": "pressure:n-per-m2",
@@ -5968,7 +5968,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/N-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/N-PER-M2"
   },
   {
     "externalId": "pressure:n-per-millim2",
@@ -6010,7 +6010,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/N-PER-MilliM2"
+    "sourceReference": "https://qudt.org/vocab/unit/N-PER-MilliM2"
   },
   {
     "externalId": "pressure:pa",
@@ -6028,7 +6028,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/PA"
+    "sourceReference": "https://qudt.org/vocab/unit/PA"
   },
   {
     "externalId": "pressure:psi",
@@ -6045,7 +6045,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/PSI"
+    "sourceReference": "https://qudt.org/vocab/unit/PSI"
   },
   {
     "externalId": "resistance:kiloohm",
@@ -6064,7 +6064,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloOHM"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloOHM"
   },
   {
     "externalId": "resistance:milliohm",
@@ -6083,7 +6083,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliOHM"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliOHM"
   },
   {
     "externalId": "resistance:ohm",
@@ -6101,7 +6101,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/OHM"
+    "sourceReference": "https://qudt.org/vocab/unit/OHM"
   },
   {
     "externalId": "surface_tension:ft-lb_f-per-ft2",
@@ -6248,7 +6248,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-LB_F-PER-FT2"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-LB_F-PER-FT2"
   },
   {
     "externalId": "surface_tension:j-per-centim2",
@@ -6290,7 +6290,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/J-PER-CentiM2"
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-CentiM2"
   },
   {
     "externalId": "surface_tension:j-per-m2",
@@ -6328,7 +6328,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/J-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-M2"
   },
   {
     "externalId": "surface_tension:kilogm-per-sec2",
@@ -6369,7 +6369,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-SEC2"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-SEC2"
   },
   {
     "externalId": "surface_tension:megaj-per-m2",
@@ -6427,7 +6427,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaJ-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaJ-PER-M2"
   },
   {
     "externalId": "surface_tension:n-m-per-m2",
@@ -6546,7 +6546,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/N-M-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/N-M-PER-M2"
   },
   {
     "externalId": "surface_tension:w-hr-per-m2",
@@ -6644,7 +6644,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/W-HR-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/W-HR-PER-M2"
   },
   {
     "externalId": "surface_tension:w-sec-per-m2",
@@ -6723,7 +6723,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/W-SEC-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/W-SEC-PER-M2"
   },
   {
     "externalId": "temperature:deg_c",
@@ -6779,7 +6779,7 @@
       "offset": 273.15
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_C"
+    "sourceReference": "https://qudt.org/vocab/unit/DEG_C"
   },
   {
     "externalId": "temperature:deg_f",
@@ -6813,7 +6813,7 @@
       "offset": 459.67
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_F"
+    "sourceReference": "https://qudt.org/vocab/unit/DEG_F"
   },
   {
     "externalId": "temperature:deg_r",
@@ -6849,7 +6849,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_R"
+    "sourceReference": "https://qudt.org/vocab/unit/DEG_R"
   },
   {
     "externalId": "temperature:k",
@@ -6890,7 +6890,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/K"
+    "sourceReference": "https://qudt.org/vocab/unit/K"
   },
   {
     "externalId": "temperature_gradient:k-per-m",
@@ -6930,7 +6930,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/K-PER-M"
+    "sourceReference": "https://qudt.org/vocab/unit/K-PER-M"
   },
   {
     "externalId": "time:day",
@@ -6948,7 +6948,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DAY"
+    "sourceReference": "https://qudt.org/vocab/unit/DAY"
   },
   {
     "externalId": "time:hr",
@@ -6967,7 +6967,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/HR"
+    "sourceReference": "https://qudt.org/vocab/unit/HR"
   },
   {
     "externalId": "time:microsec",
@@ -6985,7 +6985,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroSEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroSEC"
   },
   {
     "externalId": "time:millisec",
@@ -7003,7 +7003,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliSEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliSEC"
   },
   {
     "externalId": "time:min",
@@ -7022,7 +7022,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/MIN"
   },
   {
     "externalId": "time:sec",
@@ -7040,7 +7040,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/SEC"
   },
   {
     "externalId": "time:wk",
@@ -7059,7 +7059,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/WK"
+    "sourceReference": "https://qudt.org/vocab/unit/WK"
   },
   {
     "externalId": "time:yr",
@@ -7078,7 +7078,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YR"
+    "sourceReference": "https://qudt.org/vocab/unit/YR"
   },
   {
     "externalId": "torque:lb_f-ft",
@@ -7110,7 +7110,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB_F-FT"
+    "sourceReference": "https://qudt.org/vocab/unit/LB_F-FT"
   },
   {
     "externalId": "torque:lb_f-in",
@@ -7142,7 +7142,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB_F-IN"
+    "sourceReference": "https://qudt.org/vocab/unit/LB_F-IN"
   },
   {
     "externalId": "torque:n-m",
@@ -7169,7 +7169,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/N-M"
+    "sourceReference": "https://qudt.org/vocab/unit/N-M"
   },
   {
     "externalId": "velocity:ft-per-hr",
@@ -7217,7 +7217,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-PER-HR"
   },
   {
     "externalId": "velocity:ft-per-sec",
@@ -7258,7 +7258,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-PER-SEC"
   },
   {
     "externalId": "velocity:in-per-sec",
@@ -7299,7 +7299,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/IN-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/IN-PER-SEC"
   },
   {
     "externalId": "velocity:kilom-per-hr",
@@ -7363,7 +7363,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloM-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloM-PER-HR"
   },
   {
     "externalId": "velocity:kilom-per-sec",
@@ -7417,7 +7417,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloM-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloM-PER-SEC"
   },
   {
     "externalId": "velocity:kn",
@@ -7436,7 +7436,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KN"
+    "sourceReference": "https://qudt.org/vocab/unit/KN"
   },
   {
     "externalId": "velocity:m-per-hr",
@@ -7494,7 +7494,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/M-PER-HR"
   },
   {
     "externalId": "velocity:m-per-sec",
@@ -7541,7 +7541,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/M-PER-SEC"
   },
   {
     "externalId": "velocity:mi-per-hr",
@@ -7591,7 +7591,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MI-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/MI-PER-HR"
   },
   {
     "externalId": "velocity:mi-per-sec",
@@ -7634,7 +7634,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MI-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MI-PER-SEC"
   },
   {
     "externalId": "volume:centim3",
@@ -7653,7 +7653,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiM3"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiM3"
   },
   {
     "externalId": "volume:decil",
@@ -7672,7 +7672,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciL"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciL"
   },
   {
     "externalId": "volume:decim3",
@@ -7693,7 +7693,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciM3"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciM3"
   },
   {
     "externalId": "volume:ft3",
@@ -7712,7 +7712,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT3"
+    "sourceReference": "https://qudt.org/vocab/unit/FT3"
   },
   {
     "externalId": "volume:gal_uk",
@@ -7731,7 +7731,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GAL_UK"
+    "sourceReference": "https://qudt.org/vocab/unit/GAL_UK"
   },
   {
     "externalId": "volume:in3",
@@ -7750,7 +7750,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/IN3"
+    "sourceReference": "https://qudt.org/vocab/unit/IN3"
   },
   {
     "externalId": "volume:kilo-ft3",
@@ -7772,7 +7772,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/Kilo-FT3"
+    "sourceReference": "https://qudt.org/vocab/unit/Kilo-FT3"
   },
   {
     "externalId": "volume:kilol",
@@ -7791,7 +7791,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloL"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloL"
   },
   {
     "externalId": "volume:l",
@@ -7811,7 +7811,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/L"
+    "sourceReference": "https://qudt.org/vocab/unit/L"
   },
   {
     "externalId": "volume:m3",
@@ -7831,7 +7831,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M3"
+    "sourceReference": "https://qudt.org/vocab/unit/M3"
   },
   {
     "externalId": "volume:megal",
@@ -7850,7 +7850,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaL"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaL"
   },
   {
     "externalId": "volume:microl",
@@ -7869,7 +7869,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroL"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroL"
   },
   {
     "externalId": "volume:microm3",
@@ -7888,7 +7888,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroM3"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroM3"
   },
   {
     "externalId": "volume:millil",
@@ -7907,7 +7907,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliL"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliL"
   },
   {
     "externalId": "volume:millim3",
@@ -7928,7 +7928,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliM3"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM3"
   },
   {
     "externalId": "volume:yd3",
@@ -7947,7 +7947,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD3"
+    "sourceReference": "https://qudt.org/vocab/unit/YD3"
   },
   {
     "externalId": "volume_flow_rate:centim3-per-sec",
@@ -7989,7 +7989,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiM3-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiM3-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:decim3-per-min",
@@ -8055,7 +8055,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciM3-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciM3-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:decim3-per-sec",
@@ -8109,7 +8109,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciM3-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciM3-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:ft3-per-hr",
@@ -8158,7 +8158,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT3-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/FT3-PER-HR"
   },
   {
     "externalId": "volume_flow_rate:ft3-per-min",
@@ -8206,7 +8206,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT3-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/FT3-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:ft3-per-sec",
@@ -8247,7 +8247,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT3-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/FT3-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:gal_uk-per-hr",
@@ -8296,7 +8296,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GAL_UK-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/GAL_UK-PER-HR"
   },
   {
     "externalId": "volume_flow_rate:gal_uk-per-min",
@@ -8345,7 +8345,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GAL_UK-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/GAL_UK-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:gal_uk-per-sec",
@@ -8386,7 +8386,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/GAL_UK-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/GAL_UK-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:in3-per-sec",
@@ -8427,7 +8427,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/IN3-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/IN3-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:kilol-per-hr",
@@ -8476,7 +8476,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloL-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloL-PER-HR"
   },
   {
     "externalId": "volume_flow_rate:l-per-min",
@@ -8534,7 +8534,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/L-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/L-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:l-per-sec",
@@ -8582,7 +8582,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/L-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/L-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:m3-per-day",
@@ -8630,7 +8630,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M3-PER-DAY"
+    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-DAY"
   },
   {
     "externalId": "volume_flow_rate:m3-per-hr",
@@ -8687,7 +8687,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M3-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-HR"
   },
   {
     "externalId": "volume_flow_rate:m3-per-min",
@@ -8745,7 +8745,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M3-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:m3-per-sec",
@@ -8793,7 +8793,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M3-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:millil-per-sec",
@@ -8834,7 +8834,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliL-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliL-PER-SEC"
   },
   {
     "externalId": "volume_flow_rate:yd3-per-day",
@@ -8875,7 +8875,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD3-PER-DAY"
+    "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-DAY"
   },
   {
     "externalId": "volume_flow_rate:yd3-per-hr",
@@ -8924,7 +8924,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD3-PER-HR"
+    "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-HR"
   },
   {
     "externalId": "volume_flow_rate:yd3-per-min",
@@ -8972,7 +8972,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD3-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:yd3-per-sec",
@@ -9013,7 +9013,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/YD3-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-SEC"
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",
@@ -9063,7 +9063,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiM3-PER-CentiM3"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiM3-PER-CentiM3"
   },
   {
     "externalId": "volume_fraction:centim3-per-m3",
@@ -9121,7 +9121,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/CentiM3-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/CentiM3-PER-M3"
   },
   {
     "externalId": "volume_fraction:l-per-l",
@@ -9189,7 +9189,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/L-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/L-PER-L"
   },
   {
     "externalId": "volume_fraction:m3-per-m3",
@@ -9257,7 +9257,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M3-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-M3"
   },
   {
     "externalId": "volume_fraction:microl-per-l",
@@ -9315,7 +9315,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MicroL-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/MicroL-PER-L"
   },
   {
     "externalId": "volume_fraction:millil-per-l",
@@ -9373,7 +9373,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliL-PER-L"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliL-PER-L"
   },
   {
     "externalId": "volume_fraction:millil-per-m3",
@@ -9431,7 +9431,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MilliL-PER-M3"
+    "sourceReference": "https://qudt.org/vocab/unit/MilliL-PER-M3"
   },
   {
     "externalId": "mass_flow_rate:lb-per-sec",
@@ -9474,6 +9474,6 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/LB-PER-SEC"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-SEC"
   }
 ]

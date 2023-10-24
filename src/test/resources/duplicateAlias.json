@@ -53,7 +53,7 @@
       "offset": 273.15
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_C",
+    "sourceReference": "https://qudt.org/vocab/unit/DEG_C",
     "symbol": "°C"
   },
   {
@@ -86,7 +86,7 @@
       "offset": 459.67
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_F",
+    "sourceReference": "https://qudt.org/vocab/unit/DEG_F",
     "symbol": "°F"
   },
   {
@@ -127,7 +127,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/K",
+    "sourceReference": "https://qudt.org/vocab/unit/K",
     "symbol": "K"
   },
   {
@@ -160,7 +160,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DEG_R",
+    "sourceReference": "https://qudt.org/vocab/unit/DEG_R",
     "symbol": "°R"
   },
   {
@@ -177,7 +177,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/K-PER-M",
+    "sourceReference": "https://qudt.org/vocab/unit/K-PER-M",
     "symbol": "K/m"
   }
 ]

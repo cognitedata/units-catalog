@@ -7637,6 +7637,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/MI-PER-SEC"
   },
   {
+    "externalId": "volume:bbl_us",
+    "name": "BBL_US",
+    "quantity": "Volume",
+    "longName": "Barrel (US)",
+    "aliasNames": [
+      "Barrel",
+      "barrel",
+      "BBL",
+      "bbl"
+    ],
+    "symbol": "bbl{US petroleum}",
+    "conversion": {
+      "multiplier": 0.1589873,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/BBL_US"
+  },
+  {
     "externalId": "volume:centim3",
     "name": "CentiM3",
     "quantity": "Volume",
@@ -7948,6 +7967,27 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/YD3"
+  },
+  {
+    "externalId": "volume_flow_rate:bbl_us-per-day",
+    "name": "BBL_US-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Barrel (US) Per Day",
+    "aliasNames": [
+      "Barrel per Day",
+      "barrel per day",
+      "BBL / D",
+      "bbl / d",
+      "BPD",
+      "bpd"
+    ],
+    "symbol": "bbl{US petroleum}/d",
+    "conversion": {
+      "multiplier": 1.84e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/BBL_US-PER-DAY"
   },
   {
     "externalId": "volume_flow_rate:centim3-per-sec",

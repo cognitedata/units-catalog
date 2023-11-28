@@ -1178,6 +1178,52 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliFARAD"
   },
   {
+    "externalId": "density:gm-per-m3",
+    "name": "GM-PER-M3",
+    "quantity": "Density",
+    "longName": "gram per cubic meter",
+    "aliasNames": [
+      "gram / Cubic Meter",
+      "GM / Cubic Meter",
+      "g per m³",
+      "GM per cubic metre",
+      "g / cubic metre",
+      "gram / cubic meter",
+      "GM per cubic meter",
+      "GM per Cubic Meter",
+      "gram per Cubic Meter",
+      "GM per m³",
+      "GM / cubic metre",
+      "gram / cubic metre",
+      "g per cubic metre",
+      "g per cubic meter",
+      "gram per m³",
+      "g per M3",
+      "gram / m³",
+      "GM / m³",
+      "g per Cubic Meter",
+      "g / M3",
+      "GM / cubic meter",
+      "g / Cubic Meter",
+      "GM PER M3",
+      "g / cubic meter",
+      "gram per cubic meter",
+      "gram / M3",
+      "g / m³",
+      "gram per cubic metre",
+      "GM per M3",
+      "GM / M3",
+      "gram per M3"
+    ],
+    "symbol": "g/m³",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-M3"
+  },
+  {
     "externalId": "density:kilogm-per-m3",
     "name": "KiloGM-PER-M3",
     "quantity": "Density",
@@ -1558,6 +1604,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/PERCENT"
   },
   {
+    "externalId": "dimensionless_ratio:ppb",
+    "name": "PPB",
+    "quantity": "Dimensionless Ratio",
+    "longName": "Parts per billion",
+    "aliasNames": [
+      "PPB",
+      "ppb",
+      "Parts per billion",
+      "parts per billion"
+    ],
+    "symbol": "PPB",
+    "conversion": {
+      "multiplier": 1.0e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PPB"
+  },
+  {
     "externalId": "dimensionless_ratio:ppm",
     "name": "PPM",
     "quantity": "Dimensionless Ratio",
@@ -1612,6 +1677,23 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/UNITLESS"
+  },
+  {
+    "externalId": "dynamic_viscosity:centipoise",
+    "name": "CentiPOISE",
+    "quantity": "Dynamic Viscosity",
+    "longName": "Centipoise",
+    "aliasNames": [
+      "cP",
+      "cp"
+    ],
+    "symbol": "cP",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/CentiPOISE"
   },
   {
     "externalId": "dynamic_viscosity:lb-per-ft-hr",
@@ -1928,6 +2010,23 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/PA-SEC"
+  },
+  {
+    "externalId": "dynamic_viscosity:poise",
+    "name": "POISE",
+    "quantity": "Dynamic Viscosity",
+    "longName": "Poise",
+    "aliasNames": [
+      "P",
+      "p"
+    ],
+    "symbol": "P",
+    "conversion": {
+      "multiplier": 0.1,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/POISE"
   },
   {
     "externalId": "electric_current:a",
@@ -8150,6 +8249,55 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/DeciM3-PER-SEC"
+  },
+  {
+    "externalId": "volume_flow_rate:ft3-per-day",
+    "name": "FT3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Cubic Foot Per Day",
+    "aliasNames": [
+      "Cubic Foot / Day",
+      "ft³ / day",
+      "ft³ per day",
+      "Cubic Foot per day",
+      "FT3 / day",
+      "cubic foot / Day",
+      "cubic foot / day",
+      "Cubic Foot / day",
+      "Cubic Foot / day",
+      "Cubic Foot per DAY",
+      "FT3 PER DAY",
+      "ft³ / Day",
+      "FT3 per day",
+      "cubic foot per DAY",
+      "Cubic Foot per Day",
+      "ft³ per day",
+      "ft³ / DAY",
+      "FT3 per DAY",
+      "Cubic Foot Per Day",
+      "ft³ / day",
+      "ft³ per Day",
+      "FT3 per Day",
+      "FT3 / day",
+      "FT3 / DAY",
+      "cubic foot / DAY",
+      "FT3 / Day",
+      "cubic foot / day",
+      "ft³ per DAY",
+      "Cubic Foot / DAY",
+      "FT3 per day",
+      "cubic foot per Day",
+      "Cubic Foot per day",
+      "cubic foot per day",
+      "cubic foot per day"
+    ],
+    "symbol": "ft³/day",
+    "conversion": {
+      "multiplier": 3.277413e-07,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/FT3-PER-DAY"
   },
   {
     "externalId": "volume_flow_rate:ft3-per-hr",

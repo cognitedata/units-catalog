@@ -5335,6 +5335,22 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloCAL-PER-SEC"
   },
   {
+    "externalId": "power:kilov-a",
+    "name": "KiloV-A",
+    "quantity": "Power",
+    "longName": "Kilovolt Ampere",
+    "aliasNames": [
+      "KVA"
+    ],
+    "symbol": "KVA",
+    "conversion": {
+      "multiplier": 1000,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloV-A"
+  },
+  {
     "externalId": "power:kilow",
     "name": "KiloW",
     "quantity": "Power",
@@ -5422,6 +5438,22 @@
     "sourceReference": "https://qudt.org/vocab/unit/MegaJ-PER-SEC"
   },
   {
+    "externalId": "power:megav-a",
+    "name": "MegaV-A",
+    "quantity": "Power",
+    "longName": "Megavolt Ampere",
+    "aliasNames": [
+      "MVA"
+    ],
+    "symbol": "MVA",
+    "conversion": {
+      "multiplier": 1e06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaV-A"
+  },
+  {
     "externalId": "power:megaw",
     "name": "MegaW",
     "quantity": "Power",
@@ -5475,6 +5507,22 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/TeraW"
+  },
+  {
+    "externalId": "power:v-a",
+    "name": "V-A",
+    "quantity": "Power",
+    "longName": "Volt Ampere",
+    "aliasNames": [
+      "VA"
+    ],
+    "symbol": "VA",
+    "conversion": {
+      "multiplier": 1,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/V-A"
   },
   {
     "externalId": "power:w",

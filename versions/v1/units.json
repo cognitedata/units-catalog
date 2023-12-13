@@ -5340,11 +5340,13 @@
     "quantity": "Power",
     "longName": "Kilovolt Ampere",
     "aliasNames": [
-      "KVA"
+      "KVA",
+      "kVA",
+      "kV.A"
     ],
-    "symbol": "KVA",
+    "symbol": "kV.A",
     "conversion": {
-      "multiplier": 1000,
+      "multiplier": 1000.0,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5443,11 +5445,12 @@
     "quantity": "Power",
     "longName": "Megavolt Ampere",
     "aliasNames": [
-      "MVA"
+      "MVA",
+      "MV.A"
     ],
-    "symbol": "MVA",
+    "symbol": "MV.A",
     "conversion": {
-      "multiplier": 1e06,
+      "multiplier": 1.0e06,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5514,11 +5517,12 @@
     "quantity": "Power",
     "longName": "Volt Ampere",
     "aliasNames": [
-      "VA"
+      "VA",
+      "V.A"
     ],
-    "symbol": "VA",
+    "symbol": "V.A",
     "conversion": {
-      "multiplier": 1,
+      "multiplier": 1.0,
       "offset": 0.0
     },
     "source": "qudt.org",

@@ -9921,5 +9921,37 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/GigaJ-PER-M2"
+  },
+  {
+    "externalId": "kinematic_viscosity:st",
+    "name": "ST",
+    "quantity": "Kinematic Viscosity",
+    "longName": "Stokes",
+    "aliasNames": [
+      "St"
+    ],
+    "symbol": "St",
+    "conversion": {
+      "multiplier": 0.0001,
+      "offset": 0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/ST"
+  },
+  {
+    "externalId": "kinematic_viscosity:centist",
+    "name": "CentiST",
+    "quantity": "Kinematic Viscosity",
+    "longName": "Centistokes",
+    "aliasNames": [
+      "cSt"
+    ],
+    "symbol": "cSt",
+    "conversion": {
+      "multiplier": 0.000001,
+      "offset": 0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/CentiST"
   }
 ]

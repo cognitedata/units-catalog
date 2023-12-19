@@ -8154,6 +8154,30 @@
     "sourceReference": "https://qudt.org/vocab/unit/YD3"
   },
   {
+    "externalId": "volume:megaft3",
+    "name": "MegaFT3",
+    "quantity": "Volume",
+    "longName": "Million Standard Cubic Feet",
+    "aliasNames": [
+      "MCF",
+      "Mega Cubic Feet",
+      "Mega Cubic Foot",
+      "Mega FT3",
+      "Mega ft³",
+      "Million cu ft",
+      "Million ft³",
+      "MMCF",
+      "MMSCF"
+    ],
+    "symbol": "MMSCF",
+    "conversion": {
+        "multiplier": 28316.846592,
+        "offset": 0.0
+    },
+    "source": "Custom based on qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/FT3"
+  },
+  {
     "externalId": "volume_flow_rate:bbl_us-per-day",
     "name": "BBL_US-PER-DAY",
     "quantity": "Volume Flow Rate",
@@ -9280,6 +9304,35 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-SEC"
+  },
+  {
+    "externalId": "volume_flow_rate:mega-ft3-per-day",
+    "name": "Mega-FT3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Million Standard Cubic Feet per Day",
+    "aliasNames": [
+      "MCFD",
+      "Mega Cubic Feet per Day",
+      "Mega Cubic Foot per Day",
+      "Mega FT3/day",
+      "Mega ft³/day",
+      "Million cu ft/day",
+      "Million FT3/day",
+      "Million ft³/day",
+      "MMCFD",
+      "MMSCFD",
+      "MMCF/d",
+      "MMCF/day",
+      "MMSCF/d",
+      "MMSCF/day"
+    ],
+    "symbol": "MMSCFD",
+    "conversion": {
+        "multiplier": 0.3277413,
+        "offset": 0.0
+    },
+    "source": "Custom based on qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/FT3-PER-DAY"
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",

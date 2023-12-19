@@ -883,7 +883,8 @@
       "REV per hour",
       "Revolution per hr",
       "rev / hour",
-      "REV / hour"
+      "REV / hour",
+      "RPH"
     ],
     "symbol": "rev/h",
     "conversion": {
@@ -931,7 +932,8 @@
       "Revolution per min",
       "Revolution / Minute",
       "Revolution per Minute",
-      "rev / minute"
+      "rev / minute",
+      "RPM"
     ],
     "symbol": "rev/min",
     "conversion": {
@@ -972,7 +974,8 @@
       "rev / SEC",
       "Revolution per second",
       "Revolution / SEC",
-      "rev / s"
+      "rev / s",
+      "RPS"
     ],
     "symbol": "rev/s",
     "conversion": {
@@ -5626,7 +5629,10 @@
     "aliasNames": [
       "Bar",
       "bar",
-      "BAR"
+      "BAR",
+      "bara",
+      "BARa",
+      "bar(a)"
     ],
     "symbol": "bar",
     "conversion": {
@@ -5635,6 +5641,30 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BAR"
+  },
+  {
+    "externalId": "pressure:barg",
+    "name": "BARg",
+    "quantity": "Pressure",
+    "longName": "Bar(g)",
+    "aliasNames": [
+      "Barg",
+      "barg",
+      "BARg",
+      "bar(g)",
+      "BAR(g)",
+      "BARG",
+      "BarG",
+      "Bar G",
+      "bar_g"
+    ],
+    "symbol": "bar(g)",
+    "conversion": {
+      "multiplier": 100000.0,
+      "offset": 101325.0
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055",
+    "sourceReference": "https://isbnsearch.org/isbn/9780444538055"
   },
   {
     "externalId": "pressure:gigapa",
@@ -5950,55 +5980,6 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-FT2"
   },
   {
-    "externalId": "pressure:lb_f-per-in2",
-    "name": "LB_F-PER-IN2",
-    "quantity": "Pressure",
-    "longName": "Pound Force per Square Inch",
-    "aliasNames": [
-      "LB_F PER IN2",
-      "lbf / Square Inch",
-      "LB_F per in²",
-      "LB_F / in²",
-      "pound force / Square Inch",
-      "lbf / in²",
-      "LB_F / square inch",
-      "pound force per in²",
-      "psia",
-      "Pound Force per Square Inch",
-      "Pound Force / in²",
-      "Pound Force / Square Inch",
-      "Pound Force per in²",
-      "lbf per square inch",
-      "lbf per in²",
-      "pound force per square inch",
-      "pound force per IN2",
-      "Pound Force / square inch",
-      "Pound Force per IN2",
-      "LB_F per Square Inch",
-      "lbf / square inch",
-      "LB_F / Square Inch",
-      "LB_F per IN2",
-      "pound force / square inch",
-      "lbf / IN2",
-      "pound force per Square Inch",
-      "lbf per IN2",
-      "pound force / in²",
-      "LB_F / IN2",
-      "Pound Force per square inch",
-      "Pound Force / IN2",
-      "pound force / IN2",
-      "LB_F per square inch",
-      "lbf per Square Inch"
-    ],
-    "symbol": "psia",
-    "conversion": {
-      "multiplier": 6894.75789,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-IN2"
-  },
-  {
     "externalId": "pressure:megabar",
     "name": "MegaBAR",
     "quantity": "Pressure",
@@ -6239,9 +6220,12 @@
     "externalId": "pressure:psi",
     "name": "PSI",
     "quantity": "Pressure",
-    "longName": "PSI",
+    "longName": "Pound Force per Square Inch",
     "aliasNames": [
       "psi",
+      "psia",
+      "psi(a)",
+      "psi a",
       "PSI"
     ],
     "symbol": "psi",
@@ -6251,6 +6235,25 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/PSI"
+  },
+  {
+    "externalId": "pressure:psig",
+    "name": "PSIg",
+    "quantity": "Pressure",
+    "longName": "Pound Force per Square Inch (gauge)",
+    "aliasNames": [
+      "psig",
+      "psi(g)",
+      "psi g",
+      "PSIg"
+    ],
+    "symbol": "psi(g)",
+    "conversion": {
+      "multiplier": 6894.75789,
+      "offset": 101325.0
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055",
+    "sourceReference": "https://isbnsearch.org/isbn/9780444538055"
   },
   {
     "externalId": "resistance:kiloohm",
@@ -7560,7 +7563,8 @@
       "Kilometre per hr",
       "kilometre / hr",
       "kilometer / hour",
-      "kilometer per HR"
+      "kilometer per HR",
+      "km/h"
     ],
     "symbol": "km/h",
     "conversion": {
@@ -7614,7 +7618,8 @@
       "km / s",
       "KiloM / s",
       "kilometre per s",
-      "kilometre / s"
+      "kilometre / s",
+      "km/s"
     ],
     "symbol": "km/s",
     "conversion": {
@@ -7691,7 +7696,8 @@
       "Meter / HR",
       "M / hour",
       "M per hour",
-      "M / Hour"
+      "M / Hour",
+      "m/h"
     ],
     "symbol": "m/h",
     "conversion": {
@@ -7738,7 +7744,8 @@
       "Meter / second",
       "metre / SEC",
       "M / second",
-      "m / second"
+      "m / second",
+      "m/s"
     ],
     "symbol": "m/s",
     "conversion": {
@@ -7831,15 +7838,35 @@
       "mi per s",
       "MI / SEC",
       "international mile per SEC",
-      "MI per s"
+      "MI per s",
+      "mi/s",
+      "mi/sec"
     ],
-    "symbol": "mi/sec",
+    "symbol": "mi/s",
     "conversion": {
       "multiplier": 1609.344,
       "offset": 0.0
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MI-PER-SEC"
+  },
+  {
+    "externalId": "velocity:millim-per-hr",
+    "name": "MilliM-PER-HR",
+    "longName": "Millimetre Per Hour",
+    "symbol": "mm/h",
+    "aliasNames": [
+      "Millimetre Per Hour",
+      "mm/h",
+      "mm/hr"
+    ],
+    "quantity": "Velocity",
+    "conversion": {
+      "multiplier": 2.78e-7,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-HR"
   },
   {
     "externalId": "volume:bbl_us",
@@ -9822,5 +9849,77 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-SEC"
+  },
+  {
+    "externalId": "power_per_area:w-per-m2",
+    "name": "W-PER-M2",
+    "quantity": "Power Per Area",
+    "longName": "watt per square metre",
+    "aliasNames": [
+      "W/m²",
+      "W/m2",
+      "watt per square metre"
+    ],
+    "symbol": "W/m²",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/W-PER-M2"
+  },
+  {
+    "externalId": "energy_per_area:j-per-m2",
+    "name": "J-PER-M2",
+    "quantity": "Energy Per Area",
+    "longName": "Joule per Square Metre",
+    "aliasNames": [
+      "J/m²",
+      "J/m2",
+      "Joule per Square Metre"
+    ],
+    "symbol": "J/m²",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-M2"
+  },
+  {
+    "externalId": "energy_per_area:megaj-per-m2",
+    "name": "MegaJ-PER-M2",
+    "quantity": "Energy Per Area",
+    "longName": "Megajoule Per Square Metre",
+    "aliasNames": [
+      "MJ/m²",
+      "MJ/m2",
+      "Megajoule per Square Metre"
+    ],
+    "symbol": "MJ/m²",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "http://qudt.org/vocab/unit/MegaJ-PER-M2"
+  },
+  {
+    "externalId": "energy_per_area:gigaj-per-m2",
+    "name": "GigaJ-PER-M2",
+    "quantity": "Energy Per Area",
+    "longName": "Gigajoule per Square Metre",
+    "aliasNames": [
+      "GJ/m²",
+      "GJ/m2",
+      "Gigajoule per Square Metre"
+    ],
+    "symbol": "GJ/m²",
+    "conversion": {
+      "multiplier": 1000000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GigaJ-PER-M2"
   }
 ]

@@ -8187,9 +8187,10 @@
       "Million cu ft",
       "Million ft³",
       "MMCF",
-      "MMSCF"
+      "MMSCF",
+      "MMscf"
     ],
-    "symbol": "MMSCF",
+    "symbol": "MMscf",
     "conversion": {
         "multiplier": 28316.846592,
         "offset": 0.0
@@ -8207,10 +8208,16 @@
       "barrel per day",
       "BBL / D",
       "bbl / d",
+      "bbl/d",
+      "bbl/day",
+      "BB/D",
       "BPD",
-      "bpd"
+      "bpd",
+      "STB/d",
+      "STB/day",
+      "STBD"
     ],
-    "symbol": "bbl{US petroleum}/d",
+    "symbol": "bbl{US petroleum}/day",
     "conversion": {
       "multiplier": 1.84e-06,
       "offset": 0.0
@@ -9344,9 +9351,10 @@
       "MMCF/d",
       "MMCF/day",
       "MMSCF/d",
-      "MMSCF/day"
+      "MMSCF/day",
+      "MMscf/d"
     ],
-    "symbol": "MMSCFD",
+    "symbol": "MMscf/day",
     "conversion": {
         "multiplier": 0.3277413,
         "offset": 0.0

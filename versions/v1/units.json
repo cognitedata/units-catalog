@@ -8154,8 +8154,8 @@
     "sourceReference": "https://qudt.org/vocab/unit/YD3"
   },
   {
-    "externalId": "volume:megaft3",
-    "name": "MegaFT3",
+    "externalId": "volume:mega-ft3",
+    "name": "Mega-FT3",
     "quantity": "Volume",
     "longName": "Million Standard Cubic Feet",
     "aliasNames": [

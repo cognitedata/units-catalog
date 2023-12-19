@@ -2853,6 +2853,26 @@
     "sourceReference": "https://qudt.org/vocab/unit/W-SEC"
   },
   {
+    "externalId": "energy:boe",
+    "name": "BOE",
+    "quantity": "Energy",
+    "longName": "Barrel of Oil Equivalent",
+    "aliasNames": [
+      "bboe",
+      "boe",
+      "BOE",
+      "barrel oil equivalent",
+      "Barrel of Oil Equivalent"
+    ],
+    "symbol": "boe",
+    "conversion": {
+        "multiplier": 6.12e09,
+        "offset": 0.0
+    },
+    "source": "Scientific Unit Conversion: A Practical Guide to Metrication - ISBN 9781447108054",
+    "sourceReference": "https://isbnsearch.org/isbn/9781447108054"
+  },
+  {
     "externalId": "energy_density:btu_it-per-ft3",
     "name": "BTU_IT-PER-FT3",
     "quantity": "Energy Density",

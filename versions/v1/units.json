@@ -1645,7 +1645,8 @@
     "aliasNames": [
       "PPM",
       "Parts per million",
-      "parts per million"
+      "parts per million",
+      "ppm"
     ],
     "symbol": "PPM",
     "conversion": {
@@ -3975,7 +3976,11 @@
       "kilogram per cubic metre",
       "KiloGM per M3",
       "KiloGM / M3",
-      "kilogram per M3"
+      "kilogram per M3",
+      "kg/m³",
+      "kg/m3",
+      "kg/Sm³",
+      "kg/Sm3"
     ],
     "symbol": "kg/m³",
     "conversion": {
@@ -8074,7 +8079,9 @@
       "cubic meter",
       "M3",
       "cubic metre",
-      "Cubic Meter"
+      "Cubic Meter",
+      "Sm3",
+      "Sm³"
     ],
     "symbol": "m³",
     "conversion": {
@@ -8215,7 +8222,8 @@
       "Million ft³",
       "MMCF",
       "MMSCF",
-      "MMscf"
+      "MMscf",
+      "mmscf"
     ],
     "symbol": "MMscf",
     "conversion": {
@@ -8242,7 +8250,8 @@
       "bpd",
       "STB/d",
       "STB/day",
-      "STBD"
+      "STBD",
+      "bbls/d"
     ],
     "symbol": "bbl{US petroleum}/day",
     "conversion": {
@@ -9023,7 +9032,16 @@
       "Cubic Meter / Hour",
       "Cubic Meter per HR",
       "Cubic Meter per hr",
-      "cubic metre per hr"
+      "cubic metre per hr",
+      "m³/h",
+      "m³/hr",
+      "m³/hour",
+      "Sm3/h",
+      "Sm3/hr",
+      "Sm3/hour",
+      "Sm³/h",
+      "Sm³/hr",
+      "Sm³/hour"
     ],
     "symbol": "m³/h",
     "conversion": {

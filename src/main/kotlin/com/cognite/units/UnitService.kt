@@ -98,15 +98,9 @@ class UnitService(unitsPath: URL, systemPath: URL) {
 
             // if source is qudt.org, reference should be in the format https://qudt.org/vocab/unit/{unit.name}
             if (it.source == "qudt.org") {
-                assert(it.sourceReference?.equals(generatedExpectedSourceReference(it)) ?: true) {
+                assert(it.sourceReference == generatedExpectedSourceReference(it)) {
                     "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
                 }
-            }
-
-            val sourceIsQudt = it.source.equals("qudt.org")
-            val sourceReferenceContainsQudt = it.sourceReference?.contains("qudt") ?: false
-            assert(sourceIsQudt == sourceReferenceContainsQudt) {
-                "Qudt: Inconsistent source ${it.source} and sourceReference ${it.sourceReference} for unit ${it.name}"
             }
 
             unitsByQuantity.computeIfAbsent(it.quantity) { ArrayList() }.add(it)

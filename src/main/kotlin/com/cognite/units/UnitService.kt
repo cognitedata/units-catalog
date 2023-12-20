@@ -97,8 +97,10 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             }
 
             // if source is qudt.org, reference should be in the format https://qudt.org/vocab/unit/{unit.name}
-            assert(it.sourceReference?.equals(generatedExpectedSourceReference(it)) ?: true) {
-                "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
+            if (it.source == "qudt.org") {
+                assert(it.sourceReference?.equals(generatedExpectedSourceReference(it)) ?: true) {
+                    "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
+                }
             }
 
             val sourceIsQudt = it.source.equals("qudt.org")

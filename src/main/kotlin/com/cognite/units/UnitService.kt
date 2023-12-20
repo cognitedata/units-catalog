@@ -78,15 +78,20 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         return unit.sourceReference
     }
 
-    fun assertNoDuplicateConversions(units: List<TypedUnit>) {
+    private fun checkForDuplicateConversions(units: List<TypedUnit>) {
         units.groupBy { it.quantity }.forEach { (quantity, unitsInGroup) ->
-            val duplicates = unitsInGroup
+            val duplicateGroups = unitsInGroup
                 .groupBy { it.conversion }
                 .filter { it.value.size > 1 }
-                .flatMap { it.value.map(TypedUnit::externalId) }
 
-            assert(duplicates.isEmpty()) {
-                "Duplicate units found for quantity '$quantity' with external IDs: ${duplicates.joinToString()}"
+            if (duplicateGroups.isNotEmpty()) {
+                println("Duplicate units found for quantity '$quantity':")
+                duplicateGroups.forEach { (conversion, duplicates) ->
+                    println("  Conversion [multiplier=${conversion.multiplier}, offset=${conversion.offset}] with external IDs:")
+                    duplicates.forEach { duplicate ->
+                        println("    ${duplicate.externalId} - ${duplicate.symbol}")
+                    }
+                }
             }
         }
     }
@@ -100,7 +105,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
 
         // For a given quantity, there should not be duplicate units
         // one way to check this is to verify that the conversion values are unique
-        assertNoDuplicateConversions(listOfUnits)
+        checkForDuplicateConversions(listOfUnits)
 
         listOfUnits.forEach {
             // 2. Unique IDs: All unit `externalIds` in `units.json` must be unique

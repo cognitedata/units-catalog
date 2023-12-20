@@ -7884,7 +7884,7 @@
       "BBL",
       "bbl"
     ],
-    "symbol": "bbl{US petroleum}",
+    "symbol": "bbl",
     "conversion": {
       "multiplier": 0.1589873,
       "offset": 0.0
@@ -8253,7 +8253,7 @@
       "STBD",
       "bbls/d"
     ],
-    "symbol": "bbl{US petroleum}/day",
+    "symbol": "bbl/day",
     "conversion": {
       "multiplier": 1.84e-06,
       "offset": 0.0

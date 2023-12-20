@@ -9920,7 +9920,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/MegaJ-PER-M2"
+    "sourceReference": "https://qudt.org/vocab/unit/MegaJ-PER-M2"
   },
   {
     "externalId": "energy_per_area:gigaj-per-m2",

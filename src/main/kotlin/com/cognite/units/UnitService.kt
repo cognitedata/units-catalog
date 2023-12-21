@@ -87,11 +87,12 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             if (duplicateGroups.isNotEmpty()) {
                 println("Duplicate units found for quantity '$quantity':")
                 duplicateGroups.forEach { (conversion, duplicates) ->
-                    println("  Conversion [multiplier=" +
+                    println(
+                        "  Conversion [multiplier=" +
                         conversion.multiplier +
                         ", offset=" +
                         conversion.offset +
-                        "] with external IDs:"
+                        "] with external IDs:",
                     )
                     duplicates.forEach { duplicate ->
                         println("    ${duplicate.externalId} - ${duplicate.symbol}")

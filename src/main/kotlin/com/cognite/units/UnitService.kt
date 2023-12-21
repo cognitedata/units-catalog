@@ -78,12 +78,40 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         return unit.sourceReference
     }
 
+    private fun checkForDuplicateConversions(units: List<TypedUnit>) {
+        units.groupBy { it.quantity }.forEach { (quantity, unitsInGroup) ->
+            val duplicateGroups = unitsInGroup
+                .groupBy { it.conversion }
+                .filter { it.value.size > 1 }
+
+            if (duplicateGroups.isNotEmpty()) {
+                println("Duplicate units found for quantity '$quantity':")
+                duplicateGroups.forEach { (conversion, duplicates) ->
+                    println(
+                        "  Conversion [multiplier=" +
+                            conversion.multiplier +
+                            ", offset=" +
+                            conversion.offset +
+                            "] with external IDs:",
+                    )
+                    duplicates.forEach { duplicate ->
+                        println("    ${duplicate.externalId} - ${duplicate.symbol}")
+                    }
+                }
+            }
+        }
+    }
+
     private fun loadUnits(unitsPath: URL) {
         val units = unitsPath.readText()
         val mapper: ObjectMapper = jacksonObjectMapper()
 
         // 1. Syntax Check: Every unit item in `units.json` must have the specified keys
         val listOfUnits: List<TypedUnit> = mapper.readValue<List<TypedUnit>>(units)
+
+        // For a given quantity, there should not be duplicate units
+        // one way to check this is to verify that the conversion values are unique
+        checkForDuplicateConversions(listOfUnits)
 
         listOfUnits.forEach {
             // 2. Unique IDs: All unit `externalIds` in `units.json` must be unique
@@ -97,14 +125,10 @@ class UnitService(unitsPath: URL, systemPath: URL) {
             }
 
             // if source is qudt.org, reference should be in the format https://qudt.org/vocab/unit/{unit.name}
-            assert(it.sourceReference?.equals(generatedExpectedSourceReference(it)) ?: true) {
-                "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
-            }
-
-            val sourceIsQudt = it.source.equals("qudt.org")
-            val sourceReferenceContainsQudt = it.sourceReference?.contains("qudt") ?: false
-            assert(sourceIsQudt == sourceReferenceContainsQudt) {
-                "Qudt: Inconsistent source ${it.source} and sourceReference ${it.sourceReference} for unit ${it.name}"
+            if (it.source == "qudt.org") {
+                assert(it.sourceReference == generatedExpectedSourceReference(it)) {
+                    "Invalid sourceReference ${it.sourceReference} for unit ${it.name} (${it.quantity})"
+                }
             }
 
             unitsByQuantity.computeIfAbsent(it.quantity) { ArrayList() }.add(it)

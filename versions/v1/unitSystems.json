@@ -145,6 +145,18 @@
       {
         "name": "Volume Fraction",
         "unitExternalId": "volume_fraction:m3-per-m3"
+      },
+      {
+        "name": "Power Per Area",
+        "unitExternalId": "power_per_area:w-per-m2"
+      },
+      {
+        "name": "Energy Per Area",
+        "unitExternalId": "energy_per_area:j-per-m2"
+      },
+      {
+        "name": "Kinematic Viscosity",
+        "unitExternalId": "kinematic_viscosity:centist"
       }
     ]
   },

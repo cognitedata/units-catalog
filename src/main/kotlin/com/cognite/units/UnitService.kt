@@ -89,10 +89,10 @@ class UnitService(unitsPath: URL, systemPath: URL) {
                 duplicateGroups.forEach { (conversion, duplicates) ->
                     println(
                         "  Conversion [multiplier=" +
-                        conversion.multiplier +
-                        ", offset=" +
-                        conversion.offset +
-                        "] with external IDs:",
+                            conversion.multiplier +
+                            ", offset=" +
+                            conversion.offset +
+                            "] with external IDs:",
                     )
                     duplicates.forEach { duplicate ->
                         println("    ${duplicate.externalId} - ${duplicate.symbol}")

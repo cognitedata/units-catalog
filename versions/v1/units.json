@@ -2870,11 +2870,11 @@
     ],
     "symbol": "boe",
     "conversion": {
-        "multiplier": 6.12e09,
-        "offset": 0.0
+      "multiplier": 6.12e09,
+      "offset": 0.0
     },
-    "source": "Scientific Unit Conversion: A Practical Guide to Metrication - ISBN 9781447108054",
-    "sourceReference": "https://isbnsearch.org/isbn/9781447108054"
+    "source": "Scientific Unit Conversion: A Practical Guide to Metrication - ISBN 9781447108054 - https://isbnsearch.org/isbn/9781447108054",
+    "sourceReference": null
   },
   {
     "externalId": "energy_density:btu_it-per-ft3",
@@ -5668,8 +5668,8 @@
       "multiplier": 100000.0,
       "offset": 101325.0
     },
-    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055",
-    "sourceReference": "https://isbnsearch.org/isbn/9780444538055"
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100003649/"
   },
   {
     "externalId": "pressure:gigapa",
@@ -6257,8 +6257,8 @@
       "multiplier": 6894.75789,
       "offset": 101325.0
     },
-    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055",
-    "sourceReference": "https://isbnsearch.org/isbn/9780444538055"
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": null
   },
   {
     "externalId": "resistance:kiloohm",
@@ -8227,11 +8227,11 @@
     ],
     "symbol": "MMscf",
     "conversion": {
-        "multiplier": 28316.846592,
-        "offset": 0.0
+      "multiplier": 28316.846592,
+      "offset": 0.0
     },
-    "source": "Custom based on qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/FT3"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3",
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:bbl_us-per-day",
@@ -9401,11 +9401,11 @@
     ],
     "symbol": "MMscf/day",
     "conversion": {
-        "multiplier": 0.3277413,
-        "offset": 0.0
+      "multiplier": 0.3277413,
+      "offset": 0.0
     },
-    "source": "Custom based on qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/FT3-PER-DAY"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446/"
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",

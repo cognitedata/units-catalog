@@ -79,8 +79,16 @@
         "unitExternalId": "inductance:h"
       },
       {
+        "name": "Inverse Length",
+        "unitExternalId": "inverse_length:per-m"
+      },
+      {
         "name": "Length",
         "unitExternalId": "length:m"
+      },
+      {
+        "name": "Linear Density",
+        "unitExternalId": "linear_density:kilogm-per-m"
       },
       {
         "name": "Mass",

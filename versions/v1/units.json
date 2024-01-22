@@ -3500,7 +3500,7 @@
     ],
     "symbol": "/min",
     "conversion": {
-      "multiplier": 60.0,
+      "multiplier": 0.01666666666666666666666666666666667,
       "offset": 0.0
     },
     "source": "qudt.org",

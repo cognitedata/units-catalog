@@ -7383,11 +7383,11 @@
     ],
     "symbol": "mo",
     "conversion": {
-      "multiplier": 2.551442976e06,
+      "multiplier": 2.6298e+6,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/MO"
+    "source": "UNECE: Codes for Units of Measure Used in International Trade (latest revision) - https://unece.org/trade/uncefact/cl-recommendations",
+    "sourceReference": null
   },
   {
     "externalId": "time:sec",

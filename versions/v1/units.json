@@ -8278,7 +8278,7 @@
       "multiplier": 1.0e+6,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3",
+    "source": "Energistics: Unit of Measure Standard - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {

@@ -883,7 +883,8 @@
       "REV per hour",
       "Revolution per hr",
       "rev / hour",
-      "REV / hour"
+      "REV / hour",
+      "RPH"
     ],
     "symbol": "rev/h",
     "conversion": {
@@ -931,7 +932,8 @@
       "Revolution per min",
       "Revolution / Minute",
       "Revolution per Minute",
-      "rev / minute"
+      "rev / minute",
+      "RPM"
     ],
     "symbol": "rev/min",
     "conversion": {
@@ -972,7 +974,8 @@
       "rev / SEC",
       "Revolution per second",
       "Revolution / SEC",
-      "rev / s"
+      "rev / s",
+      "RPS"
     ],
     "symbol": "rev/s",
     "conversion": {
@@ -1671,7 +1674,8 @@
     "aliasNames": [
       "PPM",
       "Parts per million",
-      "parts per million"
+      "parts per million",
+      "ppm"
     ],
     "symbol": "PPM",
     "conversion": {
@@ -2882,6 +2886,26 @@
     "sourceReference": "https://qudt.org/vocab/unit/W-SEC"
   },
   {
+    "externalId": "energy:boe",
+    "name": "BOE",
+    "quantity": "Energy",
+    "longName": "Barrel of Oil Equivalent",
+    "aliasNames": [
+      "bboe",
+      "boe",
+      "BOE",
+      "barrel oil equivalent",
+      "Barrel of Oil Equivalent"
+    ],
+    "symbol": "boe",
+    "conversion": {
+      "multiplier": 6.12e09,
+      "offset": 0.0
+    },
+    "source": "Scientific Unit Conversion: A Practical Guide to Metrication - ISBN 9781447108054 - https://isbnsearch.org/isbn/9781447108054",
+    "sourceReference": null
+  },
+  {
     "externalId": "energy_density:btu_it-per-ft3",
     "name": "BTU_IT-PER-FT3",
     "quantity": "Energy Density",
@@ -4051,7 +4075,11 @@
       "kilogram per cubic metre",
       "KiloGM per M3",
       "KiloGM / M3",
-      "kilogram per M3"
+      "kilogram per M3",
+      "kg/m³",
+      "kg/m3",
+      "kg/Sm³",
+      "kg/Sm3"
     ],
     "symbol": "kg/m³",
     "conversion": {
@@ -5705,7 +5733,10 @@
     "aliasNames": [
       "Bar",
       "bar",
-      "BAR"
+      "BAR",
+      "bara",
+      "BARa",
+      "bar(a)"
     ],
     "symbol": "bar",
     "conversion": {
@@ -5714,6 +5745,30 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BAR"
+  },
+  {
+    "externalId": "pressure:barg",
+    "name": "BARg",
+    "quantity": "Pressure",
+    "longName": "Bar(g)",
+    "aliasNames": [
+      "Barg",
+      "barg",
+      "BARg",
+      "bar(g)",
+      "BAR(g)",
+      "BARG",
+      "BarG",
+      "Bar G",
+      "bar_g"
+    ],
+    "symbol": "bar(g)",
+    "conversion": {
+      "multiplier": 100000.0,
+      "offset": 101325.0
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100003649/"
   },
   {
     "externalId": "pressure:gigapa",
@@ -6072,55 +6127,6 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-FT2"
   },
   {
-    "externalId": "pressure:lb_f-per-in2",
-    "name": "LB_F-PER-IN2",
-    "quantity": "Pressure",
-    "longName": "Pound Force per Square Inch",
-    "aliasNames": [
-      "LB_F PER IN2",
-      "lbf / Square Inch",
-      "LB_F per in²",
-      "LB_F / in²",
-      "pound force / Square Inch",
-      "lbf / in²",
-      "LB_F / square inch",
-      "pound force per in²",
-      "psia",
-      "Pound Force per Square Inch",
-      "Pound Force / in²",
-      "Pound Force / Square Inch",
-      "Pound Force per in²",
-      "lbf per square inch",
-      "lbf per in²",
-      "pound force per square inch",
-      "pound force per IN2",
-      "Pound Force / square inch",
-      "Pound Force per IN2",
-      "LB_F per Square Inch",
-      "lbf / square inch",
-      "LB_F / Square Inch",
-      "LB_F per IN2",
-      "pound force / square inch",
-      "lbf / IN2",
-      "pound force per Square Inch",
-      "lbf per IN2",
-      "pound force / in²",
-      "LB_F / IN2",
-      "Pound Force per square inch",
-      "Pound Force / IN2",
-      "pound force / IN2",
-      "LB_F per square inch",
-      "lbf per Square Inch"
-    ],
-    "symbol": "psia",
-    "conversion": {
-      "multiplier": 6894.75789,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-IN2"
-  },
-  {
     "externalId": "pressure:megabar",
     "name": "MegaBAR",
     "quantity": "Pressure",
@@ -6382,9 +6388,12 @@
     "externalId": "pressure:psi",
     "name": "PSI",
     "quantity": "Pressure",
-    "longName": "PSI",
+    "longName": "Pound Force per Square Inch",
     "aliasNames": [
       "psi",
+      "psia",
+      "psi(a)",
+      "psi a",
       "PSI"
     ],
     "symbol": "psi",
@@ -6394,6 +6403,25 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/PSI"
+  },
+  {
+    "externalId": "pressure:psig",
+    "name": "PSIg",
+    "quantity": "Pressure",
+    "longName": "Pound Force per Square Inch (gauge)",
+    "aliasNames": [
+      "psig",
+      "psi(g)",
+      "psi g",
+      "PSIg"
+    ],
+    "symbol": "psi(g)",
+    "conversion": {
+      "multiplier": 6894.75789,
+      "offset": 101325.0
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": null
   },
   {
     "externalId": "resistance:kiloohm",
@@ -7720,7 +7748,8 @@
       "Kilometre per hr",
       "kilometre / hr",
       "kilometer / hour",
-      "kilometer per HR"
+      "kilometer per HR",
+      "km/h"
     ],
     "symbol": "km/h",
     "conversion": {
@@ -7774,7 +7803,8 @@
       "km / s",
       "KiloM / s",
       "kilometre per s",
-      "kilometre / s"
+      "kilometre / s",
+      "km/s"
     ],
     "symbol": "km/s",
     "conversion": {
@@ -7851,7 +7881,8 @@
       "Meter / HR",
       "M / hour",
       "M per hour",
-      "M / Hour"
+      "M / Hour",
+      "m/h"
     ],
     "symbol": "m/h",
     "conversion": {
@@ -7898,7 +7929,8 @@
       "Meter / second",
       "metre / SEC",
       "M / second",
-      "m / second"
+      "m / second",
+      "m/s"
     ],
     "symbol": "m/s",
     "conversion": {
@@ -7991,9 +8023,11 @@
       "mi per s",
       "MI / SEC",
       "international mile per SEC",
-      "MI per s"
+      "MI per s",
+      "mi/s",
+      "mi/sec"
     ],
-    "symbol": "mi/sec",
+    "symbol": "mi/s",
     "conversion": {
       "multiplier": 1609.344,
       "offset": 0.0
@@ -8026,6 +8060,24 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-SEC"
   },
   {
+    "externalId": "velocity:millim-per-hr",
+    "name": "MilliM-PER-HR",
+    "longName": "Millimetre Per Hour",
+    "symbol": "mm/h",
+    "aliasNames": [
+      "Millimetre Per Hour",
+      "mm/h",
+      "mm/hr"
+    ],
+    "quantity": "Velocity",
+    "conversion": {
+      "multiplier": 2.78e-7,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-HR"
+  },
+  {
     "externalId": "volume:bbl_us",
     "name": "BBL_US",
     "quantity": "Volume",
@@ -8036,7 +8088,7 @@
       "BBL",
       "bbl"
     ],
-    "symbol": "bbl{US petroleum}",
+    "symbol": "bbl",
     "conversion": {
       "multiplier": 0.1589873,
       "offset": 0.0
@@ -8231,7 +8283,9 @@
       "cubic meter",
       "M3",
       "cubic metre",
-      "Cubic Meter"
+      "Cubic Meter",
+      "Sm3",
+      "Sm³"
     ],
     "symbol": "m³",
     "conversion": {
@@ -8379,6 +8433,32 @@
     "sourceReference": "https://qudt.org/vocab/unit/YD3"
   },
   {
+    "externalId": "volume:mega-ft3",
+    "name": "Mega-FT3",
+    "quantity": "Volume",
+    "longName": "Million Standard Cubic Feet",
+    "aliasNames": [
+      "MCF",
+      "Mega Cubic Feet",
+      "Mega Cubic Foot",
+      "Mega FT3",
+      "Mega ft³",
+      "Million cu ft",
+      "Million ft³",
+      "MMCF",
+      "MMSCF",
+      "MMscf",
+      "mmscf"
+    ],
+    "symbol": "MMscf",
+    "conversion": {
+      "multiplier": 28316.846592,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3",
+    "sourceReference": null
+  },
+  {
     "externalId": "volume_flow_rate:bbl_us-per-day",
     "name": "BBL_US-PER-DAY",
     "quantity": "Volume Flow Rate",
@@ -8388,10 +8468,17 @@
       "barrel per day",
       "BBL / D",
       "bbl / d",
+      "bbl/d",
+      "bbl/day",
+      "BB/D",
       "BPD",
-      "bpd"
+      "bpd",
+      "STB/d",
+      "STB/day",
+      "STBD",
+      "bbls/d"
     ],
-    "symbol": "bbl{US petroleum}/d",
+    "symbol": "bbl/day",
     "conversion": {
       "multiplier": 1.84e-06,
       "offset": 0.0
@@ -9218,7 +9305,16 @@
       "Cubic Meter / Hour",
       "Cubic Meter per HR",
       "Cubic Meter per hr",
-      "cubic metre per hr"
+      "cubic metre per hr",
+      "m³/h",
+      "m³/hr",
+      "m³/hour",
+      "Sm3/h",
+      "Sm3/hr",
+      "Sm3/hour",
+      "Sm³/h",
+      "Sm³/hr",
+      "Sm³/hour"
     ],
     "symbol": "m³/h",
     "conversion": {
@@ -9553,6 +9649,36 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-SEC"
+  },
+  {
+    "externalId": "volume_flow_rate:mega-ft3-per-day",
+    "name": "Mega-FT3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Million Standard Cubic Feet per Day",
+    "aliasNames": [
+      "MCFD",
+      "Mega Cubic Feet per Day",
+      "Mega Cubic Foot per Day",
+      "Mega FT3/day",
+      "Mega ft³/day",
+      "Million cu ft/day",
+      "Million FT3/day",
+      "Million ft³/day",
+      "MMCFD",
+      "MMSCFD",
+      "MMCF/d",
+      "MMCF/day",
+      "MMSCF/d",
+      "MMSCF/day",
+      "MMscf/d"
+    ],
+    "symbol": "MMscf/day",
+    "conversion": {
+      "multiplier": 0.3277413,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446/"
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",
@@ -10014,5 +10140,109 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-SEC"
+  },
+  {
+    "externalId": "power_per_area:w-per-m2",
+    "name": "W-PER-M2",
+    "quantity": "Power Per Area",
+    "longName": "watt per square metre",
+    "aliasNames": [
+      "W/m²",
+      "W/m2",
+      "watt per square metre"
+    ],
+    "symbol": "W/m²",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/W-PER-M2"
+  },
+  {
+    "externalId": "energy_per_area:j-per-m2",
+    "name": "J-PER-M2",
+    "quantity": "Energy Per Area",
+    "longName": "Joule per Square Metre",
+    "aliasNames": [
+      "J/m²",
+      "J/m2",
+      "Joule per Square Metre"
+    ],
+    "symbol": "J/m²",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/J-PER-M2"
+  },
+  {
+    "externalId": "energy_per_area:megaj-per-m2",
+    "name": "MegaJ-PER-M2",
+    "quantity": "Energy Per Area",
+    "longName": "Megajoule Per Square Metre",
+    "aliasNames": [
+      "MJ/m²",
+      "MJ/m2",
+      "Megajoule per Square Metre"
+    ],
+    "symbol": "MJ/m²",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaJ-PER-M2"
+  },
+  {
+    "externalId": "energy_per_area:gigaj-per-m2",
+    "name": "GigaJ-PER-M2",
+    "quantity": "Energy Per Area",
+    "longName": "Gigajoule per Square Metre",
+    "aliasNames": [
+      "GJ/m²",
+      "GJ/m2",
+      "Gigajoule per Square Metre"
+    ],
+    "symbol": "GJ/m²",
+    "conversion": {
+      "multiplier": 1000000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GigaJ-PER-M2"
+  },
+  {
+    "externalId": "kinematic_viscosity:st",
+    "name": "ST",
+    "quantity": "Kinematic Viscosity",
+    "longName": "Stokes",
+    "aliasNames": [
+      "St"
+    ],
+    "symbol": "St",
+    "conversion": {
+      "multiplier": 0.0001,
+      "offset": 0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/ST"
+  },
+  {
+    "externalId": "kinematic_viscosity:centist",
+    "name": "CentiST",
+    "quantity": "Kinematic Viscosity",
+    "longName": "Centistokes",
+    "aliasNames": [
+      "cSt"
+    ],
+    "symbol": "cSt",
+    "conversion": {
+      "multiplier": 0.000001,
+      "offset": 0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/CentiST"
   }
 ]

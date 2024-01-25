@@ -6079,6 +6079,27 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloPA"
   },
   {
+    "externalId": "pressure:kilopag",
+    "name": "KiloPAg",
+    "quantity": "Pressure",
+    "longName": "Kilopascal(g)",
+    "aliasNames": [
+      "kilopascalg",
+      "kilopascal(g)",
+      "KiloPAg",
+      "KiloPA(g)",
+      "kPag",
+      "kPa(g)"
+    ],
+    "symbol": "kPa(g)",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 101325.0
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357"
+  },
+  {
     "externalId": "pressure:lb_f-per-ft2",
     "name": "LB_F-PER-FT2",
     "quantity": "Pressure",

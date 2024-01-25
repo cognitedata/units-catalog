@@ -1465,6 +1465,35 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-YD3"
   },
   {
+    "externalId": "density:milligm-per-m3",
+    "name": "MilliGM-PER-M3",
+    "quantity": "Density",
+    "longName": "Milligram Per Cubic Meter",
+    "aliasNames": [
+      "milligram per cubic meter",
+      "milligram per cubic metre",
+      "milligram / cubic meter",
+      "milligram / cubic metre",
+      "milligm per cubic meter",
+      "milligm per cubic metre",
+      "milligm / cubic meter",
+      "milligm / cubic metre",
+      "milligm per m3",
+      "milligm per m³",
+      "milligm / m3",
+      "milligm / m³",
+      "mg / m3",
+      "mg / m³"
+    ],
+    "symbol": "mg/m³",
+    "conversion": {
+      "multiplier": 1.0e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM-PER-M3"
+  },
+  {
     "externalId": "density:oz-per-gal",
     "name": "OZ-PER-GAL",
     "quantity": "Density",
@@ -3484,6 +3513,24 @@
     "sourceReference": "https://qudt.org/vocab/unit/NUM-PER-YR"
   },
   {
+    "externalId": "frequency:per-min",
+    "name": "PER-MIN",
+    "quantity": "Frequency",
+    "longName": "Reciprocal Minute",
+    "aliasNames": [
+      "reciprocal minute",
+      "per minute",
+      "/ min"
+    ],
+    "symbol": "/min",
+    "conversion": {
+      "multiplier": 0.01666666666666666666666666666666667,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PER-MIN"
+  },
+  {
     "externalId": "inductance:h",
     "name": "H",
     "quantity": "Inductance",
@@ -3518,6 +3565,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MicroH"
+  },
+  {
+    "externalId": "inverse_length:per-m",
+    "name": "PER-M",
+    "quantity": "Inverse Length",
+    "longName": "Reciprocal Meter",
+    "aliasNames": [
+      "reciprocal meter",
+      "reciprocal metre",
+      "/ meter",
+      "/ metre",
+      "/ m",
+      "per meter",
+      "per metre"
+    ],
+    "symbol": "/m",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PER-M"
   },
   {
     "externalId": "length:btu_it-per-lb_f",
@@ -3788,6 +3857,36 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/YD"
+  },
+  {
+    "externalId": "linear_density:kilogm-per-m",
+    "name": "KiloGM-PER-M",
+    "quantity": "Linear Density",
+    "longName": "Kilogram per Meter",
+    "aliasNames": [
+      "kilogram / meter",
+      "kilogm / meter",
+      "kilogram per meter",
+      "kilogm per meter",
+      "kilogram / metre",
+      "kilogm / metre",
+      "kilogram per metre",
+      "kilogm per metre",
+      "kg / metre",
+      "kg / metre",
+      "kg per metre",
+      "kg per metre",
+      "kilogram / m",
+      "kilogm / m",
+      "kg / m"
+    ],
+    "symbol": "kg/m",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M"
   },
   {
     "externalId": "mass:centigm",
@@ -5918,6 +6017,49 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloLB_F-PER-IN2"
   },
   {
+    "externalId": "pressure:kilogm_f-per-centim2",
+    "name": "KiloGM_F-PER-CentiM2",
+    "quantity": "Pressure",
+    "longName": "Kilogram Force per Square Centimeter",
+    "aliasNames": [
+      "kilogram force / square centimeter",
+      "kilogram force per square centimeter",
+      "kg per cm²",
+      "kg / cm²",
+      "kgf / cm²",
+      "kgf per cm²",
+      "kilogram per cm²",
+      "kilogram force per cm²",
+      "kilogram force / cm²",
+      "kg per cm2",
+      "kg / cm2",
+      "kgf / cm2",
+      "kgf per cm2",
+      "Kilogram per cm2",
+      "kilogram force per cm2",
+      "Kilogram force / cm2",
+      "kilogm force / square centimeter",
+      "kilogm force per square centimeter",
+      "Kilogm per cm²",
+      "kilogm force per cm²",
+      "kilogm force / cm²",
+      "Kilogm per cm2",
+      "kilogm force per cm2",
+      "Kilogm force / cm2",
+      "kilogram_force per cm2",
+      "Kilogram_force / cm2",
+      "kilogm_force per cm2",
+      "Kilogm_force / cm2"
+    ],
+    "symbol": "kgf/cm²",
+    "conversion": {
+      "multiplier": 98066.5,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM_F-PER-CentiM2"
+  },
+  {
     "externalId": "pressure:kilopa",
     "name": "KiloPA",
     "quantity": "Pressure",
@@ -5935,6 +6077,27 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloPA"
+  },
+  {
+    "externalId": "pressure:kilopag",
+    "name": "KiloPAg",
+    "quantity": "Pressure",
+    "longName": "Kilopascal(g)",
+    "aliasNames": [
+      "kilopascalg",
+      "kilopascal(g)",
+      "KiloPAg",
+      "KiloPA(g)",
+      "kPag",
+      "kPa(g)"
+    ],
+    "symbol": "kPa(g)",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 101325.0
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357"
   },
   {
     "externalId": "pressure:lb_f-per-ft2",
@@ -6059,6 +6222,27 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MilliBAR"
+  },
+  {
+    "externalId": "pressure:millim_h2o",
+    "name": "MilliM_H2O",
+    "quantity": "Pressure",
+    "longName": "Millimeter Of Water",
+    "aliasNames": [
+      "millimeter of water",
+      "millimetre of water",
+      "mmH2O",
+      "millimeter of water column",
+      "millimetre of water column",
+      "mmWC"
+    ],
+    "symbol": "mmH₂0",
+    "conversion": {
+      "multiplier": 9.80665,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM_H2O"
   },
   {
     "externalId": "pressure:millipa",
@@ -7238,6 +7422,23 @@
     "sourceReference": "https://qudt.org/vocab/unit/MIN"
   },
   {
+    "externalId": "time:mo",
+    "name": "MO",
+    "quantity": "Time",
+    "longName": "Month",
+    "aliasNames": [
+      "month",
+      "mo"
+    ],
+    "symbol": "mo",
+    "conversion": {
+      "multiplier": 2.6298e+6,
+      "offset": 0.0
+    },
+    "source": "UNECE: Codes for Units of Measure Used in International Trade (revision 2021) - https://unece.org/trade/uncefact/cl-recommendations",
+    "sourceReference": null
+  },
+  {
     "externalId": "time:sec",
     "name": "SEC",
     "quantity": "Time",
@@ -7856,6 +8057,30 @@
     "sourceReference": "https://qudt.org/vocab/unit/MI-PER-SEC"
   },
   {
+    "externalId": "velocity:millim-per-sec",
+    "name": "MilliM-PER-SEC",
+    "quantity": "Velocity",
+    "longName": "Millimeter Per Second",
+    "aliasNames": [
+      "millimeter per second",
+      "millimeter per sec",
+      "millimeter per s",
+      "mm per second",
+      "mm / sec",
+      "mm / s",
+      "millimeter / second",
+      "millimeter / sec",
+      "millimeter / s"
+    ],
+    "symbol": "mm/s",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-SEC"
+  },
+  {
     "externalId": "velocity:millim-per-hr",
     "name": "MilliM-PER-HR",
     "longName": "Millimetre Per Hour",
@@ -8109,6 +8334,27 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MegaL"
+  },
+  {
+    "externalId": "volume:mega-m3",
+    "name": "Mega-M3",
+    "quantity": "Volume",
+    "longName": "Million Standard Cubic Meter",
+    "aliasNames": [
+      "mega cubic meter",
+      "mega cubic metre",
+      "mmcm",
+      "MMCM",
+      "mmscm",
+      "MMscm"
+    ],
+    "symbol": "MMscm",
+    "conversion": {
+      "multiplier": 1.0e+6,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume:microl",
@@ -8830,6 +9076,54 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloL-PER-HR"
+  },
+  {
+    "externalId": "volume_flow_rate:kilo-ft3-per-day",
+    "name": "Kilo-FT3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Thousand Standard Cubic Feet per Day",
+    "aliasNames": [
+      "kilo cubic foot per day",
+      "kilo cubic foot / d",
+      "thousand cubic foot per day",
+      "thousand cubic foot / d",
+      "kft3 / day",
+      "kft3 / d",
+      "Mscfd",
+      "mscfd"
+    ],
+    "symbol": "kft³/day",
+    "conversion": {
+      "multiplier": 3.277413e-04,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
+    "sourceReference": null
+  },
+  {
+    "externalId": "volume_flow_rate:l-per-hr",
+    "name": "L-PER-HR",
+    "quantity": "Volume Flow Rate",
+    "longName": "Liter Per Hour",
+    "aliasNames": [
+      "liter / hr",
+      "liter / hour",
+      "liter per hour",
+      "liter per hr",
+      "litre / hr",
+      "litre / hour",
+      "litre per hour",
+      "litre per hr",
+      "L / hr",
+      "L / hour"
+    ],
+    "symbol": "L/hr",
+    "conversion": {
+      "multiplier": 2.777778e-07,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/L-PER-HR"
   },
   {
     "externalId": "volume_flow_rate:l-per-min",

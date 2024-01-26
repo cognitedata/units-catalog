@@ -39,7 +39,7 @@
   </scm>
 
   <properties>
-    <kotlin.version>1.9.10</kotlin.version>
+    <kotlin.version>1.9.22</kotlin.version>
     <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
     <maven-dokka-plugin.version>1.9.10</maven-dokka-plugin.version>

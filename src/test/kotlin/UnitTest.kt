@@ -144,7 +144,8 @@ class UnitTest {
     fun lookupUnitSystem() {
         val unitService = UnitService.service
         assertEquals(
-            setOf("Default", "Imperial", "SI"), unitService.getUnitSystems(),
+            setOf("Default", "Imperial", "SI"),
+            unitService.getUnitSystems(),
         )
     }
 }

@@ -139,4 +139,13 @@ class UnitTest {
             unitService.getUnitsByQuantityAndAlias("Temperature", "unknown")
         }
     }
+
+    @Test
+    fun lookupUnitSystem() {
+        val unitService = UnitService.service
+        assertEquals(
+            setOf("Default", "Imperial", "SI"),
+            unitService.getUnitSystems(),
+        )
+    }
 }

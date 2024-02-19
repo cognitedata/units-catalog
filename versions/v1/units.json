@@ -5765,7 +5765,7 @@
     "symbol": "bar(g)",
     "conversion": {
       "multiplier": 100000.0,
-      "offset": 101325.0
+      "offset": 1.01325
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100003649/"
@@ -6094,7 +6094,7 @@
     "symbol": "kPa(g)",
     "conversion": {
       "multiplier": 1000.0,
-      "offset": 101325.0
+      "offset": 101.325
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357"
@@ -6439,7 +6439,7 @@
     "symbol": "psi(g)",
     "conversion": {
       "multiplier": 6894.75789,
-      "offset": 101325.0
+      "offset": 14.6959475034
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": null

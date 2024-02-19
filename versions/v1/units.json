@@ -3589,56 +3589,6 @@
     "sourceReference": "https://qudt.org/vocab/unit/PER-M"
   },
   {
-    "externalId": "length:btu_it-per-lb_f",
-    "name": "BTU_IT-PER-LB_F",
-    "quantity": "Length",
-    "longName": "British Thermal Unit (international Table) Per Pound of Force",
-    "aliasNames": [
-      "Btu{IT} / LB_F",
-      "Btu{IT} / lbf",
-      "BTU_IT per Pound Force",
-      "British Thermal Unit (International Definition) / pound force",
-      "Btu{IT} / Pound Force",
-      "British Thermal Unit (International Definition) per lbf",
-      "british thermal unit (international definition) per lbf",
-      "british thermal unit (international definition) / lbf",
-      "british thermal unit (international definition) / LB_F",
-      "British Thermal Unit (International Definition) per Pound Force",
-      "British Thermal Unit (International Definition) per LB_F",
-      "British Thermal Unit (International Definition) / LB_F",
-      "BTU_IT per lbf",
-      "british thermal unit (international definition) / Pound Force",
-      "british thermal unit (international definition) per Pound Force",
-      "Btu{IT} per pound force",
-      "Btu{IT} per LB_F",
-      "British Thermal Unit (International Definition) per pound force",
-      "british thermal unit (international definition) / pound force",
-      "BTU_IT PER LB_F",
-      "BTU_IT / LB_F",
-      "British Thermal Unit (international Table) Per Pound of Force",
-      "BTU_IT per pound force",
-      "british thermal unit (international definition) per pound force",
-      "british thermal unit (international definition) per LB_F",
-      "British Thermal Unit (International Definition) / Pound Force",
-      "Btu{IT} / pound force",
-      "Btu{IT} per Pound Force",
-      "British Thermal Unit (International Definition) / lbf",
-      "BTU_IT / Pound Force",
-      "british thermal unit (international table) per pound of force",
-      "Btu{IT} per lbf",
-      "BTU_IT / pound force",
-      "BTU_IT per LB_F",
-      "BTU_IT / lbf"
-    ],
-    "symbol": "Btu{IT}/lbf",
-    "conversion": {
-      "multiplier": 237.18597062376833,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-PER-LB_F"
-  },
-  {
     "externalId": "length:centim",
     "name": "CentiM",
     "quantity": "Length",
@@ -5765,7 +5715,7 @@
     "symbol": "bar(g)",
     "conversion": {
       "multiplier": 100000.0,
-      "offset": 101325.0
+      "offset": 1.01325
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100003649/"
@@ -6094,7 +6044,7 @@
     "symbol": "kPa(g)",
     "conversion": {
       "multiplier": 1000.0,
-      "offset": 101325.0
+      "offset": 101.325
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357"
@@ -6439,7 +6389,7 @@
     "symbol": "psi(g)",
     "conversion": {
       "multiplier": 6894.75789,
-      "offset": 101325.0
+      "offset": 14.6959475034
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": null

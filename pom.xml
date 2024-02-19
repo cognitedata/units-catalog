@@ -6,7 +6,7 @@
 
   <groupId>com.cognite.units</groupId>
   <artifactId>units-catalog</artifactId>
-  <version>0.1.5</version>
+  <version>0.1.7</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A comprehensive unit catalog for Cognite Data Fusion (CDF) with a focus on standardization, comprehensiveness, and consistency.</description>
@@ -59,13 +59,13 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>5.10.1</version>
+      <version>5.10.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.10.1</version>
+      <version>5.10.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>

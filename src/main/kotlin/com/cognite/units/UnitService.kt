@@ -262,3 +262,8 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         return unitsByExternalId.containsKey(unitExternalId)
     }
 }
+
+// Kotlin shim to simplify interop with Scala
+object UnitServiceFacade {
+    fun getService(): UnitService = UnitService.service
+}

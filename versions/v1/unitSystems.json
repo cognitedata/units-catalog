@@ -115,6 +115,10 @@
         "unitExternalId": "pressure:bar"
       },
       {
+        "name": "Pressure Gradient",
+        "unitExternalId": "pressure_gradient:bar-per-m"
+      },
+      {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
       },
@@ -276,6 +280,10 @@
         "unitExternalId": "pressure:pa"
       },
       {
+        "name": "Pressure Gradient",
+        "unitExternalId": "pressure_gradient:pa-per-m"
+      },
+      {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
       },
@@ -367,6 +375,10 @@
       {
         "name": "Pressure",
         "unitExternalId": "pressure:psi"
+      },
+      {
+        "name": "Pressure Gradient",
+        "unitExternalId": "pressure_gradient:psi-per-ft"
       },
       {
         "name": "Surface Tension",

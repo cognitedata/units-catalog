@@ -6435,6 +6435,27 @@
     "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
   },
   {
+    "externalId": "pressure_gradient:bar-per-m",
+    "name": "BAR-PER-M",
+    "quantity": "Pressure Gradient",
+    "longName": "Pressure Differential per metre in bar/m",
+    "aliasNames": [
+      "bar per metre",
+      "Bar per metre",
+      "bar/m",
+      "Bar/m",
+      "Bar / m",
+      "bar / m"
+    ],
+    "symbol": "bar/m",
+    "conversion": {
+      "multiplier": 100000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+  },
+  {
     "externalId": "pressure_gradient:kilopa-per-m",
     "name": "KPA-PER-M",
     "quantity": "Pressure Gradient",
@@ -6471,7 +6492,7 @@
     ],
     "symbol": "psi/ft",
     "conversion": {
-      "multiplier": 0.00004208,
+      "multiplier": 22620.6,
       "offset": 0.0
     },
     "source": "qudt.org",

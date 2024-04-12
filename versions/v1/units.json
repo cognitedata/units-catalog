@@ -6413,6 +6413,71 @@
     "sourceReference": null
   },
   {
+    "externalId": "pressure_gradient:pa-per-m",
+    "name": "PA-PER-M",
+    "quantity": "Pressure Gradient",
+    "longName": "Pressure Differential per metre in Pa/m",
+    "aliasNames": [
+      "pascal per metre",
+      "Pascal per metre",
+      "pa per m",
+      "Pa/m",
+      "pa/m",
+      "Pa / m",
+      "pa / m"
+    ],
+    "symbol": "Pa/m",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+  },
+  {
+    "externalId": "pressure_gradient:kilopa-per-m",
+    "name": "KPA-PER-M",
+    "quantity": "Pressure Gradient",
+    "longName": "Pressure Differential per metre in kPa/m",
+    "aliasNames": [
+      "kilopascal per metre",
+      "kiloPascal per metre",
+      "kpa per m",
+      "kPa/m",
+      "kpa/m",
+      "kPa / m",
+      "kpa / m"
+    ],
+    "symbol": "kPa/m",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+  },
+  {
+    "externalId": "pressure_gradient:psi-per-ft",
+    "name": "PSI-PER-FT",
+    "quantity": "Pressure Gradient",
+    "longName": "Pressure Differential per metre in psi/ft",
+    "aliasNames": [
+      "psi per ft",
+      "psi per foot",
+      "psi/ft",
+      "PSI/FT",
+      "psi / ft",
+      "PSI / ft"
+    ],
+    "symbol": "psi/ft",
+    "conversion": {
+      "multiplier": 0.00004208,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+  },
+  {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
     "quantity": "Resistance",

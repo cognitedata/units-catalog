@@ -6438,7 +6438,7 @@
     "externalId": "pressure_gradient:bar-per-m",
     "name": "BAR-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Pressure Differential per metre in bar/m",
+    "longName": "Bar per metre",
     "aliasNames": [
       "bar per metre",
       "Bar per metre",

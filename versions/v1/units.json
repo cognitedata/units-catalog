@@ -6481,7 +6481,7 @@
     "externalId": "pressure_gradient:psi-per-ft",
     "name": "PSI-PER-FT",
     "quantity": "Pressure Gradient",
-    "longName": "Pressure Differential per metre in psi/ft",
+    "longName": "Pound Force per Square Inch per Foot",
     "aliasNames": [
       "psi per ft",
       "psi per foot",

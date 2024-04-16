@@ -6452,8 +6452,8 @@
       "multiplier": 100000.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
+    "sourceReference": null
   },
   {
     "externalId": "pressure_gradient:kilopa-per-m",

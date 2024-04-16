@@ -6457,7 +6457,7 @@
   },
   {
     "externalId": "pressure_gradient:kilopa-per-m",
-    "name": "KPA-PER-M",
+    "name": "KiloPA-PER-M",
     "quantity": "Pressure Gradient",
     "longName": "Pressure Differential per metre in kPa/m",
     "aliasNames": [

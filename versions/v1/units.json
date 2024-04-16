@@ -6495,8 +6495,8 @@
       "multiplier": 22620.6,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
+    "sourceReference": null
   },
   {
     "externalId": "resistance:kiloohm",

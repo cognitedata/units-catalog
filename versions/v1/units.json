@@ -6475,7 +6475,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/quantitykind/PressureGradient"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloPA-PER-M"
   },
   {
     "externalId": "pressure_gradient:psi-per-ft",

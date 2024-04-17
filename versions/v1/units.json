@@ -2243,7 +2243,7 @@
       "Volts AC",
       "volts AC",
       "VAC",
-      "VDC"     
+      "VDC"
     ],
     "symbol": "V",
     "conversion": {
@@ -5799,7 +5799,7 @@
     "externalId": "pressure:kilogm-per-m-sec2",
     "name": "KiloGM-PER-M-SEC2",
     "quantity": "Pressure",
-    "longName": "Kilograms per metre per square second",
+    "longName": "Kilograms per meter per square second",
     "aliasNames": [
       "KiloGM per metre SEC2",
       "KiloGM per M SEC2",
@@ -6416,7 +6416,7 @@
     "externalId": "pressure_gradient:pa-per-m",
     "name": "PA-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Pascal per metre",
+    "longName": "Pascal per meter",
     "aliasNames": [
       "pascal per metre",
       "Pascal per metre",
@@ -6438,7 +6438,7 @@
     "externalId": "pressure_gradient:bar-per-m",
     "name": "BAR-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Bar per metre",
+    "longName": "Bar per meter",
     "aliasNames": [
       "bar per metre",
       "Bar per metre",
@@ -6459,7 +6459,7 @@
     "externalId": "pressure_gradient:kilopa-per-m",
     "name": "KiloPA-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Kilopascal per metre",
+    "longName": "Kilopascal per meter",
     "aliasNames": [
       "kilopascal per metre",
       "kiloPascal per metre",
@@ -7005,7 +7005,7 @@
     "externalId": "surface_tension:w-hr-per-m2",
     "name": "W-HR-PER-M2",
     "quantity": "Surface Tension",
-    "longName": "Watt hour per square metre",
+    "longName": "Watt hour per square meter",
     "aliasNames": [
       "W hour per M2",
       "W Hour / Square Meter",
@@ -7103,7 +7103,7 @@
     "externalId": "surface_tension:w-sec-per-m2",
     "name": "W-SEC-PER-M2",
     "quantity": "Surface Tension",
-    "longName": "Watt seconds per square metre",
+    "longName": "Watt seconds per square meter",
     "aliasNames": [
       "watt SEC / m²",
       "W second per Square Meter",
@@ -7349,7 +7349,7 @@
     "externalId": "temperature_gradient:k-per-m",
     "name": "K-PER-M",
     "quantity": "Temperature Gradient",
-    "longName": "Degrees Kelvin per metre",
+    "longName": "Degrees Kelvin per meter",
     "aliasNames": [
       "kelvin per m",
       "kelvins per metre",
@@ -8145,7 +8145,7 @@
   {
     "externalId": "velocity:millim-per-hr",
     "name": "MilliM-PER-HR",
-    "longName": "Millimetre Per Hour",
+    "longName": "Millimeter Per Hour",
     "symbol": "mm/h",
     "aliasNames": [
       "Millimetre Per Hour",
@@ -8441,7 +8441,7 @@
     "externalId": "volume:microm3",
     "name": "MicroM3",
     "quantity": "Volume",
-    "longName": "Cubic micrometres (microns)",
+    "longName": "Cubic micrometers (microns)",
     "aliasNames": [
       "cubic micrometres (microns)",
       "µm³",
@@ -10233,7 +10233,7 @@
     "externalId": "power_per_area:w-per-m2",
     "name": "W-PER-M2",
     "quantity": "Power Per Area",
-    "longName": "watt per square metre",
+    "longName": "Watt per square meter",
     "aliasNames": [
       "W/m²",
       "W/m2",
@@ -10251,7 +10251,7 @@
     "externalId": "energy_per_area:j-per-m2",
     "name": "J-PER-M2",
     "quantity": "Energy Per Area",
-    "longName": "Joule per Square Metre",
+    "longName": "Joule per Square Meter",
     "aliasNames": [
       "J/m²",
       "J/m2",
@@ -10269,7 +10269,7 @@
     "externalId": "energy_per_area:megaj-per-m2",
     "name": "MegaJ-PER-M2",
     "quantity": "Energy Per Area",
-    "longName": "Megajoule Per Square Metre",
+    "longName": "Megajoule Per Square Meter",
     "aliasNames": [
       "MJ/m²",
       "MJ/m2",
@@ -10287,7 +10287,7 @@
     "externalId": "energy_per_area:gigaj-per-m2",
     "name": "GigaJ-PER-M2",
     "quantity": "Energy Per Area",
-    "longName": "Gigajoule per Square Metre",
+    "longName": "Gigajoule per Square Meter",
     "aliasNames": [
       "GJ/m²",
       "GJ/m2",

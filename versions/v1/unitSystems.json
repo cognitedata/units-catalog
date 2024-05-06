@@ -169,6 +169,10 @@
       {
         "name": "Kinematic Viscosity",
         "unitExternalId": "kinematic_viscosity:centist"
+      },
+      {
+        "name": "Angle Per Length",
+        "unitExternalId": "angle_per_length:rad-per-m"
       }
     ]
   },
@@ -403,6 +407,10 @@
       {
         "name": "Volume Flow Rate",
         "unitExternalId": "volume_flow_rate:ft3-per-sec"
+      },
+      {
+        "name": "Angle Per Length",
+        "unitExternalId": "angle_per_length:rad-per-ft"
       }
     ]
   }

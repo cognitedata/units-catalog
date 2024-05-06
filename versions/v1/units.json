@@ -10334,19 +10334,54 @@
     "sourceReference": "https://qudt.org/vocab/unit/CentiST"
   },
   {
-   "externalId": "angle_per_length:rad/m",
-   "name": "RADIANS_PER_METER",
-   "quantity": "Angle Per Length",
-   "longName": "Radians Per Meter",
-   "aliasNames": [
-     "rad.m-1"
-   ],
-   "symbol": "rad/m",
-   "conversion": {
-     "multiplier": 1.0,
-     "offset": 0.0
-   },
-   "source": "qudt.org",
-   "sourceReference": "https://qudt.org/vocab/unit/RAD-PER-M"
-}
+    "externalId": "angle_per_length:rad-per-m",
+    "name": "RAD-PER-M",
+    "quantity": "Angle Per Length",
+    "longName": "Radians Per Meter",
+    "aliasNames": [
+      "rad/m",
+      "rad.m-1"
+    ],
+    "symbol": "rad/m",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/RAD-PER-M"
+  },
+  {
+    "externalId": "angle_per_length:deg-per-m",
+    "name": "DEG-PER-M",
+    "quantity": "Angle Per Length",
+    "longName": "Degrees Per Meter",
+    "aliasNames": [
+      "deg/m",
+      "deg.m-1"
+    ],
+    "symbol": "deg/m",
+    "conversion": {
+      "multiplier": 0.0174532925199433,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/DEG-PER-M"
+  },
+  {
+    "externalId": "angle_per_length:rad-per-ft",
+    "name": "RAD-PER-FT",
+    "quantity": "Angle Per Length",
+    "longName": "Radians Per Foot",
+    "aliasNames": [
+      "rad/ft",
+      "rad.ft-1"
+    ],
+    "symbol": "rad/ft",
+    "conversion": {
+      "multiplier": 3.280839895,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  }
 ]

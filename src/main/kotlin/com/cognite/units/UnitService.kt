@@ -28,7 +28,7 @@ import kotlin.math.roundToLong
 
 class UnitService(units: String, systems: String) {
 
-    constructor(unitsPath: URL, systemPath: URL): this(unitsPath.readText(), systemPath.readText())
+    constructor(unitsPath: URL, systemPath: URL) : this(unitsPath.readText(), systemPath.readText())
 
     companion object {
         val service: UnitService by lazy {

@@ -33,6 +33,14 @@ class UnitTest {
     }
 
     @Test
+    fun useStringConstructor() {
+        val units = UnitService::class.java.getResource("/units.json")!!.readText()
+        val systems = UnitService::class.java.getResource("/unitSystems.json")!!.readText()
+        val unitService = UnitService(units, systems)
+        unitService.getUnitByExternalId("temperature:deg_c")
+    }
+
+    @Test
     fun convertBetweenUnits() {
         val unitService = UnitService.service
         val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")

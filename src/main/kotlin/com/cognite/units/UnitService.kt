@@ -26,7 +26,10 @@ import kotlin.math.log10
 import kotlin.math.pow
 import kotlin.math.roundToLong
 
-class UnitService(unitsPath: URL, systemPath: URL) {
+class UnitService(units: String, systems: String) {
+
+    constructor(unitsPath: URL, systemPath: URL) : this(unitsPath.readText(), systemPath.readText())
+
     companion object {
         val service: UnitService by lazy {
             UnitService(
@@ -42,8 +45,8 @@ class UnitService(unitsPath: URL, systemPath: URL) {
     private val defaultUnitByQuantityAndSystem = mutableMapOf<String, MutableMap<String, TypedUnit>>()
 
     init {
-        loadUnits(unitsPath)
-        loadSystem(systemPath)
+        loadUnits(units)
+        loadSystem(systems)
     }
 
     private fun sanitizeIdentifier(identifier: String): String {
@@ -102,8 +105,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         }
     }
 
-    private fun loadUnits(unitsPath: URL) {
-        val units = unitsPath.readText()
+    private fun loadUnits(units: String) {
         val mapper: ObjectMapper = jacksonObjectMapper()
 
         // 1. Syntax Check: Every unit item in `units.json` must have the specified keys
@@ -144,8 +146,7 @@ class UnitService(unitsPath: URL, systemPath: URL) {
         }
     }
 
-    private fun loadSystem(systemPath: URL) {
-        val systems = systemPath.readText()
+    private fun loadSystem(systems: String) {
         val mapper: ObjectMapper = jacksonObjectMapper()
         val listOfSystems: List<UnitSystem> = mapper.readValue<List<UnitSystem>>(systems)
 

@@ -10332,5 +10332,127 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/CentiST"
+  },
+{
+    "externalId": "pumping_unit:spm",
+    "name": "SPM",
+    "quantity": "Pumping Unit",
+    "longName": "Strokes per minute",
+    "aliasNames": [
+      "spm",
+      "SPM",
+      "strokes per min",
+      "Strokes per minute",
+      "strokes per minute",
+      "Strokes per min",
+      "Strokes/min",
+      "strokes/min",
+      "strokes/m",
+      "Strokes/m"
+    ],
+    "symbol": "spm",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "SPE Petrowiki",
+    "sourceReference": "https://petrowiki.spe.org/Sucker-rod_pumping_units"
+  },
+{
+    "externalId": "pumping_unit:hecto_spm",
+    "name": "hecto-SPM",
+    "quantity": "Pumping Unit",
+    "longName": "Hecto Strokes per minute",
+    "aliasNames": [
+      "hectoSPM",
+      "HectoSPM",
+      "hectospm",
+      "Hectospm",
+      "SPM*100",
+      "100*SPM",
+      "spm*100",
+      "100*spm",
+      "hecto SPM",
+      "hecto spm"
+    ],
+    "symbol": "spm",
+    "conversion": {
+      "multiplier": 100.0,
+      "offset": 0.0
+    },
+    "source": "SPE Petrowiki",
+    "sourceReference": "https://petrowiki.spe.org/Sucker-rod_pumping_units"
+  },
+  {
+    "externalId": "frequency:hectohz",
+    "name": "hecto-HZ",
+    "quantity": "Frequency",
+    "longName": "Hecto hertz",
+    "aliasNames": [
+      "hectoHz",
+      "hectoHZ",
+      "hectohertz",
+      "Hz*100", 
+      "100*Hz", 
+      "hecto-Hz", 
+      "hecto-hertz", 
+      "HectoHertz", 
+      "Hecto-Hertz"
+    ],
+    "symbol": "Hz",
+    "conversion": {
+      "multiplier": 100.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/HZ"
+  },
+  {
+    "externalId": "oil-density:api",
+    "name": "API",
+    "quantity": "oil-density",
+    "longName": "API Gravity",
+    "aliasNames": [
+      "api",
+      "API",
+      "API gravity",
+      "API Gravity",
+      "api gravity",
+      "grav",
+      "gravity",
+      "gravit"
+    ],
+    "symbol": "API",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "McKinsey Energy",
+    "sourceReference": "https://www.mckinseyenergyinsights.com/resources/refinery-reference-desk/api-gravity/"
+  },
+  {
+    "externalId": "oil-density:kiloapi",
+    "name": "kAPI",
+    "quantity": "oil-density",
+    "longName": "Kilo API Gravity",
+    "aliasNames": [
+      "kapi",
+      "kAPI",
+      "kAPI gravity",
+      "kAPI Gravity",
+      "kapi gravity",
+      "kgrav",
+      "kgravity",
+      "kgravit",
+      "gravit*1000",
+      "gravity*1000"
+    ],
+    "symbol": "API",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "McKinsey Energy",
+    "sourceReference": "https://www.mckinseyenergyinsights.com/resources/refinery-reference-desk/api-gravity/"
   }
 ]

@@ -10332,56 +10332,63 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/CentiST"
-  },
+  }
   {
-    "externalId": "angle_per_length:rad-per-m",
-    "name": "RAD-PER-M",
-    "quantity": "Angle Per Length",
-    "longName": "Radians Per Meter",
+  "externalId": "volume_flow_rate:l-per-day",
+    "name": "L-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Liter Per Day",
     "aliasNames": [
-      "rad/m",
-      "rad.m-1"
+      "litre / d",
+      "liter per Day",
+      "liter / d",
+      "Litre / D",
+      "L / Day",
+      "litre / Day",
+      "Litre per Day",
+      "liter per day",
+      "L / D",
+      "liter / Day",
+      "litre / D",
+      "litre per d",
+      "Liter / Day",
+      "L per day",
+      "Liter / day",
+      "L per D",
+      "liter per d",
+      "Litre / d",
+      "liter / day",
+      "L per Day",
+      "L / day",
+      "liter / D",
+      "litre per D",
+      "L / d",
+      "L per d",
+      "Liter Per Day",
+      "Litre per d",
+      "Litre / day",
+      "Litre / Day",
+      "litre / day",
+      "litre per Day",
+      "L PER D",
+      "Liter per day",
+      "Liter per D",
+      "Liter per d",
+      "liter per D",
+      "Liter / D",
+      "Litre per day",
+      "Liter / d",
+      "Litre per D",
+      "Litre Per Day",
+      "Liter per Day",
+      "litre per day"
     ],
-    "symbol": "rad/m",
+    "symbol": "L/day",
     "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
+      "multiplier": 0.00000001157407,
+      "offset": 0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/RAD-PER-M"
-  },
-  {
-    "externalId": "angle_per_length:deg-per-m",
-    "name": "DEG-PER-M",
-    "quantity": "Angle Per Length",
-    "longName": "Degrees Per Meter",
-    "aliasNames": [
-      "deg/m",
-      "deg.m-1"
-    ],
-    "symbol": "deg/m",
-    "conversion": {
-      "multiplier": 0.0174532925199433,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/DEG-PER-M"
-  },
-  {
-    "externalId": "angle_per_length:rad-per-ft",
-    "name": "RAD-PER-FT",
-    "quantity": "Angle Per Length",
-    "longName": "Radians Per Foot",
-    "aliasNames": [
-      "rad/ft",
-      "rad.ft-1"
-    ],
-    "symbol": "rad/ft",
-    "conversion": {
-      "multiplier": 3.280839895,
-      "offset": 0.0
-    },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "sourceReference": "https://qudt.org/vocab/unit/L-PER-DAY"
   }
 ]

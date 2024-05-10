@@ -123,11 +123,15 @@ class UnitTest {
         val unitService = UnitService.service
         assertEquals(
             unitService.getUnitByExternalId("temperature:deg_c"),
-            unitService.getUnitsByQuantityAndAlias("Temperature", "degC"),
+            unitService.getUnitByQuantityAndAlias("Temperature", "degC"),
         )
         assertEquals(
             unitService.getUnitByExternalId("temperature_gradient:k-per-m"),
             unitService.getUnitsByQuantity("Temperature Gradient").first(),
+        )
+        assertEquals(
+            listOf(unitService.getUnitByExternalId("temperature:deg_c")),
+            unitService.getUnitsByAlias("Celsius"),
         )
     }
 
@@ -141,10 +145,13 @@ class UnitTest {
             unitService.getUnitByExternalId("unknown")
         }
         assertThrows<IllegalArgumentException> {
-            unitService.getUnitsByQuantityAndAlias("unknown", "unknown")
+            unitService.getUnitByQuantityAndAlias("unknown", "unknown")
         }
         assertThrows<IllegalArgumentException> {
-            unitService.getUnitsByQuantityAndAlias("Temperature", "unknown")
+            unitService.getUnitByQuantityAndAlias("Temperature", "unknown")
+        }
+        assertThrows<IllegalArgumentException> {
+            unitService.getUnitsByAlias("unknown")
         }
     }
 

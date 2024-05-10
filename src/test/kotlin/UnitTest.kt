@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import com.cognite.units.Conversion
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.fail
@@ -154,6 +155,19 @@ class UnitTest {
         assertEquals(
             setOf("Default", "Imperial", "SI"),
             unitService.getUnitSystems(),
+        )
+    }
+
+    @Test
+    fun getDuplicateConversions() {
+        val unitService = UnitService.service
+        assertEquals(
+            unitService.getDuplicateConversions(unitService.getUnits())["Power"]?.get(Conversion(1.0, 0.0)),
+            listOf(
+                unitService.getUnitByExternalId("power:j-per-sec"),
+                unitService.getUnitByExternalId("power:v-a"),
+                unitService.getUnitByExternalId("power:w")
+            )
         )
     }
 }

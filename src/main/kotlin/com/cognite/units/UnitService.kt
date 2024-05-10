@@ -81,28 +81,13 @@ class UnitService(units: String, systems: String) {
         return unit.sourceReference
     }
 
-    private fun checkForDuplicateConversions(units: List<TypedUnit>) {
-        units.groupBy { it.quantity }.forEach { (quantity, unitsInGroup) ->
-            val duplicateGroups = unitsInGroup
-                .groupBy { it.conversion }
-                .filter { it.value.size > 1 }
-
-            if (duplicateGroups.isNotEmpty()) {
-                println("Duplicate units found for quantity '$quantity':")
-                duplicateGroups.forEach { (conversion, duplicates) ->
-                    println(
-                        "  Conversion [multiplier=" +
-                            conversion.multiplier +
-                            ", offset=" +
-                            conversion.offset +
-                            "] with external IDs:",
-                    )
-                    duplicates.forEach { duplicate ->
-                        println("    ${duplicate.externalId} - ${duplicate.symbol}")
-                    }
-                }
-            }
-        }
+    // For a given quantity, there should not be duplicate units
+    // one way to check this is to verify that the conversion values are unique
+    // Returns: A list of duplicate units in a map by conversion, by quantity
+    fun getDuplicateConversions(units: List<TypedUnit>): Map<String, Map<Conversion, List<TypedUnit>>> {
+        return units.groupBy { it.quantity }.mapValues { (_, units) ->
+            units.groupBy { it.conversion }.filter { it.value.isNotEmpty() }
+        }.filter { it.value.isNotEmpty() }
     }
 
     private fun loadUnits(units: String) {
@@ -110,10 +95,6 @@ class UnitService(units: String, systems: String) {
 
         // 1. Syntax Check: Every unit item in `units.json` must have the specified keys
         val listOfUnits: List<TypedUnit> = mapper.readValue<List<TypedUnit>>(units)
-
-        // For a given quantity, there should not be duplicate units
-        // one way to check this is to verify that the conversion values are unique
-        checkForDuplicateConversions(listOfUnits)
 
         listOfUnits.forEach {
             // 2. Unique IDs: All unit `externalIds` in `units.json` must be unique

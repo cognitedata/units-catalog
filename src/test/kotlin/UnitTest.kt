@@ -166,7 +166,7 @@ class UnitTest {
             listOf(
                 unitService.getUnitByExternalId("power:j-per-sec"),
                 unitService.getUnitByExternalId("power:v-a"),
-                unitService.getUnitByExternalId("power:w")
+                unitService.getUnitByExternalId("power:w"),
             )
         )
     }

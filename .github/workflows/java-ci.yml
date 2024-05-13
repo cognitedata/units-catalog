@@ -29,7 +29,7 @@ jobs:
         distribution: "temurin"
         cache: "maven"
     - name: Build Jar
-      run: mvn jar-no-fork --finalName="units-library.jar"
+      run: mvn jar-no-fork --Djar.finalName="units-library.jar"
     - id: kotlin-script
       name: Run Kotlin script
       run: kotlinc -script ./YourScript.main.kts ${{ github.event.inputs.awesome-input }} >> "$GITHUB_OUTPUT"

@@ -28,14 +28,12 @@ jobs:
         java-version: "17"
         distribution: "temurin"
         cache: "maven"
-    - name: Build Jar
-      run: mvn jar:jar
     - name: Get Jar name
       id: jar-name
       run: echo "jar_name=$(mvn help:evaluate -Dexpression=project.build.finalName -q -DforceStdout)" >> $GITHUB_OUTPUT
     - name: run kotlin script
       id: kotlin-script
-      run: kotlinc -script .github/check-duplicates.main.kts >> "$GITHUB_OUTPUT"
+      run: kotlinc -cp ${{ github.workspace }}/target/${{ steps.jar-name.outputs.jar_name }} -script .github/check-duplicates.main.kts >> "$GITHUB_OUTPUT"
       env:
         JAR_PATH: ${{ github.workspace }}/target/${{ steps.jar-name.outputs.jar_name }}
 

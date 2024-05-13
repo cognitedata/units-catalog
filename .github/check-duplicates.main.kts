@@ -1,4 +1,3 @@
-@file:DependsOn("file://${System.getenv("JAR_PATH")}")
 import com.cognite.units.UnitService
 
 fun main() {

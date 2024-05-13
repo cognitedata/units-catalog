@@ -30,11 +30,14 @@ jobs:
         cache: "maven"
     - name: Build Jar
       run: mvn jar-no-fork --Djar.finalName="units-library.jar"
-    - id: kotlin-script
-      name: Run Kotlin script
+    - name: Get Jar name
+      id: jar-name
+      run: mvn help:evaluate -Dexpression=project.build.finalName -q -DforceStdout >> "$GITHUB_OUTPUT"
+    - name: run kotlin script
+      id: kotlin-script
       run: kotlinc -script ./YourScript.main.kts ${{ github.event.inputs.awesome-input }} >> "$GITHUB_OUTPUT"
       env:
-        JAR_PATH: ${{ github.workspace }}/target/units-library.jar
+        JAR_PATH: ${{ github.workspace }}/target/${{ steps.jar-name.outputs }}
 
   comment:
     needs: check-duplicates

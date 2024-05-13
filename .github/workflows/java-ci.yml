@@ -29,7 +29,7 @@ jobs:
         distribution: "temurin"
         cache: "maven"
     - name: Build Jar
-      run: mvn jar-no-fork --Djar.finalName="units-library.jar"
+      run: mvn jar:jar
     - name: Get Jar name
       id: jar-name
       run: mvn help:evaluate -Dexpression=project.build.finalName -q -DforceStdout >> "$GITHUB_OUTPUT"

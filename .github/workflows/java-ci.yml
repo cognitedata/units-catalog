@@ -35,7 +35,7 @@ jobs:
       run: echo "jar_name=$(mvn help:evaluate -Dexpression=project.build.finalName -q -DforceStdout)" >> $GITHUB_OUTPUT
     - name: run kotlin script
       id: kotlin-script
-      run: kotlinc -script ./check-duplicates.kts >> "$GITHUB_OUTPUT"
+      run: kotlinc -script ${{ github.workspace }}/check-duplicates.kts >> "$GITHUB_OUTPUT"
       env:
         JAR_PATH: ${{ github.workspace }}/target/${{ steps.jar-name.outputs.jar_name }}
 

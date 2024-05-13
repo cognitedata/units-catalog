@@ -16,3 +16,36 @@ jobs:
         cache: "maven"
     - name: Verify with Maven
       run: mvn --update-snapshots --batch-mode verify
+  check-duplicates:
+    runs-on: ubuntu-latest
+    outputs:
+      output1: ${{ steps.kotlin-script.outputs }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: "17"
+        distribution: "temurin"
+        cache: "maven"
+    - name: Build Jar
+      run: mvn jar-no-fork --finalName="units-library.jar"
+    - id: kotlin-script
+      name: Run Kotlin script
+      run: kotlinc -script ./YourScript.main.kts ${{ github.event.inputs.awesome-input }} >> "$GITHUB_OUTPUT"
+      env:
+        JAR_PATH: ${{ github.workspace }}/target/units-library.jar
+
+  comment:
+    needs: check-duplicates
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: "${{needs.check-duplicates.outputs.kotlin-script}}"
+          })

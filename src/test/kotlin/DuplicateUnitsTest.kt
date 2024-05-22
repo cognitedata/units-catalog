@@ -22,7 +22,7 @@ class DuplicatedUnitsTest {
     fun getDuplicateConversions() {
         val unitService = UnitService.service
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
-        if(duplicates.isNotEmpty()) {
+        if (duplicates.isNotEmpty()) {
             println("Duplicate units found:")
             println()
             duplicates.forEach { (quantity, duplicatesByConversion) ->
@@ -37,6 +37,5 @@ class DuplicatedUnitsTest {
         } else {
             println("No duplicates units exist")
         }
-
     }
 }

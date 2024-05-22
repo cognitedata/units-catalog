@@ -34,7 +34,7 @@ jobs:
     - name: Checkout master branch
       uses: actions/checkout@v4
       with:
-        ref: master
+        ref: main
 
     - name: Run specific test on master branch
       run: |

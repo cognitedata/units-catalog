@@ -30,28 +30,9 @@ jobs:
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
-        echo `ls -R`
 
     - name: Upload current branch test results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: current-branch-test-results
+        name: current-branch-duplicates
         path: output/current_branch.txt
-
-    - name: Checkout master branch
-      uses: actions/checkout@v4
-      with:
-        ref: main
-
-    - name: Run duplicate check test on main branch
-      continue-on-error: true
-      run: |
-        mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
-        mkdir -p output
-        cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/main_branch.txt
-
-    - name: Upload main branch test results
-      uses: actions/upload-artifact@v3
-      with:
-        name: main-branch-test-results
-        path: output/main_branch.txt

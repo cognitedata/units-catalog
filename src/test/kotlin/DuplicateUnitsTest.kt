@@ -34,6 +34,8 @@ class DuplicatedUnitsTest {
                     }
                 }
             }
+        } else {
+            println("No duplicates units exist")
         }
 
     }

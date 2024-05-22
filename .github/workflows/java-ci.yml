@@ -16,3 +16,45 @@ jobs:
         cache: "maven"
     - name: Verify with Maven
       run: mvn --update-snapshots --batch-mode verify
+  compare-duplicates:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout current branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Run duplicate check test on current branch
+      run: |
+        mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
+        mkdir -p output/current_branch
+        cp build/test-results/test/TEST-com.example.MySpecificTest.xml output/current_branch/
+
+    - name: Checkout master branch
+      uses: actions/checkout@v2
+      with:
+        ref: master
+
+    - name: Run specific test on master branch
+      run: |
+        mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
+        mkdir -p output/master_branch
+        cp build/test-results/test/TEST-com.example.MySpecificTest.xml output/master_branch/
+
+    - name: Compare outputs
+      run: |
+        diff -u output/current_branch/TEST-com.example.MySpecificTest.xml output/master_branch/TEST-com.example.MySpecificTest.xml > diff.txt || true
+        if [ -s diff.txt ]; then
+          echo "Differences found:"
+          cat diff.txt
+          exit 1
+        else
+          echo "No differences found"
+        fi
+
+    - name: Upload test results and diffs
+      uses: actions/upload-artifact@v2
+      with:
+        name: test-results
+        path: output/

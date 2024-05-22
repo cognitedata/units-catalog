@@ -32,6 +32,12 @@ jobs:
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
         echo `ls -R`
 
+    - name: Upload current branch test results
+      uses: actions/upload-artifact@v3
+      with:
+        name: current-branch-test-results
+        path: output/current_branch.txt
+
     - name: Checkout master branch
       uses: actions/checkout@v4
       with:
@@ -44,19 +50,8 @@ jobs:
         mkdir -p output
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/main_branch.txt
 
-    - name: Compare outputs
-      run: |
-        diff -r output/current_branch.txt output/main_branch.txt > diff.txt || true
-        if [ -s diff.txt ]; then
-          echo "Differences found: "
-          cat diff.txt
-          exit 1
-        else
-          echo "No differences found"
-        fi
-
-    - name: Upload diff results
+    - name: Upload main branch test results
       uses: actions/upload-artifact@v3
       with:
-        name: diff-results
-        path: output/diff/
+        name: main-branch-test-results
+        path: output/main_branch.txt

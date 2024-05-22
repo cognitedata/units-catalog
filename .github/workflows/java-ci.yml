@@ -46,9 +46,9 @@ jobs:
 
     - name: Compare outputs
       run: |
-        diff -r output/current_branch output/master_branch > diff.txt || true
+        diff -r output/current_branch.txt output/master_branch.txt > diff.txt || true
         if [ -s diff.txt ]; then
-          echo "Differences found:"
+          echo "Differences found: "
           cat diff.txt
           exit 1
         else

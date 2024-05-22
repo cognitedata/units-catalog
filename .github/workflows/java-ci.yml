@@ -36,7 +36,8 @@ jobs:
       with:
         ref: main
 
-    - name: Run specific test on master branch
+    - name: Run duplicate check test on master branch
+      continue-on-error: true
       run: |
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output/master_branch
@@ -52,3 +53,9 @@ jobs:
         else
           echo "No differences found"
         fi
+
+    - name: Upload diff results
+      uses: actions/upload-artifact@v2
+      with:
+        name: diff-results
+        path: output/diff/

@@ -29,6 +29,7 @@ jobs:
       run: |
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output/current_branch
+        echo `ls`
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
 
     - name: Checkout master branch

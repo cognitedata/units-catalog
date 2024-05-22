@@ -199,6 +199,7 @@
           </execution>
         </executions>
         <configuration>
+          <redirectTestOutputToFile>true</redirectTestOutputToFile>
           <includes>
             <include>**</include>
           </includes>

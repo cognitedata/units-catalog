@@ -29,19 +29,19 @@ jobs:
       run: |
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output/current_branch
-        cp -r target/surefire-reports output/current_branch
+        cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
 
     - name: Checkout master branch
       uses: actions/checkout@v4
       with:
         ref: main
 
-    - name: Run duplicate check test on master branch
+    - name: Run duplicate check test on main branch
       continue-on-error: true
       run: |
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
-        mkdir -p output/master_branch
-        cp -r target/surefire-reports output/master_branch
+        mkdir -p output/main_branch
+        cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/main_branch.txt
 
     - name: Compare outputs
       run: |
@@ -55,7 +55,7 @@ jobs:
         fi
 
     - name: Upload diff results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: diff-results
         path: output/diff/

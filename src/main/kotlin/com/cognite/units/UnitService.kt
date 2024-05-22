@@ -39,6 +39,7 @@ class UnitService(units: String, systems: String) {
         }
     }
 
+    private val unitsByAlias = mutableMapOf<String, ArrayList<TypedUnit>>()
     private val unitsByExternalId = mutableMapOf<String, TypedUnit>()
     private val unitsByQuantity = mutableMapOf<String, ArrayList<TypedUnit>>()
     private val unitsByQuantityAndAlias = mutableMapOf<String, LinkedHashMap<String, TypedUnit>>()
@@ -118,6 +119,7 @@ class UnitService(units: String, systems: String) {
             unitsByQuantityAndAlias.computeIfAbsent(it.quantity) { LinkedHashMap() }
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C")
             it.aliasNames.toSet().forEach { alias ->
+                unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
                 // 6. Unique aliases: All pairs of (alias and quantity) must be unique, for all aliases in `aliasNames`
                 assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
                     "Duplicate alias $alias for quantity ${it.quantity}"
@@ -164,7 +166,7 @@ class UnitService(units: String, systems: String) {
         return unitsByQuantity[quantity] ?: throw IllegalArgumentException("Unknown unit quantity '$quantity'")
     }
 
-    fun getUnitsByQuantityAndAlias(quantity: String, alias: String): TypedUnit {
+    fun getUnitByQuantityAndAlias(quantity: String, alias: String): TypedUnit {
         val quantityTable = unitsByQuantityAndAlias[quantity] ?: throw IllegalArgumentException(
             "Unknown quantity '$quantity'",
         )
@@ -181,6 +183,10 @@ class UnitService(units: String, systems: String) {
             ?: defaultUnitByQuantityAndSystem["Default"]!![sourceUnit.quantity] ?: throw IllegalArgumentException(
             "Cannot convert from ${sourceUnit.quantity}",
         )
+    }
+
+    fun getUnitsByAlias(alias: String): ArrayList<TypedUnit> {
+        return unitsByAlias[alias] ?: throw IllegalArgumentException("Unknown alias '$alias'")
     }
 
     fun verifyIsConvertible(unitFrom: TypedUnit, unitTo: TypedUnit) {

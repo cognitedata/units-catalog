@@ -26,13 +26,10 @@ jobs:
         ref: ${{ github.head_ref }}
 
     - name: Run duplicate check test on current branch
-      id: duplicate-check
       run: |
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
-        current_branch_output=$(cat output/current_branch.txt)
-        echo "duplicates=$current_branch_output" >> $GITHUB_OUTPUT
 
     - name: Upload current branch test results
       uses: actions/upload-artifact@v4
@@ -44,9 +41,12 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
+          const fs = require('fs');
+          const duplicateContent = fs.readFileSync('output/current_branch.txt', 'utf8');
+
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: "${{ steps.duplicate-check.outputs.duplicates }}"
+            body: duplicateContent
           })

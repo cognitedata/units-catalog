@@ -24,9 +24,15 @@ class DuplicatedUnitsTest {
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
         if (duplicates.isNotEmpty()) {
             println("## Equivalent units found in the catalog")
-            println("This check scans the catalog looking for equivalent (or duplicate) unit entries for each quantity.")
+            println(
+                "This check scans the catalog looking for equivalent " +
+                    "(or duplicate) unit entries for each quantity.",
+            )
             println("Equivalent units are allowed, but duplicate units are not allowed.")
-            println("The reviewer needs to go through the list and confirm no duplicate units were introduced in the current PR.")
+            println(
+                "The reviewer needs to go through the list and confirm no " +
+                    "duplicate units were introduced in the current PR.",
+            )
             println()
             duplicates.forEach { (quantity, duplicatesByConversion) ->
                 println()

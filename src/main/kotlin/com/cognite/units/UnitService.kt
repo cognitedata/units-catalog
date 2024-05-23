@@ -87,7 +87,7 @@ class UnitService(units: String, systems: String) {
     // Returns: A list of duplicate units in a map by conversion, by quantity
     fun getDuplicateConversions(units: List<TypedUnit>): Map<String, Map<Conversion, List<TypedUnit>>> {
         return units.groupBy { it.quantity }.mapValues { (_, units) ->
-            units.groupBy { it.conversion }.filter { it.value.isNotEmpty() }
+            units.groupBy { it.conversion }.filter { it.value.size > 1 }
         }.filter { it.value.isNotEmpty() }
     }
 

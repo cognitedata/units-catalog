@@ -36,3 +36,15 @@ jobs:
       with:
         name: current-branch-duplicates
         path: output/current_branch.txt
+
+    - name: Add Comment to Pull Request
+      uses: actions/github-script@v6
+      with:
+        script: |
+          content=$(cat output/something.txt)
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: "${{content}}"
+          })

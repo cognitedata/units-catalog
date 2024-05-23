@@ -16,9 +16,9 @@ jobs:
         cache: "maven"
     - name: Verify with Maven
       run: mvn --update-snapshots --batch-mode verify
-  compare-duplicates:
-    runs-on: ubuntu-latest
 
+  get-duplicates:
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout current branch
       uses: actions/checkout@v4
@@ -26,10 +26,12 @@ jobs:
         ref: ${{ github.head_ref }}
 
     - name: Run duplicate check test on current branch
+      id: duplicate-check
       run: |
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
+        echo duplicates=`cat output/current_branch.txt` >> $GITHUB_OUTPUT
 
     - name: Upload current branch test results
       uses: actions/upload-artifact@v4
@@ -41,10 +43,9 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          content=$(cat output/something.txt)
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: "${{content}}"
+            body: "${{ steps.duplicate-check.duplicates }}"
           })

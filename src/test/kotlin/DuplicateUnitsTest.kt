@@ -26,6 +26,7 @@ class DuplicatedUnitsTest {
             println("Duplicate units found:")
             println()
             duplicates.forEach { (quantity, duplicatesByConversion) ->
+                println()
                 println("Quantity: $quantity")
                 duplicatesByConversion.forEach { (conversion, duplicatesList) ->
                     println("  * Conversion: $conversion")

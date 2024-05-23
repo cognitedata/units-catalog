@@ -178,9 +178,7 @@ class UnitTest {
         )
         assertEquals(
             unitService.getDuplicateConversions(unitService.getUnits()).containsKey("Linear Density"),
-            false
+            false,
         )
-
     }
-
 }

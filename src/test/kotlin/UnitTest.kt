@@ -176,5 +176,11 @@ class UnitTest {
                 unitService.getUnitByExternalId("power:w"),
             ),
         )
+        assertEquals(
+            unitService.getDuplicateConversions(unitService.getUnits()).containsKey("Linear Density"),
+            false
+        )
+
     }
+
 }

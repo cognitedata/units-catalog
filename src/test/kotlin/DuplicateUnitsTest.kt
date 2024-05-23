@@ -29,7 +29,7 @@ class DuplicatedUnitsTest {
                 println()
                 println("Quantity: $quantity")
                 duplicatesByConversion.forEach { (conversion, duplicatesList) ->
-                    println("  * Conversion: $conversion")
+                    println("  * Multiplier: ${conversion.multiplier} Offset: ${conversion.offset}")
                     duplicatesList.forEach { duplicate ->
                         println("    - ${duplicate.externalId}")
                     }

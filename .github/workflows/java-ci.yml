@@ -31,7 +31,8 @@ jobs:
         mvn test -Dtest=DuplicatedUnitsTest#getDuplicateConversions
         mkdir -p output
         cp target/surefire-reports/DuplicatedUnitsTest-output.txt output/current_branch.txt
-        echo duplicates=`cat output/current_branch.txt` >> $GITHUB_OUTPUT
+        current_branch_output=$(cat output/current_branch.txt)
+        echo "duplicates=$current_branch_output" >> $GITHUB_OUTPUT
 
     - name: Upload current branch test results
       uses: actions/upload-artifact@v4
@@ -47,5 +48,5 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: "${{ steps.duplicate-check.duplicates }}"
+            body: "${{ steps.duplicate-check.outputs.duplicates }}"
           })

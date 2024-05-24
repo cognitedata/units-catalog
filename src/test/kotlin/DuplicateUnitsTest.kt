@@ -23,7 +23,7 @@ class DuplicatedUnitsTest {
     @Test
     // run explicitly in github action
     @Disabled
-    fun getDuplicateConversionsPrint() {
+    fun getDuplicateConversions() {
         getDuplicateConversions(false)
     }
 
@@ -32,7 +32,7 @@ class DuplicatedUnitsTest {
         getDuplicateConversions(true)
     }
 
-    fun getDuplicateConversions(failOnError: Boolean) {
+    private fun getDuplicateConversions(failOnError: Boolean) {
         val unitService = UnitService.service
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
         // We want to filter out all units that are marked as equivalent

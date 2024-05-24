@@ -47,10 +47,8 @@ class DuplicatedUnitsTest {
                     "(or duplicate) unit entries for each quantity.",
             )
             println("Equivalent units are allowed, but duplicate units are not allowed.")
-            println(
-                "The reviewer needs to go through the list and confirm no " +
-                    "duplicate units were introduced in the current PR.",
-            )
+            println("Duplicate units should be removed from the catalog. ")
+            println("Equivalent units should be marked as such in EquivalentUnits.kt.",)
             println()
             newDuplicates.forEach { (quantity, duplicatesByConversion) ->
                 println()

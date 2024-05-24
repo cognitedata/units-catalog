@@ -71,7 +71,7 @@ class DuplicatedUnitsTest {
                 fail("Duplicate units found in the catalog. Update list in EquivalentUnits.kt:\n$duplicateList")
             }
         } else {
-            println("No equivalent units exist in the catalog.")
+            println("No equivalent units were introduced in this Pull Request.")
         }
     }
 }

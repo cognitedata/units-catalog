@@ -50,6 +50,9 @@ jobs:
           const { data: comments } = await github.rest.issues.listComments({
             owner, repo, issue_number
           });
+
+          console.log(comments.length);
+          const botComments = comments.forEach(c => console.log(c.user.login));
       
           // Filter comments made by the bot
           const botComments = comments.filter(comment => comment.user.login === 'github-actions[bot]');

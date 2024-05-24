@@ -46,15 +46,12 @@ jobs:
           const { owner, repo } = context.repo;
           const issue_number = context.issue.number;
           
-          // List all comments on the issue/PR
           const { data: comments } = await github.rest.issues.listComments({
             owner, repo, issue_number
           });
       
-          // Filter comments made by the bot
           const botComments = comments.filter(comment => comment.user.login === 'github-actions[bot]');
 
-          // Delete each bot comment
           for (const comment of botComments) {
             await github.rest.issues.deleteComment({
               owner, repo,

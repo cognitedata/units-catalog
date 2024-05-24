@@ -43,8 +43,7 @@ jobs:
         script: |
           const fs = require('fs');
           const duplicateContent = fs.readFileSync('output/current_branch.txt', 'utf8');
-          const owner = context.repo.owner;
-          const repo = context.repo.repo;
+          const { owner, repo } = context.repo;
           const issue_number = context.issue.number;
           
           // List all comments on the issue/PR

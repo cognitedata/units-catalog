@@ -15,12 +15,24 @@
  */
 
 import com.cognite.units.UnitService
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import kotlin.test.DefaultAsserter.fail
 
 class DuplicatedUnitsTest {
     @Test
-    fun getDuplicateConversions() {
+    // run explicitly in github action
+    @Disabled
+    fun getDuplicateConversionsPrint() {
+        getDuplicateConversions(false)
+    }
+
+    @Test
+    fun getDuplicateConversionsFail() {
+        getDuplicateConversions(true)
+    }
+
+    fun getDuplicateConversions(failOnError: Boolean) {
         val unitService = UnitService.service
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
         // We want to filter out all units that are marked as equivalent
@@ -58,7 +70,9 @@ class DuplicatedUnitsTest {
                     it.value.values.flatten().map { typedUnit -> "\"${typedUnit.externalId}\"" }
                 }
                     .joinToString(",\n",postfix = ",")
-            fail("Duplicate units found in the catalog. Update list in EquivalentUnits.kt:\n$duplicateList")
+            if (failOnError) {
+                fail("Duplicate units found in the catalog. Update list in EquivalentUnits.kt:\n$duplicateList")
+            }
         } else {
             println("No equivalent units exist in the catalog.")
         }

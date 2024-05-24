@@ -54,6 +54,7 @@ class EquivalentUnits {
             "volume:kilol",
             "volume:m3",
             "volume:microl",
+            "volume:millim3",
             "volume_flow_rate:centim3-per-sec",
             "volume_flow_rate:millil-per-sec",
             "volume_flow_rate:decim3-per-min",

@@ -16,6 +16,7 @@ class EquivalentUnits {
             "dimensionless:unitless",
             "dimensionless_ratio:fraction",
             "dimensionless_ratio:unitless",
+            "energy:j",
             "energy:w-sec",
             "energy:kilov-a-hr",
             "energy:kilow-hr",

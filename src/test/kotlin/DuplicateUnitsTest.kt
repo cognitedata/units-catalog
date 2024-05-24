@@ -21,8 +21,6 @@ import kotlin.test.DefaultAsserter.fail
 
 class DuplicatedUnitsTest {
     @Test
-    // run explicitly in github action
-    @Disabled
     fun getDuplicateConversions() {
         getDuplicateConversions(false)
     }

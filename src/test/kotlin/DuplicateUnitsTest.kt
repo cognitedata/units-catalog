@@ -23,20 +23,29 @@ class DuplicatedUnitsTest {
         val unitService = UnitService.service
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
         if (duplicates.isNotEmpty()) {
-            println("Duplicate units found:")
+            println("## Equivalent units found in the catalog")
+            println(
+                "This check scans the catalog looking for equivalent " +
+                    "(or duplicate) unit entries for each quantity.",
+            )
+            println("Equivalent units are allowed, but duplicate units are not allowed.")
+            println(
+                "The reviewer needs to go through the list and confirm no " +
+                    "duplicate units were introduced in the current PR.",
+            )
             println()
             duplicates.forEach { (quantity, duplicatesByConversion) ->
                 println()
-                println("Quantity: $quantity")
+                println("### Quantity: *$quantity*")
                 duplicatesByConversion.forEach { (conversion, duplicatesList) ->
-                    println("  * Multiplier: ${conversion.multiplier} Offset: ${conversion.offset}")
+                    println("  * Multiplier: `${conversion.multiplier}` Offset: `${conversion.offset}`")
                     duplicatesList.forEach { duplicate ->
-                        println("    - ${duplicate.externalId}")
+                        println("    - `${duplicate.externalId}`")
                     }
                 }
             }
         } else {
-            println("No duplicates units exist")
+            println("No equivalent units exist in the catalog.")
         }
     }
 }

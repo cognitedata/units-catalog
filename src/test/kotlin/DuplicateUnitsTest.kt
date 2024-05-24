@@ -15,7 +15,6 @@
  */
 
 import com.cognite.units.UnitService
-import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import kotlin.test.DefaultAsserter.fail
 
@@ -67,7 +66,7 @@ class DuplicatedUnitsTest {
                 duplicates.flatMap {
                     it.value.values.flatten().map { typedUnit -> "\"${typedUnit.externalId}\"" }
                 }
-                    .joinToString(",\n",postfix = ",")
+                    .joinToString(",\n", postfix = ",")
             if (failOnError) {
                 fail("Duplicate units found in the catalog. Update list in EquivalentUnits.kt:\n$duplicateList")
             }

@@ -25,7 +25,7 @@ class DuplicatedUnitsTest {
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
         // We want to filter out all units that are marked as equivalent
         val newDuplicates = duplicates.mapValues {
-            (_, duplicatesByConversion) ->
+                (_, duplicatesByConversion) ->
             duplicatesByConversion.filterNot {
                 EquivalentUnits.equivalentUnits.containsAll(it.value.map { typedUnit -> typedUnit.externalId })
             }
@@ -57,7 +57,7 @@ class DuplicatedUnitsTest {
                 duplicates.flatMap {
                     it.value.values.flatten().map { typedUnit -> "\"${typedUnit.externalId}\"" }
                 }
-                    .joinToString(",\n")
+                    .joinToString(",\n",postfix = ",")
             fail("Duplicate units found in the catalog. Update list in EquivalentUnits.kt:\n$duplicateList")
         } else {
             println("No equivalent units exist in the catalog.")

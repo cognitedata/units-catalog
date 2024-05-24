@@ -66,7 +66,7 @@ class EquivalentUnits {
             "volume_fraction:m3-per-m3",
             "volume_fraction:centim3-per-m3",
             "volume_fraction:microl-per-l",
-            "volume_fraction:millil-per-m3"
+            "volume_fraction:millil-per-m3",
         )
     }
 }

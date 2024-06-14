@@ -41,7 +41,7 @@
   <properties>
     <kotlin.version>1.9.24</kotlin.version>
     <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
-    <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
+    <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
     <maven-dokka-plugin.version>1.9.20</maven-dokka-plugin.version>
     <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>

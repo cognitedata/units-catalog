@@ -43,10 +43,23 @@ jobs:
         script: |
           const fs = require('fs');
           const duplicateContent = fs.readFileSync('output/current_branch.txt', 'utf8');
+          const { owner, repo } = context.repo;
+          const issue_number = context.issue.number;
+          
+          const { data: comments } = await github.rest.issues.listComments({
+            owner, repo, issue_number
+          });
+      
+          const botComments = comments.filter(comment => comment.user.login === 'github-actions[bot]');
+
+          for (const comment of botComments) {
+            await github.rest.issues.deleteComment({
+              owner, repo,
+              comment_id: comment.id,
+            });
+          }
 
           github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
+            owner, repo, issue_number,
             body: duplicateContent
           })

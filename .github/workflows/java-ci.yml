@@ -38,7 +38,7 @@ jobs:
         path: output/current_branch.txt
 
     - name: Add Comment to Pull Request
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: |
           const fs = require('fs');

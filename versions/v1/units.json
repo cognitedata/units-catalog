@@ -10457,5 +10457,37 @@
     },
     "source": null,
     "sourceReference": null
+  },
+  {
+    "externalId": "attenuation:db",
+    "name": "dB",
+    "quantity": "Attenuation",
+    "longName": "Decibels",
+    "aliasNames": [
+      "DB",
+      "-DB",
+      "-dB"
+    ],
+    "symbol": "dB",
+    "conversion": {
+        "multiplier": 1.0,
+        "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/DeciB" 
+  },
+  {
+    "externalId": "attenuation:b",
+    "name": "Bel",
+    "quantity": "Attenuation",
+    "longName": "Bel",
+    "aliasNames": [],
+    "symbol": "B",
+    "conversion": {
+        "multiplier": 10.0,
+        "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/B" 
   }
 ]

@@ -177,6 +177,10 @@
       {
         "name": "Unknown",
         "unitExternalId": "unknown:unknown"
+      },
+      {
+        "name": "Attenuation",
+        "unitExternalId": "attenuation:db"
       }
     ]
   },
@@ -330,6 +334,10 @@
       {
         "name": "Volume Fraction",
         "unitExternalId": "volume_fraction:m3-per-m3"
+      },
+      {
+        "name": "Attenuation",
+        "unitExternalId": "attenuation:db"
       }
     ]
   },
@@ -415,6 +423,10 @@
       {
         "name": "Angle Per Length",
         "unitExternalId": "angle_per_length:rad-per-ft"
+      },
+      {
+        "name": "Attenuation",
+        "unitExternalId": "attenuation:db"
       }
     ]
   }

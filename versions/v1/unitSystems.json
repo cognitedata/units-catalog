@@ -180,7 +180,7 @@
       },
       {
         "name": "Attenuation",
-        "unitExternalId": "attenuation:db"
+        "unitExternalId": "attenuation:decib"
       }
     ]
   },
@@ -337,7 +337,7 @@
       },
       {
         "name": "Attenuation",
-        "unitExternalId": "attenuation:db"
+        "unitExternalId": "attenuation:decib"
       }
     ]
   },
@@ -426,7 +426,7 @@
       },
       {
         "name": "Attenuation",
-        "unitExternalId": "attenuation:db"
+        "unitExternalId": "attenuation:decib"
       }
     ]
   }

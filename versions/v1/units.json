@@ -10459,14 +10459,16 @@
     "sourceReference": null
   },
   {
-    "externalId": "attenuation:db",
-    "name": "dB",
+    "externalId": "attenuation:decib",
+    "name": "DeciB",
     "quantity": "Attenuation",
-    "longName": "Decibels",
+    "longName": "Decibel",
     "aliasNames": [
       "DB",
       "-DB",
-      "-dB"
+      "-dB",
+      "dB",
+      "Decibel"
     ],
     "symbol": "dB",
     "conversion": {
@@ -10481,7 +10483,10 @@
     "name": "Bel",
     "quantity": "Attenuation",
     "longName": "Bel",
-    "aliasNames": [],
+    "aliasNames": [
+      "B",
+      "Bel"
+    ],
     "symbol": "B",
     "conversion": {
         "multiplier": 10.0,

@@ -10480,7 +10480,7 @@
   },
   {
     "externalId": "attenuation:b",
-    "name": "Bel",
+    "name": "B",
     "quantity": "Attenuation",
     "longName": "Bel",
     "aliasNames": [

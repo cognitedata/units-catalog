@@ -45,7 +45,7 @@ jobs:
           const fs = require('fs');
           const duplicateContent = fs.readFileSync('output/current_branch.txt', 'utf8');
           console.log("This is a fork, skip PR comment");
-          core.warning(duplicateContent, { file: 'versions/units.json' });
+          core.warning(duplicateContent);
 
     - name: Add Comment to Pull Request
       uses: actions/github-script@v6

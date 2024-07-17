@@ -39,6 +39,7 @@ jobs:
 
     - name: Print warning on forks
       uses: actions/github-script@v6
+      # if: github.event.pull_request.head.repo.fork == true
       with:
         script: |
           const fs = require('fs');
@@ -48,6 +49,7 @@ jobs:
 
     - name: Add Comment to Pull Request
       uses: actions/github-script@v6
+      if: github.event.pull_request.head.repo.name == github.repository
       with:
         script: |
           const fs = require('fs');

@@ -37,8 +37,17 @@ jobs:
         name: current-branch-duplicates
         path: output/current_branch.txt
 
+    - name: Print warning on forks
+      run: |
+        if [ -z "$GITHUB_HEAD_REF" ]; then
+          echo "This is a forked repository. Skipping duplicate check comment."
+          echo "::warning file=versions/units.json::This is a forked repository. Please run the duplicate unit check locally or download the github CI artifact to check for duplicates."
+          exit 0
+        fi
+
     - name: Add Comment to Pull Request
       uses: actions/github-script@v6
+      if: github.event.repository.fork == false
       with:
         script: |
           const fs = require('fs');

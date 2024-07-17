@@ -37,8 +37,19 @@ jobs:
         name: current-branch-duplicates
         path: output/current_branch.txt
 
+    - name: Print warning on forks
+      uses: actions/github-script@v6
+      if: github.event.pull_request.head.repo.fork == true
+      with:
+        script: |
+          const fs = require('fs');
+          const duplicateContent = fs.readFileSync('output/current_branch.txt', 'utf8');
+          console.log("This is a fork, skip PR comment");
+          core.warning(duplicateContent, { file: 'versions/v1/units.json' });
+
     - name: Add Comment to Pull Request
       uses: actions/github-script@v6
+      if: github.event.pull_request.head.repo.name == github.repository
       with:
         script: |
           const fs = require('fs');

@@ -10494,5 +10494,124 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/B" 
+  },
+  {
+    "externalId": "Frequency:spm",
+    "name": "SPM",
+    "quantity": "Frequency",
+    "longName": "Strokes per minute",
+    "aliasNames": [
+      "spm",
+      "SPM",
+      "strokes per min",
+      "Strokes per minute",
+      "strokes per minute",
+      "Strokes per min",
+      "Strokes/min",
+      "strokes/min",
+      "strokes/m",
+      "Strokes/m"
+    ],
+    "symbol": "spm",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "SPE Petrowiki",
+    "sourceReference": "https://petrowiki.spe.org/Sucker-rod_pumping_units"
+  },
+  {
+    "externalId": "Frequency:hecto_spm",
+    "name": "hecto-SPM",
+    "quantity": "Frequency",
+    "longName": "Hecto Strokes per minute",
+    "aliasNames": [
+      "hectoSPM",
+      "HectoSPM",
+      "hectospm",
+      "Hectospm",
+      "hecto SPM",
+      "hecto spm"
+    ],
+    "symbol": "spm",
+    "conversion": {
+      "multiplier": 100.0,
+      "offset": 0.0
+    },
+    "source": "SPE Petrowiki",
+    "sourceReference": "https://petrowiki.spe.org/Sucker-rod_pumping_units"
+  },
+  {
+    "externalId": "frequency:hectohz",
+    "name": "hecto-HZ",
+    "quantity": "Frequency",
+    "longName": "Hecto hertz",
+    "aliasNames": [
+      "hectoHz",
+      "hectoHZ",
+      "hectohertz",
+      "hecto-Hz", 
+      "hecto-hertz", 
+      "HectoHertz", 
+      "Hecto-Hertz",
+      "hHz"
+    ],
+    "symbol": "Hz",
+    "conversion": {
+      "multiplier": 100.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/HZ"
+  },
+  {
+    "externalId": "gravity-api:api",
+    "name": "API",
+    "quantity": "Gravity_API",
+    "longName": "API Gravity",
+    "aliasNames": [
+      "api",
+      "API",
+      "API gravity",
+      "API Gravity",
+      "api gravity",
+      "grav",
+      "gravity",
+      "gravit",
+      "dAPI",
+      "degree API",
+      "Degree API",
+      "deg API"
+    ],
+    "symbol": "API",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/Gravity_API"
+  },
+  {
+    "externalId": "gravity-api:kilo-api",
+    "name": "kAPI",
+    "quantity": "Gravity_API",
+    "longName": "Kilo API Gravity",
+    "aliasNames": [
+      "kapi",
+      "kAPI",
+      "kAPI gravity",
+      "kAPI Gravity",
+      "kapi gravity",
+      "kgrav",
+      "kgravity",
+      "kgravit",
+    ],
+    "symbol": "kAPI",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/Gravity_API"
   }
 ]

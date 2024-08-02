@@ -38,7 +38,7 @@ jobs:
         path: output/current_branch.txt
 
     - name: Print warning on forks
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       if: github.event.pull_request.head.repo.fork == true
       with:
         script: |
@@ -48,7 +48,7 @@ jobs:
           core.warning(duplicateContent, { file: 'versions/v1/units.json' });
 
     - name: Add Comment to Pull Request
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       if: github.event.pull_request.head.repo.name == github.repository
       with:
         script: |

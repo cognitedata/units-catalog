@@ -3534,7 +3534,9 @@
       "per minute",
       "/ min",
       "1/min",
-      "per min"
+      "per min",
+      "spm",
+      "SPM"
     ],
     "symbol": "/min",
     "conversion": {
@@ -10494,5 +10496,80 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/B" 
+  },
+  {
+    "externalId": "frequency:hectohz",
+    "name": "HectoHZ",
+    "quantity": "Frequency",
+    "longName": "Hectohertz",
+    "aliasNames": [
+      "hectoHz",
+      "hectoHZ",
+      "hectohertz",
+      "hecto-Hz", 
+      "hecto-hertz", 
+      "HectoHertz", 
+      "Hecto-Hertz",
+      "hHz"
+    ],
+    "symbol": "hHz",
+    "conversion": {
+      "multiplier": 100.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/HZ",
+    "sourceReference": null
+  },
+  {
+    "externalId": "api_gravity:degree_api",
+    "name": "DEGREE_API",
+    "quantity": "API Gravity",
+    "longName": "Degree API",
+    "aliasNames": [
+      "api",
+      "API",
+      "API gravity",
+      "API Gravity",
+      "api gravity",
+      "grav",
+      "gravity",
+      "gravit",
+      "dAPI",
+      "degree API",
+      "Degree API",
+      "deg API",
+      "°API"
+    ],
+    "symbol": "°API",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/DEGREE_API"
+  },
+  {
+    "externalId": "api_gravity:kilo_degree_api",
+    "name": "KILO_DEGREE_API",
+    "quantity": "API Gravity",
+    "longName": "Kilo Degree API",
+    "aliasNames": [
+      "kapi",
+      "kAPI",
+      "kAPI gravity",
+      "kAPI Gravity",
+      "kapi gravity",
+      "kgrav",
+      "kgravity",
+      "kgravit",
+      "k °API"
+    ],
+    "symbol": "k °API",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEGREE_API",
+    "sourceReference": null
   }
 ]

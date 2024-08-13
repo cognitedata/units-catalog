@@ -27,6 +27,10 @@
         "unitExternalId": "angular_velocity:rev-per-sec"
       },
       {
+        "name": "API Gravity",
+        "unitExternalId": "api_gravity:degree_api"
+      },
+      {
         "name": "Area",
         "unitExternalId": "area:m2"
       },

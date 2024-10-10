@@ -4225,7 +4225,8 @@
       "KiloGM / day",
       "KiloGM PER DAY",
       "KiloGM per Day",
-      "kg per day"
+      "kg per day",
+      "kg/d"
     ],
     "symbol": "kg/day",
     "conversion": {
@@ -4267,7 +4268,9 @@
       "Kilogram per Hour",
       "kg per Hour",
       "kilogram / hr",
-      "kg per HR"
+      "kg per HR",
+      "kg/hr",
+      "kg/h"
     ],
     "symbol": "kg/h",
     "conversion": {
@@ -5706,7 +5709,8 @@
       "BAR",
       "bara",
       "BARa",
-      "bar(a)"
+      "bar(a)",
+      "bar a"
     ],
     "symbol": "bar",
     "conversion": {
@@ -5730,7 +5734,8 @@
       "BARG",
       "BarG",
       "Bar G",
-      "bar_g"
+      "bar_g",
+      "bar G"
     ],
     "symbol": "bar(g)",
     "conversion": {
@@ -8171,7 +8176,9 @@
       "Barrel",
       "barrel",
       "BBL",
-      "bbl"
+      "bbl",
+      "Bbl",
+      "BBLS"
     ],
     "symbol": "bbl",
     "conversion": {
@@ -9155,7 +9162,11 @@
       "kft3 / day",
       "kft3 / d",
       "Mscfd",
-      "mscfd"
+      "mscfd",
+      "MSCFD",
+      "Mscf/d",
+      "mscf/d",
+      "MSCF/D"
     ],
     "symbol": "kft³/day",
     "conversion": {
@@ -9400,7 +9411,13 @@
       "Sm3/hour",
       "Sm³/h",
       "Sm³/hr",
-      "Sm³/hour"
+      "Sm³/hour",
+      "m3/h",
+      "m3/hr",
+      "m3/hour",
+      "Sm3/h",
+      "Sm3/hr",
+      "Sm3/hour"
     ],
     "symbol": "m³/h",
     "conversion": {
@@ -9760,7 +9777,9 @@
       "MMSCF/day",
       "MMscf/d",
       "mcf/d",
-      "Mcf/d"
+      "Mcf/d",
+      "mmscfd",
+      "MMScf/d"
     ],
     "symbol": "MMscf/day",
     "conversion": {

@@ -10625,7 +10625,7 @@
   },
   {
     "externalId": "volume_fraction:ft3-per-bbl_us",
-    "name": FT3-PER-BBL_US",
+    "name": "FT3-PER-BBL_US",
     "quantity": "Volume Fraction",
     "longName": "Cubic Foot Per Barrel (US)",
     "aliasNames": [

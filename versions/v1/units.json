@@ -8256,7 +8256,9 @@
       "Cubic Foot",
       "FT3",
       "ft³",
-      "cubic foot"
+      "cubic foot",
+      "scf",
+      "SCF"
     ],
     "symbol": "ft³",
     "conversion": {
@@ -8316,7 +8318,9 @@
       "Kilo cubic foot",
       "Kilo FT3",
       "k.ft³",
-      "Kilo ft³"
+      "Kilo ft³",
+      "MSCF",
+      "Mscf"
     ],
     "symbol": "k.ft³",
     "conversion": {
@@ -8772,7 +8776,11 @@
       "FT3 per Day",
       "Cubic Foot / day",
       "cubic foot / DAY",
-      "ft³ per DAY"
+      "ft³ per DAY",
+      "SCFD",
+      "scfd",
+      "SCF/D",
+      "scf/d"
     ],
     "symbol": "ft³/day",
     "conversion": {
@@ -10590,5 +10598,50 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEGREE_API",
     "sourceReference": null
+  },
+  {
+    "externalId": "volume_flow_rate:kilo-bbl_us-per-day",
+    "name": "Kilo-BBL_US-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Thousand Barrel (US) Per Day",
+    "aliasNames": [
+	  "kilo barrels per day",
+	  "thousand barrels per day",
+      "kbpd",
+	  "kb/d",
+	  "Mb/d",
+	  "MBPD",
+	  "Mbpd",
+	  "Mbbl/d",
+	  "kBbl/day"
+    ],
+    "symbol": "kbbl/d",
+    "conversion": {
+      "multiplier": 0.0018401307283,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_fraction:ft3-per-bbl_us",
+    "name": FT3-PER-BBL_US",
+    "quantity": "Volume Fraction",
+    "longName": "Cubic Foot Per Barrel (US)",
+    "aliasNames": [
+      "cf/bbl",
+	  "ft³/bbl",
+	  "ft3/bbl",
+	  "CF/BBL",
+	  "scf/bbl",
+	  "SCF/BBL"
+    ],
+    "symbol": "cf/bbl",
+    "conversion": {
+      "multiplier": 0.178107606679035,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   }
 ]

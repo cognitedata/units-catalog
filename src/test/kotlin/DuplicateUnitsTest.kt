@@ -31,7 +31,7 @@ class DuplicatedUnitsTest {
 
     private fun getDuplicateConversions(failOnError: Boolean) {
         val unitService = UnitService.service
-        val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
+        val duplicates = unitService.getDuplicateConversions(unitService.getUnits().get())
         // We want to filter out all units that are marked as equivalent
         val newDuplicates = duplicates.mapValues {
                 (_, duplicatesByConversion) ->

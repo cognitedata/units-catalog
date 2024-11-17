@@ -393,7 +393,6 @@
       "micromole / L",
       "Micromole per Liter",
       "μmol / liter",
-      "µmol / L",
       "Micromole per litre",
       "micromole per Litre",
       "μmol per L",
@@ -3841,8 +3840,6 @@
       "kilogram per metre",
       "kilogm per metre",
       "kg / metre",
-      "kg / metre",
-      "kg per metre",
       "kg per metre",
       "kilogram / m",
       "kilogm / m",
@@ -9414,10 +9411,7 @@
       "Sm³/hour",
       "m3/h",
       "m3/hr",
-      "m3/hour",
-      "Sm3/h",
-      "Sm3/hr",
-      "Sm3/hour"
+      "m3/hour"
     ],
     "symbol": "m³/h",
     "conversion": {
@@ -10493,11 +10487,11 @@
     ],
     "symbol": "dB",
     "conversion": {
-        "multiplier": 1.0,
-        "offset": 0.0
+      "multiplier": 1.0,
+      "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/DeciB" 
+    "sourceReference": "https://qudt.org/vocab/unit/DeciB"
   },
   {
     "externalId": "attenuation:b",
@@ -10510,11 +10504,11 @@
     ],
     "symbol": "B",
     "conversion": {
-        "multiplier": 10.0,
-        "offset": 0.0
+      "multiplier": 10.0,
+      "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/B" 
+    "sourceReference": "https://qudt.org/vocab/unit/B"
   },
   {
     "externalId": "frequency:hectohz",
@@ -10525,9 +10519,9 @@
       "hectoHz",
       "hectoHZ",
       "hectohertz",
-      "hecto-Hz", 
-      "hecto-hertz", 
-      "HectoHertz", 
+      "hecto-Hz",
+      "hecto-hertz",
+      "HectoHertz",
       "Hecto-Hertz",
       "hHz"
     ],

@@ -102,7 +102,7 @@ class UnitService(units: String, systems: String) {
             assert(unitsByExternalId[it.externalId] == null) { "Duplicate externalId ${it.externalId}" }
             unitsByExternalId[it.externalId] = it
 
-            // 7. ExternalId Format: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both
+            // 8. ExternalId Format: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both
             // `quantity` and `unit` are in snake_case.
             assert(it.externalId == generateExpectedExternalId(it)) {
                 "Invalid externalId ${it.externalId} for unit ${it.name} (${it.quantity})"
@@ -120,7 +120,8 @@ class UnitService(units: String, systems: String) {
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C")
             it.aliasNames.toSet().forEach { alias ->
                 unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
-                // 6. Unique aliases: All pairs of (alias and quantity) must be unique, for all aliases in `aliasNames`
+                // 6. Unique Quantity-Alias Pairs: All pairs of (alias and quantity) must be unique, for all aliases in
+                // `aliasNames`
                 assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
                     "Duplicate alias $alias for quantity ${it.quantity}"
                 }

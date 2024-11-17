@@ -15,12 +15,14 @@
  */
 
 import com.cognite.units.Conversion
+import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import java.net.URL
+import kotlin.test.DefaultAsserter
 
 class UnitTest {
 
@@ -107,6 +109,18 @@ class UnitTest {
     }
 
     @Test
+    // 7. Unique Unit Aliases: Each unit's `aliasNames` array must contain only unique values, with no duplicate entries
+    // allowed.
+    fun checkDuplicateAliases() {
+        val unitService = UnitService.service
+        val listOfUnits = unitService.getUnits()
+
+        listOfUnits.forEach {
+            validateUniqueAliases(it)
+        }
+    }
+
+    @Test
     fun jsonWithInvalidExternalId() {
         try {
             UnitService(getTestResource("invalidExternalId.json"), getTestResource("unitSystems.json"))
@@ -180,5 +194,19 @@ class UnitTest {
             unitService.getDuplicateConversions(unitService.getUnits()).containsKey("Linear Density"),
             false,
         )
+    }
+
+    private fun validateUniqueAliases(unit: TypedUnit) {
+        // Create a set to track unique aliases
+        val aliases = mutableSetOf<String>()
+
+        unit.aliasNames.forEach { alias ->
+            // tries do add a new entry to the set, if it already exists, it will fail the test
+            if (!aliases.add(alias)) {
+                DefaultAsserter.fail(
+                    "Duplicate alias '$alias' found in aliasNames for unit ${unit.externalId} (${unit.quantity})",
+                )
+            }
+        }
     }
 }

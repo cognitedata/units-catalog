@@ -6503,6 +6503,27 @@
     "sourceReference": null
   },
   {
+    "externalId": "pressure_gradient:psi-per-m",
+    "name": "PSI-PER-M",
+    "quantity": "Pressure Gradient",
+    "longName": "Pound Force per Square Inch per Meter",
+    "aliasNames": [
+      "psi per m",
+      "psi per meter",
+      "psi/m",
+      "PSI/M",
+      "psi / m",
+      "PSI / m"
+    ],
+    "symbol": "psi/m",
+    "conversion": {
+      "multiplier": 6894.76,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
+    "sourceReference": null
+  },
+  {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
     "quantity": "Resistance",

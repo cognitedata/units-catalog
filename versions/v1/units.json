@@ -10605,5 +10605,21 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEGREE_API",
     "sourceReference": null
+  },
+  {
+    "externalId": "angular_velocity:rad-per-sec",
+    "name": "RAD-PER-SEC",
+    "quantity": "Angular Velocity",
+    "longName": "Radian per Second",
+    "aliasNames": [
+      "rad/s"
+    ],
+    "symbol": "rad/s",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/RAD-PER-SEC"
   }
 ]

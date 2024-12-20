@@ -213,7 +213,7 @@
       },
       {
         "name": "Angular Velocity",
-        "unitExternalId": "angular_velocity:rev-per-sec"
+        "unitExternalId": "angular_velocity:rad-per-sec"
       },
       {
         "name": "Area",

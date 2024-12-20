@@ -10607,7 +10607,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "angular_velocity:rad_per_sec",
+    "externalId": "angular_velocity:rad-per-sec",
     "name": "RAD-PER-SEC",
     "quantity": "Angular Velocity",
     "longName": "Radian per Second",

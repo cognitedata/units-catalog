@@ -932,7 +932,8 @@
       "Revolution / Minute",
       "Revolution per Minute",
       "rev / minute",
-      "RPM"
+      "RPM",
+      "rpm"
     ],
     "symbol": "rev/min",
     "conversion": {

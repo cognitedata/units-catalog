@@ -2,8 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
 Each release should include the following types of changes when applicable:
 - `Added` for new features
 - `Changed` for changes in existing functionality
@@ -189,7 +187,6 @@ Each release should include the following types of changes when applicable:
 ## [0.1.1] - 2023-10-16
 ### Added
 - Added getUnits function to list all units
-- Added publishing profile with plugins to upload to nexus
 - Added more unit entries for quantities like Acceleration, Angular Velocity, Capacitance, and many more
 - Added format validation
 

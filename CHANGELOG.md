@@ -13,9 +13,9 @@ Each release should include the following types of changes when applicable:
 ## [0.1.17] - 2025-01-07
 ### Added
 - Added density unit:
- - Gram per cubic centimeter (g/cm³) with comprehensive aliases
+  - Gram per cubic centimeter (g/cm³) with comprehensive aliases
 - Added angular velocity unit:
- - Radian per second (rad/s)
+  - Radian per second (rad/s)
 - Added "rpm" alias for revolutions per minute unit
 
 ### Changed
@@ -24,18 +24,18 @@ Each release should include the following types of changes when applicable:
 ## [0.1.16] - 2024-11-28
 ### Added
 - Added pressure gradient unit:
- - Pound force per square inch per meter (psi/m) with various aliases
+  - Pound force per square inch per meter (psi/m) with various aliases
 
 ## [0.1.15] - 2024-11-18
 ### Added
 - Added new unit aliases:
- - kg/d for kilogram per day
- - kg/hr, kg/h for kilogram per hour
- - bar a for bar absolute
- - bar G for bar gauge
- - Bbl, BBLS for barrel
- - MSCFD, Mscf/d, MSCF/D for thousand standard cubic feet per day
- - mmscfd, MMScf/d for million standard cubic feet per day
+  - kg/d for kilogram per day
+  - kg/hr, kg/h for kilogram per hour
+  - bar a for bar absolute
+  - bar G for bar gauge
+  - Bbl, BBLS for barrel
+  - MSCFD, Mscf/d, MSCF/D for thousand standard cubic feet per day
+  - mmscfd, MMScf/d for million standard cubic feet per day
 
 ### Fixed
 - Removed duplicate aliases from various units
@@ -44,13 +44,13 @@ Each release should include the following types of changes when applicable:
 ## [0.1.14] - 2024-08-15
 ### Added
 - Added API Gravity quantity and units:
- - Degree API (°API)
- - Kilo Degree API (k °API)
+  - Degree API (°API)
+  - Kilo Degree API (k °API)
 - Added new frequency unit:
- - Hectohertz (hHz)
+  - Hectohertz (hHz)
 - Added attenuation quantity and units:
- - Decibel (dB)
- - Bel (B)
+  - Decibel (dB)
+  - Bel (B)
 - Added unknown unit type for handling undefined units
 - Added "spm" and "SPM" as new aliases for frequency per minute unit
 
@@ -63,12 +63,12 @@ Each release should include the following types of changes when applicable:
 ## [0.1.12] - 2024-05-13
 ### Added
 - Added ability to fetch units by alias without requiring quantity or system specification
- - Users can now search by alias and handle potential multiple matches themselves
+  - Users can now search by alias and handle potential multiple matches themselves
 
 ## [0.1.11] - 2024-05-13
 ### Added
 - Added volume flow rate unit:
- - Liter per day (L/day) with comprehensive alias support
+  - Liter per day (L/day) with comprehensive alias support
 
 ## [0.1.10] - 2024-05-08
 ### Added

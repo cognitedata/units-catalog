@@ -97,6 +97,7 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
 
 1. Ensure that all tests pass
 2. Provide meaningful descriptions in your Pull Requests that explain:
+   - Summary of the changes introduced in the pull request
    - The rationale behind the changes/contributions
    - Which customers/use cases this change addresses
 3. When adding new units, prefer using QUDT units when available. Other standards or publications may be used when a suitable QUDT entry does not exist.

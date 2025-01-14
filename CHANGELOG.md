@@ -10,6 +10,10 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.18] - 2025-01-14
+### Fixed
+- Fixed conversion factor for `mass_concentration:milligm-per-millil`
+
 ## [0.1.17] - 2025-01-07
 ### Added
 - Added density unit:

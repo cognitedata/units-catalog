@@ -10637,7 +10637,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT2.html"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT2"
   },
   {
     "externalId": "areal_density:kg-per-m2",
@@ -10668,7 +10668,7 @@
       "multiplier": 0.04882,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2.html",
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
     "sourceReference": null
   }
 ]

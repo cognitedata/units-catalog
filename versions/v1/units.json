@@ -10640,7 +10640,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT2"
   },
   {
-    "externalId": "areal_density:kg-per-m2",
+    "externalId": "areal_density:kilogm-per-m2",
     "name": "KiloGM-PER-M2",
     "quantity": "Areal Density",
     "longName": "Kilogram Per Square Meter",

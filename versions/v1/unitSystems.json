@@ -188,7 +188,7 @@
       },
       {
         "name": "Areal Density",
-        "unitExternalId": "areal_density:kg-per-m2"
+        "unitExternalId": "areal_density:kilogm-per-m2"
       }
     ]
   },
@@ -349,7 +349,7 @@
       },
       {
         "name": "Areal Density",
-        "unitExternalId": "areal_density:kg-per-m2"
+        "unitExternalId": "areal_density:kilogm-per-m2"
       }
     ]
   },

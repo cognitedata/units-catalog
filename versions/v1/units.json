@@ -10678,9 +10678,10 @@
     "quantity": "Areal Density",
     "longName": "Pounds per Square Feet",
     "aliasNames": [
-      "lb/ft2"
+      "lb/ft2",
+      "lb/ft²"
     ],
-    "symbol": "lb/ft2",
+    "symbol": "lb/ft²",
     "conversion": {
       "multiplier": 4.882,
       "offset": 0.0
@@ -10694,9 +10695,10 @@
     "quantity": "Areal Density",
     "longName": "Kilogram Per Square Meter",
     "aliasNames": [
-      "kg/m2"
+      "kg/m2",
+      "kg/m²"
     ],
-    "symbol": "kg/m2",
+    "symbol": "kg/m²",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0
@@ -10710,9 +10712,10 @@
     "quantity": "Areal Density",
     "longName": "Pounds per 100 Square Feet",
     "aliasNames": [
-      "lb/100ft2"
+      "lb/100ft2",
+      "lb/100ft²"
     ],
-    "symbol": "lb/100ft2",
+    "symbol": "lb/100ft²",
     "conversion": {
       "multiplier": 0.04882,
       "offset": 0.0

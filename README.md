@@ -28,7 +28,7 @@ Each item in the `units.json` has the following structure:
 }
 ```
 
-- `externalId`: The external identifier for the unit. Its structure follows the pattern `{quantity}:{unit}` (e.g., `temperature:deg_c`), adhering to the **snake_case** convention.
+- `externalId`: The external identifier for the unit. Its structure follows the pattern `{quantity}:{unit}` (e.g., `temperature:deg_c`), where both quantity and unit are lowercase with whitespaces replaced by underscores (`_`). When using QUDT units (preferred when available), the unit portion should match the QUDT name with the same formatting rules. Note that hyphens (`-`) in the unit portion are currently preserved.
 - `name`: The primary name of the unit (e.g., `DEG_C`).
 - `longName`: A descriptive name for the unit (e.g., `degree Celsius`).
 - `symbol`: The symbol for the unit (e.g., `°C`).
@@ -93,4 +93,11 @@ This license applies to any code/data file in this repository, unless otherwise 
 
 ## Contribution
 
-To maintain the consistency and quality of the unit catalog, please ensure any contributions adhere to the established structure and guidelines. Before submitting any additions or modifications, ensure that all tests pass.
+To maintain the consistency and quality of the unit catalog, please ensure any contributions adhere to the established structure and guidelines. Before submitting any additions or modifications:
+
+1. Ensure that all tests pass
+2. Provide meaningful descriptions in your Pull Requests that explain:
+   - Summary of the changes introduced in the pull request
+   - The rationale behind the changes/contributions
+   - Which customers/use cases this change addresses
+3. When adding new units, prefer using QUDT units when available. Other standards or publications may be used when a suitable QUDT entry does not exist.

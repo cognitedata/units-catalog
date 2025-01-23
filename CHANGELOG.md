@@ -10,6 +10,13 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.19] - 2025-01-23
+### Added
+- Added new quantity `Areal Density` with the following units:
+  - Pounds per Square Feet (lb/ft²)
+  - Kilogram Per Square Meter (kg/m²)
+  - Pounds per 100 Square Feet (lb/100ft²)
+
 ## [0.1.18] - 2025-01-14
 ### Fixed
 - Fixed conversion factor for `mass_concentration:milligm-per-millil`

@@ -6121,6 +6121,24 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB_F-PER-FT2"
   },
   {
+    "externalId": "pressure:lb_f-per-100-ft2",
+    "name": "LB_F-PER-100-FT2",
+    "quantity": "Pressure",
+    "longName": "Pound Force per 100 Square Foot",
+    "aliasNames": [
+      "LB_F per 100 square foot",
+      "Pound Force / 100 FT2",
+      "LB_F / 100FT2"
+    ],
+    "symbol": "lbf/100ft²",
+    "conversion": {
+      "multiplier": 0.478802631,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB_F-PER-FT2",
+    "sourceReference": null
+  },
+  {
     "externalId": "pressure:megabar",
     "name": "MegaBAR",
     "quantity": "Pressure",

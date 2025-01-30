@@ -185,6 +185,10 @@
       {
         "name": "Attenuation",
         "unitExternalId": "attenuation:decib"
+      },
+      {
+        "name": "Areal Density",
+        "unitExternalId": "areal_density:kilogm-per-m2"
       }
     ]
   },
@@ -342,6 +346,10 @@
       {
         "name": "Attenuation",
         "unitExternalId": "attenuation:decib"
+      },
+      {
+        "name": "Areal Density",
+        "unitExternalId": "areal_density:kilogm-per-m2"
       }
     ]
   },
@@ -431,6 +439,10 @@
       {
         "name": "Attenuation",
         "unitExternalId": "attenuation:decib"
+      },
+      {
+        "name": "Areal Density",
+        "unitExternalId": "areal_density:lb-per-ft2"
       }
     ]
   }

@@ -1181,6 +1181,55 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliFARAD"
   },
   {
+    "externalId": "density:gm-per-centim3",
+    "name": "GM-PER-CentiM3",
+    "quantity": "Density",
+    "longName": "Gram Per Cubic Centimeter",
+    "aliasNames": [
+      "gram per CM3",
+      "G PER CM3",
+      "g per CM3",
+      "g / Cubic Centimeter",
+      "Gram / Cubic Centimeter",
+      "g / cm³",
+      "Gram per cubic centimeter",
+      "Gram per CM3",
+      "gram per cubic centimeter",
+      "GM per cm³",
+      "GM / Cubic centimeter",
+      "g / CM3",
+      "g per cubic centimeter",
+      "gram / Cubic centimeter",
+      "GM / CM3",
+      "GM per CM3",
+      "g per Cubic Centimeter",
+      "GM per cubic centimeter",
+      "GM / cm³",
+      "GM / cubic centimeter",
+      "g / cubic centimeter",
+      "Gram per cm³",
+      "gram per cm³",
+      "gram / cm³",
+      "Gram / cubic centimeter",
+      "g per cm³",
+      "gram / CM3",
+      "gram / cubic centimeter",
+      "gram per Cubic Centimeter",
+      "GM PER CM3",
+      "GM per Cubic Centimeter",
+      "Gram Per Cubic Centimeter",
+      "Gram / CM3",
+      "Gram / cm³"
+    ],
+    "symbol": "g/cm³",
+    "conversion": {
+      "multiplier": 1000,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-CentiM3"
+  },
+  {
     "externalId": "density:gm-per-m3",
     "name": "GM-PER-M3",
     "quantity": "Density",
@@ -4102,7 +4151,7 @@
     ],
     "symbol": "mg/mL",
     "conversion": {
-      "multiplier": 1e-06,
+      "multiplier": 1.0,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -10640,5 +10689,56 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/RAD-PER-SEC"
+  },
+  {
+    "externalId": "areal_density:lb-per-ft2",
+    "name": "LB-PER-FT2",
+    "quantity": "Areal Density",
+    "longName": "Pounds per Square Feet",
+    "aliasNames": [
+      "lb/ft2",
+      "lb/ft²"
+    ],
+    "symbol": "lb/ft²",
+    "conversion": {
+      "multiplier": 4.882,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT2"
+  },
+  {
+    "externalId": "areal_density:kilogm-per-m2",
+    "name": "KiloGM-PER-M2",
+    "quantity": "Areal Density",
+    "longName": "Kilogram Per Square Meter",
+    "aliasNames": [
+      "kg/m2",
+      "kg/m²"
+    ],
+    "symbol": "kg/m²",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
+  },
+  {
+    "externalId": "areal_density:lb-per-100-ft2",
+    "name": "LB-PER-100-FT2",
+    "quantity": "Areal Density",
+    "longName": "Pounds per 100 Square Feet",
+    "aliasNames": [
+      "lb/100ft2",
+      "lb/100ft²"
+    ],
+    "symbol": "lb/100ft²",
+    "conversion": {
+      "multiplier": 0.04882,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
+    "sourceReference": null
   }
 ]

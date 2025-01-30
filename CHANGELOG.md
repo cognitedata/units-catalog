@@ -10,6 +10,10 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.20] - 2025-01-30
+### Added
+- Added new quantity `Pressure` unit `Pound Force per 100 Square Foot` (lbf/100ft²)
+
 ## [0.1.19] - 2025-01-23
 ### Added
 - Added new quantity `Areal Density` with the following units:

@@ -935,7 +935,8 @@
       "Revolution per Minute",
       "rev / minute",
       "RPM",
-      "rpm"
+      "rpm",
+      "ROT PER MIN"
     ],
     "symbol": "rev/min",
     "conversion": {
@@ -1230,7 +1231,8 @@
       "Gram Per Cubic Metre",
       "Gram / M3",
       "Gram per cubic metre",
-      "Gram / m³"
+      "Gram / m³",
+      "G PER CM?"
     ],
     "symbol": "g/m³",
     "conversion": {
@@ -1355,7 +1357,8 @@
       "lb / gal",
       "lbm / GAL",
       "Pound Mass per GAL",
-      "LBM PER GAL"
+      "LBM PER GAL",
+      "PPG"
     ],
     "symbol": "lb/gal",
     "conversion": {
@@ -1602,7 +1605,9 @@
       "UNITLESS",
       "一",
       "Unitless",
-      "unitless"
+      "unitless",
+      "EUC",
+      "TOTAL"
     ],
     "symbol": "",
     "conversion": {
@@ -9287,7 +9292,8 @@
       "Litre Per Minute",
       "Liter per Minute",
       "litre per minute",
-      "LT PER MIN"
+      "LT PER MIN",
+      "LPM"
     ],
     "symbol": "L/min",
     "conversion": {

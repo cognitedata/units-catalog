@@ -10622,5 +10622,128 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/RAD-PER-SEC"
+  },
+  {
+    "externalId": "torque:kilon-m",
+    "name": "KiloN-M",
+    "quantity": "Torque",
+    "longName": "Kilo Newton Meter",
+    "aliasNames": [
+      "KN.M", 
+      "KN.m",
+      "kilo newton meter"
+    ],
+    "symbol": "kN.m",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloN-M"
+  },
+  {
+    "externalId": "radioactivity:bq",
+    "name": "Bq",
+    "quantity": "Radioactivity",
+    "longName": "Becquerel",
+    "aliasNames": [
+      "Bq", 
+      "BQ"
+    ],
+    "symbol": "Bq",
+    "conversion": {
+      "multiplier": 1,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/BQ"
+  },
+  {
+    "externalId": "radioactivity:ci",
+    "name": "Ci",
+    "quantity": "Radioactivity",
+    "longName": "Curie",
+    "aliasNames": [
+      "Ci", 
+      "CI"
+    ],
+    "symbol": "Ci",
+    "conversion": {
+      "multiplier": 37000000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/CI"
+  },
+  {
+    "externalId": "magnetic_field:t",
+    "name": "Tesla",
+    "quantity": "Magnetic Field",
+    "longName": "Tesla",
+    "aliasNames": [
+      "T", 
+      "t"
+    ],
+    "symbol": "T",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/T"
+  }, 
+  {
+    "externalId": "magnetic_field:g",
+    "name": "Gauss",
+    "quantity": "Magnetic Field",
+    "longName": "Gauss",
+    "aliasNames": [
+      "gauss", 
+      "Gauss",
+      "G",
+      "g"
+    ],
+    "symbol": "G",
+    "conversion": {
+      "multiplier": 0.0001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GAUSS"
+  },
+  {
+    "externalId": "magnetic_field:nt",
+    "name": "Nano-T",
+    "quantity": "Magnetic Field",
+    "longName": "Nano Tesla",
+    "aliasNames": [
+      "NT", 
+      "nT"
+    ],
+    "symbol": "nT",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/NanoT"
+  },
+  {
+    "externalId": "magnetic_field:nt",
+    "name": "Nano-T",
+    "quantity": "Magnetic Field",
+    "longName": "Nano Tesla",
+    "aliasNames": [
+      "NT", 
+      "nT"
+    ],
+    "symbol": "nT",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/NanoT"
   }
+
 ]

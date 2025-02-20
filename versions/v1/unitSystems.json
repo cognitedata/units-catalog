@@ -185,6 +185,14 @@
       {
         "name": "Attenuation",
         "unitExternalId": "attenuation:decib"
+      },
+      {
+        "name": "Radioactivity",
+        "unitExternalId": "radioactivity:bq"
+      },
+      {
+        "name": "Magnetic Field",
+        "unitExternalId": "magnetic_field:t"
       }
     ]
   },
@@ -342,6 +350,14 @@
       {
         "name": "Attenuation",
         "unitExternalId": "attenuation:decib"
+      },
+      {
+        "name": "Radioactivity",
+        "unitExternalId": "radioactivity:bq"
+      },
+      {
+        "name": "Magnetic Field",
+        "unitExternalId": "magnetic_field:t"
       }
     ]
   },
@@ -431,6 +447,14 @@
       {
         "name": "Attenuation",
         "unitExternalId": "attenuation:decib"
+      },
+      {
+        "name": "Radioactivity",
+        "unitExternalId": "radioactivity:ci"
+      },
+      {
+        "name": "Magnetic Field",
+        "unitExternalId": "magnetic_field:g"
       }
     ]
   }

@@ -193,6 +193,10 @@
       {
         "name": "Magnetic Field",
         "unitExternalId": "magnetic_field:t"
+      },
+      {
+        "name": "Resistivity",
+        "unitExternalId": "resistivity:ohm-m"
       }
     ]
   },
@@ -358,6 +362,10 @@
       {
         "name": "Magnetic Field",
         "unitExternalId": "magnetic_field:t"
+      },
+      {
+        "name": "Resistivity",
+        "unitExternalId": "resistivity:ohm-m"
       }
     ]
   },
@@ -455,6 +463,10 @@
       {
         "name": "Magnetic Field",
         "unitExternalId": "magnetic_field:g"
+      },
+      {
+        "name": "Resistivity",
+        "unitExternalId": "resistivity:ohm-ft"
       }
     ]
   }

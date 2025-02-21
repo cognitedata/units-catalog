@@ -1285,6 +1285,24 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M3"
   },
   {
+    "externalId": "density:kilogm-per-l",
+    "name": "KiloGM-PER-L",
+    "quantity": "Density",
+    "longName": "kilogram per litre",
+    "aliasNames": [
+      "kilogram / Litre",
+      "kg/l",
+      "KG PER L"
+    ],
+    "symbol": "kg/l",
+    "conversion": {
+      "multiplier": 1000,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-L"
+  },
+  {
     "externalId": "density:lb-per-ft3",
     "name": "LB-PER-FT3",
     "quantity": "Density",
@@ -3270,6 +3288,58 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloN"
+  },
+  {
+    "externalId": "force:kilodecan",
+    "name": "KiloDaN",
+    "quantity": "Force",
+    "longName": "Kilo decanewton",
+    "aliasNames": [
+      "KDAN",
+      "KiloDecN",
+      "kdaN"
+    ],
+    "symbol": "kdaN",
+    "conversion": {
+      "multiplier": 10000.0,
+      "offset": 0.0
+    },
+    "source": "Similar to https://qudt.org/vocab/unit/KiloN",
+    "sourceReference": ""
+  },
+  {
+    "externalId": "force:kilokilogmforce",
+    "name": "KiloKiloGmF",
+    "quantity": "Force",
+    "longName": "Kilo Kilogram Force",
+    "aliasNames": [
+      "KKGF",
+      "kkgf"
+    ],
+    "symbol": "kkgf",
+    "conversion": {
+      "multiplier": 9806.65,
+      "offset": 0.0
+    },
+    "source": "Similar to https://qudt.org/vocab/unit/KiloGM_F",
+    "sourceReference": ""
+  },
+  {
+    "externalId": "force:kilogmforce",
+    "name": "KiloGmF",
+    "quantity": "Force",
+    "longName": "Kilogram Force",
+    "aliasNames": [
+      "KGF",
+      "kgf"
+    ],
+    "symbol": "kgf",
+    "conversion": {
+      "multiplier": 9.80665,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM_F"
   },
   {
     "externalId": "force:lb_f",
@@ -7674,6 +7744,24 @@
     "sourceReference": "https://qudt.org/vocab/unit/N-M"
   },
   {
+    "externalId": "torque:klb_f-ft",
+    "name": "KiloLB_F-FT",
+    "quantity": "Torque",
+    "longName": "KiloPound Force Foot",
+    "aliasNames": [
+      "Kilo Pound Force ft",
+      "KiloLB_F foot",
+      "KLB*FT"
+    ],
+    "symbol": "klbf⋅ft",
+    "conversion": {
+      "multiplier": 1355.81807,
+      "offset": 0.0
+    },
+    "source": "Similar to https://qudt.org/vocab/unit/LB_F-FT",
+    "sourceReference": ""
+  },
+  {
     "externalId": "velocity:ft-per-hr",
     "name": "FT-PER-HR",
     "quantity": "Velocity",
@@ -7941,6 +8029,23 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KN"
+  },
+  {
+    "externalId": "velocity:ft-per-min",
+    "name": "FT-PER-MIN",
+    "quantity": "Velocity",
+    "longName": "Foot Per Minute",
+    "aliasNames": [
+      "ft/min",
+      "FT PER MIN"
+    ],
+    "symbol": "ft/min",
+    "conversion": {
+      "multiplier": 0.00508,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "http://qudt.org/vocab/unit/FT-PER-MIN"
   },
   {
     "externalId": "velocity:m-per-hr",
@@ -10744,6 +10849,41 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/NanoT"
+  },
+  {
+    "externalId": "resistivity:ohm-ft",
+    "name": "OHM-FT",
+    "quantity": "Resistivity",
+    "longName": "Ohm foot",
+    "aliasNames": [
+      "OhmFt", 
+      "Ω·ft"
+    ],
+    "symbol": "Ω·ft",
+    "conversion": {
+      "multiplier": 0.3048,
+      "offset": 0.0
+    },
+    "source": "Similar to https://qudt.org/vocab/unit/OHM-M",
+    "sourceReference": ""
+  },
+  {
+    "externalId": "resistivity:ohm-m",
+    "name": "OHM-M",
+    "quantity": "Resistivity",
+    "longName": "Ohm meter",
+    "aliasNames": [
+      "OhmM", 
+      "Ω·m",
+      "OHM.M"
+    ],
+    "symbol": "Ω·m",
+    "conversion": {
+      "multiplier": 1,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/OHM-M"
   }
 
 ]

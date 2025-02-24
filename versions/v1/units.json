@@ -796,6 +796,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/REV"
   },
   {
+    "externalId": "angle:krev",
+    "name": "KiloREV",
+    "quantity": "Angle",
+    "longName": "Kilo Revolution",
+    "aliasNames": [
+      "kilo revolution",
+      "krev",
+      "KiloRevolution",
+      "KREV"
+    ],
+    "symbol": "krev",
+    "conversion": {
+      "multiplier": 6283.18531,
+      "offset": 0.0
+    },
+    "source": "Similar to https://qudt.org/vocab/unit/REV",
+    "sourceReference": ""
+  },
+  {
     "externalId": "angular_acceleration:rev-per-sec2",
     "name": "REV-PER-SEC2",
     "quantity": "Angular Acceleration",
@@ -7685,6 +7704,24 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB_F-FT"
   },
   {
+    "externalId": "torque:klb_f-ft",
+    "name": "KiloLB_F-FT",
+    "quantity": "Torque",
+    "longName": "Kilo Pound Force Foot",
+    "aliasNames": [
+      "Kilo Pound Force ft",
+      "kLB_F foot",
+      "KFT.LBF"
+    ],
+    "symbol": "klbf⋅ft",
+    "conversion": {
+      "multiplier": 1355.81807,
+      "offset": 0.0
+    },
+    "source": "Similar to https://qudt.org/vocab/unit/LB_F-FT",
+    "sourceReference": ""
+  },
+  {
     "externalId": "torque:lb_f-in",
     "name": "LB_F-IN",
     "quantity": "Torque",
@@ -9737,6 +9774,25 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-DAY"
+  },
+  {
+    "externalId": "volume_flow_rate:galus-per-min",
+    "name": "GAL_US-PER-MIN",
+    "quantity": "Volume Flow Rate",
+    "longName": "US Gallon per Minute",
+    "aliasNames": [
+      "US Gallon per Minute",
+      "GAL_US-PER-MIN",
+      "galUS/min",
+      "GALUS PER MIN"
+    ],
+    "symbol": "gal{US}/min",
+    "conversion": {
+      "multiplier": 0.00006309019640344,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GAL_US-PER-MIN"
   },
   {
     "externalId": "volume_flow_rate:yd3-per-hr",

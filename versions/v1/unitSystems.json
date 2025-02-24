@@ -197,6 +197,10 @@
       {
         "name": "Resistivity",
         "unitExternalId": "resistivity:ohm-m"
+      },
+      {
+        "name": "Areal Density",
+        "unitExternalId": "areal_density:kilogm-per-m2"
       }
     ]
   },
@@ -366,6 +370,10 @@
       {
         "name": "Resistivity",
         "unitExternalId": "resistivity:ohm-m"
+      },
+      {
+        "name": "Areal Density",
+        "unitExternalId": "areal_density:kilogm-per-m2"
       }
     ]
   },
@@ -467,6 +475,10 @@
       {
         "name": "Resistivity",
         "unitExternalId": "resistivity:ohm-ft"
+      },
+      {
+        "name": "Areal Density",
+        "unitExternalId": "areal_density:lb-per-ft2"
       }
     ]
   }

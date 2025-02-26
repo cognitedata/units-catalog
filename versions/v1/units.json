@@ -10861,7 +10861,7 @@
       "KN.m",
       "kilo newton meter"
     ],
-    "symbol": "kN.m",
+    "symbol": "kN·m",
     "conversion": {
       "multiplier": 0.001,
       "offset": 0.0

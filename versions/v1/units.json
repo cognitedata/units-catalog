@@ -3372,8 +3372,8 @@
       "multiplier": 10000.0,
       "offset": 0.0
     },
-    "source": "Similar to https://qudt.org/vocab/unit/KiloN",
-    "sourceReference": ""
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloN",
+    "sourceReference": null
   },
   {
     "externalId": "force:kilokilogmforce",

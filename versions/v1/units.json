@@ -7848,24 +7848,6 @@
     "sourceReference": "https://qudt.org/vocab/unit/N-M"
   },
   {
-    "externalId": "torque:klb_f-ft",
-    "name": "KiloLB_F-FT",
-    "quantity": "Torque",
-    "longName": "KiloPound Force Foot",
-    "aliasNames": [
-      "Kilo Pound Force ft",
-      "KiloLB_F foot",
-      "KLB*FT"
-    ],
-    "symbol": "klbf⋅ft",
-    "conversion": {
-      "multiplier": 1355.81807,
-      "offset": 0.0
-    },
-    "source": "Similar to https://qudt.org/vocab/unit/LB_F-FT",
-    "sourceReference": ""
-  },
-  {
     "externalId": "velocity:ft-per-hr",
     "name": "FT-PER-HR",
     "quantity": "Velocity",

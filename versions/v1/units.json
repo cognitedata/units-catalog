@@ -8666,7 +8666,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US-PER-DAY"
   },
   {
-    "externalId": "volume_flow_rate:bbl_us_pet-per-hour",
+    "externalId": "volume_flow_rate:bbl_us_pet-per-hr",
     "name": "BBL_US_PET-PER-HR",
     "quantity": "Volume Flow Rate",
     "longName": "Barrel (US) Per Hour",

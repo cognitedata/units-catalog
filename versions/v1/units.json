@@ -7778,7 +7778,9 @@
     "aliasNames": [
       "Kilo Pound Force ft",
       "kLB_F foot",
-      "KFT.LBF"
+      "KFT.LBF",
+      "KiloLB_F foot",
+      "KLB*FT"
     ],
     "symbol": "klbf⋅ft",
     "conversion": {
@@ -9837,7 +9839,7 @@
     ],
     "symbol": "gal{US}/min",
     "conversion": {
-      "multiplier": 0.00006309019640344,
+      "multiplier": 0.0000630902,
       "offset": 0.0
     },
     "source": "qudt.org",

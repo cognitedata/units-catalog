@@ -10889,7 +10889,7 @@
   },
   {
     "externalId": "magnetic_field:tesla",
-    "name": "Tesla",
+    "name": "T",
     "quantity": "Magnetic Field",
     "longName": "Tesla",
     "aliasNames": [

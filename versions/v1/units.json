@@ -10893,10 +10893,19 @@
     "quantity": "Magnetic Field",
     "longName": "Tesla",
     "aliasNames": [
-      "T", 
-      "t"
+      "T",
+      "Tesla",
+      "tesla"
     ],
     "symbol": "T",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/T"
+  },
+  {
     "externalId": "areal_density:lb-per-ft2",
     "name": "LB-PER-FT2",
     "quantity": "Areal Density",

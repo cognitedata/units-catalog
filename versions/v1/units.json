@@ -3393,8 +3393,8 @@
     "sourceReference": ""
   },
   {
-    "externalId": "force:kilogmforce",
-    "name": "KiloGmF",
+    "externalId": "force:kilogm_f",
+    "name": "KiloGM_F",
     "quantity": "Force",
     "longName": "Kilogram Force",
     "aliasNames": [

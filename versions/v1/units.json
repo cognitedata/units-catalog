@@ -7771,8 +7771,8 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB_F-FT"
   },
   {
-    "externalId": "torque:klb_f-ft",
-    "name": "KiloLB_F-FT",
+    "externalId": "torque:kilo_lb_f-ft",
+    "name": "Kilo_LB_F-FT",
     "quantity": "Torque",
     "longName": "Kilo Pound Force Foot",
     "aliasNames": [

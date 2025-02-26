@@ -10997,7 +10997,7 @@
       "multiplier": 0.3048,
       "offset": 0.0
     },
-    "source": "Similar to https://qudt.org/vocab/unit/OHM-M",
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/OHM-M",
     "sourceReference": ""
   },
   {
@@ -11017,7 +11017,6 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/OHM-M"
-    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
   },
   {
     "externalId": "areal_density:lb-per-100-ft2",

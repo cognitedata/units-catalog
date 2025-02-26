@@ -3389,8 +3389,8 @@
       "multiplier": 9806.65,
       "offset": 0.0
     },
-    "source": "Similar to https://qudt.org/vocab/unit/KiloGM_F",
-    "sourceReference": ""
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloGM_F",
+    "sourceReference": null
   },
   {
     "externalId": "force:kilogm_f",

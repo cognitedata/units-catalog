@@ -10888,7 +10888,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/CI"
   },
   {
-    "externalId": "magnetic_field:t",
+    "externalId": "magnetic_field:tesla",
     "name": "Tesla",
     "quantity": "Magnetic Field",
     "longName": "Tesla",

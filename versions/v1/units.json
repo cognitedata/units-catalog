@@ -10847,7 +10847,7 @@
     ],
     "symbol": "kN·m",
     "conversion": {
-      "multiplier": 0.001,
+      "multiplier": 1000,
       "offset": 0.0
     },
     "source": "qudt.org",

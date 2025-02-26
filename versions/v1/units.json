@@ -811,7 +811,7 @@
       "multiplier": 6283.18531,
       "offset": 0.0
     },
-    "source": "Similar to https://qudt.org/vocab/unit/REV",
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV",
     "sourceReference": ""
   },
   {

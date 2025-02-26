@@ -796,7 +796,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/REV"
   },
   {
-    "externalId": "angle:krev",
+    "externalId": "angle:kilorev",
     "name": "KiloREV",
     "quantity": "Angle",
     "longName": "Kilo Revolution",

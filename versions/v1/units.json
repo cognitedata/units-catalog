@@ -8133,7 +8133,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/FT-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/FT-PER-MIN"
   },
   {
     "externalId": "velocity:m-per-hr",

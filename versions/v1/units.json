@@ -10888,7 +10888,7 @@
   },
   {
     "externalId": "radioactivity:ci",
-    "name": "Ci",
+    "name": "CI",
     "quantity": "Radioactivity",
     "longName": "Curie",
     "aliasNames": [

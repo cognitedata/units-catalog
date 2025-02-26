@@ -3358,7 +3358,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloN"
   },
   {
-    "externalId": "force:kilodecan",
+    "externalId": "force:kilodan",
     "name": "KiloDaN",
     "quantity": "Force",
     "longName": "Kilo decanewton",

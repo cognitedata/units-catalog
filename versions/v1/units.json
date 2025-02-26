@@ -9843,7 +9843,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/YD3-PER-DAY"
   },
   {
-    "externalId": "volume_flow_rate:galus-per-min",
+    "externalId": "volume_flow_rate:gal_us-per-min",
     "name": "GAL_US-PER-MIN",
     "quantity": "Volume Flow Rate",
     "longName": "US Gallon per Minute",

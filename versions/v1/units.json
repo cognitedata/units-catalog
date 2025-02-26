@@ -812,7 +812,7 @@
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV",
-    "sourceReference": ""
+    "sourceReference": null
   },
   {
     "externalId": "angular_acceleration:rev-per-sec2",

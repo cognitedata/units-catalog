@@ -1362,7 +1362,7 @@
       "kg/l",
       "KG PER L"
     ],
-    "symbol": "kg/l",
+    "symbol": "kg/L",
     "conversion": {
       "multiplier": 1000,
       "offset": 0.0

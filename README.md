@@ -101,3 +101,12 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
    - The rationale behind the changes/contributions
    - Which customers/use cases this change addresses
 3. When adding new units, prefer using QUDT units when available. Other standards or publications may be used when a suitable QUDT entry does not exist.
+
+### Release Schedule
+
+To ensure stability and proper validation of changes:
+- New versions of the unit catalog are published at most every 2 months, depending on contributions
+- Critical bug fixes may be released outside of this schedule as needed
+- After a release is published on GitHub, the changes are deployed across CDF clusters within two weeks
+
+Please keep this schedule in mind when planning your contributions.

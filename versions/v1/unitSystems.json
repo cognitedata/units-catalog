@@ -192,7 +192,7 @@
       },
       {
         "name": "Magnetic Field",
-        "unitExternalId": "magnetic_field:tesla"
+        "unitExternalId": "magnetic_field:t"
       },
       {
         "name": "Resistivity",
@@ -365,7 +365,7 @@
       },
       {
         "name": "Magnetic Field",
-        "unitExternalId": "magnetic_field:tesla"
+        "unitExternalId": "magnetic_field:t"
       },
       {
         "name": "Resistivity",
@@ -470,7 +470,7 @@
       },
       {
         "name": "Magnetic Field",
-        "unitExternalId": "magnetic_field:g"
+        "unitExternalId": "magnetic_field:gauss"
       },
       {
         "name": "Resistivity",

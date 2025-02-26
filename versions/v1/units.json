@@ -10888,7 +10888,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/CI"
   },
   {
-    "externalId": "magnetic_field:tesla",
+    "externalId": "magnetic_field:t",
     "name": "T",
     "quantity": "Magnetic Field",
     "longName": "Tesla",
@@ -10937,11 +10937,11 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/T"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
   }, 
   {
-    "externalId": "magnetic_field:g",
-    "name": "Gauss",
+    "externalId": "magnetic_field:gauss",
+    "name": "GAUSS",
     "quantity": "Magnetic Field",
     "longName": "Gauss",
     "aliasNames": [
@@ -10959,25 +10959,8 @@
     "sourceReference": "https://qudt.org/vocab/unit/GAUSS"
   },
   {
-    "externalId": "magnetic_field:nt",
-    "name": "Nano-T",
-    "quantity": "Magnetic Field",
-    "longName": "Nano Tesla",
-    "aliasNames": [
-      "NT", 
-      "nT"
-    ],
-    "symbol": "nT",
-    "conversion": {
-      "multiplier": 1e-09,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/NanoT"
-  },
-  {
-    "externalId": "magnetic_field:nt",
-    "name": "Nano-T",
+    "externalId": "magnetic_field:nanot",
+    "name": "NanoT",
     "quantity": "Magnetic Field",
     "longName": "Nano Tesla",
     "aliasNames": [

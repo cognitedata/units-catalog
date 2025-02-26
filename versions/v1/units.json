@@ -8138,7 +8138,7 @@
     "externalId": "velocity:ft-per-min",
     "name": "FT-PER-MIN",
     "quantity": "Velocity",
-    "longName": "Foot Per Minute",
+    "longName": "Foot per Minute",
     "aliasNames": [
       "ft/min",
       "FT PER MIN"

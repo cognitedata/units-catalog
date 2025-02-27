@@ -10979,7 +10979,7 @@
     "externalId": "resistivity:ohm-ft",
     "name": "OHM-FT",
     "quantity": "Resistivity",
-    "longName": "Ohm foot",
+    "longName": "Ohm Foot",
     "aliasNames": [
       "OhmFt", 
       "Ω·ft"

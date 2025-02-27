@@ -8689,6 +8689,35 @@
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US-PER-DAY"
   },
   {
+    "externalId": "volume_flow_rate:bbl_us_pet-per-hr",
+    "name": "BBL_US_PET-PER-HR",
+    "quantity": "Volume Flow Rate",
+    "longName": "Barrel (US) Per Hour",
+    "aliasNames": [
+        "Barrel per Hour",
+        "barrel per hour",
+        "BBL / H",
+        "bbl / h",
+        "bbl/h",
+        "bbl per hour",
+        "BB/H",
+        "BPH",
+        "bph",
+        "STB/h",
+        "STB/hour",
+        "STBH",
+        "bbls/h",
+        "bbls/hour"
+    ],
+    "symbol": "bbl/h",
+    "conversion": {
+        "multiplier": 4.4163e-5,
+        "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/BBL_US_PET-PER-HR"
+  },
+  {
     "externalId": "volume_flow_rate:centim3-per-sec",
     "name": "CentiM3-PER-SEC",
     "quantity": "Volume Flow Rate",

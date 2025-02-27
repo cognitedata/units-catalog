@@ -10990,7 +10990,7 @@
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/OHM-M",
-    "sourceReference": ""
+    "sourceReference": null
   },
   {
     "externalId": "resistivity:ohm-m",

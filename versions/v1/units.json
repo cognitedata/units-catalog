@@ -10996,7 +10996,7 @@
     "externalId": "resistivity:ohm-m",
     "name": "OHM-M",
     "quantity": "Resistivity",
-    "longName": "Ohm meter",
+    "longName": "Ohm Meter",
     "aliasNames": [
       "OhmM", 
       "Ω·m",

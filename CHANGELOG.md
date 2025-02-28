@@ -10,6 +10,36 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.21] - 2025-02-28
+### Added
+- Added new units for quantity `Volume Flow Rate`:
+  - Barrel (US) Per Hour (bbl/h)
+  - US Gallon per Minute (gal{US}/min)
+- Added new unit for quantity `Angle`:
+  - Kilo Revolution (krev)
+- Added new unit for quantity `Density`:
+  - kilogram per litre (kg/L)
+- Added new units for quantity `Force`:
+  - Kilo decanewton (kdaN)
+  - Kilo Kilogram Force (kkgf)
+  - Kilogram Force (kgf)
+- Added new units for quantity `Torque`:
+  - Kilo Pound Force Foot (klbf⋅ft)
+  - Kilo Newton Meter (kN⋅m)
+- Added new unit for quantity `Velocity`:
+  - Foot per Minute (ft/min)
+- Added new quantity `Radioactivity` with the following units:
+  - Becquerel (Bq)
+  - Curie (Ci)
+- Added new quantity `Magnetic Field` with the following units:
+  - Tesla (T)
+  - Gauss (Gs)
+  - Nano Tesla (nT)
+- Added new quantity `Resistivity` with the following units:
+  - Ohm Meter (Ω⋅m)
+  - Ohm Foot (Ω⋅ft)
+- Added several new unit aliases
+
 ## [0.1.20] - 2025-01-30
 ### Added
 - Added new quantity `Pressure` unit `Pound Force per 100 Square Foot` (lbf/100ft²)

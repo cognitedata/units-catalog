@@ -201,6 +201,14 @@
       {
         "name": "Areal Density",
         "unitExternalId": "areal_density:kilogm-per-m2"
+      },
+      {
+        "name": "Gas to Liquid Ratio",
+        "unitExternalId": "gas_to_liquid_ratio:scf-per-stb"
+      },
+      {
+        "name": "Liquid to Gas Ratio",
+        "unitExternalId": "liquid_to_gas_ratio:stb-per-mmscf"
       }
     ]
   },
@@ -479,6 +487,14 @@
       {
         "name": "Areal Density",
         "unitExternalId": "areal_density:lb-per-ft2"
+      },
+      {
+        "name": "Gas to Liquid Ratio",
+        "unitExternalId": "gas_to_liquid_ratio:scf-per-stb"
+      },
+      {
+        "name": "Liquid to Gas Ratio",
+        "unitExternalId": "liquid_to_gas_ratio:stb-per-mmscf"
       }
     ]
   }

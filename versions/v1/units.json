@@ -11082,7 +11082,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "length:1-64-in",
+    "externalId": "length:1_64_in",
     "name": "1/64 in",
     "quantity": "Length",
     "longName": "One Sixty-Fourth of an Inch",
@@ -11098,12 +11098,12 @@
       "multiplier": 0.000396875,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/IN"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/IN",
+    "sourceReference": null
   },
   {
-    "externalId": "dimensionless_ratio:scf-per-STB",
-    "name": "scf/STB",
+    "externalId": "gas_to_liquid_ratio:scf-per-stb",
+    "name": "scf-per-STB",
     "quantity": "Gas to Liquid Ratio",
     "longName": "Standard Cubic Feet per Stock Tank Barrel",
     "aliasNames": [
@@ -11121,8 +11121,8 @@
     "sourceReference": "https://www.api.org/"
   },
   {
-    "externalId": "dimensionless_ratio:STB-per-MMscf",
-    "name": "STB/MMscf",
+    "externalId": "liquid_to_gas_ratio:stb-per-mmscf",
+    "name": "STB-per-MMscf",
     "quantity": "Liquid to Gas Ratio",
     "longName": "Stock Tank Barrel per Million Standard Cubic Feet",
     "aliasNames": [

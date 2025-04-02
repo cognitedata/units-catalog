@@ -11080,5 +11080,62 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
     "sourceReference": null
+  },
+  {
+    "externalId": "length:1-64-in",
+    "name": "1/64 in",
+    "quantity": "Length",
+    "longName": "One Sixty-Fourth of an Inch",
+    "aliasNames": [
+      "1/64 in",
+      "1/64″",
+      "one sixty-fourth inch",
+      "1-64 inch",
+      "1-64 in"
+    ],
+    "symbol": "¹⁄₆₄″",
+    "conversion": {
+      "multiplier": 0.000396875,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/IN"
+  },
+  {
+    "externalId": "dimensionless_ratio:scf-per-STB",
+    "name": "scf/STB",
+    "quantity": "Gas to Liquid Ratio",
+    "longName": "Standard Cubic Feet per Stock Tank Barrel",
+    "aliasNames": [
+      "scf/STB",
+      "SCF/STB",
+      "Standard Cubic Feet per Barrel",
+      "GOR"
+    ],
+    "symbol": "scf/STB",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "api.org",
+    "sourceReference": "https://www.api.org/"
+  },
+  {
+    "externalId": "dimensionless_ratio:STB-per-MMscf",
+    "name": "STB/MMscf",
+    "quantity": "Liquid to Gas Ratio",
+    "longName": "Stock Tank Barrel per Million Standard Cubic Feet",
+    "aliasNames": [
+      "STB/MMscf",
+      "Stock Tank Barrel per MMscf",
+      "CGR"
+    ],
+    "symbol": "STB/MMscf",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "api.org",
+    "sourceReference": "https://www.api.org/"
   }
 ]

@@ -11121,7 +11121,7 @@
     "sourceReference": "https://www.api.org/"
   },
   {
-    "externalId": "liquid_to_gas_ratio:stb-per-mmscf",
+    "externalId": "volume_fraction:stb-per-mmscf",
     "name": "STB-per-MMscf",
     "quantity": "Liquid to Gas Ratio",
     "longName": "Stock Tank Barrel per Million Standard Cubic Feet",

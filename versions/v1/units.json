@@ -11102,7 +11102,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "gas_to_liquid_ratio:scf-per-stb",
+    "externalId": "volume_fraction:scf-per-stb",
     "name": "scf-per-STB",
     "quantity": "Gas to Liquid Ratio",
     "longName": "Standard Cubic Feet per Stock Tank Barrel",

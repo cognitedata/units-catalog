@@ -11132,7 +11132,7 @@
     ],
     "symbol": "STB/MMscf",
     "conversion": {
-      "multiplier": 1.0,
+      "multiplier": 0.000005614583333,
       "offset": 0.0
     },
     "source": "api.org",

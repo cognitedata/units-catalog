@@ -11104,13 +11104,14 @@
   {
     "externalId": "volume_fraction:scf-per-stb",
     "name": "scf-per-STB",
-    "quantity": "Gas to Liquid Ratio",
+    "quantity": "Volume Fraction",
     "longName": "Standard Cubic Feet per Stock Tank Barrel",
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
       "Standard Cubic Feet per Barrel",
-      "GOR"
+      "GOR",
+      "GLR"
     ],
     "symbol": "scf/STB",
     "conversion": {
@@ -11123,12 +11124,13 @@
   {
     "externalId": "volume_fraction:stb-per-mmscf",
     "name": "STB-per-MMscf",
-    "quantity": "Liquid to Gas Ratio",
+    "quantity": "Volume Fraction",
     "longName": "Stock Tank Barrel per Million Standard Cubic Feet",
     "aliasNames": [
       "STB/MMscf",
       "Stock Tank Barrel per MMscf",
-      "CGR"
+      "CGR",
+      "WGR"
     ],
     "symbol": "STB/MMscf",
     "conversion": {

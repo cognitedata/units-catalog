@@ -11114,7 +11114,7 @@
     ],
     "symbol": "scf/STB",
     "conversion": {
-      "multiplier": 1.0,
+      "multiplier": 0.178108,
       "offset": 0.0
     },
     "source": "api.org",

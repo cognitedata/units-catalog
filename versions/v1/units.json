@@ -11113,8 +11113,6 @@
       "scf/STB",
       "SCF/STB",
       "Standard Cubic Feet per Barrel",
-      "GOR",
-      "GLR"
     ],
     "symbol": "scf/STB",
     "conversion": {

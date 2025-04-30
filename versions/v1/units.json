@@ -11080,5 +11080,28 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
     "sourceReference": null
+  },
+  {
+    "externalId": "length:1_64_in",
+    "name": "1/64 in",
+    "quantity": "Length",
+    "longName": "One Sixty-Fourth of an Inch",
+    "aliasNames": [
+      "1/64 in",
+      "1/64″",
+      "one sixty-fourth inch",
+      "1-64 inch",
+      "1-64 in",
+      "1/64th in",
+      "1/64th inch",
+      "sixty-fourth inch"
+    ],
+    "symbol": "¹⁄₆₄″",
+    "conversion": {
+      "multiplier": 0.000396875,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/IN",
+    "sourceReference": null
   }
 ]

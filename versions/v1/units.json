@@ -11112,7 +11112,7 @@
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
-      "Standard Cubic Feet per Barrel",
+      "Standard Cubic Feet per Barrel"
     ],
     "symbol": "scf/STB",
     "conversion": {

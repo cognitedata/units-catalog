@@ -11080,5 +11080,65 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
     "sourceReference": null
+  },
+  {
+    "externalId": "length:1_64_in",
+    "name": "1/64 in",
+    "quantity": "Length",
+    "longName": "One Sixty-Fourth of an Inch",
+    "aliasNames": [
+      "1/64 in",
+      "1/64″",
+      "one sixty-fourth inch",
+      "1-64 inch",
+      "1-64 in",
+      "1/64th in",
+      "1/64th inch",
+      "sixty-fourth inch"
+    ],
+    "symbol": "¹⁄₆₄″",
+    "conversion": {
+      "multiplier": 0.000396875,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/IN",
+    "sourceReference": null
+  },
+  {
+    "externalId": "volume_fraction:scf-per-stb",
+    "name": "scf-per-STB",
+    "quantity": "Volume Fraction",
+    "longName": "Standard Cubic Feet per Stock Tank Barrel",
+    "aliasNames": [
+      "scf/STB",
+      "SCF/STB",
+      "Standard Cubic Feet per Barrel"
+    ],
+    "symbol": "scf/STB",
+    "conversion": {
+      "multiplier": 0.178108,
+      "offset": 0.0
+    },
+    "source": "petrobasics.com",
+    "sourceReference": "https://www.petrobasics.com/25078/scfstb"
+  },
+  {
+    "externalId": "volume_fraction:stb-per-mmscf",
+    "name": "STB-per-MMscf",
+    "quantity": "Volume Fraction",
+    "longName": "Stock Tank Barrel per Million Standard Cubic Feet",
+    "aliasNames": [
+      "STB/MMscf",
+      "Stock Tank Barrel per MMscf",
+      "CGR",
+      "WGR"
+    ],
+    "symbol": "STB/MMscf",
+    "conversion": {
+      "multiplier": 0.000005614583333,
+      "offset": 0.0
+    },
+    "source": "petrobasics.com",
+    "sourceReference": "https://www.petrobasics.com/25101/stbmmscf"
   }
 ]

@@ -11119,8 +11119,8 @@
       "multiplier": 0.178108,
       "offset": 0.0
     },
-    "source": "api.org",
-    "sourceReference": "https://www.api.org/"
+    "source": "petrobasics.com",
+    "sourceReference": "https://www.petrobasics.com/25078/scfstb"
   },
   {
     "externalId": "volume_fraction:stb-per-mmscf",
@@ -11138,7 +11138,7 @@
       "multiplier": 0.000005614583333,
       "offset": 0.0
     },
-    "source": "api.org",
-    "sourceReference": "https://www.api.org/"
+    "source": "petrobasics.com",
+    "sourceReference": "https://www.petrobasics.com/25101/stbmmscf"
   }
 ]

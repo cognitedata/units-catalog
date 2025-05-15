@@ -73,7 +73,7 @@ class EquivalentUnits {
             "density:gm-per-centim3",
             "density:kilogm-per-l",
             "density:gm-per-m3",
-            "density:milligm-per-l"
+            "density:milligm-per-l",
         )
     }
 }

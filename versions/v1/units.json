@@ -11103,5 +11103,168 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/IN",
     "sourceReference": null
+  },
+  {
+    "externalId": "volume_flow_rate:kilo-bbl_us-per-day",
+    "name": "Kilo-BBL_US-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Thousand Barrel (US) Per Day",
+    "aliasNames": [
+	    "kilo barrels per day",
+	    "thousand barrels per day",
+      "kbpd",
+	    "kb/d",
+	    "Mb/d",
+	    "MBPD",
+	    "Mbpd",
+	    "Mbbl/d",
+	    "kBbl/day"
+    ],
+    "symbol": "kbbl/d",
+    "conversion": {
+      "multiplier": 0.0018401307283,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume:kilo-bbl_us",
+    "name": "Kilo-BBL_US",
+    "quantity": "Volume",
+    "longName": "Thousand Barrel (US)",
+    "aliasNames": [
+      "kilo barrels",
+	    "thousand barrels",
+      "kBBL",
+	    "kbbl",
+	    "kBbl",
+	    "MBBL",
+	    "Mbbl",
+	    "MBbl"
+    ],
+    "symbol": "kbbl",
+    "conversion": {
+      "multiplier": 0.1589873,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_fraction:ft3-per-bbl_us",
+    "name": "FT3-PER-BBL_US",
+    "quantity": "Volume Fraction",
+    "longName": "Cubic Foot Per Barrel (US)",
+    "aliasNames": [
+      "cf/bbl",
+	    "ft³/bbl",
+	    "ft3/bbl",
+	    "CF/BBL",
+	    "scf/bbl",
+	    "SCF/BBL"
+    ],
+    "symbol": "cf/bbl",
+    "conversion": {
+      "multiplier": 0.178107606679035,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "density:milligm-per-l",
+    "name": "MilliGM-PER-L",
+    "quantity": "Density",
+    "longName": "Milligram per litre",
+    "aliasNames": [
+      "mg/L",
+	    "milligrams per liter",
+      "mg/Liter",
+      "mg per L",
+      "mg/Litre"
+    ],
+    "symbol": "mg/L",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "mass_concentration:milligm-per-l",
+    "name": "MilliGM-PER-L",
+    "quantity": "Mass Concentration",
+    "longName": "Milligram per litre",
+    "aliasNames": [
+      "mg/L",
+	    "milligrams per liter",
+      "mg/Liter",
+      "mg per L",
+      "mg/Litre"
+    ],
+    "symbol": "mg/L",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_fraction:bbl_us-per-bbl_us",
+    "name": "BBL_US-PER-BBL_US",
+    "quantity": "Volume Fraction",
+    "longName": "Barrel (US) Per Barrel (US)",
+    "aliasNames": [
+      "bbl/bbl",
+      "BBL/BBL",
+      "BBL / BBL",
+      "bbl / bbl",
+      "bbl per bbl",
+      "bbl/bbls",
+      "bbls/bbl",
+      "bbls per bbl",
+      "Barrel per Barrel",
+      "Barrel/Barrel",
+      "Barrels per Barrel",
+      "Barrels/Barrel",
+      "Barrel/Barrels"
+    ],
+    "symbol": "bbl/bbl",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_fraction:bbl_us-per-kilo-ft3",
+    "name": "BBL_US-PER-Kilo-FT3",
+    "quantity": "Volume Fraction",
+    "longName": "Barrel (US) Per Thousand Cubic Foot",
+    "aliasNames": [
+      "BBL/Mcf",
+      "bbl/Mcf",
+      "bbl per Mcf",
+      "barrel per Mcf",
+      "barrel/Mcf",
+      "BBL per thousand cubic foot",
+      "bbl/thousand cubic foot",
+      "barrel/thousand cubic foot",
+      "barrel per thousand cubic feet",
+      "BBL/thousand cubic feet",
+      "bbl/thousand cubic feet",
+      "barrel/thousand cubic feet"
+    ],
+    "symbol": "bbl/k.ft³",
+    "conversion": {
+      "multiplier": 0.00561458333,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   }
 ]

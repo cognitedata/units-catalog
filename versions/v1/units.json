@@ -10895,7 +10895,7 @@
     "quantity": "Torque",
     "longName": "Kilo Newton Meter",
     "aliasNames": [
-      "KN.M", 
+      "KN.M",
       "KN.m",
       "kilo newton meter"
     ],
@@ -10913,7 +10913,7 @@
     "quantity": "Radioactivity",
     "longName": "Becquerel",
     "aliasNames": [
-      "Bq", 
+      "Bq",
       "BQ"
     ],
     "symbol": "Bq",
@@ -10930,7 +10930,7 @@
     "quantity": "Radioactivity",
     "longName": "Curie",
     "aliasNames": [
-      "Ci", 
+      "Ci",
       "CI"
     ],
     "symbol": "Ci",
@@ -10992,14 +10992,14 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
-  }, 
+  },
   {
     "externalId": "magnetic_field:gauss",
     "name": "GAUSS",
     "quantity": "Magnetic Field",
     "longName": "Gauss",
     "aliasNames": [
-      "gauss", 
+      "gauss",
       "Gauss",
       "G",
       "g"
@@ -11018,7 +11018,7 @@
     "quantity": "Magnetic Field",
     "longName": "Nano Tesla",
     "aliasNames": [
-      "NT", 
+      "NT",
       "nT"
     ],
     "symbol": "nT",
@@ -11035,7 +11035,7 @@
     "quantity": "Resistivity",
     "longName": "Ohm Foot",
     "aliasNames": [
-      "OhmFt", 
+      "OhmFt",
       "Ω·ft"
     ],
     "symbol": "Ω·ft",
@@ -11052,7 +11052,7 @@
     "quantity": "Resistivity",
     "longName": "Ohm Meter",
     "aliasNames": [
-      "OhmM", 
+      "OhmM",
       "Ω·m",
       "OHM.M"
     ],

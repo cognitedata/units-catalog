@@ -11114,10 +11114,6 @@
       "thousand barrels per day",
       "kbpd",
       "kb/d",
-      "Mb/d",
-      "MBPD",
-      "Mbpd",
-      "Mbbl/d",
       "kBbl/day"
     ],
     "symbol": "kbbl/d",
@@ -11138,10 +11134,7 @@
       "thousand barrels",
       "kBBL",
       "kbbl",
-      "kBbl",
-      "MBBL",
-      "Mbbl",
-      "MBbl"
+      "kBbl"
     ],
     "symbol": "kbbl",
     "conversion": {

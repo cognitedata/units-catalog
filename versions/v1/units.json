@@ -11157,7 +11157,7 @@
       "scf/bbl",
       "SCF/BBL"
     ],
-    "symbol": "cf/bbl",
+    "symbol": "ft³/bbl",
     "conversion": {
       "multiplier": 0.178107606679035,
       "offset": 0.0

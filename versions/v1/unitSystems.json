@@ -201,6 +201,14 @@
       {
         "name": "Areal Density",
         "unitExternalId": "areal_density:kilogm-per-m2"
+      },
+      {
+        "name": "Gas Liquid Ratio",
+        "unitExternalId": "gas_liquid_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Liquid Gas Ratio",
+        "unitExternalId": "liquid_gas_ratio:sm3-per-sm3"
       }
     ]
   },

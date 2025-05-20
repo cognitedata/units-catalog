@@ -10992,7 +10992,7 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
-  },
+  }, 
   {
     "externalId": "magnetic_field:gauss",
     "name": "GAUSS",
@@ -11115,8 +11115,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-M3"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-M3",
+    "sourceReference": null
   },
   {
     "externalId": "gas_liquid_ratio:scf-per-stb",
@@ -11147,8 +11147,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-M3"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-M3",
+    "sourceReference": null
   },
   {
     "externalId": "liquid_gas_ratio:stb-per-mmscf",

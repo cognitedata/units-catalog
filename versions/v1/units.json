@@ -11182,8 +11182,8 @@
       "multiplier": 0.001,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM-PER-L"
   },
   {
     "externalId": "mass_concentration:milligm-per-l",

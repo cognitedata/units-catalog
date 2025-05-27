@@ -11120,5 +11120,70 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/IN",
     "sourceReference": null
+  },
+  {
+    "externalId": "gas_liquid_ratio:sm3-per-sm3",
+    "name": "Sm3-per-Sm3",
+    "quantity": "Gas Liquid Ratio",
+    "longName": "Standard Cubic Meter (@15°C/101.325 kPa) per Standard Cubic Meter (@15°C/101.325 kPa)",
+    "aliasNames": [ "Sm3/Sm3" ],
+    "symbol": "Sm³/Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-M3",
+    "sourceReference": null
+  },
+  {
+    "externalId": "gas_liquid_ratio:scf-per-stb",
+    "name": "scf-per-STB",
+    "quantity": "Gas Liquid Ratio",
+    "longName": "Standard Cubic Feet per Stock Tank Barrel",
+    "aliasNames": [
+      "scf/STB",
+      "SCF/STB",
+      "Standard Cubic Feet per Barrel"
+    ],
+    "symbol": "scf/STB",
+    "conversion": {
+      "multiplier": 0.178108,
+      "offset": 0.0
+    },
+    "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions(scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "sourceReference": "null"
+  },
+  {
+    "externalId": "liquid_gas_ratio:sm3-per-sm3",
+    "name": "Sm3-per-Sm3",
+    "quantity": "Liquid Gas Ratio",
+    "longName": "Standard Cubic Meter (@15°C, 101.325 kPa) per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [ "Sm3/Sm3" ],
+    "symbol": "Sm³/Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-M3",
+    "sourceReference": null
+  },
+  {
+    "externalId": "liquid_gas_ratio:stb-per-mmscf",
+    "name": "STB-per-MMscf",
+    "quantity": "Liquid Gas Ratio",
+    "longName": "Stock Tank Barrel per Million Standard Cubic Feet",
+    "aliasNames": [
+      "STB/MMscf",
+      "Stock Tank Barrel per MMscf",
+      "CGR",
+      "WGR"
+    ],
+    "symbol": "STB/MMscf",
+    "conversion": {
+      "multiplier": 0.000005614583333,
+      "offset": 0.0
+    },
+    "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions (scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "sourceReference": null
   }
 ]

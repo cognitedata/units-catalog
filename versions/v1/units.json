@@ -10993,6 +10993,23 @@
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
   }, 
+    {
+    "externalId": "areal_density:gm-per-m2",
+    "name": "GM-PER-M2",
+    "quantity": "Areal Density",
+    "longName": "Gram Per Square Meter",
+    "aliasNames": [
+      "g/m2",
+      "g/m²"
+    ],
+    "symbol": "g/m²",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-M2"
+  }, 
   {
     "externalId": "magnetic_field:gauss",
     "name": "GAUSS",

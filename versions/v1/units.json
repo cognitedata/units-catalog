@@ -10419,7 +10419,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "Custom based on https://qudt.org/vocab/unit/DEG-PER-M"
+    "sourceReference": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEG-PER-M"
   },
   {
     "externalId": "angle_per_length:rad-per-ft",

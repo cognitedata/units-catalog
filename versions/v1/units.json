@@ -10418,8 +10418,8 @@
       "multiplier": 0.000581776417,
       "offset": 0.0
     },
-    "source": "",
-    "sourceReference": ""
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEG-PER-M",
+    "sourceReference": null
   },
   {
     "externalId": "angle_per_length:rad-per-ft",

@@ -10671,6 +10671,23 @@
     "sourceReference": "https://qudt.org/vocab/unit/DEG-PER-M"
   },
   {
+    "externalId": "angle_per_length:deg-per-30m",
+    "name": "DEG-PER-30M",
+    "quantity": "Angle Per Length",
+    "longName": "Degrees Per 30 Meters",
+    "aliasNames": [
+      "deg/30m",
+      "deg.30m-1"
+    ],
+    "symbol": "deg/30m",
+    "conversion": {
+      "multiplier": 0.000581776417,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEG-PER-M",
+    "sourceReference": null
+  },
+  {
     "externalId": "angle_per_length:rad-per-ft",
     "name": "RAD-PER-FT",
     "quantity": "Angle Per Length",

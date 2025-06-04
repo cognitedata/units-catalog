@@ -209,6 +209,10 @@
       {
         "name": "Liquid Gas Ratio",
         "unitExternalId": "liquid_gas_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "(Volume per time) per pressure",
+        "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
       }
     ]
   },
@@ -382,6 +386,10 @@
       {
         "name": "Areal Density",
         "unitExternalId": "areal_density:kilogm-per-m2"
+      },
+      {
+        "name": "(Volume per time) per pressure",
+        "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
       }
     ]
   },
@@ -487,6 +495,10 @@
       {
         "name": "Areal Density",
         "unitExternalId": "areal_density:lb-per-ft2"
+      },
+      {
+        "name": "(Volume per time) per pressure",
+        "unitExternalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi"
       }
     ]
   }

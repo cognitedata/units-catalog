@@ -11202,5 +11202,187 @@
     },
     "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions (scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
     "sourceReference": null
+  },
+  {
+    "externalId": "pressure:millibarg",
+    "name": "MilliBARg",
+    "quantity": "Pressure",
+    "longName": "Millibar(g)",
+    "aliasNames": [
+      "millibarg",
+	    "MilliBARG",
+	    "mbar(g)",
+	    "mbarg",
+	    "mbar(gauge)",
+	    "Millibar Gauge",
+	    "millibar gauge",
+	    "mbar gauge",
+	    "Millibarg"
+    ],
+    "symbol": "mbar",
+    "conversion": {
+      "multiplier": 100.0,
+      "offset": 1.01325
+    },
+    "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005360/"
+  },
+  {
+    "externalId": "power:megabtu_it-per-day",
+    "name": "MegaBTU_IT-PER-DAY",
+    "quantity": "Power",
+    "longName": "Mega British Thermal Unit (International Definition) per Day",
+    "aliasNames": [
+      "MegaBTU_IT per day",
+      "MegaBTU_IT / d",
+      "MegaBTU_IT / day",
+      "MegaBTU_IT per d",
+      "MegaBTU_IT per Day",
+      "Mega British Thermal Unit (International Definition) per Day",
+      "MegaBTU_IT / Day",
+      "MBtu{IT} / d",
+      "mega british thermal unit (international definition) per day",
+      "MegaBTU_IT per DAY",
+      "MegaBTU_IT PER DAY",
+	    "MMBTU_IT/d",
+	    "MMBTU_IT/day",
+	    "MMBTU_IT/Day",
+	    "MMBTU_IT/DAY"
+    ],
+    "symbol": "MBtu{IT}/d",
+    "conversion": {
+      "multiplier": 12211.29,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/MegaBTU_IT-PER-HR",
+    "sourceReference": null
+  },
+  {
+    "externalId": "volume_fraction:kilo-ft3-per-bbl_us",
+    "name": "Kilo-FT3-PER-BBL_US",
+    "quantity": "Volume Fraction",
+    "longName": "Thousand Cubic Foot Per Barrel (US)",
+    "aliasNames": [
+      "Mcf/bbl",
+	    "kft³/bbl",
+	    "kft3/bbl",
+	    "MCF/BBL",
+	    "Mscf/bbl",
+	    "MSCF/BBL"
+    ],
+    "symbol": "kft³/bbl",
+    "conversion": {
+      "multiplier": 178.107606679035,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "mass_flow_rate:lb-per-day",
+    "name": "LB-PER-DAY",
+    "quantity": "Mass Flow Rate",
+    "longName": "Pound per Day",
+    "aliasNames": [
+      "Pound Mass / Day",
+	    "pound mass / day",
+	    "Pound per Day",
+	    "pound per day",
+	    "Pound Mass / day",
+	    "pound mass / Day",
+	    "Pound Mass per Day",
+	    "Pound Mass per day",
+	    "pound mass per Day",
+	    "pound mass per day",
+	    "LB PER DAY",
+	    "LB per Day",
+	    "LB per day",
+	    "LB / Day",
+	    "LB / day",
+	    "lbm per Day",
+	    "lbm per day",
+	    "lbm / Day",
+	    "lbm / day",
+	    "lbm per d",
+	    "lbm / d",
+	    "lbm per DAY",
+	    "lbm / DAY",
+	    "Pound Mass per d",
+	    "pound mass per d",
+	    "Pound Mass / d",
+	    "pound mass / d",
+	    "LB per d",
+	    "LB / d",
+	    "lbm per d",
+	    "lbm / d",
+	    "lb/d",
+	    "LB/d",
+	    "lbm/day",
+	    "lb/day",
+	    "LB/day",
+	    "lbm/day",
+	    "lb/Day",
+	    "LB/Day",
+	    "lbm/Day",
+    ],
+    "symbol": "lb/d",
+    "conversion": {
+      "multiplier": 0.000005249912,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-DAY"
+  },
+  {
+    "externalId": "volume_per_time_per_pressure:m3-per-sec-per-pa",
+    "name": "M3-PER-SEC-PER-PA",
+    "quantity": "(Volume per time) per pressure",
+    "longName": "(Cubic Meter Per Second) Per Pascal",
+    "aliasNames": [
+      "m3/(Pa.s)",
+	    "m3/Pa.s",
+	    "m3 per Pa.s",
+	    "cubic meter per pascal second",
+	    "cubic metres per pascal second",
+	    "cubic meters per pascal second",
+	    "m³/(Pa.s)",
+	    "m³/Pa.s",
+	    "m³ per Pa.s"
+    ],
+    "symbol": "m3/(Pa.s)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_per_time_per_pressure:bbl_us-per-day-per-psi",
+    "name": "BBL_US-PER-DAY-PER-PSI",
+    "quantity": "(Volume per time) per pressure",
+    "longName": "(Barrel (US) Per Day) Per Psi",
+    "aliasNames": [
+      "bbl/(psi.d)",
+	    "bbl/psi.d",
+	    "bbl per psi.d",
+	    "barrel per psi day",
+	    "barrels per psi day",
+	    "barrels/(psi.d)",
+	    "barrels/psi.d",
+	    "barrels per psi.d",
+	    "bbl per psi.day",
+	    "bbl per psi d",
+	    "bbl/psi/day",
+	    "barrels per (psi.d)",
+	    "bbl per (psi.d)"
+    ],
+    "symbol": "bbl/(psi.d)",
+    "conversion": {
+      "multiplier": 0.0000000002668884,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   }
 ]

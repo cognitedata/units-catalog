@@ -67,6 +67,10 @@ class EquivalentUnits {
             "volume_fraction:centim3-per-m3",
             "volume_fraction:microl-per-l",
             "volume_fraction:millil-per-m3",
+            "mass_concentration:kilogm-per-m3",
+            "mass_concentration:milligm-per-millil",
+            "density:gm-per-centim3",
+            "density:kilogm-per-l",
         )
     }
 }

@@ -11412,5 +11412,44 @@
     },
     "source": "Energistics",
     "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_per_time_per_pressure:kilo-ft3-per-day-per-psi",
+    "name": "Kilo-FT3-PER-DAY-PER-PSI",
+    "quantity": "(Volume per time) per pressure",
+    "longName": "(Thousand Cubic Foot Per Day) Per Psi",
+    "aliasNames": [
+      "1000 ft3/(psi.d)",
+      "1000 ft³/(psi.d)",
+      "kft3/(psi.d)",
+      "kft³/(psi.d)",
+      "Mft3/(psi.d)",
+      "Mft³/(psi.d)",
+      "kft3/psi/day",
+      "kft³/psi/day",
+      "kft3/psi/d",
+      "kft³/psi/d",
+      "Mft3/psi/day",
+      "Mft³/psi/day",
+      "Mft3/psi/d",
+      "Mft³/psi/d",
+      "thousand cubic feet per day per psi",
+      "thousand ft3 per day per psi",
+      "thousand ft³ per day per psi",
+      "thousand cu ft per day per psi",
+      "thousand cu.ft. per day per psi",
+      "thousand cubic feet/day/psi",
+      "thousand ft3/day/psi",
+      "thousand ft³/day/psi",
+      "thousand cu ft/day/psi",
+      "thousand cu.ft./day/psi"
+    ],
+    "symbol": "k.ft3/(psi.d)",
+    "conversion": {
+      "multiplier": 0.000000047536,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   }
 ]

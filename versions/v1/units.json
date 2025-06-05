@@ -11384,5 +11384,33 @@
     },
     "source": "Energistics",
     "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_per_time_per_pressure:m3-per-day-per-bar",
+    "name": "M3-PER-DAY-PER-BAR",
+    "quantity": "(Volume per time) per pressure",
+    "longName": "(Cubic Meter Per Day) Per Bar",
+    "aliasNames": [
+      "m3/(bar.d)",
+      "m3/(bar.d)",
+      "m³/(bar.d)",
+      "m³/(bar.d)",
+      "m3/bar/day",
+      "m³/bar/day",
+      "m3 per bar per day",
+      "m³ per bar per day",
+      "cubic meter per day per bar",
+      "m3 per bar per d",
+      "m³ per bar per d",
+      "m3/bar/d",
+      "m³/bar/d"
+    ],
+    "symbol": "m3/(bar.d)",
+    "conversion": {
+      "multiplier": 0.00000000011574074,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   }
 ]

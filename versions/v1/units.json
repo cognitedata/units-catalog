@@ -11623,7 +11623,7 @@
       "cu ft/s/psi",
       "cu.ft./s/psi"
     ],
-    "symbol": "ft3/(psi.s)",
+    "symbol": "ft³/(psi.s)",
     "conversion": {
       "multiplier": 0.00000410701,
       "offset": 0.0

@@ -11502,7 +11502,7 @@
       "m³/Pa.s",
       "m³ per Pa.s"
     ],
-    "symbol": "m3/(Pa.s)",
+    "symbol": "m³/(Pa.s)",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0

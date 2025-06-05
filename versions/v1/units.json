@@ -11556,7 +11556,7 @@
       "m3/bar/d",
       "m³/bar/d"
     ],
-    "symbol": "m3/(bar.d)",
+    "symbol": "m³/(bar.d)",
     "conversion": {
       "multiplier": 0.00000000011574074,
       "offset": 0.0

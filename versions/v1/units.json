@@ -11360,7 +11360,7 @@
   {
     "externalId": "volume_per_time_per_pressure:bbl_us-per-day-per-psi",
     "name": "BBL_US-PER-DAY-PER-PSI",
-    "quantity": "(Volume per time) per pressure",
+    "quantity": "Volume per time per pressure",
     "longName": "(Barrel (US) Per Day) Per Psi",
     "aliasNames": [
       "bbl/(psi.d)",
@@ -11388,7 +11388,7 @@
   {
     "externalId": "volume_per_time_per_pressure:m3-per-day-per-bar",
     "name": "M3-PER-DAY-PER-BAR",
-    "quantity": "(Volume per time) per pressure",
+    "quantity": "Volume per time per pressure",
     "longName": "(Cubic Meter Per Day) Per Bar",
     "aliasNames": [
       "m3/(bar.d)",
@@ -11416,7 +11416,7 @@
   {
     "externalId": "volume_per_time_per_pressure:kilo-ft3-per-day-per-psi",
     "name": "Kilo-FT3-PER-DAY-PER-PSI",
-    "quantity": "(Volume per time) per pressure",
+    "quantity": "Volume per time per pressure",
     "longName": "(Thousand Cubic Foot Per Day) Per Psi",
     "aliasNames": [
       "1000 ft3/(psi.d)",
@@ -11455,7 +11455,7 @@
   {
     "externalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi",
     "name": "FT3-PER-SEC-PER-PSI",
-    "quantity": "(Volume per time) per pressure",
+    "quantity": "Volume per time per pressure",
     "longName": "(Cubic Foot Per Second) Per Psi",
     "aliasNames": [
       "ft3/(psi.s)",

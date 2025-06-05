@@ -11219,7 +11219,7 @@
       "mbar gauge",
       "Millibarg"
     ],
-    "symbol": "mbar",
+    "symbol": "mbar(g)",
     "conversion": {
       "multiplier": 100.0,
       "offset": 1.01325

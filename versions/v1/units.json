@@ -11478,7 +11478,7 @@
       "LB/Day",
       "lbm/Day"
     ],
-    "symbol": "lb/d",
+    "symbol": "lbm/d",
     "conversion": {
       "multiplier": 0.000005249912,
       "offset": 0.0

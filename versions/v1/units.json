@@ -11336,7 +11336,7 @@
   {
     "externalId": "volume_per_time_per_pressure:m3-per-sec-per-pa",
     "name": "M3-PER-SEC-PER-PA",
-    "quantity": "(Volume per time) per pressure",
+    "quantity": "Volume per time per pressure",
     "longName": "(Cubic Meter Per Second) Per Pascal",
     "aliasNames": [
       "m3/(Pa.s)",

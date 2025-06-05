@@ -11595,7 +11595,7 @@
       "thousand cu ft/day/psi",
       "thousand cu.ft./day/psi"
     ],
-    "symbol": "k.ft3/(psi.d)",
+    "symbol": "k.ft³/(psi.d)",
     "conversion": {
       "multiplier": 0.000000047536,
       "offset": 0.0

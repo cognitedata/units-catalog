@@ -11490,7 +11490,7 @@
     "externalId": "volume_per_time_per_pressure:m3-per-sec-per-pa",
     "name": "M3-PER-SEC-PER-PA",
     "quantity": "Volume per time per pressure",
-    "longName": "(Cubic Meter Per Second) Per Pascal",
+    "longName": "Cubic Meter per Pascal Second",
     "aliasNames": [
       "m3/(Pa.s)",
       "m3/Pa.s",

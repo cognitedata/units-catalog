@@ -11451,5 +11451,33 @@
     },
     "source": "Energistics",
     "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi",
+    "name": "FT3-PER-SEC-PER-PSI",
+    "quantity": "(Volume per time) per pressure",
+    "longName": "(Cubic Foot Per Second) Per Psi",
+    "aliasNames": [
+      "ft3/(psi.s)",
+      "ft³/(psi.s)",
+      "ft3/psi/s",
+      "ft³/psi/s",
+      "cubic foot per second per psi",
+      "cubic feet per second per psi",
+      "cu ft per second per psi",
+      "cu.ft. per second per psi",
+      "cubic foot/s/psi",
+      "ft3/s/psi",
+      "ft³/s/psi",
+      "cu ft/s/psi",
+      "cu.ft./s/psi"
+    ],
+    "symbol": "ft3/(psi.s)",
+    "conversion": {
+      "multiplier": 0.00000410701,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   }
 ]

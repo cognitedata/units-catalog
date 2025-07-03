@@ -2180,7 +2180,9 @@
       "ampere",
       "A",
       "Amps",
-      "amps"
+      "amps",
+      "AAC",
+      "ADC"
     ],
     "symbol": "A",
     "conversion": {
@@ -2198,7 +2200,9 @@
     "aliasNames": [
       "kiloampere",
       "KiloA",
-      "kA"
+      "kA",
+      "kAAC",
+      "kADC"
     ],
     "symbol": "kA",
     "conversion": {
@@ -2236,7 +2240,9 @@
       "mA",
       "MilliAmpere",
       "milliampere",
-      "MilliA"
+      "MilliA",
+      "mAAC",
+      "mADC"
     ],
     "symbol": "mA",
     "conversion": {
@@ -2255,7 +2261,9 @@
       "Kilovolt",
       "KiloV",
       "kilovolt",
-      "kV"
+      "kV",
+      "kVAC",
+      "kVDC"
     ],
     "symbol": "kV",
     "conversion": {
@@ -2312,7 +2320,9 @@
       "mV",
       "millivolt",
       "Millivolt",
-      "MilliV"
+      "MilliV",
+      "mVAC",
+      "mVDC"
     ],
     "symbol": "mV",
     "conversion": {

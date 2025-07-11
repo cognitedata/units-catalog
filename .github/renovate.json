@@ -4,5 +4,6 @@
     "local>cognitedata/renovate-config-public",
     ":automergeMinor"
   ],
-  "stabilityDays": 14
+  "stabilityDays": 14,
+  "rebaseWhen": "conflicted"
 }

@@ -11389,7 +11389,7 @@
     "symbol": "mbar(g)",
     "conversion": {
       "multiplier": 100.0,
-      "offset": 1.01325
+      "offset": 1013.25
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
     "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005360/"

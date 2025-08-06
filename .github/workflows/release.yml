@@ -47,6 +47,6 @@ jobs:
       run: |
         mvn -B clean deploy -P release
       env:
-        MAVEN_USERNAME: ${{ secrets.SONATYPE_OSSRH_USER }}
-        MAVEN_CENTRAL_TOKEN: ${{ secrets.SONATYPE_OSSRH_PASSWORD }}
-        MAVEN_GPG_PASSPHRASE: ${{ secrets.SONATYPE_OSSRH_GPG_KEY_PASSPHRASE }}
+        MAVEN_USERNAME: ${{ secrets.SONATYPE_CENTRAL_PORTAL_USER }}
+        MAVEN_CENTRAL_TOKEN: ${{ secrets.SONATYPE_CENTRAL_PORTAL_PASSWORD }}
+        MAVEN_GPG_PASSPHRASE: ${{ secrets.SONATYPE_CENTRAL_PORTAL_GPG_KEY_PASSPHRASE }}

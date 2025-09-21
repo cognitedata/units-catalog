@@ -127,6 +127,10 @@
         "unitExternalId": "resistance:ohm"
       },
       {
+        "name": "Standard Volume",
+        "unitExternalId": "standard_volume:scm_1atm_15deg_C_iso"
+      },
+      {
         "name": "Surface Tension",
         "unitExternalId": "surface_tension:j-per-m2"
       },
@@ -332,6 +336,10 @@
         "unitExternalId": "resistance:ohm"
       },
       {
+        "name": "Standard Volume",
+        "unitExternalId": "standard_volume:scm_1atm_15deg_C_iso"
+      },
+      {
         "name": "Surface Tension",
         "unitExternalId": "surface_tension:j-per-m2"
       },
@@ -447,6 +455,10 @@
       {
         "name": "Pressure Gradient",
         "unitExternalId": "pressure_gradient:psi-per-ft"
+      },
+      {
+        "name": "Standard Volume",
+        "unitExternalId": "standard_volume:scf"
       },
       {
         "name": "Surface Tension",

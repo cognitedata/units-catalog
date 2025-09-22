@@ -8521,6 +8521,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-HR"
   },
   {
+    "externalId": "velocity:millim-per-yr",
+    "name": "MilliM-PER-YR",
+    "longName": "Millimeter Per Year",
+    "symbol": "mm/yr",
+    "aliasNames": [
+      "Millimetre Per Year",
+      "mm/yr",
+      "mm/y",
+      "mm/y: millimetre per year"
+    ],
+    "quantity": "Velocity",
+    "conversion": {
+      "multiplier": 3.168808781402895023702689684893655E-11,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-YR"
+  },
+  {
     "externalId": "volume:bbl_us",
     "name": "BBL_US",
     "quantity": "Volume",

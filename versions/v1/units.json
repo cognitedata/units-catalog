@@ -8666,7 +8666,7 @@
     "externalId": "velocity:m-per-min",
     "name": "M-PER-MIN",
     "quantity": "Velocity",
-    "longName": "Metre Per Minute",
+    "longName": "Meter per Minute",
     "aliasNames": [
       "metre per minute",
       "meter per minute",

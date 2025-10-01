@@ -2255,6 +2255,96 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliA"
   },
   {
+    "externalId": "electric_current_rate:a-per-hr",
+    "name": "A-PER-HR",
+    "quantity": "Electric Current Rate",
+    "longName": "Ampere Per Hour",
+    "aliasNames": [
+      "ampere per hour",
+      "A per hour",
+      "A per hr",
+      "A/hour",
+      "A/hr",
+      "ampere / hour",
+      "A / hour",
+      "A / hr",
+      "Ampere per hour",
+      "Ampere Per Hour",
+      "amp per hour",
+      "amp per hr",
+      "amp/hour",
+      "amp/hr"
+    ],
+    "symbol": "A/h",
+    "conversion": {
+      "multiplier": 0.0002777777777777778,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/A and https://qudt.org/vocab/unit/HR",
+    "sourceReference": null
+  },
+  {
+    "externalId": "electric_current_rate:a-per-min",
+    "name": "A-PER-MIN",
+    "quantity": "Electric Current Rate",
+    "longName": "Ampere Per Minute",
+    "aliasNames": [
+      "ampere per minute",
+      "A per minute",
+      "A per min",
+      "A/minute",
+      "A/min",
+      "ampere / minute",
+      "A / minute",
+      "A / min",
+      "Ampere per minute",
+      "Ampere Per Minute",
+      "amp per minute",
+      "amp per min",
+      "amp/minute",
+      "amp/min"
+    ],
+    "symbol": "A/min",
+    "conversion": {
+      "multiplier": 0.016666666666666666,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/A and https://qudt.org/vocab/unit/MIN",
+    "sourceReference": null
+  },
+  {
+    "externalId": "electric_current_rate:a-per-sec",
+    "name": "A-PER-SEC",
+    "quantity": "Electric Current Rate",
+    "longName": "Ampere Per Second",
+    "aliasNames": [
+      "ampere per second",
+      "A per second",
+      "A per sec",
+      "A/second",
+      "A/sec",
+      "A/s",
+      "ampere / second",
+      "A / second",
+      "A / sec",
+      "A / s",
+      "Ampere per second",
+      "Ampere Per Second",
+      "amp per second",
+      "amp per sec",
+      "amp/second",
+      "amp/sec",
+      "amp/s"
+    ],
+    "symbol": "A/s",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/A and https://qudt.org/vocab/unit/SEC",
+    "sourceReference": null
+  },
+  {
     "externalId": "electric_potential:kilov",
     "name": "KiloV",
     "quantity": "Electric Potential",
@@ -8538,6 +8628,105 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-YR"
+  },
+  {
+    "externalId": "velocity:millim-per-wk",
+    "name": "MilliM-PER-WK",
+    "quantity": "Velocity",
+    "longName": "Millimeter Per Week",
+    "aliasNames": [
+      "millimeter per week",
+      "millimetre per week",
+      "mm per week",
+      "mm per wk",
+      "mm/week",
+      "mm/wk",
+      "MilliM per week",
+      "MilliM per wk",
+      "MilliM / week",
+      "MilliM / wk",
+      "millimeter / week",
+      "millimetre / week",
+      "mm / week",
+      "mm / wk",
+      "Millimeter per week",
+      "Millimetre per week",
+      "Millimeter Per Week",
+      "Millimetre Per Week"
+    ],
+    "symbol": "mm/wk",
+    "conversion": {
+      "multiplier": 1.6534391534391535e-09,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/MilliM and https://qudt.org/vocab/unit/WK",
+    "sourceReference": null
+  },
+  {
+    "externalId": "velocity:m-per-min",
+    "name": "M-PER-MIN",
+    "quantity": "Velocity",
+    "longName": "Metre Per Minute",
+    "aliasNames": [
+      "metre per minute",
+      "meter per minute",
+      "m per minute",
+      "m per min",
+      "m/minute",
+      "m/min",
+      "M per minute",
+      "M per min",
+      "M / minute",
+      "M / min",
+      "metre / minute",
+      "meter / minute",
+      "m / minute",
+      "m / min",
+      "Metre per minute",
+      "Meter per minute",
+      "Metre Per Minute",
+      "Meter Per Minute"
+    ],
+    "symbol": "m/min",
+    "conversion": {
+      "multiplier": 0.016666666666666666,
+      "offset": 0.0
+    },
+    "source": "http://qudt.org/vocab/unit/M-PER-MIN",
+    "sourceReference": null
+  },
+  {
+    "externalId": "velocity:kilom-per-wk",
+    "name": "KiloM-PER-WK",
+    "quantity": "Velocity",
+    "longName": "Kilometre Per Week",
+    "aliasNames": [
+      "kilometre per week",
+      "kilometer per week",
+      "km per week",
+      "km per wk",
+      "km/week",
+      "km/wk",
+      "KiloM per week",
+      "KiloM per wk",
+      "KiloM / week",
+      "KiloM / wk",
+      "kilometre / week",
+      "kilometer / week",
+      "km / week",
+      "km / wk",
+      "Kilometre per week",
+      "Kilometer per week",
+      "Kilometre Per Week",
+      "Kilometer Per Week"
+    ],
+    "symbol": "km/wk",
+    "conversion": {
+      "multiplier": 0.001653439153439153,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloM and https://qudt.org/vocab/unit/WK",
+    "sourceReference": null
   },
   {
     "externalId": "volume:bbl_us",

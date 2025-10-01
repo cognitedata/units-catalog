@@ -59,6 +59,10 @@
         "unitExternalId": "electric_current:a"
       },
       {
+        "name": "Electric Current Rate",
+        "unitExternalId": "electric_current_rate:a-per-sec"
+      },
+      {
         "name": "Electric Potential",
         "unitExternalId": "electric_potential:v"
       },
@@ -270,6 +274,10 @@
       {
         "name": "Electric Current",
         "unitExternalId": "electric_current:a"
+      },
+      {
+        "name": "Electric Current Rate",
+        "unitExternalId": "electric_current_rate:a-per-sec"
       },
       {
         "name": "Electric Potential",

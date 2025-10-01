@@ -8699,7 +8699,7 @@
     "externalId": "velocity:kilom-per-wk",
     "name": "KiloM-PER-WK",
     "quantity": "Velocity",
-    "longName": "Kilometre Per Week",
+    "longName": "Kilometer per Week",
     "aliasNames": [
       "kilometre per week",
       "kilometer per week",

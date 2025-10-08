@@ -8693,7 +8693,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/M-PER-MIN"
+    "sourceReference": "https://qudt.org/vocab/unit/M-PER-MIN"
   },
   {
     "externalId": "velocity:kilom-per-wk",

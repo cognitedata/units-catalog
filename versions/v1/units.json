@@ -9597,7 +9597,7 @@
     ],
     "symbol": "Mm³/day",
     "conversion": {
-      "multiplier": 1.157407407407407407407407407407407e01,
+      "multiplier": 11.57407407407407407407407407407407e01,
       "offset": 0.0
     },
     "source": "qudt.org",

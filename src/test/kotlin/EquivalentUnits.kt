@@ -43,6 +43,7 @@ class EquivalentUnits {
             "pressure:pa",
             "pressure:megapa",
             "pressure:n-per-millim2",
+            "standard_volume:scm_1atm_15deg_C_iso",
             "surface_tension:j-per-m2",
             "surface_tension:kilogm-per-sec2",
             "surface_tension:n-m-per-m2",

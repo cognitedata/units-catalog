@@ -132,7 +132,7 @@
       },
       {
         "name": "Standard Volume",
-        "unitExternalId": "standard_volume:scm_1atm_15deg_C_iso"
+        "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
       {
         "name": "Surface Tension",
@@ -345,7 +345,7 @@
       },
       {
         "name": "Standard Volume",
-        "unitExternalId": "standard_volume:scm_1atm_15deg_C_iso"
+        "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
       {
         "name": "Surface Tension",

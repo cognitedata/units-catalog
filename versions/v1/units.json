@@ -6903,7 +6903,7 @@
       "VAR",
       "VAr"
     ],
-    "symbol": "VAR",
+    "symbol": "VA{Reactive}",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0
@@ -6913,7 +6913,7 @@
   },
   {
     "externalId": "reactive_power:kilovar",
-    "name": "kVAR",
+    "name": "KiloVAR",
     "quantity": "Reactive Power",
     "longName": "Kilo Volt Ampere Reactive",
     "aliasNames": [
@@ -6922,7 +6922,7 @@
       "kvar: kilovar",
       "KVAr"
     ],
-    "symbol": "kVAR",
+    "symbol": "kVA{Reactive}",
     "conversion": {
       "multiplier": 1000.0,
       "offset": 0.0
@@ -6932,14 +6932,14 @@
   },
   {
     "externalId": "reactive_power:megavar",
-    "name": "MVAR",
+    "name": "MegaVAR",
     "quantity": "Reactive Power",
     "longName": "Mega Volt Ampere Reactive",
     "aliasNames": [
       "MVAR",
       "MVAr"
     ],
-    "symbol": "MVAR",
+    "symbol": "MVA{Reactive}",
     "conversion": {
       "multiplier": 1.0e6,
       "offset": 0.0

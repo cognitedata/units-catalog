@@ -6953,7 +6953,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/OHM"
   },
   {
-    "externalId": "standard_volume:scm_1atm_15deg_C_iso",
+    "externalId": "standard_volume:scm_1atm_15deg_c_iso",
     "name": "Sm3",
     "quantity": "Standard Volume",
     "longName": "Standard Cubic Meter (@15°C, 101.325 kPa)",

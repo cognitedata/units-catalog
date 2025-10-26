@@ -9585,7 +9585,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/L-PER-SEC"
   },
   {
-    "externalId": "volume_flow_rate:megam3-per-day",
+    "externalId": "volume_flow_rate:megam3_per_day",
     "name": "Mega-M3-PER-DAY",
     "quantity": "Volume Flow Rate",
     "longName": "Millon Cubic Meter Per Day",

@@ -9600,8 +9600,8 @@
       "multiplier": 11.57407407407407407407407407407407e01,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/M3-PER-DAY"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
+    "sourceReference": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446"
   },
   {
     "externalId": "volume_flow_rate:m3-per-day",

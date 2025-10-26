@@ -9585,7 +9585,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/L-PER-SEC"
   },
   {
-    "externalId": "volume_flow_rate:megam3_per_day",
+    "externalId": "volume_flow_rate:mega-m3-per-day",
     "name": "Mega-M3-PER-DAY",
     "quantity": "Volume Flow Rate",
     "longName": "Millon Cubic Meter Per Day",
@@ -9601,7 +9601,7 @@
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
-    "sourceReference": "http://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446"
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:m3-per-day",

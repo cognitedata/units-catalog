@@ -6997,7 +6997,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "standard_volume:Mega_scm_1atm_15deg_c_iso",
+    "externalId": "standard_volume:mega_scm_1atm_15deg_c_iso",
     "name": "MEGA_SCM_1ATM_15DEG_C_ISO",
     "quantity": "Standard Volume",
     "longName": "Mega Standard Cubic Meter (@15°C, 101.325 kPa)",

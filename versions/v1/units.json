@@ -6401,7 +6401,7 @@
   },
   {
     "externalId": "pressure:in_h2o",
-    "name": "Inch_H2O",
+    "name": "IN_H2O",
     "quantity": "Pressure",
     "longName": "Inch Of Water",
     "aliasNames": [

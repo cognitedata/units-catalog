@@ -466,7 +466,7 @@
       },
       {
         "name": "Standard Volume",
-        "unitExternalId": "standard_volume:scf"
+        "unitExternalId": "standard_volume:scf_1atm_60deg_f"
       },
       {
         "name": "Surface Tension",

@@ -6953,8 +6953,8 @@
     "sourceReference": "https://qudt.org/vocab/unit/OHM"
   },
   {
-    "externalId": "standard_volume:scm_1atm_15deg_c_iso",
-    "name": "Sm3",
+    "externalId": "standard_volume:scm_1atm_15deg_C_iso",
+    "name": "SCM_1ATM_15DEG_C_ISO",
     "quantity": "Standard Volume",
     "longName": "Standard Cubic Meter (@15°C, 101.325 kPa)",
     "aliasNames": [
@@ -6976,7 +6976,7 @@
   },
   {
     "externalId": "standard_volume:kilo_scm_1atm_15deg_C_iso",
-    "name": "kSm3",
+    "name": "KILO_SCM_1ATM_15DEG_C_ISO",
     "quantity": "Standard Volume",
     "longName": "Kilo Standard Cubic Meter (@15°C, 101.325 kPa)",
     "aliasNames": [
@@ -6998,7 +6998,7 @@
   },
   {
     "externalId": "standard_volume:Mega_scm_1atm_15deg_C_iso",
-    "name": "MSm3",
+    "name": "MEGA_SCM_1ATM_15DEG_C_ISO",
     "quantity": "Standard Volume",
     "longName": "Mega Standard Cubic Meter (@15°C, 101.325 kPa)",
     "aliasNames": [
@@ -7019,8 +7019,8 @@
     "sourceReference": null
   },
   {
-    "externalId": "standard_volume:scf",
-    "name": "SCF",
+    "externalId": "standard_volume:scf_1atm_60deg_f",
+    "name": "SCF_1ATM_60DEG_F",
     "quantity": "Standard Volume",
     "longName": "Standard Cubic Feet (@60°F, 14.7 psi)",
     "aliasNames": [
@@ -7035,18 +7035,18 @@
       "multiplier": 0.028316846592,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/SCF"
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measurestandard",
+    "sourceReference": null
   },
   {
-    "externalId": "standard_volume:kilo_scf",
-    "name": "MSCF",
+    "externalId": "standard_volume:kilo_scf_1atm_60deg_f",
+    "name": "KILO_SCF_1ATM_60DEG_F",
     "quantity": "Standard Volume",
     "longName": "Thousand Standard Cubic Feet (@60°F, 14.7 psi)",
     "aliasNames": [
-      "MSft³",
-      "MSCF",
-      "MSFT3"
+      "kSft³",
+      "kSCF",
+      "kSFT3"
     ],
     "symbol": "MSCF",
     "conversion": {
@@ -7057,8 +7057,8 @@
     "sourceReference": null
   },
   {
-    "externalId": "standard_volume:mega_scf",
-    "name": "MMSCF",
+    "externalId": "standard_volume:mega_scf_1atm_60deg_f",
+    "name": "MEGA_SCF_1ATM_60DEG_F",
     "quantity": "Standard Volume",
     "longName": "Million Standard Cubic Feet (@60°F, 14.7 psi)",
     "aliasNames": [
@@ -9101,7 +9101,7 @@
     "aliasNames": [
       "kilo cubic meter",
       "kilo cubic metre",
-      "k m3",
+      "km3",
       "k.m3"
     ],
     "symbol": "k m3",
@@ -9244,7 +9244,7 @@
       "Million ft³",
       "MMCF"
     ],
-    "symbol": "MMcf",
+    "symbol": "MMCF",
     "conversion": {
       "multiplier": 28316.846592,
       "offset": 0.0

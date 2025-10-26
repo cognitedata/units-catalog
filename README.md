@@ -1,6 +1,6 @@
 # Cognite Data Fusion Unit Catalog
 
-This repository stores a comprehensive unit catalog for Cognite Data Fusion (CDF) with a focus on standardization, comprehensiveness, and consistency. The catalog is maintained in two primary JSON files:
+This repository stores a comprehensive unit catalog for Cognite Data Fusion (CDF) with a focus on standardization, comprehensiveness, and consistency. The catalog is maintained in two primary JSON files located in `versions/v1/`:
 
 1. `units.json`: Contains a list of units with their metadata.
 2. `unitSystems.json`: Contains various unit systems and their quantities.
@@ -36,7 +36,7 @@ Each item in the `units.json` has the following structure:
 - `quantity`: Specifies the physical quantity the unit measures (e.g., `Temperature`).
 - `conversion`: An object containing **multiplier** and **offset** values for converting between units.
 - `source`: The primary source of the unit (e.g., `qudt.org`).
-- `sourceReference`: A URL reference to the unit definition on an external source, if available.
+- `sourceReference`: A URL reference to the unit definition on an external source, if available. For QUDT units, this must follow the format `https://qudt.org/vocab/unit/{UNIT_NAME}` where UNIT_NAME matches the `name` field.
 
 ### unitSystems.json
 
@@ -70,6 +70,23 @@ To ensure the integrity of the catalog, the following tests are conducted:
 7. **Unique Unit Aliases**: Each unit's `aliasNames` array must contain only unique values, with no duplicate entries allowed.
 8. **ExternalId Format**: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both `quantity` and `unit` are in **snake_case**.
 
+### Running Tests
+
+```bash
+mvn test                    # Run all tests
+mvn verify                  # Run tests and code style checks (ktlint)
+mvn clean verify            # Full clean build with all validations
+```
+
+### Duplicate and Equivalent Units
+
+The test suite includes duplicate detection (`DuplicatedUnitsTest`) that identifies units with identical conversion factors within the same quantity. The system distinguishes between:
+
+- **Duplicate units**: Units that should be removed from the catalog (same conversion, no valid reason for both to exist)
+- **Equivalent units**: Legitimately different representations of the same unit (e.g., `w`, `v-a`, and `j-per-sec` for Power)
+
+Known equivalent units are whitelisted in `src/test/kotlin/EquivalentUnits.kt`. The CI pipeline runs duplicate detection on every PR and posts results as a comment.
+
 ## Attribution
 Some of the units are sourced from QUDT.org, which is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 These are marked with the `qudt.org` source.
@@ -95,12 +112,27 @@ This license applies to any code/data file in this repository, unless otherwise 
 
 To maintain the consistency and quality of the unit catalog, please ensure any contributions adhere to the established structure and guidelines. Before submitting any additions or modifications:
 
-1. Ensure that all tests pass
-2. Provide meaningful descriptions in your Pull Requests that explain:
+1. **Run full verification**: Ensure that `mvn clean verify` passes. This runs all tests and code style checks.
+
+2. **Provide meaningful PR descriptions** that explain:
    - Summary of the changes introduced in the pull request
    - The rationale behind the changes/contributions
    - Which customers/use cases this change addresses
-3. When adding new units, prefer using QUDT units when available. Other standards or publications may be used when a suitable QUDT entry does not exist.
+
+3. **Follow unit source preferences**:
+   - Prefer using QUDT units when available (source from https://qudt.org/vocab/unit/)
+   - For QUDT units, ensure `sourceReference` follows the format: `https://qudt.org/vocab/unit/{UNIT_NAME}`
+   - Other standards or publications may be used when a suitable QUDT entry does not exist
+
+4. **Handle equivalent units appropriately**:
+   - If adding a unit with the same conversion factors as an existing unit for the same quantity, determine if it's a legitimate equivalent or a duplicate
+   - Legitimate equivalent units (e.g., different scientific notations like "W" vs "V·A") should be added to the whitelist in `src/test/kotlin/EquivalentUnits.kt`
+   - True duplicates should be avoided; instead, add the alternative name as an alias to the existing unit
+
+5. **Validate unit structure**:
+   - Ensure `externalId` follows the pattern `{quantity}:{unit}` in snake_case
+   - Add comprehensive aliases to support various naming conventions users might use
+   - Verify conversion factors are correct (formula: `baseUnitValue = (unitValue + offset) * multiplier`)
 
 ### Release Schedule
 

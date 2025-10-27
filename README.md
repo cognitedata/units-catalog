@@ -112,7 +112,7 @@ This license applies to any code/data file in this repository, unless otherwise 
 
 To maintain the consistency and quality of the unit catalog, please ensure any contributions adhere to the established structure and guidelines. Before submitting any additions or modifications:
 
-1. **Run full verification**: Ensure that `mvn clean verify` passes. This runs all tests and code style checks.
+1. **Verify your changes**: Ensure all tests and code style checks pass. You can run the tests locally for faster feedback, or rely on the automated GitHub CI checks that run on every pull request.
 
 2. **Provide meaningful PR descriptions** that explain:
    - Summary of the changes introduced in the pull request

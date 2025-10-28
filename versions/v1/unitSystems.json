@@ -127,8 +127,16 @@
         "unitExternalId": "pressure_gradient:bar-per-m"
       },
       {
+        "name": "Reactive Power",
+        "unitExternalId": "reactive_power:var"
+      },
+      {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
+      },
+      {
+        "name": "Standard Volume",
+        "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
       {
         "name": "Surface Tension",
@@ -336,8 +344,16 @@
         "unitExternalId": "pressure_gradient:pa-per-m"
       },
       {
+        "name": "Reactive Power",
+        "unitExternalId": "reactive_power:var"
+      },
+      {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
+      },
+      {
+        "name": "Standard Volume",
+        "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
       {
         "name": "Surface Tension",
@@ -455,6 +471,10 @@
       {
         "name": "Pressure Gradient",
         "unitExternalId": "pressure_gradient:psi-per-ft"
+      },
+      {
+        "name": "Standard Volume",
+        "unitExternalId": "standard_volume:scf_1atm_60deg_f"
       },
       {
         "name": "Surface Tension",

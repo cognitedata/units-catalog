@@ -52,6 +52,8 @@ class EquivalentUnits {
             "volume:decim3",
             "volume:l",
             "volume:kilol",
+            "volume:kilo-m3",
+            "volume:megal",
             "volume:m3",
             "volume:microl",
             "volume:millim3",

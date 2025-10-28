@@ -4264,6 +4264,23 @@
     "sourceReference": "https://qudt.org/vocab/unit/OZ"
   },
   {
+    "externalId": "mass:ton_long",
+    "name": "TON_LONG",
+    "quantity": "Mass",
+    "longName": "Long Ton",
+    "aliasNames": [
+      "ton",
+      "ton (UK): ton (UK) or long ton (US)"
+    ],
+    "symbol": "t{long}",
+    "conversion": {
+      "multiplier": 1016.0469088,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/TON_LONG"
+  },
+  {
     "externalId": "mass:tonne",
     "name": "TONNE",
     "quantity": "Mass",
@@ -6582,6 +6599,31 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MilliM_H2O"
+  },
+  {
+    "externalId": "pressure:in_h2o",
+    "name": "IN_H2O",
+    "quantity": "Pressure",
+    "longName": "Inch Of Water",
+    "aliasNames": [
+      "inch of water",
+      "Inch of water",
+      "inH2O",
+      "InH2O",
+      "inch of water column",
+      "in WG",
+      "in.WG",
+      "in. WG",
+      "\"WS",
+      "\"H2O"
+    ],
+    "symbol": "inH₂0",
+    "conversion": {
+      "multiplier": 2.490889E2,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/IN_H2O"
   },
   {
     "externalId": "pressure:millipa",

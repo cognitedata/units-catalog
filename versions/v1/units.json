@@ -6937,6 +6937,59 @@
     "sourceReference": null
   },
   {
+    "externalId": "reactive_power:var",
+    "name": "VAR",
+    "quantity": "Reactive Power",
+    "longName": "Volt Ampere Reactive",
+    "aliasNames": [
+      "VAR",
+      "VAr"
+    ],
+    "symbol": "VA{Reactive}",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/VAR"
+  },
+  {
+    "externalId": "reactive_power:kilovar",
+    "name": "KiloVAR",
+    "quantity": "Reactive Power",
+    "longName": "Kilo Volt Ampere Reactive",
+    "aliasNames": [
+      "kVAR",
+      "kVAr",
+      "kvar: kilovar",
+      "KVAr"
+    ],
+    "symbol": "kVA{Reactive}",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloVAR"
+  },
+  {
+    "externalId": "reactive_power:megavar",
+    "name": "MegaVAR",
+    "quantity": "Reactive Power",
+    "longName": "Mega Volt Ampere Reactive",
+    "aliasNames": [
+      "MVAR",
+      "MVAr"
+    ],
+    "symbol": "MVA{Reactive}",
+    "conversion": {
+      "multiplier": 1.0e6,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
+  },  
+  {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
     "quantity": "Resistance",

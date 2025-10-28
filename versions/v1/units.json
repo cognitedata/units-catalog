@@ -1733,7 +1733,8 @@
       "percent",
       "%",
       "PERCENT",
-      "Percent"
+      "Percent",
+      "% or pct: percent"
     ],
     "symbol": "%",
     "conversion": {
@@ -2184,7 +2185,8 @@
       "Amps",
       "amps",
       "AAC",
-      "ADC"
+      "ADC",
+      "A: ampere"
     ],
     "symbol": "A",
     "conversion": {
@@ -2798,7 +2800,8 @@
       "kilowatthour",
       "Kilowatt hr",
       "kWh",
-      "kWhr"
+      "kWhr",
+      "kW·h: kilowatt hour"
     ],
     "symbol": "kW⋅h",
     "conversion": {
@@ -4072,7 +4075,8 @@
       "Millimeter",
       "MilliM",
       "millimetre",
-      "Millimetre"
+      "Millimetre",
+      "mm: millimetre"
     ],
     "symbol": "mm",
     "conversion": {
@@ -4262,6 +4266,23 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/OZ"
+  },
+  {
+    "externalId": "mass:ton_long",
+    "name": "TON_LONG",
+    "quantity": "Mass",
+    "longName": "Long Ton",
+    "aliasNames": [
+      "ton",
+      "ton (UK): ton (UK) or long ton (US)"
+    ],
+    "symbol": "t{long}",
+    "conversion": {
+      "multiplier": 1016.0469088,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/TON_LONG"
   },
   {
     "externalId": "mass:tonne",
@@ -6584,6 +6605,31 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliM_H2O"
   },
   {
+    "externalId": "pressure:in_h2o",
+    "name": "IN_H2O",
+    "quantity": "Pressure",
+    "longName": "Inch Of Water",
+    "aliasNames": [
+      "inch of water",
+      "Inch of water",
+      "inH2O",
+      "InH2O",
+      "inch of water column",
+      "in WG",
+      "in.WG",
+      "in. WG",
+      "\"WS",
+      "\"H2O"
+    ],
+    "symbol": "inH₂0",
+    "conversion": {
+      "multiplier": 2.490889E2,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/IN_H2O"
+  },
+  {
     "externalId": "pressure:millipa",
     "name": "MilliPA",
     "quantity": "Pressure",
@@ -6894,6 +6940,59 @@
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
     "sourceReference": null
   },
+  {
+    "externalId": "reactive_power:var",
+    "name": "VAR",
+    "quantity": "Reactive Power",
+    "longName": "Volt Ampere Reactive",
+    "aliasNames": [
+      "VAR",
+      "VAr"
+    ],
+    "symbol": "VA{Reactive}",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/VAR"
+  },
+  {
+    "externalId": "reactive_power:kilovar",
+    "name": "KiloVAR",
+    "quantity": "Reactive Power",
+    "longName": "Kilo Volt Ampere Reactive",
+    "aliasNames": [
+      "kVAR",
+      "kVAr",
+      "kvar: kilovar",
+      "KVAr"
+    ],
+    "symbol": "kVA{Reactive}",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloVAR"
+  },
+  {
+    "externalId": "reactive_power:megavar",
+    "name": "MegaVAR",
+    "quantity": "Reactive Power",
+    "longName": "Mega Volt Ampere Reactive",
+    "aliasNames": [
+      "MVAR",
+      "MVAr"
+    ],
+    "symbol": "MVA{Reactive}",
+    "conversion": {
+      "multiplier": 1.0e6,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
+  },  
   {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
@@ -9289,25 +9388,25 @@
     "quantity": "Volume Flow Rate",
     "longName": "Barrel (US) Per Hour",
     "aliasNames": [
-        "Barrel per Hour",
-        "barrel per hour",
-        "BBL / H",
-        "bbl / h",
-        "bbl/h",
-        "bbl per hour",
-        "BB/H",
-        "BPH",
-        "bph",
-        "STB/h",
-        "STB/hour",
-        "STBH",
-        "bbls/h",
-        "bbls/hour"
+      "Barrel per Hour",
+      "barrel per hour",
+      "BBL / H",
+      "bbl / h",
+      "bbl/h",
+      "bbl per hour",
+      "BB/H",
+      "BPH",
+      "bph",
+      "STB/h",
+      "STB/hour",
+      "STBH",
+      "bbls/h",
+      "bbls/hour"
     ],
     "symbol": "bbl/h",
     "conversion": {
-        "multiplier": 4.4163e-5,
-        "offset": 0.0
+      "multiplier": 4.4163e-5,
+      "offset": 0.0
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US_PET-PER-HR"
@@ -10166,7 +10265,8 @@
       "M3/H",
       "M3/h",
       "m^3/h",
-      "m3/t"
+      "m3/t",
+      "m³/h: cubic metre per hour"
     ],
     "symbol": "m³/h",
     "conversion": {
@@ -11402,7 +11502,7 @@
     "quantity": "Torque",
     "longName": "Kilo Newton Meter",
     "aliasNames": [
-      "KN.M", 
+      "KN.M",
       "KN.m",
       "kilo newton meter"
     ],
@@ -11420,7 +11520,7 @@
     "quantity": "Radioactivity",
     "longName": "Becquerel",
     "aliasNames": [
-      "Bq", 
+      "Bq",
       "BQ"
     ],
     "symbol": "Bq",
@@ -11437,7 +11537,7 @@
     "quantity": "Radioactivity",
     "longName": "Curie",
     "aliasNames": [
-      "Ci", 
+      "Ci",
       "CI"
     ],
     "symbol": "Ci",
@@ -11499,8 +11599,8 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
-  }, 
-    {
+  },
+  {
     "externalId": "areal_density:gm-per-m2",
     "name": "GM-PER-M2",
     "quantity": "Areal Density",
@@ -11516,14 +11616,14 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/GM-PER-M2"
-  }, 
+  },
   {
     "externalId": "magnetic_field:gauss",
     "name": "GAUSS",
     "quantity": "Magnetic Field",
     "longName": "Gauss",
     "aliasNames": [
-      "gauss", 
+      "gauss",
       "Gauss",
       "G",
       "g"
@@ -11542,7 +11642,7 @@
     "quantity": "Magnetic Field",
     "longName": "Nano Tesla",
     "aliasNames": [
-      "NT", 
+      "NT",
       "nT"
     ],
     "symbol": "nT",
@@ -11559,7 +11659,7 @@
     "quantity": "Resistivity",
     "longName": "Ohm Foot",
     "aliasNames": [
-      "OhmFt", 
+      "OhmFt",
       "Ω·ft"
     ],
     "symbol": "Ω·ft",
@@ -11576,7 +11676,7 @@
     "quantity": "Resistivity",
     "longName": "Ohm Meter",
     "aliasNames": [
-      "OhmM", 
+      "OhmM",
       "Ω·m",
       "OHM.M"
     ],
@@ -11789,7 +11889,9 @@
     "name": "Sm3-per-Sm3",
     "quantity": "Gas Liquid Ratio",
     "longName": "Standard Cubic Meter (@15°C/101.325 kPa) per Standard Cubic Meter (@15°C/101.325 kPa)",
-    "aliasNames": [ "Sm3/Sm3" ],
+    "aliasNames": [
+      "Sm3/Sm3"
+    ],
     "symbol": "Sm³/Sm³",
     "conversion": {
       "multiplier": 1.0,
@@ -11821,7 +11923,9 @@
     "name": "Sm3-per-Sm3",
     "quantity": "Liquid Gas Ratio",
     "longName": "Standard Cubic Meter (@15°C, 101.325 kPa) per Standard Cubic Meter (@15°C, 101.325 kPa)",
-    "aliasNames": [ "Sm3/Sm3" ],
+    "aliasNames": [
+      "Sm3/Sm3"
+    ],
     "symbol": "Sm³/Sm³",
     "conversion": {
       "multiplier": 1.0,

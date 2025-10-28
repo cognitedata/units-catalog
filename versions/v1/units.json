@@ -6601,6 +6601,31 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliM_H2O"
   },
   {
+    "externalId": "pressure:in_h2o",
+    "name": "IN_H2O",
+    "quantity": "Pressure",
+    "longName": "Inch Of Water",
+    "aliasNames": [
+      "inch of water",
+      "Inch of water",
+      "inH2O",
+      "InH2O",
+      "inch of water column",
+      "in WG",
+      "in.WG",
+      "in. WG",
+      "\"WS",
+      "\"H2O"
+    ],
+    "symbol": "inH₂0",
+    "conversion": {
+      "multiplier": 2.490889E2,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/IN_H2O"
+  },
+  {
     "externalId": "pressure:millipa",
     "name": "MilliPA",
     "quantity": "Pressure",

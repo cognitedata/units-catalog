@@ -4264,6 +4264,23 @@
     "sourceReference": "https://qudt.org/vocab/unit/OZ"
   },
   {
+    "externalId": "mass:ton_long",
+    "name": "TON_LONG",
+    "quantity": "Mass",
+    "longName": "Long Ton",
+    "aliasNames": [
+      "ton",
+      "ton (UK): ton (UK) or long ton (US)"
+    ],
+    "symbol": "t{long}",
+    "conversion": {
+      "multiplier": 1016.0469088,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/TON_LONG"
+  },
+  {
     "externalId": "mass:tonne",
     "name": "TONNE",
     "quantity": "Mass",

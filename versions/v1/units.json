@@ -7052,6 +7052,127 @@
     "sourceReference": "https://qudt.org/vocab/unit/OHM"
   },
   {
+    "externalId": "standard_volume:scm_1atm_15deg_c_iso",
+    "name": "SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Standard Volume",
+    "longName": "Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm³",
+      "Standard cubic meter",
+      "SM3",
+      "Standard cubic metre",
+      "Standard Cubic Meter",
+      "Sm3"
+    ],
+    "symbol": "Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/SCM_1ATM_15DEG_C_ISO"
+  },
+  {
+    "externalId": "standard_volume:kilo_scm_1atm_15deg_c_iso",
+    "name": "KILO_SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Standard Volume",
+    "longName": "Kilo Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kSm³",
+      "Kilo Standard cubic meter",
+      "kSM3",
+      "Kilo Standard cubic metre",
+      "Kilo Standard Cubic Meter",
+      "kSm3",
+      "kSm³: thousand standard cubic meter"
+    ],
+    "symbol": "kSm³",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:mega_scm_1atm_15deg_c_iso",
+    "name": "MEGA_SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Standard Volume",
+    "longName": "Mega Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "MSm³",
+      "Mega Standard cubic meter",
+      "MSM3",
+      "Mega Standard cubic metre",
+      "Mega Standard Cubic Meter",
+      "MSm3",
+      "MSm³: million standard cubic meter"
+    ],
+    "symbol": "MSm³",
+    "conversion": {
+      "multiplier": 1.0e6,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:scf_1atm_60deg_f",
+    "name": "SCF_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Standard Cubic Feet (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "Sft³",
+      "Standard cubic feet",
+      "SCF",
+      "Standard Cubic Feet",
+      "SFT3"
+    ],
+    "symbol": "SCF",
+    "conversion": {
+      "multiplier": 0.028316846592,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:kilo_scf_1atm_60deg_f",
+    "name": "KILO_SCF_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Thousand Standard Cubic Feet (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "kSft³",
+      "kSCF",
+      "kSFT3"
+    ],
+    "symbol": "MSCF",
+    "conversion": {
+      "multiplier": 28.316846592,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:mega_scf_1atm_60deg_f",
+    "name": "MEGA_SCF_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Million Standard Cubic Feet (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMSft³",
+      "MMSCF",
+      "MMSFT3"
+    ],
+    "symbol": "MMSCF",
+    "conversion": {
+      "multiplier": 28316.846592,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "surface_tension:ft-lb_f-per-ft2",
     "name": "FT-LB_F-PER-FT2",
     "quantity": "Surface Tension",
@@ -8838,7 +8959,8 @@
       "BBL",
       "bbl",
       "Bbl",
-      "BBLS"
+      "BBLS",
+      "Gross BBLS"
     ],
     "symbol": "bbl",
     "conversion": {
@@ -9040,8 +9162,6 @@
       "M3",
       "cubic metre",
       "Cubic Meter",
-      "Sm3",
-      "Sm³",
       "m3"
     ],
     "symbol": "m³",
@@ -9072,19 +9192,36 @@
     "sourceReference": "https://qudt.org/vocab/unit/MegaL"
   },
   {
+    "externalId": "volume:kilo-m3",
+    "name": "Kilo-M3",
+    "quantity": "Volume",
+    "longName": "Thousand Cubic Meter",
+    "aliasNames": [
+      "kilo cubic meter",
+      "kilo cubic metre",
+      "km3",
+      "k.m3"
+    ],
+    "symbol": "km³",
+    "conversion": {
+      "multiplier": 1.0e+3,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "volume:mega-m3",
     "name": "Mega-M3",
     "quantity": "Volume",
-    "longName": "Million Standard Cubic Meter",
+    "longName": "Million Cubic Meter",
     "aliasNames": [
       "mega cubic meter",
       "mega cubic metre",
-      "mmcm",
-      "MMCM",
-      "mmscm",
-      "MMscm"
+      "Mm3",
+      "MCM"
     ],
-    "symbol": "MMscm",
+    "symbol": "Mm³",
     "conversion": {
       "multiplier": 1.0e+6,
       "offset": 0.0
@@ -9194,7 +9331,7 @@
     "externalId": "volume:mega-ft3",
     "name": "Mega-FT3",
     "quantity": "Volume",
-    "longName": "Million Standard Cubic Feet",
+    "longName": "Million Cubic Feet",
     "aliasNames": [
       "MCF",
       "Mega Cubic Feet",
@@ -9203,12 +9340,9 @@
       "Mega ft³",
       "Million cu ft",
       "Million ft³",
-      "MMCF",
-      "MMSCF",
-      "MMscf",
-      "mmscf"
+      "MMCF"
     ],
-    "symbol": "MMscf",
+    "symbol": "MMCF",
     "conversion": {
       "multiplier": 28316.846592,
       "offset": 0.0

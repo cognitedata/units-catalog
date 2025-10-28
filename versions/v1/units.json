@@ -1733,7 +1733,8 @@
       "percent",
       "%",
       "PERCENT",
-      "Percent"
+      "Percent",
+      "% or pct: percent"
     ],
     "symbol": "%",
     "conversion": {
@@ -2184,7 +2185,8 @@
       "Amps",
       "amps",
       "AAC",
-      "ADC"
+      "ADC",
+      "A: ampere"
     ],
     "symbol": "A",
     "conversion": {
@@ -2798,7 +2800,8 @@
       "kilowatthour",
       "Kilowatt hr",
       "kWh",
-      "kWhr"
+      "kWhr",
+      "kW·h: kilowatt hour"
     ],
     "symbol": "kW⋅h",
     "conversion": {
@@ -4072,7 +4075,8 @@
       "Millimeter",
       "MilliM",
       "millimetre",
-      "Millimetre"
+      "Millimetre",
+      "mm: millimetre"
     ],
     "symbol": "mm",
     "conversion": {
@@ -9250,25 +9254,25 @@
     "quantity": "Volume Flow Rate",
     "longName": "Barrel (US) Per Hour",
     "aliasNames": [
-        "Barrel per Hour",
-        "barrel per hour",
-        "BBL / H",
-        "bbl / h",
-        "bbl/h",
-        "bbl per hour",
-        "BB/H",
-        "BPH",
-        "bph",
-        "STB/h",
-        "STB/hour",
-        "STBH",
-        "bbls/h",
-        "bbls/hour"
+      "Barrel per Hour",
+      "barrel per hour",
+      "BBL / H",
+      "bbl / h",
+      "bbl/h",
+      "bbl per hour",
+      "BB/H",
+      "BPH",
+      "bph",
+      "STB/h",
+      "STB/hour",
+      "STBH",
+      "bbls/h",
+      "bbls/hour"
     ],
     "symbol": "bbl/h",
     "conversion": {
-        "multiplier": 4.4163e-5,
-        "offset": 0.0
+      "multiplier": 4.4163e-5,
+      "offset": 0.0
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US_PET-PER-HR"
@@ -10127,7 +10131,8 @@
       "M3/H",
       "M3/h",
       "m^3/h",
-      "m3/t"
+      "m3/t",
+      "m³/h: cubic metre per hour"
     ],
     "symbol": "m³/h",
     "conversion": {
@@ -11363,7 +11368,7 @@
     "quantity": "Torque",
     "longName": "Kilo Newton Meter",
     "aliasNames": [
-      "KN.M", 
+      "KN.M",
       "KN.m",
       "kilo newton meter"
     ],
@@ -11381,7 +11386,7 @@
     "quantity": "Radioactivity",
     "longName": "Becquerel",
     "aliasNames": [
-      "Bq", 
+      "Bq",
       "BQ"
     ],
     "symbol": "Bq",
@@ -11398,7 +11403,7 @@
     "quantity": "Radioactivity",
     "longName": "Curie",
     "aliasNames": [
-      "Ci", 
+      "Ci",
       "CI"
     ],
     "symbol": "Ci",
@@ -11460,8 +11465,8 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M2"
-  }, 
-    {
+  },
+  {
     "externalId": "areal_density:gm-per-m2",
     "name": "GM-PER-M2",
     "quantity": "Areal Density",
@@ -11477,14 +11482,14 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/GM-PER-M2"
-  }, 
+  },
   {
     "externalId": "magnetic_field:gauss",
     "name": "GAUSS",
     "quantity": "Magnetic Field",
     "longName": "Gauss",
     "aliasNames": [
-      "gauss", 
+      "gauss",
       "Gauss",
       "G",
       "g"
@@ -11503,7 +11508,7 @@
     "quantity": "Magnetic Field",
     "longName": "Nano Tesla",
     "aliasNames": [
-      "NT", 
+      "NT",
       "nT"
     ],
     "symbol": "nT",
@@ -11520,7 +11525,7 @@
     "quantity": "Resistivity",
     "longName": "Ohm Foot",
     "aliasNames": [
-      "OhmFt", 
+      "OhmFt",
       "Ω·ft"
     ],
     "symbol": "Ω·ft",
@@ -11537,7 +11542,7 @@
     "quantity": "Resistivity",
     "longName": "Ohm Meter",
     "aliasNames": [
-      "OhmM", 
+      "OhmM",
       "Ω·m",
       "OHM.M"
     ],
@@ -11750,7 +11755,9 @@
     "name": "Sm3-per-Sm3",
     "quantity": "Gas Liquid Ratio",
     "longName": "Standard Cubic Meter (@15°C/101.325 kPa) per Standard Cubic Meter (@15°C/101.325 kPa)",
-    "aliasNames": [ "Sm3/Sm3" ],
+    "aliasNames": [
+      "Sm3/Sm3"
+    ],
     "symbol": "Sm³/Sm³",
     "conversion": {
       "multiplier": 1.0,
@@ -11782,7 +11789,9 @@
     "name": "Sm3-per-Sm3",
     "quantity": "Liquid Gas Ratio",
     "longName": "Standard Cubic Meter (@15°C, 101.325 kPa) per Standard Cubic Meter (@15°C, 101.325 kPa)",
-    "aliasNames": [ "Sm3/Sm3" ],
+    "aliasNames": [
+      "Sm3/Sm3"
+    ],
     "symbol": "Sm³/Sm³",
     "conversion": {
       "multiplier": 1.0,

@@ -127,6 +127,10 @@
         "unitExternalId": "pressure_gradient:bar-per-m"
       },
       {
+        "name": "Reactive Power",
+        "unitExternalId": "reactive_power:var"
+      },
+      {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
       },
@@ -334,6 +338,10 @@
       {
         "name": "Pressure Gradient",
         "unitExternalId": "pressure_gradient:pa-per-m"
+      },
+      {
+        "name": "Reactive Power",
+        "unitExternalId": "reactive_power:var"
       },
       {
         "name": "Resistance",

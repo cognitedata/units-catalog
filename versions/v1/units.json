@@ -9921,7 +9921,7 @@
     "externalId": "volume_flow_rate:mega-m3-per-day",
     "name": "Mega-M3-PER-DAY",
     "quantity": "Volume Flow Rate",
-    "longName": "Millon Cubic Meter Per Day",
+    "longName": "Million Cubic Meter Per Day",
     "aliasNames": [
       "Million Cubic Meter / DAY",
       "Mm3/D",

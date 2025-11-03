@@ -41,32 +41,33 @@ class DuplicatedUnitsTest {
         }.filter { it.value.isNotEmpty() }
 
         if (newDuplicates.isNotEmpty()) {
-            println("## Equivalent units found in the catalog")
-            println(
-                "This check scans the catalog looking for equivalent " +
-                    "(or duplicate) unit entries for each quantity.",
-            )
-            println("Equivalent units are allowed, but duplicate units are not allowed.")
-            println("Duplicate units should be removed from the catalog. ")
-            println("Equivalent units should be marked as such in EquivalentUnits.kt.")
-            println()
-            newDuplicates.forEach { (quantity, duplicatesByConversion) ->
-                println()
-                println("### Quantity: *$quantity*")
-                duplicatesByConversion.forEach { (conversion, duplicatesList) ->
-                    println("  * Multiplier: `${conversion.multiplier}` Offset: `${conversion.offset}`")
-                    duplicatesList.forEach { duplicate ->
-                        println("    - `${duplicate.externalId}`")
+            val message = buildString {
+                appendLine("## Equivalent units found in the catalog")
+                appendLine(
+                    "This check scans the catalog looking for equivalent " +
+                        "(or duplicate) unit entries for each quantity.",
+                )
+                appendLine("Equivalent units are allowed, but duplicate units are not allowed.")
+                appendLine("Duplicate units should be removed from the catalog. ")
+                appendLine("Equivalent units should be marked as such in EquivalentUnits.kt.")
+                appendLine()
+                newDuplicates.forEach { (quantity, duplicatesByConversion) ->
+                    appendLine()
+                    appendLine("### Quantity: *$quantity*")
+                    duplicatesByConversion.forEach { (conversion, duplicatesList) ->
+                        appendLine("  * Multiplier: `${conversion.multiplier}` Offset: `${conversion.offset}`")
+                        duplicatesList.forEach { duplicate ->
+                            appendLine("    - `${duplicate.externalId}`")
+                        }
                     }
                 }
             }
-            val duplicateList =
-                duplicates.flatMap {
-                    it.value.values.flatten().map { typedUnit -> "\"${typedUnit.externalId}\"" }
-                }
-                    .joinToString(",\n", postfix = ",")
+
+            // Always print the formatted message
+            println(message)
+
             if (failOnError) {
-                fail("Duplicate units found in the catalog. Update list in EquivalentUnits.kt:\n$duplicateList")
+                fail(message)
             }
         } else {
             println("No equivalent units were introduced in this Pull Request.")

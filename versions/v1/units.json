@@ -10151,6 +10151,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/L-PER-SEC"
   },
   {
+    "externalId": "volume_flow_rate:mega-m3-per-day",
+    "name": "Mega-M3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Million Cubic Meter Per Day",
+    "aliasNames": [
+      "Million Cubic Meter / DAY",
+      "Mm3/D",
+      "Mm3/d",
+      "Mm³/d: million cubic meter per day"
+    ],
+    "symbol": "Mm³/day",
+    "conversion": {
+      "multiplier": 1.157407407407407407407407407407407e01,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
+    "sourceReference": null
+  },
+  {
     "externalId": "volume_flow_rate:m3-per-day",
     "name": "M3-PER-DAY",
     "quantity": "Volume Flow Rate",

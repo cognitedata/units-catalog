@@ -1221,6 +1221,7 @@
       "GM per cm³",
       "GM / Cubic centimeter",
       "g / CM3",
+      "g / cm3",
       "g per cubic centimeter",
       "gram / Cubic centimeter",
       "GM / CM3",
@@ -1242,7 +1243,9 @@
       "GM per Cubic Centimeter",
       "Gram Per Cubic Centimeter",
       "Gram / CM3",
-      "Gram / cm³"
+      "Gram / cm³",
+      "g/cm^3",
+      "g/cm3"
     ],
     "symbol": "g/cm³",
     "conversion": {

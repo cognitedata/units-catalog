@@ -208,42 +208,4 @@
       "multiplier": 1e-06,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL"
-  },
-  {
-    "externalId": "amount_of_substance:millimol",
-    "name": "MilliMOL",
-    "quantity": "Amount Of Substance",
-    "longName": "Millimole",
-    "aliasNames": [
-      "mmol",
-      "millimole",
-      "Millimole",
-      "MilliMOL"
-    ],
-    "symbol": "mmol",
-    "conversion": {
-      "multiplier": 0.001,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/MilliMOL"
-  },
-  {
-    "externalId": "amount_of_substance:mol",
-    "name": "MOL",
-    "quantity": "Amount Of Substance",
-    "longName": "Mole",
-    "aliasNames": [
-      "MOL",
-      "mol",
-      "mole"
-    ],
-    "symbol": "mol",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "
+    "source": "qudt.

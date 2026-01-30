@@ -51,7 +51,7 @@
     "externalId": "acceleration:in-per-sec2",
     "name": "IN-PER-SEC2",
     "quantity": "Acceleration",
-    "longName": "Inch per Square second",
+    "longName": "Inch per Square Second",
     "aliasNames": [
       "in per square second",
       "Inch / SEC2",
@@ -234,7 +234,7 @@
     "externalId": "amount_of_substance:mol",
     "name": "MOL",
     "quantity": "Amount Of Substance",
-    "longName": "mole",
+    "longName": "Mole",
     "aliasNames": [
       "MOL",
       "mol",
@@ -252,7 +252,7 @@
     "externalId": "amount_of_substance_per_unit_volume:centimol-per-l",
     "name": "CentiMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Centimole per litre",
+    "longName": "Centimole per Litre",
     "aliasNames": [
       "CentiMOL / liter",
       "CentiMole per Liter",
@@ -367,7 +367,7 @@
     "externalId": "amount_of_substance_per_unit_volume:micromol-per-l",
     "name": "MicroMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Micromoles per litre",
+    "longName": "Micromoles per Litre",
     "aliasNames": [
       "μmol per litre",
       "micromole per liter",
@@ -425,7 +425,7 @@
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-l",
     "name": "MilliMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "millimoles per litre",
+    "longName": "Millimoles per Litre",
     "aliasNames": [
       "Millimole per Liter",
       "mmol per liter",
@@ -482,7 +482,7 @@
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-m3",
     "name": "MilliMOL-PER-M3",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Millimoles per cubic metre",
+    "longName": "Millimoles per Cubic Metre",
     "aliasNames": [
       "millimole per Cubic Meter",
       "Millimole / Cubic Meter",
@@ -728,7 +728,7 @@
     "externalId": "angle:microrad",
     "name": "MicroRAD",
     "quantity": "Angle",
-    "longName": "microradian",
+    "longName": "Microradian",
     "aliasNames": [
       "microradian",
       "MicroRAD",
@@ -746,7 +746,7 @@
     "externalId": "angle:millirad",
     "name": "MilliRAD",
     "quantity": "Angle",
-    "longName": "milliradian",
+    "longName": "Milliradian",
     "aliasNames": [
       "milliradian",
       "MilliRAD",
@@ -764,7 +764,7 @@
     "externalId": "angle:rad",
     "name": "RAD",
     "quantity": "Angle",
-    "longName": "radian",
+    "longName": "Radian",
     "aliasNames": [
       "rad",
       "radian",
@@ -1152,7 +1152,7 @@
     "externalId": "capacitance:farad",
     "name": "FARAD",
     "quantity": "Capacitance",
-    "longName": "farad",
+    "longName": "Farad",
     "aliasNames": [
       "FARAD",
       "farad",
@@ -1170,7 +1170,7 @@
     "externalId": "capacitance:microfarad",
     "name": "MicroFARAD",
     "quantity": "Capacitance",
-    "longName": "microfarad",
+    "longName": "Microfarad",
     "aliasNames": [
       "microfarad",
       "MicroFARAD",
@@ -1221,6 +1221,7 @@
       "GM per cm³",
       "GM / Cubic centimeter",
       "g / CM3",
+      "g / cm3",
       "g per cubic centimeter",
       "gram / Cubic centimeter",
       "GM / CM3",
@@ -1242,7 +1243,9 @@
       "GM per Cubic Centimeter",
       "Gram Per Cubic Centimeter",
       "Gram / CM3",
-      "Gram / cm³"
+      "Gram / cm³",
+      "g/cm^3",
+      "g/cm3"
     ],
     "symbol": "g/cm³",
     "conversion": {
@@ -1315,7 +1318,7 @@
     "externalId": "density:kilogm-per-m3",
     "name": "KiloGM-PER-M3",
     "quantity": "Density",
-    "longName": "kilogram per cubic meter",
+    "longName": "Kilogram per Cubic Meter",
     "aliasNames": [
       "kilogram / Cubic Meter",
       "KiloGM / Cubic Meter",
@@ -1362,7 +1365,7 @@
     "externalId": "density:kilogm-per-l",
     "name": "KiloGM-PER-L",
     "quantity": "Density",
-    "longName": "kilogram per litre",
+    "longName": "Kilogram per Litre",
     "aliasNames": [
       "kilogram / Litre",
       "kg/l",
@@ -1748,7 +1751,7 @@
     "externalId": "dimensionless_ratio:ppb",
     "name": "PPB",
     "quantity": "Dimensionless Ratio",
-    "longName": "Parts per billion",
+    "longName": "Parts per Billion",
     "aliasNames": [
       "PPB",
       "ppb",
@@ -1767,7 +1770,7 @@
     "externalId": "dimensionless_ratio:ppm",
     "name": "PPM",
     "quantity": "Dimensionless Ratio",
-    "longName": "Parts per million",
+    "longName": "Parts per Million",
     "aliasNames": [
       "PPM",
       "Parts per million",
@@ -1786,7 +1789,7 @@
     "externalId": "dimensionless_ratio:ppth",
     "name": "PPTH",
     "quantity": "Dimensionless Ratio",
-    "longName": "Parts per thousand",
+    "longName": "Parts per Thousand",
     "aliasNames": [
       "PPTH",
       "‰",
@@ -2134,7 +2137,7 @@
     "externalId": "dynamic_viscosity:pa-sec",
     "name": "PA-SEC",
     "quantity": "Dynamic Viscosity",
-    "longName": "pascal second",
+    "longName": "Pascal Second",
     "aliasNames": [
       "pascal SEC",
       "PA second",
@@ -2178,7 +2181,7 @@
     "externalId": "electric_current:a",
     "name": "A",
     "quantity": "Electric Current",
-    "longName": "ampere",
+    "longName": "Ampere",
     "aliasNames": [
       "ampere",
       "A",
@@ -2200,7 +2203,7 @@
     "externalId": "electric_current:kiloa",
     "name": "KiloA",
     "quantity": "Electric Current",
-    "longName": "kiloampere",
+    "longName": "Kiloampere",
     "aliasNames": [
       "kiloampere",
       "KiloA",
@@ -2451,7 +2454,7 @@
     "externalId": "electric_potential:v",
     "name": "V",
     "quantity": "Electric Potential",
-    "longName": "volt",
+    "longName": "Volt",
     "aliasNames": [
       "V",
       "volt",
@@ -2514,7 +2517,7 @@
     "externalId": "energy:cal_it",
     "name": "CAL_IT",
     "quantity": "Energy",
-    "longName": "International Table calorie",
+    "longName": "International Table Calorie",
     "aliasNames": [
       "International Table calorie",
       "international table calorie",
@@ -2636,7 +2639,7 @@
     "externalId": "energy:j",
     "name": "J",
     "quantity": "Energy",
-    "longName": "joule",
+    "longName": "Joule",
     "aliasNames": [
       "J",
       "joule"
@@ -3338,7 +3341,7 @@
     "externalId": "energy_density:w-hr-per-m3",
     "name": "W-HR-PER-M3",
     "quantity": "Energy Density",
-    "longName": "Watthour per Cubic meter",
+    "longName": "Watthour per Cubic Meter",
     "aliasNames": [
       "W ⋅ hr / m³",
       "watt Hour per cubic metre",
@@ -3497,7 +3500,7 @@
     "externalId": "force:kilodan",
     "name": "KiloDaN",
     "quantity": "Force",
-    "longName": "Kilo decanewton",
+    "longName": "Kilo Decanewton",
     "aliasNames": [
       "KDAN",
       "KiloDecN",
@@ -3587,7 +3590,7 @@
     "externalId": "force:n",
     "name": "N",
     "quantity": "Force",
-    "longName": "newton",
+    "longName": "Newton",
     "aliasNames": [
       "newton",
       "N"
@@ -3623,7 +3626,7 @@
     "externalId": "frequency:hz",
     "name": "HZ",
     "quantity": "Frequency",
-    "longName": "hertz",
+    "longName": "Hertz",
     "aliasNames": [
       "Hz",
       "HZ",
@@ -3661,7 +3664,7 @@
     "externalId": "frequency:num-per-hr",
     "name": "NUM-PER-HR",
     "quantity": "Frequency",
-    "longName": "Number per hour",
+    "longName": "Number per Hour",
     "aliasNames": [
       "Number / Hour",
       "number per hr",
@@ -3712,7 +3715,7 @@
     "externalId": "frequency:num-per-sec",
     "name": "NUM-PER-SEC",
     "quantity": "Frequency",
-    "longName": "Counts per second",
+    "longName": "Counts per Second",
     "aliasNames": [
       "Number per second",
       "# / s",
@@ -3826,7 +3829,7 @@
     "externalId": "inductance:h",
     "name": "H",
     "quantity": "Inductance",
-    "longName": "henry",
+    "longName": "Henry",
     "aliasNames": [
       "H",
       "henry"
@@ -4175,7 +4178,7 @@
     "externalId": "mass:kilogm",
     "name": "KiloGM",
     "quantity": "Mass",
-    "longName": "kilogram",
+    "longName": "Kilogram",
     "aliasNames": [
       "kg",
       "kilogram",
@@ -4308,7 +4311,7 @@
     "externalId": "mass_concentration:kilogm-per-m3",
     "name": "KiloGM-PER-M3",
     "quantity": "Mass Concentration",
-    "longName": "kilogram per cubic meter",
+    "longName": "Kilogram per Cubic Meter",
     "aliasNames": [
       "kilogram / Cubic Meter",
       "KiloGM / Cubic Meter",
@@ -6017,7 +6020,7 @@
     "externalId": "power:w",
     "name": "W",
     "quantity": "Power",
-    "longName": "watt",
+    "longName": "Watt",
     "aliasNames": [
       "watt",
       "W"
@@ -6162,7 +6165,7 @@
     "externalId": "pressure:kilogm-per-m-sec2",
     "name": "KiloGM-PER-M-SEC2",
     "quantity": "Pressure",
-    "longName": "Kilograms per meter per square second",
+    "longName": "Kilograms per Meter per Square Second",
     "aliasNames": [
       "KiloGM per metre SEC2",
       "KiloGM per M SEC2",
@@ -6776,7 +6779,7 @@
     "externalId": "pressure:pa",
     "name": "PA",
     "quantity": "Pressure",
-    "longName": "pascal",
+    "longName": "Pascal",
     "aliasNames": [
       "pascal",
       "PA",
@@ -6837,7 +6840,7 @@
     "externalId": "pressure_gradient:pa-per-m",
     "name": "PA-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Pascal per meter",
+    "longName": "Pascal per Meter",
     "aliasNames": [
       "pascal per metre",
       "Pascal per metre",
@@ -6859,7 +6862,7 @@
     "externalId": "pressure_gradient:bar-per-m",
     "name": "BAR-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Bar per meter",
+    "longName": "Bar per Meter",
     "aliasNames": [
       "bar per metre",
       "Bar per metre",
@@ -6880,7 +6883,7 @@
     "externalId": "pressure_gradient:kilopa-per-m",
     "name": "KiloPA-PER-M",
     "quantity": "Pressure Gradient",
-    "longName": "Kilopascal per meter",
+    "longName": "Kilopascal per Meter",
     "aliasNames": [
       "kilopascal per metre",
       "kiloPascal per metre",
@@ -7037,7 +7040,7 @@
     "externalId": "resistance:ohm",
     "name": "OHM",
     "quantity": "Resistance",
-    "longName": "ohm",
+    "longName": "Ohm",
     "aliasNames": [
       "ohm",
       "Ω",
@@ -7050,6 +7053,127 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/OHM"
+  },
+  {
+    "externalId": "standard_volume:scm_1atm_15deg_c_iso",
+    "name": "SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Standard Volume",
+    "longName": "Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm³",
+      "Standard cubic meter",
+      "SM3",
+      "Standard cubic metre",
+      "Standard Cubic Meter",
+      "Sm3"
+    ],
+    "symbol": "Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/SCM_1ATM_15DEG_C_ISO"
+  },
+  {
+    "externalId": "standard_volume:kilo_scm_1atm_15deg_c_iso",
+    "name": "KILO_SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Standard Volume",
+    "longName": "Kilo Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kSm³",
+      "Kilo Standard cubic meter",
+      "kSM3",
+      "Kilo Standard cubic metre",
+      "Kilo Standard Cubic Meter",
+      "kSm3",
+      "kSm³: thousand standard cubic meter"
+    ],
+    "symbol": "kSm³",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:mega_scm_1atm_15deg_c_iso",
+    "name": "MEGA_SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Standard Volume",
+    "longName": "Mega Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "MSm³",
+      "Mega Standard cubic meter",
+      "MSM3",
+      "Mega Standard cubic metre",
+      "Mega Standard Cubic Meter",
+      "MSm3",
+      "MSm³: million standard cubic meter"
+    ],
+    "symbol": "MSm³",
+    "conversion": {
+      "multiplier": 1.0e6,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:scf_1atm_60deg_f",
+    "name": "SCF_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Standard Cubic Feet (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "Sft³",
+      "Standard cubic feet",
+      "SCF",
+      "Standard Cubic Feet",
+      "SFT3"
+    ],
+    "symbol": "SCF",
+    "conversion": {
+      "multiplier": 0.028316846592,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:kilo_scf_1atm_60deg_f",
+    "name": "KILO_SCF_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Thousand Standard Cubic Feet (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "kSft³",
+      "kSCF",
+      "kSFT3"
+    ],
+    "symbol": "MSCF",
+    "conversion": {
+      "multiplier": 28.316846592,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:mega_scf_1atm_60deg_f",
+    "name": "MEGA_SCF_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Million Standard Cubic Feet (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMSft³",
+      "MMSCF",
+      "MMSFT3"
+    ],
+    "symbol": "MMSCF",
+    "conversion": {
+      "multiplier": 28316.846592,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "surface_tension:ft-lb_f-per-ft2",
@@ -7500,7 +7624,7 @@
     "externalId": "surface_tension:w-hr-per-m2",
     "name": "W-HR-PER-M2",
     "quantity": "Surface Tension",
-    "longName": "Watt hour per square meter",
+    "longName": "Watt Hour per Square Meter",
     "aliasNames": [
       "W hour per M2",
       "W Hour / Square Meter",
@@ -7598,7 +7722,7 @@
     "externalId": "surface_tension:w-sec-per-m2",
     "name": "W-SEC-PER-M2",
     "quantity": "Surface Tension",
-    "longName": "Watt seconds per square meter",
+    "longName": "Watt Seconds per Square Meter",
     "aliasNames": [
       "watt SEC / m²",
       "W second per Square Meter",
@@ -7677,7 +7801,7 @@
     "externalId": "temperature:deg_c",
     "name": "DEG_C",
     "quantity": "Temperature",
-    "longName": "degree Celsius",
+    "longName": "Degree Celsius",
     "aliasNames": [
       "DEGC",
       "degC",
@@ -7804,7 +7928,7 @@
     "externalId": "temperature:k",
     "name": "K",
     "quantity": "Temperature",
-    "longName": "kelvin",
+    "longName": "Kelvin",
     "aliasNames": [
       "degree Kelvin",
       "DEG K",
@@ -7845,7 +7969,7 @@
     "externalId": "temperature_gradient:k-per-m",
     "name": "K-PER-M",
     "quantity": "Temperature Gradient",
-    "longName": "Degrees Kelvin per meter",
+    "longName": "Degrees Kelvin per Meter",
     "aliasNames": [
       "kelvin per m",
       "kelvins per metre",
@@ -7931,7 +8055,7 @@
     "externalId": "time:microsec",
     "name": "MicroSEC",
     "quantity": "Time",
-    "longName": "microsecond",
+    "longName": "Microsecond",
     "aliasNames": [
       "microsecond",
       "µs",
@@ -7949,7 +8073,7 @@
     "externalId": "time:millisec",
     "name": "MilliSEC",
     "quantity": "Time",
-    "longName": "millisecond",
+    "longName": "Millisecond",
     "aliasNames": [
       "millisecond",
       "ms",
@@ -8003,7 +8127,7 @@
     "externalId": "time:sec",
     "name": "SEC",
     "quantity": "Time",
-    "longName": "second",
+    "longName": "Second",
     "aliasNames": [
       "second",
       "SEC",
@@ -8838,7 +8962,8 @@
       "BBL",
       "bbl",
       "Bbl",
-      "BBLS"
+      "BBLS",
+      "Gross BBLS"
     ],
     "symbol": "bbl",
     "conversion": {
@@ -8852,7 +8977,7 @@
     "externalId": "volume:centim3",
     "name": "CentiM3",
     "quantity": "Volume",
-    "longName": "cubic centimeter",
+    "longName": "Cubic Centimeter",
     "aliasNames": [
       "cubic centimetre",
       "cm³",
@@ -9040,8 +9165,6 @@
       "M3",
       "cubic metre",
       "Cubic Meter",
-      "Sm3",
-      "Sm³",
       "m3"
     ],
     "symbol": "m³",
@@ -9072,19 +9195,36 @@
     "sourceReference": "https://qudt.org/vocab/unit/MegaL"
   },
   {
+    "externalId": "volume:kilo-m3",
+    "name": "Kilo-M3",
+    "quantity": "Volume",
+    "longName": "Thousand Cubic Meter",
+    "aliasNames": [
+      "kilo cubic meter",
+      "kilo cubic metre",
+      "km3",
+      "k.m3"
+    ],
+    "symbol": "km³",
+    "conversion": {
+      "multiplier": 1.0e+3,
+      "offset": 0.0
+    },
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "volume:mega-m3",
     "name": "Mega-M3",
     "quantity": "Volume",
-    "longName": "Million Standard Cubic Meter",
+    "longName": "Million Cubic Meter",
     "aliasNames": [
       "mega cubic meter",
       "mega cubic metre",
-      "mmcm",
-      "MMCM",
-      "mmscm",
-      "MMscm"
+      "Mm3",
+      "MCM"
     ],
-    "symbol": "MMscm",
+    "symbol": "Mm³",
     "conversion": {
       "multiplier": 1.0e+6,
       "offset": 0.0
@@ -9115,7 +9255,7 @@
     "externalId": "volume:microm3",
     "name": "MicroM3",
     "quantity": "Volume",
-    "longName": "Cubic micrometers (microns)",
+    "longName": "Cubic Micrometers (Microns)",
     "aliasNames": [
       "cubic micrometres (microns)",
       "µm³",
@@ -9194,7 +9334,7 @@
     "externalId": "volume:mega-ft3",
     "name": "Mega-FT3",
     "quantity": "Volume",
-    "longName": "Million Standard Cubic Feet",
+    "longName": "Million Cubic Feet",
     "aliasNames": [
       "MCF",
       "Mega Cubic Feet",
@@ -9203,12 +9343,9 @@
       "Mega ft³",
       "Million cu ft",
       "Million ft³",
-      "MMCF",
-      "MMSCF",
-      "MMscf",
-      "mmscf"
+      "MMCF"
     ],
-    "symbol": "MMscf",
+    "symbol": "MMCF",
     "conversion": {
       "multiplier": 28316.846592,
       "offset": 0.0
@@ -10015,6 +10152,25 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/L-PER-SEC"
+  },
+  {
+    "externalId": "volume_flow_rate:mega-m3-per-day",
+    "name": "Mega-M3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Million Cubic Meter Per Day",
+    "aliasNames": [
+      "Million Cubic Meter / DAY",
+      "Mm3/D",
+      "Mm3/d",
+      "Mm³/d: million cubic meter per day"
+    ],
+    "symbol": "Mm³/day",
+    "conversion": {
+      "multiplier": 1.157407407407407407407407407407407e01,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:m3-per-day",
@@ -10989,7 +11145,7 @@
     "externalId": "power_per_area:w-per-m2",
     "name": "W-PER-M2",
     "quantity": "Power Per Area",
-    "longName": "Watt per square meter",
+    "longName": "Watt per Square Meter",
     "aliasNames": [
       "W/m²",
       "W/m2",
@@ -11659,7 +11815,7 @@
     "externalId": "density:milligm-per-l",
     "name": "MilliGM-PER-L",
     "quantity": "Density",
-    "longName": "Milligram per litre",
+    "longName": "Milligram per Litre",
     "aliasNames": [
       "mg/L",
       "milligrams per liter",
@@ -11679,7 +11835,7 @@
     "externalId": "mass_concentration:milligm-per-l",
     "name": "MilliGM-PER-L",
     "quantity": "Mass Concentration",
-    "longName": "Milligram per litre",
+    "longName": "Milligram per Litre",
     "aliasNames": [
       "mg/L",
       "milligrams per liter",

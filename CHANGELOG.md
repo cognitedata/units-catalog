@@ -10,6 +10,52 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.24] - 2025-11-05
+### Added
+- Added new quantity `Standard Volume` with the following units:
+  - Standard Cubic Meter (@15°C, 101.325 kPa) (Sm³)
+  - Kilo Standard Cubic Meter (@15°C, 101.325 kPa) (kSm³)
+  - Mega Standard Cubic Meter (@15°C, 101.325 kPa) (MSm³)
+  - Standard Cubic Feet (@60°F, 14.7 psi) (SCF)
+  - Thousand Standard Cubic Feet (@60°F, 14.7 psi) (MSCF)
+  - Million Standard Cubic Feet (@60°F, 14.7 psi) (MMSCF)
+- Added new quantity `Reactive Power` with the following units:
+  - Volt Ampere Reactive (VA{Reactive})
+  - Kilo Volt Ampere Reactive (kVA{Reactive})
+  - Mega Volt Ampere Reactive (MVA{Reactive})
+- Added new quantity `Electric Current Rate` with the following units:
+  - Ampere Per Hour (A/h)
+  - Ampere Per Minute (A/min)
+  - Ampere Per Second (A/s)
+- Added new unit for quantity `Pressure`:
+  - Inch Of Water (inH₂0)
+- Added new unit for quantity `Mass`:
+  - Long Ton (t{long})
+- Added new units for quantity `Velocity`:
+  - Millimeter Per Year (mm/yr)
+  - Millimeter Per Week (mm/wk)
+  - Meter per Minute (m/min)
+  - Kilometer per Week (km/wk)
+- Added new unit for quantity `Volume`:
+  - Thousand Cubic Meter (km³)
+- Added new unit for quantity `Volume Flow Rate`:
+  - Million Cubic Meter Per Day (Mm³/day)
+- Added new units for quantity `Power`:
+  - Giga Joule Per Hour (GJ/h)
+  - Joule Per Minute (J/min)
+- Added new unit for quantity `Electric Potential`:
+  - Nanovolt (nV)
+- Added new aliases across existing units for improved interoperability
+
+### Changed
+- Improved documentation for external contributors with clearer guidelines and setup instructions
+- Updated symbol for Volume units:
+  - Million Cubic Meter: MMscm → Mm³
+  - Million Cubic Feet: MMscf → MMCF
+
+### Fixed
+- Corrected conversion multiplier for Power unit Joule Per Hour from 3600.0 to 0.0002777777777777778
+
 ## [0.1.23] - 2025-08-05
 ### Added
 - Added new aliases for electric current units:

@@ -6952,7 +6952,7 @@
       "VAR",
       "VAr"
     ],
-    "symbol": "VA{Reactive}",
+    "symbol": "var",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0
@@ -6971,7 +6971,7 @@
       "kvar: kilovar",
       "KVAr"
     ],
-    "symbol": "kVA{Reactive}",
+    "symbol": "kvar",
     "conversion": {
       "multiplier": 1000.0,
       "offset": 0.0
@@ -6988,14 +6988,14 @@
       "MVAR",
       "MVAr"
     ],
-    "symbol": "MVA{Reactive}",
+    "symbol": "Mvar",
     "conversion": {
       "multiplier": 1.0e6,
       "offset": 0.0
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
-  },  
+  },
   {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",

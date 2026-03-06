@@ -773,7 +773,7 @@
             },
             {
                 "name": "Angular Acceleration",
-                "unitExternalId": "angular_acceleration:rev-per-sec2"
+                "unitExternalId": "angular_acceleration:radian_per_second_squared"
             },
             {
                 "name": "Angular Velocity",

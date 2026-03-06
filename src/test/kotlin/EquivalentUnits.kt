@@ -5,8 +5,8 @@ In other words, these units should **not** generate errors in the DuplicateUnits
 class EquivalentUnits {
     companion object {
         val equivalentUnits = setOf(
-            "acceleration:galileo",
             "acceleration:centimetre_per_square_second",
+            "acceleration:galileo",
             "amount_of_substance_per_unit_volume:kilomol-per-m3",
             "amount_of_substance_per_unit_volume:mol-per-decim3",
             "amount_of_substance_per_unit_volume:mol-per-l",

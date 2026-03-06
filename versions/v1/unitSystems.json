@@ -732,14 +732,6 @@
         "name": "SI",
         "quantities": [
             {
-                "name": "API Gamma Ray",
-                "unitExternalId": "api_gamma_ray:api_gamma_ray_unit"
-            },
-            {
-                "name": "API Neutron",
-                "unitExternalId": "api_neutron:api_neutron_unit"
-            },
-            {
                 "name": "Absorbed Dose",
                 "unitExternalId": "absorbed_dose:gray"
             },

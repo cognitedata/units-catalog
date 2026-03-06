@@ -4577,7 +4577,10 @@
       "fraction",
       "Fraction",
       "÷",
-      "FRACTION"
+      "FRACTION",
+      "euclid",
+      "Euclid",
+      "Euc"
     ],
     "symbol": "",
     "conversion": {
@@ -32422,25 +32425,6 @@
       "per delta Celsius"
     ],
     "symbol": "m3/(m3.deltaK)",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "energistics.org",
-    "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
-    "externalId": "dimensionless_ratio:euclid",
-    "name": "euclid",
-    "quantity": "Dimensionless Ratio",
-    "longName": "A dimensionless unit of proportion, named after the Greek mathematician, Euclid. It represents the SI implied unit of \"1\" which is sometimes called a \"dimensionless derived unit\".",
-    "aliasNames": [
-      "euclid",
-      "Euclid",
-      "Euc",
-      "A dimensionless unit of proportion, named after the Greek mathematician, Euclid. It represents the SI implied unit of \"1\" which is sometimes called a \"dimensionless derived unit\"."
-    ],
-    "symbol": "Euc",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0

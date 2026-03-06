@@ -27,7 +27,6 @@ class EquivalentUnits {
             "dimensionless:unitless",
             "dimensionless_ratio:fraction",
             "dimensionless_ratio:unitless",
-            "dimensionless_ratio:euclid",
             "dimensionless_ratio:percent",
             "dimensionless_ratio:centieuclid",
             "dimensionless_ratio:ppb",

@@ -225,6 +225,506 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
+      },
+      {
+        "name": "API Gamma Ray",
+        "unitExternalId": "api_gamma_ray:api_gamma_ray_unit"
+      },
+      {
+        "name": "API Neutron",
+        "unitExternalId": "api_neutron:api_neutron_unit"
+      },
+      {
+        "name": "Absorbed Dose",
+        "unitExternalId": "absorbed_dose:gray"
+      },
+      {
+        "name": "Amount Of Substance Per Area",
+        "unitExternalId": "amount_of_substance_per_area:gram-mole_per_square_metre"
+      },
+      {
+        "name": "Amount Of Substance Per Time",
+        "unitExternalId": "amount_of_substance_per_time:gram-mole_per_second"
+      },
+      {
+        "name": "Amount Of Substance Per Time Per Area",
+        "unitExternalId": "amount_of_substance_per_time_per_area:gram-mole_per_second_square_metre"
+      },
+      {
+        "name": "Amount Of Substance Ratio",
+        "unitExternalId": "amount_of_substance_ratio:mole_per_mole"
+      },
+      {
+        "name": "Area Fraction",
+        "unitExternalId": "area_fraction:square_metre_per_square_metre"
+      },
+      {
+        "name": "Area Per Amount Of Substance",
+        "unitExternalId": "area_per_amount_of_substance:square_metre_per_gram-mole"
+      },
+      {
+        "name": "Area Per Mass",
+        "unitExternalId": "area_per_mass:square_metre_per_kilogram"
+      },
+      {
+        "name": "Area Per Time",
+        "unitExternalId": "area_per_time:square_metre_per_second"
+      },
+      {
+        "name": "Area Per Volume",
+        "unitExternalId": "area_per_volume:square_metre_per_cubic_metre"
+      },
+      {
+        "name": "Attenuation Per Frequency Interval",
+        "unitExternalId": "attenuation_per_frequency_interval:bel_per_octave"
+      },
+      {
+        "name": "Data Transfer Speed",
+        "unitExternalId": "data_transfer_speed:bit_per_second"
+      },
+      {
+        "name": "Density Per Length",
+        "unitExternalId": "density_per_length:kilogram_per_metre_to_the_fourth_power"
+      },
+      {
+        "name": "Digital Storage",
+        "unitExternalId": "digital_storage:bit"
+      },
+      {
+        "name": "Dipole Moment",
+        "unitExternalId": "dipole_moment:coulomb_metre"
+      },
+      {
+        "name": "Dose Equivalent",
+        "unitExternalId": "dose_equivalent:sievert"
+      },
+      {
+        "name": "Electric Charge",
+        "unitExternalId": "electric_charge:coulomb"
+      },
+      {
+        "name": "Electric Charge Per Area",
+        "unitExternalId": "electric_charge_per_area:coulomb_per_square_metre"
+      },
+      {
+        "name": "Electric Charge Per Mass",
+        "unitExternalId": "electric_charge_per_mass:ampere_second_per_kilogram"
+      },
+      {
+        "name": "Electric Charge Per Volume",
+        "unitExternalId": "electric_charge_per_volume:ampere_second_per_cubic_metre"
+      },
+      {
+        "name": "Electric Conductance",
+        "unitExternalId": "electric_conductance:siemens"
+      },
+      {
+        "name": "Electric Conductivity",
+        "unitExternalId": "electric_conductivity:siemens_per_metre"
+      },
+      {
+        "name": "Electric Current Density",
+        "unitExternalId": "electric_current_density:ampere_per_square_metre"
+      },
+      {
+        "name": "Electric Field Strength",
+        "unitExternalId": "electric_field_strength:volt_per_metre"
+      },
+      {
+        "name": "Electric Resistance Per Length",
+        "unitExternalId": "electric_resistance_per_length:ohm_per_metre"
+      },
+      {
+        "name": "Electromagnetic Moment",
+        "unitExternalId": "electromagnetic_moment:ampere_square_metre"
+      },
+      {
+        "name": "Energy Length Per Area",
+        "unitExternalId": "energy_length_per_area:joule_metre_per_square_metre"
+      },
+      {
+        "name": "Energy Length Per Time Area Temperature",
+        "unitExternalId": "energy_length_per_time_area_temperature:joule_metre_per_second_square_metre_delta_kelvin"
+      },
+      {
+        "name": "Energy Per Length",
+        "unitExternalId": "energy_per_length:joule_per_metre"
+      },
+      {
+        "name": "Energy Per Mass",
+        "unitExternalId": "energy_per_mass:joule_per_kilogram"
+      },
+      {
+        "name": "Energy Per Mass Per Time",
+        "unitExternalId": "energy_per_mass_per_time:sievert_per_second"
+      },
+      {
+        "name": "Force Area",
+        "unitExternalId": "force_area:newton_square_metre"
+      },
+      {
+        "name": "Force Fraction",
+        "unitExternalId": "force_fraction:newton_per_newton"
+      },
+      {
+        "name": "Force Length Per Length",
+        "unitExternalId": "force_length_per_length:newton_metre_per_metre"
+      },
+      {
+        "name": "Frequency Interval",
+        "unitExternalId": "frequency_interval:octave"
+      },
+      {
+        "name": "Heat Capacity",
+        "unitExternalId": "heat_capacity:joule_per_delta_kelvin"
+      },
+      {
+        "name": "Heat Transfer Coefficient",
+        "unitExternalId": "heat_transfer_coefficient:watt_per_square_metre_delta_kelvin"
+      },
+      {
+        "name": "Illuminance",
+        "unitExternalId": "illuminance:lux"
+      },
+      {
+        "name": "Isothermal Compressibility",
+        "unitExternalId": "isothermal_compressibility:cubic_metre_per_joule"
+      },
+      {
+        "name": "Length Fraction",
+        "unitExternalId": "length_fraction:metre_per_metre"
+      },
+      {
+        "name": "Length Per Angle",
+        "unitExternalId": "length_per_angle:metre_per_radian"
+      },
+      {
+        "name": "Length Per Mass",
+        "unitExternalId": "length_per_mass:metre_per_kilogram"
+      },
+      {
+        "name": "Length Per Pressure",
+        "unitExternalId": "length_per_pressure:metre_per_pascal"
+      },
+      {
+        "name": "Length Per Temperature",
+        "unitExternalId": "length_per_temperature:metre_per_delta_kelvin"
+      },
+      {
+        "name": "Length Per Volume",
+        "unitExternalId": "length_per_volume:metre_per_cubic_metre"
+      },
+      {
+        "name": "Light Exposure",
+        "unitExternalId": "light_exposure:lux_second"
+      },
+      {
+        "name": "Linear Thermal Expansion",
+        "unitExternalId": "linear_thermal_expansion:metre_per_metre_delta_kelvin"
+      },
+      {
+        "name": "Logarithmic Power Ratio Per Length",
+        "unitExternalId": "logarithmic_power_ratio_per_length:bel_per_metre"
+      },
+      {
+        "name": "Luminance",
+        "unitExternalId": "luminance:candela_per_square_metre"
+      },
+      {
+        "name": "Luminous Efficacy",
+        "unitExternalId": "luminous_efficacy:lumen_per_watt"
+      },
+      {
+        "name": "Luminous Flux",
+        "unitExternalId": "luminous_flux:lumen"
+      },
+      {
+        "name": "Luminous Intensity",
+        "unitExternalId": "luminous_intensity:candela"
+      },
+      {
+        "name": "Magnetic Dipole Moment",
+        "unitExternalId": "magnetic_dipole_moment:weber_metre"
+      },
+      {
+        "name": "Magnetic Field Strength",
+        "unitExternalId": "magnetic_field_strength:ampere_per_metre"
+      },
+      {
+        "name": "Magnetic Flux",
+        "unitExternalId": "magnetic_flux:weber"
+      },
+      {
+        "name": "Magnetic Flux Density Per Length",
+        "unitExternalId": "magnetic_flux_density_per_length:tesla_per_metre"
+      },
+      {
+        "name": "Magnetic Vector Potential",
+        "unitExternalId": "magnetic_vector_potential:weber_per_metre"
+      },
+      {
+        "name": "Mass Flow Rate Per Area",
+        "unitExternalId": "mass_flow_rate_per_area:kilogram_per_square_metre_second"
+      },
+      {
+        "name": "Mass Flow Rate Per Length",
+        "unitExternalId": "mass_flow_rate_per_length:kilogram_per_metre_second"
+      },
+      {
+        "name": "Mass Fraction",
+        "unitExternalId": "mass_fraction:kilogram_per_kilogram"
+      },
+      {
+        "name": "Mass Length",
+        "unitExternalId": "mass_length:kilogram_metre"
+      },
+      {
+        "name": "Mass Per Energy",
+        "unitExternalId": "mass_per_energy:kilogram_per_joule"
+      },
+      {
+        "name": "Mobility",
+        "unitExternalId": "mobility:teradarcy-api_per_pascal_second"
+      },
+      {
+        "name": "Molar Energy",
+        "unitExternalId": "molar_energy:joule_per_gram-mole"
+      },
+      {
+        "name": "Molar Heat Capacity",
+        "unitExternalId": "molar_heat_capacity:joule_per_gram-mole_delta_kelvin"
+      },
+      {
+        "name": "Molar Volume",
+        "unitExternalId": "molar_volume:cubic_metre_per_gram-mole"
+      },
+      {
+        "name": "Molecular Weight",
+        "unitExternalId": "molecular_weight:kilogram_per_mole"
+      },
+      {
+        "name": "Moment Of Inertia",
+        "unitExternalId": "moment_of_inertia:kilogram_square_metre"
+      },
+      {
+        "name": "Momentum",
+        "unitExternalId": "momentum:kilogram_metre_per_second"
+      },
+      {
+        "name": "Normalized Power",
+        "unitExternalId": "normalized_power:bel_watt"
+      },
+      {
+        "name": "Permeability Length",
+        "unitExternalId": "permeability_length:teradarcy-api_metre"
+      },
+      {
+        "name": "Permittivity",
+        "unitExternalId": "permittivity:farad_per_metre"
+      },
+      {
+        "name": "Potential Difference Per Power Drop",
+        "unitExternalId": "potential_difference_per_power_drop:volt_per_bel"
+      },
+      {
+        "name": "Power Fraction",
+        "unitExternalId": "power_fraction:watt_per_watt"
+      },
+      {
+        "name": "Power Per Volume",
+        "unitExternalId": "power_per_volume:watt_per_cubic_metre"
+      },
+      {
+        "name": "Pressure Per Time",
+        "unitExternalId": "pressure_per_time:pascal_per_second"
+      },
+      {
+        "name": "Pressure Per Volume",
+        "unitExternalId": "pressure_per_volume:pascal_per_cubic_metre"
+      },
+      {
+        "name": "Pressure Squared",
+        "unitExternalId": "pressure_squared:pascal_squared"
+      },
+      {
+        "name": "Pressure Squared Per Force Time Per Area",
+        "unitExternalId": "pressure_squared_per_force_time_per_area:pascal_squared_per_pascal_second"
+      },
+      {
+        "name": "Pressure Time Per Volume",
+        "unitExternalId": "pressure_time_per_volume:pascal_second_per_cubic_metre"
+      },
+      {
+        "name": "Quantity Of Light",
+        "unitExternalId": "quantity_of_light:lumen_second"
+      },
+      {
+        "name": "Radiance",
+        "unitExternalId": "radiance:watt_per_square_metre_steradian"
+      },
+      {
+        "name": "Radiant Intensity",
+        "unitExternalId": "radiant_intensity:watt_per_steradian"
+      },
+      {
+        "name": "Reciprocal Area",
+        "unitExternalId": "reciprocal_area:per_square_metre"
+      },
+      {
+        "name": "Reciprocal Electric Potential",
+        "unitExternalId": "reciprocal_electric_potential:per_volt"
+      },
+      {
+        "name": "Reciprocal Force",
+        "unitExternalId": "reciprocal_force:per_newton"
+      },
+      {
+        "name": "Reciprocal Mass",
+        "unitExternalId": "reciprocal_mass:per_kilogram"
+      },
+      {
+        "name": "Reciprocal Mass Time",
+        "unitExternalId": "reciprocal_mass_time:per__kilogram_per_second_"
+      },
+      {
+        "name": "Reciprocal Pressure",
+        "unitExternalId": "reciprocal_pressure:per_pascal"
+      },
+      {
+        "name": "Reciprocal Time",
+        "unitExternalId": "reciprocal_time:per_second"
+      },
+      {
+        "name": "Reciprocal Volume",
+        "unitExternalId": "reciprocal_volume:per_cubic_metre"
+      },
+      {
+        "name": "Rock Permeability",
+        "unitExternalId": "rock_permeability:teradarcy-api"
+      },
+      {
+        "name": "Second Moment Of Area",
+        "unitExternalId": "second_moment_of_area:metre_to_the_fourth_power"
+      },
+      {
+        "name": "Signaling Event Per Time",
+        "unitExternalId": "signaling_event_per_time:baud"
+      },
+      {
+        "name": "Solid Angle",
+        "unitExternalId": "solid_angle:steradian"
+      },
+      {
+        "name": "Specific Heat Capacity",
+        "unitExternalId": "specific_heat_capacity:joule_per_kilogram_delta_kelvin"
+      },
+      {
+        "name": "Temperature Interval",
+        "unitExternalId": "temperature_interval:delta_celsius"
+      },
+      {
+        "name": "Temperature Interval Per Pressure",
+        "unitExternalId": "temperature_interval_per_pressure:delta_kelvin_per_pascal"
+      },
+      {
+        "name": "Temperature Interval Per Time",
+        "unitExternalId": "temperature_interval_per_time:delta_celsius_per_second"
+      },
+      {
+        "name": "Thermal Conductance",
+        "unitExternalId": "thermal_conductance:watt_per_delta_kelvin"
+      },
+      {
+        "name": "Thermal Conductivity",
+        "unitExternalId": "thermal_conductivity:watt_per_metre_delta_kelvin"
+      },
+      {
+        "name": "Thermal Insulance",
+        "unitExternalId": "thermal_insulance:delta_kelvin_square_metre_per_watt"
+      },
+      {
+        "name": "Thermal Resistance",
+        "unitExternalId": "thermal_resistance:delta_kelvin_per_watt"
+      },
+      {
+        "name": "Time Fraction",
+        "unitExternalId": "time_fraction:second_per_second"
+      },
+      {
+        "name": "Time Per Length",
+        "unitExternalId": "time_per_length:second_per_metre"
+      },
+      {
+        "name": "Time Per Mass",
+        "unitExternalId": "time_per_mass:second_per_kilogram"
+      },
+      {
+        "name": "Time Per Volume",
+        "unitExternalId": "time_per_volume:second_per_cubic_metre"
+      },
+      {
+        "name": "Volume Flow Rate Fraction",
+        "unitExternalId": "volume_flow_rate_fraction:_barrel_per_day__per__barrel_per_day_"
+      },
+      {
+        "name": "Volume Flow Rate Length",
+        "unitExternalId": "volume_flow_rate_length:metre_to_the_fourth_power_per_second"
+      },
+      {
+        "name": "Volume Flow Rate Per Area",
+        "unitExternalId": "volume_flow_rate_per_area:cubic_metre_per_second_square_metre"
+      },
+      {
+        "name": "Volume Flow Rate Per Length",
+        "unitExternalId": "volume_flow_rate_per_length:cubic_metre_per_second_metre"
+      },
+      {
+        "name": "Volume Flow Rate Per Time",
+        "unitExternalId": "volume_flow_rate_per_time:cubic_metre_per_second_squared"
+      },
+      {
+        "name": "Volume Flow Rate Per Volume",
+        "unitExternalId": "volume_flow_rate_per_volume:cubic_metre_per_time_cubic_metre"
+      },
+      {
+        "name": "Volume Per Area",
+        "unitExternalId": "volume_per_area:cubic_metre_per_square_metre"
+      },
+      {
+        "name": "Volume Per Length",
+        "unitExternalId": "volume_per_length:cubic_metre_per_metre"
+      },
+      {
+        "name": "Volume Per Mass",
+        "unitExternalId": "volume_per_mass:cubic_metre_per_kilogram"
+      },
+      {
+        "name": "Volume Per Pressure",
+        "unitExternalId": "volume_per_pressure:cubic_metre_per_pascal"
+      },
+      {
+        "name": "Volume Per Rotation",
+        "unitExternalId": "volume_per_rotation:cubic_metre_per_radian"
+      },
+      {
+        "name": "Volume Per Time Per Pressure Length",
+        "unitExternalId": "volume_per_time_per_pressure_length:square_metre_per_pascal_second"
+      },
+      {
+        "name": "Volumetric Heat Transfer Coefficient",
+        "unitExternalId": "volumetric_heat_transfer_coefficient:watt_per_cubic_metre_delta_kelvin"
+      },
+      {
+        "name": "Volumetric Thermal Expansion",
+        "unitExternalId": "volumetric_thermal_expansion:cubic_metre_per_cubic_metre_delta_kelvin"
+      },
+      {
+        "name": "Angle Per Volume",
+        "unitExternalId": "angle_per_volume:radian_per_cubic_metre"
+      },
+      {
+        "name": "Reluctance",
+        "unitExternalId": "reluctance:per_henry"
       }
     ]
   },
@@ -414,6 +914,506 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
+      },
+      {
+        "name": "API Gamma Ray",
+        "unitExternalId": "api_gamma_ray:api_gamma_ray_unit"
+      },
+      {
+        "name": "API Neutron",
+        "unitExternalId": "api_neutron:api_neutron_unit"
+      },
+      {
+        "name": "Absorbed Dose",
+        "unitExternalId": "absorbed_dose:gray"
+      },
+      {
+        "name": "Amount Of Substance Per Area",
+        "unitExternalId": "amount_of_substance_per_area:gram-mole_per_square_metre"
+      },
+      {
+        "name": "Amount Of Substance Per Time",
+        "unitExternalId": "amount_of_substance_per_time:gram-mole_per_second"
+      },
+      {
+        "name": "Amount Of Substance Per Time Per Area",
+        "unitExternalId": "amount_of_substance_per_time_per_area:gram-mole_per_second_square_metre"
+      },
+      {
+        "name": "Amount Of Substance Ratio",
+        "unitExternalId": "amount_of_substance_ratio:mole_per_mole"
+      },
+      {
+        "name": "Area Fraction",
+        "unitExternalId": "area_fraction:square_metre_per_square_metre"
+      },
+      {
+        "name": "Area Per Amount Of Substance",
+        "unitExternalId": "area_per_amount_of_substance:square_metre_per_gram-mole"
+      },
+      {
+        "name": "Area Per Mass",
+        "unitExternalId": "area_per_mass:square_metre_per_kilogram"
+      },
+      {
+        "name": "Area Per Time",
+        "unitExternalId": "area_per_time:square_metre_per_second"
+      },
+      {
+        "name": "Area Per Volume",
+        "unitExternalId": "area_per_volume:square_metre_per_cubic_metre"
+      },
+      {
+        "name": "Attenuation Per Frequency Interval",
+        "unitExternalId": "attenuation_per_frequency_interval:bel_per_octave"
+      },
+      {
+        "name": "Data Transfer Speed",
+        "unitExternalId": "data_transfer_speed:bit_per_second"
+      },
+      {
+        "name": "Density Per Length",
+        "unitExternalId": "density_per_length:kilogram_per_metre_to_the_fourth_power"
+      },
+      {
+        "name": "Digital Storage",
+        "unitExternalId": "digital_storage:bit"
+      },
+      {
+        "name": "Dipole Moment",
+        "unitExternalId": "dipole_moment:coulomb_metre"
+      },
+      {
+        "name": "Dose Equivalent",
+        "unitExternalId": "dose_equivalent:sievert"
+      },
+      {
+        "name": "Electric Charge",
+        "unitExternalId": "electric_charge:coulomb"
+      },
+      {
+        "name": "Electric Charge Per Area",
+        "unitExternalId": "electric_charge_per_area:coulomb_per_square_metre"
+      },
+      {
+        "name": "Electric Charge Per Mass",
+        "unitExternalId": "electric_charge_per_mass:ampere_second_per_kilogram"
+      },
+      {
+        "name": "Electric Charge Per Volume",
+        "unitExternalId": "electric_charge_per_volume:ampere_second_per_cubic_metre"
+      },
+      {
+        "name": "Electric Conductance",
+        "unitExternalId": "electric_conductance:siemens"
+      },
+      {
+        "name": "Electric Conductivity",
+        "unitExternalId": "electric_conductivity:siemens_per_metre"
+      },
+      {
+        "name": "Electric Current Density",
+        "unitExternalId": "electric_current_density:ampere_per_square_metre"
+      },
+      {
+        "name": "Electric Field Strength",
+        "unitExternalId": "electric_field_strength:volt_per_metre"
+      },
+      {
+        "name": "Electric Resistance Per Length",
+        "unitExternalId": "electric_resistance_per_length:ohm_per_metre"
+      },
+      {
+        "name": "Electromagnetic Moment",
+        "unitExternalId": "electromagnetic_moment:ampere_square_metre"
+      },
+      {
+        "name": "Energy Length Per Area",
+        "unitExternalId": "energy_length_per_area:joule_metre_per_square_metre"
+      },
+      {
+        "name": "Energy Length Per Time Area Temperature",
+        "unitExternalId": "energy_length_per_time_area_temperature:joule_metre_per_second_square_metre_delta_kelvin"
+      },
+      {
+        "name": "Energy Per Length",
+        "unitExternalId": "energy_per_length:joule_per_metre"
+      },
+      {
+        "name": "Energy Per Mass",
+        "unitExternalId": "energy_per_mass:joule_per_kilogram"
+      },
+      {
+        "name": "Energy Per Mass Per Time",
+        "unitExternalId": "energy_per_mass_per_time:sievert_per_second"
+      },
+      {
+        "name": "Force Area",
+        "unitExternalId": "force_area:newton_square_metre"
+      },
+      {
+        "name": "Force Fraction",
+        "unitExternalId": "force_fraction:newton_per_newton"
+      },
+      {
+        "name": "Force Length Per Length",
+        "unitExternalId": "force_length_per_length:newton_metre_per_metre"
+      },
+      {
+        "name": "Frequency Interval",
+        "unitExternalId": "frequency_interval:octave"
+      },
+      {
+        "name": "Heat Capacity",
+        "unitExternalId": "heat_capacity:joule_per_delta_kelvin"
+      },
+      {
+        "name": "Heat Transfer Coefficient",
+        "unitExternalId": "heat_transfer_coefficient:watt_per_square_metre_delta_kelvin"
+      },
+      {
+        "name": "Illuminance",
+        "unitExternalId": "illuminance:lux"
+      },
+      {
+        "name": "Isothermal Compressibility",
+        "unitExternalId": "isothermal_compressibility:cubic_metre_per_joule"
+      },
+      {
+        "name": "Length Fraction",
+        "unitExternalId": "length_fraction:metre_per_metre"
+      },
+      {
+        "name": "Length Per Angle",
+        "unitExternalId": "length_per_angle:metre_per_radian"
+      },
+      {
+        "name": "Length Per Mass",
+        "unitExternalId": "length_per_mass:metre_per_kilogram"
+      },
+      {
+        "name": "Length Per Pressure",
+        "unitExternalId": "length_per_pressure:metre_per_pascal"
+      },
+      {
+        "name": "Length Per Temperature",
+        "unitExternalId": "length_per_temperature:metre_per_delta_kelvin"
+      },
+      {
+        "name": "Length Per Volume",
+        "unitExternalId": "length_per_volume:metre_per_cubic_metre"
+      },
+      {
+        "name": "Light Exposure",
+        "unitExternalId": "light_exposure:lux_second"
+      },
+      {
+        "name": "Linear Thermal Expansion",
+        "unitExternalId": "linear_thermal_expansion:metre_per_metre_delta_kelvin"
+      },
+      {
+        "name": "Logarithmic Power Ratio Per Length",
+        "unitExternalId": "logarithmic_power_ratio_per_length:bel_per_metre"
+      },
+      {
+        "name": "Luminance",
+        "unitExternalId": "luminance:candela_per_square_metre"
+      },
+      {
+        "name": "Luminous Efficacy",
+        "unitExternalId": "luminous_efficacy:lumen_per_watt"
+      },
+      {
+        "name": "Luminous Flux",
+        "unitExternalId": "luminous_flux:lumen"
+      },
+      {
+        "name": "Luminous Intensity",
+        "unitExternalId": "luminous_intensity:candela"
+      },
+      {
+        "name": "Magnetic Dipole Moment",
+        "unitExternalId": "magnetic_dipole_moment:weber_metre"
+      },
+      {
+        "name": "Magnetic Field Strength",
+        "unitExternalId": "magnetic_field_strength:ampere_per_metre"
+      },
+      {
+        "name": "Magnetic Flux",
+        "unitExternalId": "magnetic_flux:weber"
+      },
+      {
+        "name": "Magnetic Flux Density Per Length",
+        "unitExternalId": "magnetic_flux_density_per_length:tesla_per_metre"
+      },
+      {
+        "name": "Magnetic Vector Potential",
+        "unitExternalId": "magnetic_vector_potential:weber_per_metre"
+      },
+      {
+        "name": "Mass Flow Rate Per Area",
+        "unitExternalId": "mass_flow_rate_per_area:kilogram_per_square_metre_second"
+      },
+      {
+        "name": "Mass Flow Rate Per Length",
+        "unitExternalId": "mass_flow_rate_per_length:kilogram_per_metre_second"
+      },
+      {
+        "name": "Mass Fraction",
+        "unitExternalId": "mass_fraction:kilogram_per_kilogram"
+      },
+      {
+        "name": "Mass Length",
+        "unitExternalId": "mass_length:kilogram_metre"
+      },
+      {
+        "name": "Mass Per Energy",
+        "unitExternalId": "mass_per_energy:kilogram_per_joule"
+      },
+      {
+        "name": "Mobility",
+        "unitExternalId": "mobility:teradarcy-api_per_pascal_second"
+      },
+      {
+        "name": "Molar Energy",
+        "unitExternalId": "molar_energy:joule_per_gram-mole"
+      },
+      {
+        "name": "Molar Heat Capacity",
+        "unitExternalId": "molar_heat_capacity:joule_per_gram-mole_delta_kelvin"
+      },
+      {
+        "name": "Molar Volume",
+        "unitExternalId": "molar_volume:cubic_metre_per_gram-mole"
+      },
+      {
+        "name": "Molecular Weight",
+        "unitExternalId": "molecular_weight:kilogram_per_mole"
+      },
+      {
+        "name": "Moment Of Inertia",
+        "unitExternalId": "moment_of_inertia:kilogram_square_metre"
+      },
+      {
+        "name": "Momentum",
+        "unitExternalId": "momentum:kilogram_metre_per_second"
+      },
+      {
+        "name": "Normalized Power",
+        "unitExternalId": "normalized_power:bel_watt"
+      },
+      {
+        "name": "Permeability Length",
+        "unitExternalId": "permeability_length:teradarcy-api_metre"
+      },
+      {
+        "name": "Permittivity",
+        "unitExternalId": "permittivity:farad_per_metre"
+      },
+      {
+        "name": "Potential Difference Per Power Drop",
+        "unitExternalId": "potential_difference_per_power_drop:volt_per_bel"
+      },
+      {
+        "name": "Power Fraction",
+        "unitExternalId": "power_fraction:watt_per_watt"
+      },
+      {
+        "name": "Power Per Volume",
+        "unitExternalId": "power_per_volume:watt_per_cubic_metre"
+      },
+      {
+        "name": "Pressure Per Time",
+        "unitExternalId": "pressure_per_time:pascal_per_second"
+      },
+      {
+        "name": "Pressure Per Volume",
+        "unitExternalId": "pressure_per_volume:pascal_per_cubic_metre"
+      },
+      {
+        "name": "Pressure Squared",
+        "unitExternalId": "pressure_squared:pascal_squared"
+      },
+      {
+        "name": "Pressure Squared Per Force Time Per Area",
+        "unitExternalId": "pressure_squared_per_force_time_per_area:pascal_squared_per_pascal_second"
+      },
+      {
+        "name": "Pressure Time Per Volume",
+        "unitExternalId": "pressure_time_per_volume:pascal_second_per_cubic_metre"
+      },
+      {
+        "name": "Quantity Of Light",
+        "unitExternalId": "quantity_of_light:lumen_second"
+      },
+      {
+        "name": "Radiance",
+        "unitExternalId": "radiance:watt_per_square_metre_steradian"
+      },
+      {
+        "name": "Radiant Intensity",
+        "unitExternalId": "radiant_intensity:watt_per_steradian"
+      },
+      {
+        "name": "Reciprocal Area",
+        "unitExternalId": "reciprocal_area:per_square_metre"
+      },
+      {
+        "name": "Reciprocal Electric Potential",
+        "unitExternalId": "reciprocal_electric_potential:per_volt"
+      },
+      {
+        "name": "Reciprocal Force",
+        "unitExternalId": "reciprocal_force:per_newton"
+      },
+      {
+        "name": "Reciprocal Mass",
+        "unitExternalId": "reciprocal_mass:per_kilogram"
+      },
+      {
+        "name": "Reciprocal Mass Time",
+        "unitExternalId": "reciprocal_mass_time:per__kilogram_per_second_"
+      },
+      {
+        "name": "Reciprocal Pressure",
+        "unitExternalId": "reciprocal_pressure:per_pascal"
+      },
+      {
+        "name": "Reciprocal Time",
+        "unitExternalId": "reciprocal_time:per_second"
+      },
+      {
+        "name": "Reciprocal Volume",
+        "unitExternalId": "reciprocal_volume:per_cubic_metre"
+      },
+      {
+        "name": "Rock Permeability",
+        "unitExternalId": "rock_permeability:teradarcy-api"
+      },
+      {
+        "name": "Second Moment Of Area",
+        "unitExternalId": "second_moment_of_area:metre_to_the_fourth_power"
+      },
+      {
+        "name": "Signaling Event Per Time",
+        "unitExternalId": "signaling_event_per_time:baud"
+      },
+      {
+        "name": "Solid Angle",
+        "unitExternalId": "solid_angle:steradian"
+      },
+      {
+        "name": "Specific Heat Capacity",
+        "unitExternalId": "specific_heat_capacity:joule_per_kilogram_delta_kelvin"
+      },
+      {
+        "name": "Temperature Interval",
+        "unitExternalId": "temperature_interval:delta_celsius"
+      },
+      {
+        "name": "Temperature Interval Per Pressure",
+        "unitExternalId": "temperature_interval_per_pressure:delta_kelvin_per_pascal"
+      },
+      {
+        "name": "Temperature Interval Per Time",
+        "unitExternalId": "temperature_interval_per_time:delta_celsius_per_second"
+      },
+      {
+        "name": "Thermal Conductance",
+        "unitExternalId": "thermal_conductance:watt_per_delta_kelvin"
+      },
+      {
+        "name": "Thermal Conductivity",
+        "unitExternalId": "thermal_conductivity:watt_per_metre_delta_kelvin"
+      },
+      {
+        "name": "Thermal Insulance",
+        "unitExternalId": "thermal_insulance:delta_kelvin_square_metre_per_watt"
+      },
+      {
+        "name": "Thermal Resistance",
+        "unitExternalId": "thermal_resistance:delta_kelvin_per_watt"
+      },
+      {
+        "name": "Time Fraction",
+        "unitExternalId": "time_fraction:second_per_second"
+      },
+      {
+        "name": "Time Per Length",
+        "unitExternalId": "time_per_length:second_per_metre"
+      },
+      {
+        "name": "Time Per Mass",
+        "unitExternalId": "time_per_mass:second_per_kilogram"
+      },
+      {
+        "name": "Time Per Volume",
+        "unitExternalId": "time_per_volume:second_per_cubic_metre"
+      },
+      {
+        "name": "Volume Flow Rate Fraction",
+        "unitExternalId": "volume_flow_rate_fraction:_barrel_per_day__per__barrel_per_day_"
+      },
+      {
+        "name": "Volume Flow Rate Length",
+        "unitExternalId": "volume_flow_rate_length:metre_to_the_fourth_power_per_second"
+      },
+      {
+        "name": "Volume Flow Rate Per Area",
+        "unitExternalId": "volume_flow_rate_per_area:cubic_metre_per_second_square_metre"
+      },
+      {
+        "name": "Volume Flow Rate Per Length",
+        "unitExternalId": "volume_flow_rate_per_length:cubic_metre_per_second_metre"
+      },
+      {
+        "name": "Volume Flow Rate Per Time",
+        "unitExternalId": "volume_flow_rate_per_time:cubic_metre_per_second_squared"
+      },
+      {
+        "name": "Volume Flow Rate Per Volume",
+        "unitExternalId": "volume_flow_rate_per_volume:cubic_metre_per_time_cubic_metre"
+      },
+      {
+        "name": "Volume Per Area",
+        "unitExternalId": "volume_per_area:cubic_metre_per_square_metre"
+      },
+      {
+        "name": "Volume Per Length",
+        "unitExternalId": "volume_per_length:cubic_metre_per_metre"
+      },
+      {
+        "name": "Volume Per Mass",
+        "unitExternalId": "volume_per_mass:cubic_metre_per_kilogram"
+      },
+      {
+        "name": "Volume Per Pressure",
+        "unitExternalId": "volume_per_pressure:cubic_metre_per_pascal"
+      },
+      {
+        "name": "Volume Per Rotation",
+        "unitExternalId": "volume_per_rotation:cubic_metre_per_radian"
+      },
+      {
+        "name": "Volume Per Time Per Pressure Length",
+        "unitExternalId": "volume_per_time_per_pressure_length:square_metre_per_pascal_second"
+      },
+      {
+        "name": "Volumetric Heat Transfer Coefficient",
+        "unitExternalId": "volumetric_heat_transfer_coefficient:watt_per_cubic_metre_delta_kelvin"
+      },
+      {
+        "name": "Volumetric Thermal Expansion",
+        "unitExternalId": "volumetric_thermal_expansion:cubic_metre_per_cubic_metre_delta_kelvin"
+      },
+      {
+        "name": "Angle Per Volume",
+        "unitExternalId": "angle_per_volume:radian_per_cubic_metre"
+      },
+      {
+        "name": "Reluctance",
+        "unitExternalId": "reluctance:per_henry"
       }
     ]
   },
@@ -527,6 +1527,506 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi"
+      },
+      {
+        "name": "API Gamma Ray",
+        "unitExternalId": "api_gamma_ray:api_gamma_ray_unit"
+      },
+      {
+        "name": "API Neutron",
+        "unitExternalId": "api_neutron:api_neutron_unit"
+      },
+      {
+        "name": "Absorbed Dose",
+        "unitExternalId": "absorbed_dose:gray"
+      },
+      {
+        "name": "Amount Of Substance Per Area",
+        "unitExternalId": "amount_of_substance_per_area:gram-mole_per_square_metre"
+      },
+      {
+        "name": "Amount Of Substance Per Time",
+        "unitExternalId": "amount_of_substance_per_time:gram-mole_per_second"
+      },
+      {
+        "name": "Amount Of Substance Per Time Per Area",
+        "unitExternalId": "amount_of_substance_per_time_per_area:gram-mole_per_second_square_metre"
+      },
+      {
+        "name": "Amount Of Substance Ratio",
+        "unitExternalId": "amount_of_substance_ratio:mole_per_mole"
+      },
+      {
+        "name": "Area Fraction",
+        "unitExternalId": "area_fraction:square_metre_per_square_metre"
+      },
+      {
+        "name": "Area Per Amount Of Substance",
+        "unitExternalId": "area_per_amount_of_substance:square_metre_per_gram-mole"
+      },
+      {
+        "name": "Area Per Mass",
+        "unitExternalId": "area_per_mass:square_metre_per_kilogram"
+      },
+      {
+        "name": "Area Per Time",
+        "unitExternalId": "area_per_time:square_metre_per_second"
+      },
+      {
+        "name": "Area Per Volume",
+        "unitExternalId": "area_per_volume:square_metre_per_cubic_metre"
+      },
+      {
+        "name": "Attenuation Per Frequency Interval",
+        "unitExternalId": "attenuation_per_frequency_interval:bel_per_octave"
+      },
+      {
+        "name": "Data Transfer Speed",
+        "unitExternalId": "data_transfer_speed:bit_per_second"
+      },
+      {
+        "name": "Density Per Length",
+        "unitExternalId": "density_per_length:kilogram_per_metre_to_the_fourth_power"
+      },
+      {
+        "name": "Digital Storage",
+        "unitExternalId": "digital_storage:bit"
+      },
+      {
+        "name": "Dipole Moment",
+        "unitExternalId": "dipole_moment:coulomb_metre"
+      },
+      {
+        "name": "Dose Equivalent",
+        "unitExternalId": "dose_equivalent:sievert"
+      },
+      {
+        "name": "Electric Charge",
+        "unitExternalId": "electric_charge:coulomb"
+      },
+      {
+        "name": "Electric Charge Per Area",
+        "unitExternalId": "electric_charge_per_area:coulomb_per_square_metre"
+      },
+      {
+        "name": "Electric Charge Per Mass",
+        "unitExternalId": "electric_charge_per_mass:ampere_second_per_kilogram"
+      },
+      {
+        "name": "Electric Charge Per Volume",
+        "unitExternalId": "electric_charge_per_volume:ampere_second_per_cubic_metre"
+      },
+      {
+        "name": "Electric Conductance",
+        "unitExternalId": "electric_conductance:siemens"
+      },
+      {
+        "name": "Electric Conductivity",
+        "unitExternalId": "electric_conductivity:siemens_per_metre"
+      },
+      {
+        "name": "Electric Current Density",
+        "unitExternalId": "electric_current_density:ampere_per_square_metre"
+      },
+      {
+        "name": "Electric Field Strength",
+        "unitExternalId": "electric_field_strength:volt_per_metre"
+      },
+      {
+        "name": "Electric Resistance Per Length",
+        "unitExternalId": "electric_resistance_per_length:ohm_per_metre"
+      },
+      {
+        "name": "Electromagnetic Moment",
+        "unitExternalId": "electromagnetic_moment:ampere_square_metre"
+      },
+      {
+        "name": "Energy Length Per Area",
+        "unitExternalId": "energy_length_per_area:joule_metre_per_square_metre"
+      },
+      {
+        "name": "Energy Length Per Time Area Temperature",
+        "unitExternalId": "energy_length_per_time_area_temperature:joule_metre_per_second_square_metre_delta_kelvin"
+      },
+      {
+        "name": "Energy Per Length",
+        "unitExternalId": "energy_per_length:joule_per_metre"
+      },
+      {
+        "name": "Energy Per Mass",
+        "unitExternalId": "energy_per_mass:joule_per_kilogram"
+      },
+      {
+        "name": "Energy Per Mass Per Time",
+        "unitExternalId": "energy_per_mass_per_time:sievert_per_second"
+      },
+      {
+        "name": "Force Area",
+        "unitExternalId": "force_area:newton_square_metre"
+      },
+      {
+        "name": "Force Fraction",
+        "unitExternalId": "force_fraction:newton_per_newton"
+      },
+      {
+        "name": "Force Length Per Length",
+        "unitExternalId": "force_length_per_length:newton_metre_per_metre"
+      },
+      {
+        "name": "Frequency Interval",
+        "unitExternalId": "frequency_interval:octave"
+      },
+      {
+        "name": "Heat Capacity",
+        "unitExternalId": "heat_capacity:joule_per_delta_kelvin"
+      },
+      {
+        "name": "Heat Transfer Coefficient",
+        "unitExternalId": "heat_transfer_coefficient:watt_per_square_metre_delta_kelvin"
+      },
+      {
+        "name": "Illuminance",
+        "unitExternalId": "illuminance:lux"
+      },
+      {
+        "name": "Isothermal Compressibility",
+        "unitExternalId": "isothermal_compressibility:cubic_metre_per_joule"
+      },
+      {
+        "name": "Length Fraction",
+        "unitExternalId": "length_fraction:metre_per_metre"
+      },
+      {
+        "name": "Length Per Angle",
+        "unitExternalId": "length_per_angle:metre_per_radian"
+      },
+      {
+        "name": "Length Per Mass",
+        "unitExternalId": "length_per_mass:metre_per_kilogram"
+      },
+      {
+        "name": "Length Per Pressure",
+        "unitExternalId": "length_per_pressure:metre_per_pascal"
+      },
+      {
+        "name": "Length Per Temperature",
+        "unitExternalId": "length_per_temperature:metre_per_delta_kelvin"
+      },
+      {
+        "name": "Length Per Volume",
+        "unitExternalId": "length_per_volume:metre_per_cubic_metre"
+      },
+      {
+        "name": "Light Exposure",
+        "unitExternalId": "light_exposure:lux_second"
+      },
+      {
+        "name": "Linear Thermal Expansion",
+        "unitExternalId": "linear_thermal_expansion:metre_per_metre_delta_kelvin"
+      },
+      {
+        "name": "Logarithmic Power Ratio Per Length",
+        "unitExternalId": "logarithmic_power_ratio_per_length:bel_per_metre"
+      },
+      {
+        "name": "Luminance",
+        "unitExternalId": "luminance:candela_per_square_metre"
+      },
+      {
+        "name": "Luminous Efficacy",
+        "unitExternalId": "luminous_efficacy:lumen_per_watt"
+      },
+      {
+        "name": "Luminous Flux",
+        "unitExternalId": "luminous_flux:lumen"
+      },
+      {
+        "name": "Luminous Intensity",
+        "unitExternalId": "luminous_intensity:candela"
+      },
+      {
+        "name": "Magnetic Dipole Moment",
+        "unitExternalId": "magnetic_dipole_moment:weber_metre"
+      },
+      {
+        "name": "Magnetic Field Strength",
+        "unitExternalId": "magnetic_field_strength:ampere_per_metre"
+      },
+      {
+        "name": "Magnetic Flux",
+        "unitExternalId": "magnetic_flux:weber"
+      },
+      {
+        "name": "Magnetic Flux Density Per Length",
+        "unitExternalId": "magnetic_flux_density_per_length:tesla_per_metre"
+      },
+      {
+        "name": "Magnetic Vector Potential",
+        "unitExternalId": "magnetic_vector_potential:weber_per_metre"
+      },
+      {
+        "name": "Mass Flow Rate Per Area",
+        "unitExternalId": "mass_flow_rate_per_area:kilogram_per_square_metre_second"
+      },
+      {
+        "name": "Mass Flow Rate Per Length",
+        "unitExternalId": "mass_flow_rate_per_length:kilogram_per_metre_second"
+      },
+      {
+        "name": "Mass Fraction",
+        "unitExternalId": "mass_fraction:kilogram_per_kilogram"
+      },
+      {
+        "name": "Mass Length",
+        "unitExternalId": "mass_length:kilogram_metre"
+      },
+      {
+        "name": "Mass Per Energy",
+        "unitExternalId": "mass_per_energy:kilogram_per_joule"
+      },
+      {
+        "name": "Mobility",
+        "unitExternalId": "mobility:teradarcy-api_per_pascal_second"
+      },
+      {
+        "name": "Molar Energy",
+        "unitExternalId": "molar_energy:joule_per_gram-mole"
+      },
+      {
+        "name": "Molar Heat Capacity",
+        "unitExternalId": "molar_heat_capacity:joule_per_gram-mole_delta_kelvin"
+      },
+      {
+        "name": "Molar Volume",
+        "unitExternalId": "molar_volume:cubic_metre_per_gram-mole"
+      },
+      {
+        "name": "Molecular Weight",
+        "unitExternalId": "molecular_weight:kilogram_per_mole"
+      },
+      {
+        "name": "Moment Of Inertia",
+        "unitExternalId": "moment_of_inertia:kilogram_square_metre"
+      },
+      {
+        "name": "Momentum",
+        "unitExternalId": "momentum:kilogram_metre_per_second"
+      },
+      {
+        "name": "Normalized Power",
+        "unitExternalId": "normalized_power:bel_watt"
+      },
+      {
+        "name": "Permeability Length",
+        "unitExternalId": "permeability_length:teradarcy-api_metre"
+      },
+      {
+        "name": "Permittivity",
+        "unitExternalId": "permittivity:farad_per_metre"
+      },
+      {
+        "name": "Potential Difference Per Power Drop",
+        "unitExternalId": "potential_difference_per_power_drop:volt_per_bel"
+      },
+      {
+        "name": "Power Fraction",
+        "unitExternalId": "power_fraction:watt_per_watt"
+      },
+      {
+        "name": "Power Per Volume",
+        "unitExternalId": "power_per_volume:watt_per_cubic_metre"
+      },
+      {
+        "name": "Pressure Per Time",
+        "unitExternalId": "pressure_per_time:pascal_per_second"
+      },
+      {
+        "name": "Pressure Per Volume",
+        "unitExternalId": "pressure_per_volume:pascal_per_cubic_metre"
+      },
+      {
+        "name": "Pressure Squared",
+        "unitExternalId": "pressure_squared:pascal_squared"
+      },
+      {
+        "name": "Pressure Squared Per Force Time Per Area",
+        "unitExternalId": "pressure_squared_per_force_time_per_area:pascal_squared_per_pascal_second"
+      },
+      {
+        "name": "Pressure Time Per Volume",
+        "unitExternalId": "pressure_time_per_volume:pascal_second_per_cubic_metre"
+      },
+      {
+        "name": "Quantity Of Light",
+        "unitExternalId": "quantity_of_light:lumen_second"
+      },
+      {
+        "name": "Radiance",
+        "unitExternalId": "radiance:watt_per_square_metre_steradian"
+      },
+      {
+        "name": "Radiant Intensity",
+        "unitExternalId": "radiant_intensity:watt_per_steradian"
+      },
+      {
+        "name": "Reciprocal Area",
+        "unitExternalId": "reciprocal_area:per_square_metre"
+      },
+      {
+        "name": "Reciprocal Electric Potential",
+        "unitExternalId": "reciprocal_electric_potential:per_volt"
+      },
+      {
+        "name": "Reciprocal Force",
+        "unitExternalId": "reciprocal_force:per_newton"
+      },
+      {
+        "name": "Reciprocal Mass",
+        "unitExternalId": "reciprocal_mass:per_kilogram"
+      },
+      {
+        "name": "Reciprocal Mass Time",
+        "unitExternalId": "reciprocal_mass_time:per__kilogram_per_second_"
+      },
+      {
+        "name": "Reciprocal Pressure",
+        "unitExternalId": "reciprocal_pressure:per_pascal"
+      },
+      {
+        "name": "Reciprocal Time",
+        "unitExternalId": "reciprocal_time:per_second"
+      },
+      {
+        "name": "Reciprocal Volume",
+        "unitExternalId": "reciprocal_volume:per_cubic_metre"
+      },
+      {
+        "name": "Rock Permeability",
+        "unitExternalId": "rock_permeability:teradarcy-api"
+      },
+      {
+        "name": "Second Moment Of Area",
+        "unitExternalId": "second_moment_of_area:metre_to_the_fourth_power"
+      },
+      {
+        "name": "Signaling Event Per Time",
+        "unitExternalId": "signaling_event_per_time:baud"
+      },
+      {
+        "name": "Solid Angle",
+        "unitExternalId": "solid_angle:steradian"
+      },
+      {
+        "name": "Specific Heat Capacity",
+        "unitExternalId": "specific_heat_capacity:joule_per_kilogram_delta_kelvin"
+      },
+      {
+        "name": "Temperature Interval",
+        "unitExternalId": "temperature_interval:delta_celsius"
+      },
+      {
+        "name": "Temperature Interval Per Pressure",
+        "unitExternalId": "temperature_interval_per_pressure:delta_kelvin_per_pascal"
+      },
+      {
+        "name": "Temperature Interval Per Time",
+        "unitExternalId": "temperature_interval_per_time:delta_celsius_per_second"
+      },
+      {
+        "name": "Thermal Conductance",
+        "unitExternalId": "thermal_conductance:watt_per_delta_kelvin"
+      },
+      {
+        "name": "Thermal Conductivity",
+        "unitExternalId": "thermal_conductivity:watt_per_metre_delta_kelvin"
+      },
+      {
+        "name": "Thermal Insulance",
+        "unitExternalId": "thermal_insulance:delta_kelvin_square_metre_per_watt"
+      },
+      {
+        "name": "Thermal Resistance",
+        "unitExternalId": "thermal_resistance:delta_kelvin_per_watt"
+      },
+      {
+        "name": "Time Fraction",
+        "unitExternalId": "time_fraction:second_per_second"
+      },
+      {
+        "name": "Time Per Length",
+        "unitExternalId": "time_per_length:second_per_metre"
+      },
+      {
+        "name": "Time Per Mass",
+        "unitExternalId": "time_per_mass:second_per_kilogram"
+      },
+      {
+        "name": "Time Per Volume",
+        "unitExternalId": "time_per_volume:second_per_cubic_metre"
+      },
+      {
+        "name": "Volume Flow Rate Fraction",
+        "unitExternalId": "volume_flow_rate_fraction:_barrel_per_day__per__barrel_per_day_"
+      },
+      {
+        "name": "Volume Flow Rate Length",
+        "unitExternalId": "volume_flow_rate_length:metre_to_the_fourth_power_per_second"
+      },
+      {
+        "name": "Volume Flow Rate Per Area",
+        "unitExternalId": "volume_flow_rate_per_area:cubic_metre_per_second_square_metre"
+      },
+      {
+        "name": "Volume Flow Rate Per Length",
+        "unitExternalId": "volume_flow_rate_per_length:cubic_metre_per_second_metre"
+      },
+      {
+        "name": "Volume Flow Rate Per Time",
+        "unitExternalId": "volume_flow_rate_per_time:cubic_metre_per_second_squared"
+      },
+      {
+        "name": "Volume Flow Rate Per Volume",
+        "unitExternalId": "volume_flow_rate_per_volume:cubic_metre_per_time_cubic_metre"
+      },
+      {
+        "name": "Volume Per Area",
+        "unitExternalId": "volume_per_area:cubic_metre_per_square_metre"
+      },
+      {
+        "name": "Volume Per Length",
+        "unitExternalId": "volume_per_length:cubic_metre_per_metre"
+      },
+      {
+        "name": "Volume Per Mass",
+        "unitExternalId": "volume_per_mass:cubic_metre_per_kilogram"
+      },
+      {
+        "name": "Volume Per Pressure",
+        "unitExternalId": "volume_per_pressure:cubic_metre_per_pascal"
+      },
+      {
+        "name": "Volume Per Rotation",
+        "unitExternalId": "volume_per_rotation:cubic_metre_per_radian"
+      },
+      {
+        "name": "Volume Per Time Per Pressure Length",
+        "unitExternalId": "volume_per_time_per_pressure_length:square_metre_per_pascal_second"
+      },
+      {
+        "name": "Volumetric Heat Transfer Coefficient",
+        "unitExternalId": "volumetric_heat_transfer_coefficient:watt_per_cubic_metre_delta_kelvin"
+      },
+      {
+        "name": "Volumetric Thermal Expansion",
+        "unitExternalId": "volumetric_thermal_expansion:cubic_metre_per_cubic_metre_delta_kelvin"
+      },
+      {
+        "name": "Angle Per Volume",
+        "unitExternalId": "angle_per_volume:radian_per_cubic_metre"
+      },
+      {
+        "name": "Reluctance",
+        "unitExternalId": "reluctance:per_henry"
       }
     ]
   }

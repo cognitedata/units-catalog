@@ -768,6 +768,10 @@
                 "unitExternalId": "angle:rad"
             },
             {
+                "name": "Angle Per Length",
+                "unitExternalId": "angle_per_length:rad-per-m"
+            },
+            {
                 "name": "Angle Per Volume",
                 "unitExternalId": "angle_per_volume:radian_per_cubic_metre"
             },
@@ -924,6 +928,10 @@
                 "unitExternalId": "energy_length_per_time_area_temperature:joule_metre_per_second_square_metre_delta_kelvin"
             },
             {
+                "name": "Energy Per Area",
+                "unitExternalId": "energy_per_area:j-per-m2"
+            },
+            {
                 "name": "Energy Per Length",
                 "unitExternalId": "energy_per_length:joule_per_metre"
             },
@@ -960,6 +968,10 @@
                 "unitExternalId": "frequency_interval:hertz"
             },
             {
+                "name": "Gas Liquid Ratio",
+                "unitExternalId": "gas_liquid_ratio:cubic_metre_per_cubic_metre"
+            },
+            {
                 "name": "Heat Capacity",
                 "unitExternalId": "heat_capacity:joule_per_delta_kelvin"
             },
@@ -976,8 +988,16 @@
                 "unitExternalId": "inductance:h"
             },
             {
+                "name": "Inverse Length",
+                "unitExternalId": "inverse_length:per-m"
+            },
+            {
                 "name": "Isothermal Compressibility",
                 "unitExternalId": "isothermal_compressibility:cubic_metre_per_joule"
+            },
+            {
+                "name": "Kinematic Viscosity",
+                "unitExternalId": "kinematic_viscosity:square_metre_per_second"
             },
             {
                 "name": "Length",
@@ -1012,8 +1032,16 @@
                 "unitExternalId": "light_exposure:lux_second"
             },
             {
+                "name": "Linear Density",
+                "unitExternalId": "linear_density:kilogm-per-m"
+            },
+            {
                 "name": "Linear Thermal Expansion",
                 "unitExternalId": "linear_thermal_expansion:metre_per_metre_delta_kelvin"
+            },
+            {
+                "name": "Liquid Gas Ratio",
+                "unitExternalId": "liquid_gas_ratio:cubic_metre_per_cubic_metre"
             },
             {
                 "name": "Logarithmic Power Ratio Per Length",
@@ -1146,6 +1174,10 @@
             {
                 "name": "Power Fraction",
                 "unitExternalId": "power_fraction:watt_per_watt"
+            },
+            {
+                "name": "Power Per Area",
+                "unitExternalId": "power_per_area:w-per-m2"
             },
             {
                 "name": "Power Per Volume",

@@ -11334,6 +11334,22 @@
         "sourceReference": null
     },
     {
+        "externalId": "gas_liquid_ratio:cubic_metre_per_cubic_metre",
+        "name": "cubic metre per cubic metre",
+        "quantity": "Gas Liquid Ratio",
+        "longName": "Cubic Metre Per Cubic Metre",
+        "aliasNames": [
+            "m3/m3",
+            "cubic metre per cubic metre"
+        ],
+        "symbol": "m³/m³",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "SI"
+    },
+    {
         "externalId": "gas_liquid_ratio:scf-per-stb",
         "name": "scf-per-STB",
         "quantity": "Gas Liquid Ratio",
@@ -12130,6 +12146,22 @@
         },
         "source": "energistics.org",
         "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
+    },
+    {
+        "externalId": "kinematic_viscosity:square_metre_per_second",
+        "name": "square metre per second",
+        "quantity": "Kinematic Viscosity",
+        "longName": "Square Metre Per Second",
+        "aliasNames": [
+            "m2/s",
+            "square metre per second"
+        ],
+        "symbol": "m²/s",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "SI"
     },
     {
         "externalId": "length:1_64_in",
@@ -14498,6 +14530,22 @@
         },
         "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-M3",
         "sourceReference": null
+    },
+    {
+        "externalId": "liquid_gas_ratio:cubic_metre_per_cubic_metre",
+        "name": "cubic metre per cubic metre",
+        "quantity": "Liquid Gas Ratio",
+        "longName": "Cubic Metre Per Cubic Metre",
+        "aliasNames": [
+            "m3/m3",
+            "cubic metre per cubic metre"
+        ],
+        "symbol": "m³/m³",
+        "conversion": {
+            "multiplier": 1.0,
+            "offset": 0.0
+        },
+        "source": "SI"
     },
     {
         "externalId": "logarithmic_power_ratio_per_length:bel_per_metre",

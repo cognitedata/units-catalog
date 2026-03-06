@@ -3914,7 +3914,10 @@
       "Pound Mass / in³",
       "Pound per Cubic Inch",
       "LB / cubic inch",
-      "lbm per cubic inch"
+      "lbm per cubic inch",
+      "pound-mass per cubic inch",
+      "Pound-mass Per Cubic Inch",
+      "lbm/in3"
     ],
     "symbol": "lb/in³",
     "conversion": {
@@ -11360,7 +11363,10 @@
       "/ meter",
       "/ metre",
       "/ m",
-      "per meter"
+      "per meter",
+      "per metre",
+      "Per Metre",
+      "1/m"
     ],
     "symbol": "/m",
     "conversion": {
@@ -22684,7 +22690,10 @@
       "Ω·m",
       "OHM.M",
       "ohm.m2/m",
-      "ohm square metre per metre"
+      "ohm square metre per metre",
+      "ohm metre",
+      "Ohm Metre",
+      "ohm.m"
     ],
     "symbol": "Ω·m",
     "conversion": {
@@ -24092,6 +24101,51 @@
     "sourceReference": "https://qudt.org/vocab/unit/K"
   },
   {
+    "externalId": "temperature_gradient:k-per-m",
+    "name": "K-PER-M",
+    "quantity": "Temperature Gradient",
+    "longName": "Degrees Kelvin per Meter",
+    "aliasNames": [
+      "kelvin per m",
+      "kelvins per metre",
+      "kelvin per metre",
+      "K per metre",
+      "kelvin per M",
+      "degrees kelvin per metre",
+      "kelvin per Meter",
+      "K per m",
+      "K / metre",
+      "K per M",
+      "K per Meter",
+      "K PER M",
+      "K / M",
+      "K / Meter",
+      "kelvin / metre",
+      "kelvin / meter",
+      "K / meter",
+      "kelvin / Meter",
+      "kelvin / M",
+      "K per meter",
+      "K / m",
+      "kelvin per meter",
+      "kelvin / m",
+      "Kelvins per metre",
+      "Degrees Kelvin per metre",
+      "deltaC/m",
+      "delta Celsius per metre",
+      "deltaK/m",
+      "delta kelvin per metre",
+      "Delta Kelvin Per Metre"
+    ],
+    "symbol": "K/m",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/K-PER-M"
+  },
+  {
     "externalId": "temperature_gradient:delta_celsius_per_foot",
     "name": "delta Celsius per foot",
     "quantity": "Temperature Gradient",
@@ -24198,48 +24252,6 @@
     },
     "source": "energistics.org",
     "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
-    "externalId": "temperature_gradient:k-per-m",
-    "name": "K-PER-M",
-    "quantity": "Temperature Gradient",
-    "longName": "Degrees Kelvin per Meter",
-    "aliasNames": [
-      "kelvin per m",
-      "kelvins per metre",
-      "kelvin per metre",
-      "K per metre",
-      "kelvin per M",
-      "degrees kelvin per metre",
-      "kelvin per Meter",
-      "K per m",
-      "K / metre",
-      "K per M",
-      "K per Meter",
-      "K PER M",
-      "K / M",
-      "K / Meter",
-      "kelvin / metre",
-      "kelvin / meter",
-      "K / meter",
-      "kelvin / Meter",
-      "kelvin / M",
-      "K per meter",
-      "K / m",
-      "kelvin per meter",
-      "kelvin / m",
-      "Kelvins per metre",
-      "Degrees Kelvin per metre",
-      "deltaC/m",
-      "delta Celsius per metre"
-    ],
-    "symbol": "K/m",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/K-PER-M"
   },
   {
     "externalId": "temperature_interval:delta_celsius",
@@ -28951,7 +28963,10 @@
       "Million Cubic Meter / DAY",
       "Mm3/D",
       "Mm3/d",
-      "Mm³/d: million cubic meter per day"
+      "Mm³/d: million cubic meter per day",
+      "million cubic metre per day",
+      "Million Cubic Metre Per Day",
+      "1E6 m3/d"
     ],
     "symbol": "Mm³/day",
     "conversion": {
@@ -32470,24 +32485,6 @@
     "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
   },
   {
-    "externalId": "inverse_length:per_metre",
-    "name": "per metre",
-    "quantity": "Inverse Length",
-    "longName": "per metre",
-    "aliasNames": [
-      "per metre",
-      "Per Metre",
-      "1/m"
-    ],
-    "symbol": "1/m",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "energistics.org",
-    "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
     "externalId": "reciprocal_mass_time:becquerel_per_kilogram",
     "name": "becquerel per kilogram",
     "quantity": "Reciprocal Mass Time",
@@ -32517,24 +32514,6 @@
       "ΔK"
     ],
     "symbol": "ΔK",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "energistics.org",
-    "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
-    "externalId": "temperature_gradient:delta_kelvin_per_metre",
-    "name": "delta kelvin per metre",
-    "quantity": "Temperature Gradient",
-    "longName": "delta kelvin per metre",
-    "aliasNames": [
-      "delta kelvin per metre",
-      "Delta Kelvin Per Metre",
-      "deltaK/m"
-    ],
-    "symbol": "deltaK/m",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0
@@ -32589,24 +32568,6 @@
       "C/kg"
     ],
     "symbol": "C/kg",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "energistics.org",
-    "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
-    "externalId": "resistivity:ohm_metre",
-    "name": "ohm metre",
-    "quantity": "Resistivity",
-    "longName": "ohm metre",
-    "aliasNames": [
-      "ohm metre",
-      "Ohm Metre",
-      "ohm.m"
-    ],
-    "symbol": "ohm.m",
     "conversion": {
       "multiplier": 1.0,
       "offset": 0.0
@@ -33019,24 +32980,6 @@
     "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
   },
   {
-    "externalId": "volume_flow_rate:million_cubic_metre_per_day",
-    "name": "million cubic metre per day",
-    "quantity": "Volume Flow Rate",
-    "longName": "million cubic metre per day",
-    "aliasNames": [
-      "million cubic metre per day",
-      "Million Cubic Metre Per Day",
-      "1E6 m3/d"
-    ],
-    "symbol": "1E6 m3/d",
-    "conversion": {
-      "multiplier": 11.574074074074074,
-      "offset": 0.0
-    },
-    "source": "energistics.org",
-    "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
     "externalId": "volume_flow_rate:cubic_decimetre_per_second",
     "name": "cubic decimetre per second",
     "quantity": "Volume Flow Rate",
@@ -33065,24 +33008,6 @@
     "symbol": "kg/dm3",
     "conversion": {
       "multiplier": 1000.0,
-      "offset": 0.0
-    },
-    "source": "energistics.org",
-    "sourceReference": "https://www.energistics.org/standards-initiatives/units-of-measure-standard/"
-  },
-  {
-    "externalId": "density:pound-mass_per_cubic_inch",
-    "name": "pound-mass per cubic inch",
-    "quantity": "Density",
-    "longName": "pound-mass per cubic inch",
-    "aliasNames": [
-      "pound-mass per cubic inch",
-      "Pound-mass Per Cubic Inch",
-      "lbm/in3"
-    ],
-    "symbol": "lbm/in3",
-    "conversion": {
-      "multiplier": 27679.904710203125,
       "offset": 0.0
     },
     "source": "energistics.org",

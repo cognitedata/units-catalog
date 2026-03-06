@@ -532,7 +532,7 @@
             },
             {
                 "name": "Reciprocal Mass Time",
-                "unitExternalId": "reciprocal_mass_time:per__kilogram_per_second_"
+                "unitExternalId": "reciprocal_mass_time:becquerel_per_kilogram"
             },
             {
                 "name": "Reciprocal Pressure",
@@ -1249,7 +1249,7 @@
             },
             {
                 "name": "Reciprocal Mass Time",
-                "unitExternalId": "reciprocal_mass_time:per__kilogram_per_second_"
+                "unitExternalId": "reciprocal_mass_time:becquerel_per_kilogram"
             },
             {
                 "name": "Reciprocal Pressure",

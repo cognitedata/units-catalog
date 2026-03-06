@@ -809,11 +809,11 @@
             },
             {
                 "name": "Attenuation",
-                "unitExternalId": "attenuation:decib"
+                "unitExternalId": "attenuation:neper"
             },
             {
                 "name": "Attenuation Per Frequency Interval",
-                "unitExternalId": "attenuation_per_frequency_interval:bel_per_octave"
+                "unitExternalId": "attenuation_per_frequency_interval:neper_per_hertz"
             },
             {
                 "name": "Capacitance",
@@ -957,7 +957,7 @@
             },
             {
                 "name": "Frequency Interval",
-                "unitExternalId": "frequency_interval:octave"
+                "unitExternalId": "frequency_interval:hertz"
             },
             {
                 "name": "Heat Capacity",
@@ -1017,7 +1017,7 @@
             },
             {
                 "name": "Logarithmic Power Ratio Per Length",
-                "unitExternalId": "logarithmic_power_ratio_per_length:bel_per_metre"
+                "unitExternalId": "logarithmic_power_ratio_per_length:neper_per_metre"
             },
             {
                 "name": "Luminance",
@@ -1093,7 +1093,7 @@
             },
             {
                 "name": "Mobility",
-                "unitExternalId": "mobility:teradarcy-api_per_pascal_second"
+                "unitExternalId": "mobility:square_metre_per_pascal_second"
             },
             {
                 "name": "Molar Energy",
@@ -1121,7 +1121,7 @@
             },
             {
                 "name": "Normalized Power",
-                "unitExternalId": "normalized_power:bel_watt"
+                "unitExternalId": "normalized_power:neper"
             },
             {
                 "name": "Permeability",
@@ -1129,7 +1129,7 @@
             },
             {
                 "name": "Permeability Length",
-                "unitExternalId": "permeability_length:teradarcy-api_metre"
+                "unitExternalId": "permeability_length:cubic_metre"
             },
             {
                 "name": "Permittivity",
@@ -1137,7 +1137,7 @@
             },
             {
                 "name": "Potential Difference Per Power Drop",
-                "unitExternalId": "potential_difference_per_power_drop:volt_per_bel"
+                "unitExternalId": "potential_difference_per_power_drop:volt_per_neper"
             },
             {
                 "name": "Power",
@@ -1245,7 +1245,7 @@
             },
             {
                 "name": "Rock Permeability",
-                "unitExternalId": "rock_permeability:teradarcy-api"
+                "unitExternalId": "rock_permeability:square_metre"
             },
             {
                 "name": "Second Moment Of Area",
@@ -1253,7 +1253,7 @@
             },
             {
                 "name": "Signaling Event Per Time",
-                "unitExternalId": "signaling_event_per_time:baud"
+                "unitExternalId": "signaling_event_per_time:per_second"
             },
             {
                 "name": "Solid Angle",
@@ -1265,7 +1265,7 @@
             },
             {
                 "name": "Standard Volume",
-                "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
+                "unitExternalId": "standard_volume:cubic_metre"
             },
             {
                 "name": "Surface Tension",
@@ -1281,7 +1281,7 @@
             },
             {
                 "name": "Temperature Interval",
-                "unitExternalId": "temperature_interval:delta_celsius"
+                "unitExternalId": "temperature_interval:delta_kelvin"
             },
             {
                 "name": "Temperature Interval Per Pressure",
@@ -1289,7 +1289,7 @@
             },
             {
                 "name": "Temperature Interval Per Time",
-                "unitExternalId": "temperature_interval_per_time:delta_celsius_per_second"
+                "unitExternalId": "temperature_interval_per_time:delta_kelvin_per_second"
             },
             {
                 "name": "Thermal Conductance",
@@ -1345,7 +1345,7 @@
             },
             {
                 "name": "Volume Flow Rate Fraction",
-                "unitExternalId": "volume_flow_rate_fraction:_barrel_per_day__per__barrel_per_day_"
+                "unitExternalId": "volume_flow_rate_fraction:_cubic_metre_per_second__per__cubic_metre_per_second_"
             },
             {
                 "name": "Volume Flow Rate Length",

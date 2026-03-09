@@ -9377,7 +9377,10 @@
       "bbls/day",
       "BBl/d",
       "bbl./d",
-      "BBL/D"
+      "BBL/D",
+      "RB/d",
+      "rb/d",
+      "Reservoir Barrel Per Day"
     ],
     "symbol": "bbl/day",
     "conversion": {
@@ -12252,9 +12255,9 @@
     "sourceReference": null
   },
   {
-    "externalId": "well_index:stbday-per-psi",
+    "externalId": "productivity_index:stbday-per-psi",
     "name": "STBDAY-PER-PSI",
-    "quantity": "Well Index",
+    "quantity": "Productivity Index",
     "longName": "Stock Tank Barrel Per Day Per Psi",
     "aliasNames": [
       "STB/d/psi",
@@ -12272,7 +12275,7 @@
       "multiplier": 2.668884e-10,
       "offset": 0.0
     },
-    "source": "https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "https://wiki.aapg.org/Fluid_flow_fundamentals",
     "sourceReference": null
   }
 ]

@@ -529,8 +529,8 @@
         "unitExternalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi"
       },
       {
-        "name": "Well Index",
-        "unitExternalId": "well_index:stbday-per-psi"
+        "name": "Productivity Index",
+        "unitExternalId": "productivity_index:stbday-per-psi"
       }
     ]
   }

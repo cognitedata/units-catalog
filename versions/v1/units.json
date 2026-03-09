@@ -9377,10 +9377,7 @@
       "bbls/day",
       "BBl/d",
       "bbl./d",
-      "BBL/D",
-      "RB/d",
-      "rb/d",
-      "Reservoir Barrel Per Day"
+      "BBL/D"
     ],
     "symbol": "bbl/day",
     "conversion": {
@@ -12264,7 +12261,11 @@
       "stb/d/psi",
       "STB/D/psi",
       "stbd/psi",
-      "STBD/psi"
+      "STBD/psi",
+      "STB/day/psi",
+      "stb/day/psi",
+      "STBD/PSI",
+      "stbd/PSI"
     ],
     "symbol": "STB/d/psi",
     "conversion": {

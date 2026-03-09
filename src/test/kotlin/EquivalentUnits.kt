@@ -57,6 +57,8 @@ class EquivalentUnits {
             "volume:m3",
             "volume:microl",
             "volume:millim3",
+            "volume_flow_rate:bbl_us-per-day",
+            "volume_flow_rate:rb-per-day",
             "volume_flow_rate:centim3-per-sec",
             "volume_flow_rate:millil-per-sec",
             "volume_flow_rate:decim3-per-min",

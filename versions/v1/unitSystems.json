@@ -225,10 +225,6 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
-      },
-      {
-        "name": "Productivity Index",
-        "unitExternalId": "productivity_index:stbday-per-psi"
       }
     ]
   },
@@ -531,11 +527,8 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi"
-      },
-      {
-        "name": "Productivity Index",
-        "unitExternalId": "productivity_index:stbday-per-psi"
       }
     ]
   }
 ]
+

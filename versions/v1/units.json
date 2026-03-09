@@ -9377,10 +9377,7 @@
       "bbls/day",
       "BBl/d",
       "bbl./d",
-      "BBL/D",
-      "RB/d",
-      "rb/d",
-      "Reservoir Barrel Per Day"
+      "BBL/D"
     ],
     "symbol": "bbl/day",
     "conversion": {
@@ -9389,6 +9386,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US-PER-DAY"
+  },
+  {
+    "externalId": "volume_flow_rate:rb-per-day",
+    "name": "RB-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Reservoir Barrel Per Day (at Standard Conditions)",
+    "aliasNames": [
+      "RB/d",
+      "rb/d",
+      "Reservoir Barrel Per Day",
+      "reservoir barrel per day",
+      "RB/D",
+      "RBPD",
+      "rbpd"
+    ],
+    "symbol": "RB/d",
+    "conversion": {
+      "multiplier": 1.84013e-06,
+      "offset": 0.0
+    },
+    "source": "https://wiki.aapg.org/Fluid_flow_fundamentals",
+    "sourceReference": "Defined at standard surface conditions (60°F, 14.7 psia). At these conditions RB/d is numerically equivalent to STB/d. Conversion factor identical to STB/d (1 barrel = 0.158987 m³, 1 day = 86400 s)."
   },
   {
     "externalId": "volume_flow_rate:bbl_us_pet-per-hr",
@@ -12151,7 +12170,8 @@
       "bbl per psi d",
       "bbl/psi/day",
       "barrels per (psi.d)",
-      "bbl per (psi.d)"
+      "bbl per (psi.d)",
+      "STB/d/psi"
     ],
     "symbol": "bbl/(psi.d)",
     "conversion": {
@@ -12252,30 +12272,6 @@
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": null
-  },
-  {
-    "externalId": "productivity_index:stbday-per-psi",
-    "name": "STBDAY-PER-PSI",
-    "quantity": "Productivity Index",
-    "longName": "Stock Tank Barrel Per Day Per Psi",
-    "aliasNames": [
-      "STB/d/psi",
-      "stb/d/psi",
-      "STB/D/psi",
-      "stbd/psi",
-      "STBD/psi",
-      "STB/day/psi",
-      "stb/day/psi",
-      "STBD/PSI",
-      "stbd/PSI"
-    ],
-    "symbol": "STB/d/psi",
-    "conversion": {
-      "multiplier": 2.668884e-10,
-      "offset": 0.0
-    },
-    "source": "https://wiki.aapg.org/Fluid_flow_fundamentals",
     "sourceReference": null
   }
 ]

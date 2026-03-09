@@ -5545,7 +5545,8 @@
     "aliasNames": [
       "Horsepower",
       "horsepower",
-      "HP"
+      "HP",
+      "hp"
     ],
     "symbol": "HP",
     "conversion": {
@@ -6995,7 +6996,7 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
-  },  
+  },
   {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
@@ -8377,7 +8378,8 @@
       "foot per SEC",
       "FT per second",
       "Foot per Second",
-      "Foot / s"
+      "Foot / s",
+      "ft/s"
     ],
     "symbol": "ft/s",
     "conversion": {
@@ -9375,7 +9377,10 @@
       "bbls/day",
       "BBl/d",
       "bbl./d",
-      "BBL/D"
+      "BBL/D",
+      "RB/d",
+      "rb/d",
+      "Reservoir Barrel Per Day"
     ],
     "symbol": "bbl/day",
     "conversion": {
@@ -12093,7 +12098,8 @@
       "LB/day",
       "lb/Day",
       "LB/Day",
-      "lbm/Day"
+      "lbm/Day",
+      "lbm/d"
     ],
     "symbol": "lbm/d",
     "conversion": {
@@ -12246,6 +12252,26 @@
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "well_index:stbday-per-psi",
+    "name": "STBDAY-PER-PSI",
+    "quantity": "Well Index",
+    "longName": "Stock Tank Barrel Per Day Per Psi",
+    "aliasNames": [
+      "STB/d/psi",
+      "stb/d/psi",
+      "STB/D/psi",
+      "stbd/psi",
+      "STBD/psi"
+    ],
+    "symbol": "STB/d/psi",
+    "conversion": {
+      "multiplier": 2.668884e-10,
+      "offset": 0.0
+    },
+    "source": "https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   }
 ]

@@ -9388,10 +9388,10 @@
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US-PER-DAY"
   },
   {
-    "externalId": "volume_flow_rate:rb-per-day",
+    "externalId": "reservoir_volume_flow_rate:rb-per-day",
     "name": "RB-PER-DAY",
-    "quantity": "Volume Flow Rate",
-    "longName": "Reservoir Barrel Per Day (at Standard Conditions)",
+    "quantity": "Reservoir Volume Flow Rate",
+    "longName": "Reservoir Barrel Per Day",
     "aliasNames": [
       "RB/d",
       "rb/d",
@@ -9403,11 +9403,11 @@
     ],
     "symbol": "RB/d",
     "conversion": {
-      "multiplier": 1.84013e-06,
+      "multiplier": 1.84e-06,
       "offset": 0.0
     },
-    "source": "https://wiki.aapg.org/Fluid_flow_fundamentals",
-    "sourceReference": "Defined at standard surface conditions (60°F, 14.7 psia). At these conditions RB/d is numerically equivalent to STB/d. Conversion factor identical to STB/d (1 barrel = 0.158987 m³, 1 day = 86400 s)."
+    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:bbl_us_pet-per-hr",

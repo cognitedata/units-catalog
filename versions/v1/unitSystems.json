@@ -225,6 +225,10 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
+      },
+      {
+        "name": "Reservoir Volume Flow Rate",
+        "unitExternalId": "reservoir_volume_flow_rate:rb-per-day"
       }
     ]
   },

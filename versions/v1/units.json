@@ -12273,5 +12273,69 @@
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
+  },
+  {
+    "externalId": "pressure-ps:barg2",
+    "name": "BARG2",
+    "quantity": "PowerSpectrum",
+    "longName": "Square Barg",
+    "aliasNames": [
+      "Barg²",
+      "barg²",
+      "BARG²",
+      "Barg^2",
+      "barg^2",
+      "BARG^2",
+      "Barg2",
+      "barg2",
+      "square Barg",
+      "Square barg",
+      "square barg"
+    ],
+    "symbol": "Barg²",
+    "conversion": {
+      "multiplier": 1e10,
+      "offset": 0.0
+    },
+    "source": "custom",
+    "sourceReference": ""
+  },
+  {
+    "externalId": "pressure-psd:barg2-per-hz",
+    "name": "BARG2-PER-HZ",
+    "quantity": "PowerSpectralDensity",
+    "longName": "Square Barg per Hertz",
+    "aliasNames": [
+      "Barg²/Hz",
+      "barg²/Hz",
+      "BARG²/Hz",
+      "Barg^2/Hz",
+      "barg^2/Hz",
+      "BARG^2/Hz",
+      "Barg2/Hz",
+      "barg2/Hz",
+      "BARG2/Hz",
+      "Barg² / Hz",
+      "barg² / Hz",
+      "Barg^2 / Hz",
+      "barg^2 / Hz",
+      "square Barg per Hz",
+      "Square Barg per Hz",
+      "square barg per Hz",
+      "Square Barg per Hertz",
+      "square Barg per Hertz",
+      "square barg per Hertz",
+      "Barg²·Hz⁻¹",
+      "barg²·Hz⁻¹",
+      "Barg²·s",
+      "barg²·s"
+    ],
+    "symbol": "Barg²/Hz",
+    "conversion": {
+      "multiplier": 1e10,
+      "offset": 0.0
+    },
+    "source": "custom",
+    "sourceReference": ""
   }
 ]

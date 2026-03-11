@@ -119,6 +119,14 @@
         "unitExternalId": "power:w"
       },
       {
+        "name": "PowerSpectrum",
+        "unitExternalId": "pressure-ps:barg2"
+      },
+      {
+        "name": "PowerSpectralDensity",
+        "unitExternalId": "pressure-psd:barg2-per-hz"
+      },
+      {
         "name": "Pressure",
         "unitExternalId": "pressure:bar"
       },

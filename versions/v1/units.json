@@ -12275,7 +12275,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "pressure_ps:barg2",
+    "externalId": "powerspectrum:barg2",
     "name": "BARG2",
     "quantity": "PowerSpectrum",
     "longName": "Square Barg",
@@ -12301,7 +12301,7 @@
     "sourceReference": ""
   },
   {
-    "externalId": "pressure_psd:barg2-per-hz",
+    "externalId": "powerspectraldensity:barg2-per-hz",
     "name": "BARG2-PER-HZ",
     "quantity": "PowerSpectralDensity",
     "longName": "Square Barg per Hertz",

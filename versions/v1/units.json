@@ -5545,7 +5545,8 @@
     "aliasNames": [
       "Horsepower",
       "horsepower",
-      "HP"
+      "HP",
+      "hp"
     ],
     "symbol": "HP",
     "conversion": {
@@ -6995,7 +6996,7 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
-  },  
+  },
   {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
@@ -8377,7 +8378,8 @@
       "foot per SEC",
       "FT per second",
       "Foot per Second",
-      "Foot / s"
+      "Foot / s",
+      "ft/s"
     ],
     "symbol": "ft/s",
     "conversion": {
@@ -9384,6 +9386,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BBL_US-PER-DAY"
+  },
+  {
+    "externalId": "reservoir_volume_flow_rate:rb-per-day",
+    "name": "RB-PER-DAY",
+    "quantity": "Reservoir Volume Flow Rate",
+    "longName": "Reservoir Barrel Per Day",
+    "aliasNames": [
+      "RB/d",
+      "rb/d",
+      "Reservoir Barrel Per Day",
+      "reservoir barrel per day",
+      "RB/D",
+      "RBPD",
+      "rbpd"
+    ],
+    "symbol": "RB/d",
+    "conversion": {
+      "multiplier": 1.84e-06,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:bbl_us_pet-per-hr",
@@ -12093,7 +12117,8 @@
       "LB/day",
       "lb/Day",
       "LB/Day",
-      "lbm/Day"
+      "lbm/Day",
+      "lbm/d"
     ],
     "symbol": "lbm/d",
     "conversion": {
@@ -12145,7 +12170,8 @@
       "bbl per psi d",
       "bbl/psi/day",
       "barrels per (psi.d)",
-      "bbl per (psi.d)"
+      "bbl per (psi.d)",
+      "STB/d/psi"
     ],
     "symbol": "bbl/(psi.d)",
     "conversion": {

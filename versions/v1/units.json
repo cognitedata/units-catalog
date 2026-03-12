@@ -12292,7 +12292,7 @@
       "Square barg",
       "square barg"
     ],
-    "symbol": "Barg²",
+    "symbol": "barg²",
     "conversion": {
       "multiplier": 1e10,
       "offset": 0.0

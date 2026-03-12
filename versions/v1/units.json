@@ -12335,7 +12335,7 @@
       "multiplier": 1e10,
       "offset": 0.0
     },
-    "source": "custom",
+    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": ""
   }
 ]

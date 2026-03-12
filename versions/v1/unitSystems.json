@@ -119,11 +119,11 @@
         "unitExternalId": "power:w"
       },
       {
-        "name": "PowerSpectrum",
+        "name": "Pressure Squared",
         "unitExternalId": "powerspectrum:barg2"
       },
       {
-        "name": "PowerSpectralDensity",
+        "name": "Pressure Squared Per Frequency",
         "unitExternalId": "powerspectraldensity:barg2-per-hz"
       },
       {

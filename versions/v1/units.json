@@ -12330,7 +12330,7 @@
       "Barg²·s",
       "barg²·s"
     ],
-    "symbol": "Barg²/Hz",
+    "symbol": "barg²/Hz",
     "conversion": {
       "multiplier": 1e10,
       "offset": 0.0

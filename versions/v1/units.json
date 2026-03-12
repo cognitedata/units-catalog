@@ -12277,7 +12277,7 @@
   {
     "externalId": "powerspectrum:barg2",
     "name": "BARG2",
-    "quantity": "PowerSpectrum",
+    "quantity": "Pressure Squared",
     "longName": "Square Barg",
     "aliasNames": [
       "Barg²",

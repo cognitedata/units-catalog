@@ -120,11 +120,11 @@
       },
       {
         "name": "Pressure Squared",
-        "unitExternalId": "powerspectrum:barg2"
+        "unitExternalId": "pressure_squared:barg2"
       },
       {
         "name": "Pressure Squared Per Frequency",
-        "unitExternalId": "powerspectraldensity:barg2-per-hz"
+        "unitExternalId": "pressure_squared_per_frequency:barg2-per-hz"
       },
       {
         "name": "Pressure",
@@ -346,6 +346,14 @@
       {
         "name": "Power",
         "unitExternalId": "power:w"
+      },
+      {
+        "name": "Pressure Squared",
+        "unitExternalId": "pressure_squared:pa2"
+      },
+      {
+        "name": "Pressure Squared Per Frequency",
+        "unitExternalId": "pressure_squared_per_frequency:pa2-per-hz"
       },
       {
         "name": "Pressure",

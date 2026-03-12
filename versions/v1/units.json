@@ -12337,5 +12337,69 @@
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
+  },
+  {
+    "externalId": "pressure_squared:pa2",
+    "name": "PA2",
+    "quantity": "Pressure Squared",
+    "longName": "Pascal Squared",
+    "aliasNames": [
+      "Pa²",
+      "pa²",
+      "PA²",
+      "Pa^2",
+      "pa^2",
+      "PA^2",
+      "Pa2",
+      "pa2",
+      "square Pa",
+      "Square pa",
+      "square pa"
+    ],
+    "symbol": "Pa²",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "pressure_squared_per_frequency:pa2-per-hz",
+    "name": "PA2-PER-HZ",
+    "quantity": "Pressure Squared Per Frequency",
+    "longName": "Pascal Squared per Hertz",
+    "aliasNames": [
+      "Pa²/Hz",
+      "pa²/Hz",
+      "PA²/Hz",
+      "Pa^2/Hz",
+      "pa^2/Hz",
+      "PA^2/Hz",
+      "Pa2/Hz",
+      "pa2/Hz",
+      "PA2/Hz",
+      "Pa² / Hz",
+      "pa² / Hz",
+      "Pa^2 / Hz",
+      "pa^2 / Hz",
+      "square Pa per Hz",
+      "Square Pa per Hz",
+      "square pa per Hz",
+      "Square Pa per Hertz",
+      "square Pa per Hertz",
+      "square pa per Hertz",
+      "Pa²·Hz⁻¹",
+      "pa²·Hz⁻¹",
+      "Pa²·s",
+      "pa²·s"
+    ],
+    "symbol": "Pa²/Hz",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   }
 ]

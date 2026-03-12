@@ -12303,7 +12303,7 @@
   {
     "externalId": "powerspectraldensity:barg2-per-hz",
     "name": "BARG2-PER-HZ",
-    "quantity": "PowerSpectralDensity",
+    "quantity": "Pressure Squared Per Frequency",
     "longName": "Square Barg per Hertz",
     "aliasNames": [
       "Barg²/Hz",

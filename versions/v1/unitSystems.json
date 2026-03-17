@@ -120,11 +120,11 @@
       },
       {
         "name": "Pressure Squared",
-        "unitExternalId": "pressure_squared:barg2"
+        "unitExternalId": "pressure_squared:bar2"
       },
       {
         "name": "Pressure Squared Per Frequency",
-        "unitExternalId": "pressure_squared_per_frequency:barg2-per-hz"
+        "unitExternalId": "pressure_squared_per_frequency:bar2-per-hz"
       },
       {
         "name": "Pressure",

@@ -12298,7 +12298,7 @@
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": "Energistics"
+    "sourceReference": null
   },
   {
     "externalId": "pressure_squared_per_frequency:bar2-per-hz",

@@ -10,6 +10,24 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.25] - 2026-03-26
+### Added
+- Added new quantity `Pressure Squared` with the following units:
+  - Pascal Squared (Pa²)
+  - Bar Squared (bar²)
+- Added new quantity `Pressure Squared Per Frequency` with the following units:
+  - Pascal Squared per Hertz (Pa²/Hz)
+  - Bar Squared per Hertz (bar²/Hz)
+- Added new quantity `Reservoir Volume Flow Rate` with the following unit:
+  - Reservoir Barrel Per Day (RB/d)
+- Added new aliases for existing units
+
+### Changed
+- Corrected Reactive Power unit symbols from `VA{Reactive}`/`kVA{Reactive}`/`MVA{Reactive}` to `var`/`kvar`/`Mvar` per IEC standard
+
+### Fixed
+- Standardized all `longName` fields to proper title case across 51 unit entries
+
 ## [0.1.24] - 2025-11-05
 ### Added
 - Added new quantity `Standard Volume` with the following units:

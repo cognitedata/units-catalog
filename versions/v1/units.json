@@ -1424,7 +1424,7 @@
     ],
     "symbol": "lbm/ft³",
     "conversion": {
-      "multiplier": 16.018463373960138,
+      "multiplier": 16.018463374,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -1504,7 +1504,7 @@
     ],
     "symbol": "lbm/in³",
     "conversion": {
-      "multiplier": 27679.904710203125,
+      "multiplier": 27679.9047102,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -1555,7 +1555,7 @@
     ],
     "symbol": "lbm/yd³",
     "conversion": {
-      "multiplier": 0.5932764212577829,
+      "multiplier": 0.593276421258,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -1983,7 +1983,7 @@
     ],
     "symbol": "lbm/(ft⋅h)",
     "conversion": {
-      "multiplier": 0.0004133788732137649,
+      "multiplier": 0.000413378873214,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -2098,7 +2098,7 @@
     ],
     "symbol": "lbm/(ft⋅s)",
     "conversion": {
-      "multiplier": 1.4881639435695537,
+      "multiplier": 1.48816394357,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -2282,7 +2282,7 @@
     ],
     "symbol": "A/h",
     "conversion": {
-      "multiplier": 0.0002777777777777778,
+      "multiplier": 0.000277777777778,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/A and https://qudt.org/vocab/unit/HR",
@@ -2311,7 +2311,7 @@
     ],
     "symbol": "A/min",
     "conversion": {
-      "multiplier": 0.016666666666666666,
+      "multiplier": 0.0166666666667,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/A and https://qudt.org/vocab/unit/MIN",
@@ -2578,7 +2578,7 @@
     ],
     "symbol": "ft⋅lbf",
     "conversion": {
-      "multiplier": 1.355817948331400399999999999999999,
+      "multiplier": 1.35581794833,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3234,7 +3234,7 @@
     ],
     "symbol": "Btu{th}/ft³",
     "conversion": {
-      "multiplier": 37234.02819853084296428143745759641,
+      "multiplier": 37234.0281985,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3470,7 +3470,7 @@
     ],
     "symbol": "klbf",
     "conversion": {
-      "multiplier": 4448.221615260499999999999999999998,
+      "multiplier": 4448.22161526,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3560,7 +3560,7 @@
     ],
     "symbol": "lbf",
     "conversion": {
-      "multiplier": 4.448221615260499999999999999999998,
+      "multiplier": 4.44822161526,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3579,7 +3579,7 @@
     ],
     "symbol": "Mlbf",
     "conversion": {
-      "multiplier": 4448221.615260499999999999999999998,
+      "multiplier": 4448221.61526,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3704,7 +3704,7 @@
     ],
     "symbol": "#/h",
     "conversion": {
-      "multiplier": 0.000277777777777778,
+      "multiplier": 0.000277777777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3795,7 +3795,7 @@
     ],
     "symbol": "#/yr",
     "conversion": {
-      "multiplier": 3.168808781402895e-08,
+      "multiplier": 3.1688087814e-08,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -3818,7 +3818,7 @@
     ],
     "symbol": "/min",
     "conversion": {
-      "multiplier": 0.01666666666666666666666666666666667,
+      "multiplier": 0.0166666666667,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -4705,7 +4705,7 @@
     ],
     "symbol": "lbm/h",
     "conversion": {
-      "multiplier": 0.00012599788055555556,
+      "multiplier": 0.000125997880556,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -4756,7 +4756,7 @@
     ],
     "symbol": "lbm/min",
     "conversion": {
-      "multiplier": 0.007559872833333333,
+      "multiplier": 0.00755987283333,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -4838,7 +4838,7 @@
     ],
     "symbol": "t/day",
     "conversion": {
-      "multiplier": 0.011574074074074,
+      "multiplier": 0.0115740740741,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -4887,7 +4887,7 @@
     ],
     "symbol": "t/h",
     "conversion": {
-      "multiplier": 0.277777777777778,
+      "multiplier": 0.277777777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -4936,7 +4936,7 @@
     ],
     "symbol": "t/min",
     "conversion": {
-      "multiplier": 16.666666666666668,
+      "multiplier": 16.6666666667,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5252,7 +5252,7 @@
     ],
     "symbol": "ft⋅lbf/h",
     "conversion": {
-      "multiplier": 0.0003766160967587223333333333333333332,
+      "multiplier": 0.000376616096759,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5511,7 +5511,7 @@
     ],
     "symbol": "ft⋅lbf/s",
     "conversion": {
-      "multiplier": 1.355817948331400399999999999999999,
+      "multiplier": 1.35581794833,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5567,7 +5567,7 @@
     ],
     "symbol": "GJ/h",
     "conversion": {
-      "multiplier": 2.777777777777777777777777777777778E5,
+      "multiplier": 277777.777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5600,7 +5600,7 @@
     ],
     "symbol": "J/h",
     "conversion": {
-      "multiplier": 2.777777777777777777777777777777778E-4,
+      "multiplier": 0.000277777777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -5629,7 +5629,7 @@
     ],
     "symbol": "J/min",
     "conversion": {
-      "multiplier": 1.666666666666666666666666666666667E-2,
+      "multiplier": 0.0166666666667,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -6345,7 +6345,7 @@
     ],
     "symbol": "kpsi",
     "conversion": {
-      "multiplier": 6894757.293168361336722673445346887,
+      "multiplier": 6894757.29317,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -6480,7 +6480,7 @@
     ],
     "symbol": "lbf/ft²",
     "conversion": {
-      "multiplier": 47.88025898033584261612967670379783,
+      "multiplier": 47.8802589803,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -6809,7 +6809,7 @@
     ],
     "symbol": "psi",
     "conversion": {
-      "multiplier": 6894.757293168361336722673445346887,
+      "multiplier": 6894.75729317,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -7316,7 +7316,7 @@
     ],
     "symbol": "ft⋅lbf/ft²",
     "conversion": {
-      "multiplier": 14.59390293720636482939632545931758,
+      "multiplier": 14.5939029372,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -7882,7 +7882,7 @@
     ],
     "symbol": "°F",
     "conversion": {
-      "multiplier": 0.5555555555555556,
+      "multiplier": 0.555555555556,
       "offset": 459.67
     },
     "source": "qudt.org",
@@ -7918,7 +7918,7 @@
     ],
     "symbol": "°R",
     "conversion": {
-      "multiplier": 0.5555555555555556,
+      "multiplier": 0.555555555556,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8211,7 +8211,7 @@
     ],
     "symbol": "lbf⋅ft",
     "conversion": {
-      "multiplier": 1.355817948331400399999999999999999,
+      "multiplier": 1.35581794833,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8340,7 +8340,7 @@
     ],
     "symbol": "ft/h",
     "conversion": {
-      "multiplier": 8.466666666666667e-05,
+      "multiplier": 8.46666666667e-05,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8489,7 +8489,7 @@
     ],
     "symbol": "km/h",
     "conversion": {
-      "multiplier": 0.2777777777777778,
+      "multiplier": 0.277777777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8563,7 +8563,7 @@
     ],
     "symbol": "kn",
     "conversion": {
-      "multiplier": 0.5144444444444445,
+      "multiplier": 0.514444444444,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8847,7 +8847,7 @@
     ],
     "quantity": "Velocity",
     "conversion": {
-      "multiplier": 3.168808781402895023702689684893655E-11,
+      "multiplier": 3.1688087814e-11,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8880,7 +8880,7 @@
     ],
     "symbol": "mm/wk",
     "conversion": {
-      "multiplier": 1.6534391534391535e-09,
+      "multiplier": 1.65343915344e-09,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/MilliM and https://qudt.org/vocab/unit/WK",
@@ -8913,7 +8913,7 @@
     ],
     "symbol": "m/min",
     "conversion": {
-      "multiplier": 0.016666666666666666,
+      "multiplier": 0.0166666666667,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -8946,7 +8946,7 @@
     ],
     "symbol": "km/wk",
     "conversion": {
-      "multiplier": 0.001653439153439153,
+      "multiplier": 0.00165343915344,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloM and https://qudt.org/vocab/unit/WK",
@@ -9731,7 +9731,7 @@
     ],
     "symbol": "ft³/min",
     "conversion": {
-      "multiplier": 0.0004719474432000001,
+      "multiplier": 0.0004719474432,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -9772,7 +9772,7 @@
     ],
     "symbol": "ft³/s",
     "conversion": {
-      "multiplier": 0.028316846592000004,
+      "multiplier": 0.028316846592,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -10001,7 +10001,7 @@
     ],
     "symbol": "kL/h",
     "conversion": {
-      "multiplier": 0.0002777777777777777777777777777777778,
+      "multiplier": 0.000277777777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -10189,7 +10189,7 @@
     ],
     "symbol": "Mm³/day",
     "conversion": {
-      "multiplier": 1.157407407407407407407407407407407e01,
+      "multiplier": 11.5740740741,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
@@ -10315,7 +10315,7 @@
     ],
     "symbol": "m³/h",
     "conversion": {
-      "multiplier": 0.0002777777777777778,
+      "multiplier": 0.000277777777778,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -11296,7 +11296,7 @@
     ],
     "symbol": "°/m",
     "conversion": {
-      "multiplier": 0.0174532925199433,
+      "multiplier": 0.0174532925199,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -11622,7 +11622,7 @@
     ],
     "symbol": "lbm/ft²",
     "conversion": {
-      "multiplier": 4.882427636383050543878865535508848,
+      "multiplier": 4.88242763638,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -11828,7 +11828,7 @@
     ],
     "symbol": "ft³/bbl",
     "conversion": {
-      "multiplier": 0.178107606679035,
+      "multiplier": 0.178107606679,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12068,7 +12068,7 @@
     ],
     "symbol": "kft³/bbl",
     "conversion": {
-      "multiplier": 178.107606679035,
+      "multiplier": 178.107606679,
       "offset": 0.0
     },
     "source": "Energistics",

@@ -34,7 +34,7 @@ Each item in the `units.json` has the following structure:
 - `symbol`: The symbol for the unit (e.g., `°C`).
 - `aliasNames`: An array of possible **aliases** for the unit.
 - `quantity`: Specifies the physical quantity the unit measures (e.g., `Temperature`).
-- `conversion`: An object containing **multiplier** and **offset** values for converting between units. Store at most **12 significant digits**.
+- `conversion`: An object containing **multiplier** and **offset** values for converting between units.
 - `source`: The primary source of the unit (e.g., `qudt.org`).
 - `sourceReference`: A URL reference to the unit definition on an external source, if available. For QUDT units, this must follow the format `https://qudt.org/vocab/unit/{UNIT_NAME}` where UNIT_NAME matches the `name` field.
 

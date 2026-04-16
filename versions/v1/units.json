@@ -7137,7 +7137,7 @@
       "offset": 0.0
     },
     "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": "null"
+    "sourceReference": null
   },
   {
     "externalId": "standard_volume:kilo_scf_1atm_60deg_f",
@@ -11961,7 +11961,7 @@
       "offset": 0.0
     },
     "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions(scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
-    "sourceReference": "null"
+    "sourceReference": null
   },
   {
     "externalId": "liquid_gas_ratio:sm3-per-sm3",

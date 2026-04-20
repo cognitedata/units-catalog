@@ -10,6 +10,25 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.26] - 2026-04-21
+### Changed
+- Aligned conversion multipliers with the latest QUDT definitions, increasing precision (IEEE 754 double) for many units across `Angle`, `Angular Acceleration`, `Angular Velocity`, `Density`, `Dynamic Viscosity`, `Energy`, `Energy Density`, `Torque`, and others
+- Updated symbols for consistency with QUDT:
+  - Pound mass density/flow units now use `lbm` instead of `lb` (e.g. `lb/ft³` → `lbm/ft³`, `lb/in³` → `lbm/in³`, `lb/yd³` → `lbm/yd³`, `lb/(ft⋅h)` → `lbm/(ft⋅h)`, `lb/(ft⋅s)` → `lbm/(ft⋅s)`, `lb/h` → `lbm/h`, `lb/min` → `lbm/min`, `lb/s` → `lbm/s`, `lb/ft²` → `lbm/ft²`)
+  - Ounce per cubic inch: `oz/in³{US}` → `oz/in³`
+  - Kilovolt Ampere Hour: `kV⋅A/h` → `kV·A·h` (and removed misleading `kV ⋅ A / hr` alias)
+  - Megaton of Oil Equivalent: `megatoe` → `Mtoe`
+  - Degrees per meter / per 30 meters: `deg/m` → `°/m`, `deg/30m` → `°/30m`
+
+### Fixed
+- Corrected conversion multiplier for Energy unit Kilo British Thermal Unit (International Definition) (`kBtu{IT}`)
+- Fixed typo in Pressure unit Inch Of Water symbol: `inH₂0` → `inH₂O`
+- Updated source reference for Pressure Gradient unit `Pascal Per Meter` (`Pa/m`) to point to the canonical QUDT entry
+- Fixed inconsistent `null` representation for `sourceReference` (string `"null"` → JSON `null`)
+
+### Added
+- Automated Maven Central release workflow: pushes to `main` that bump `pom.xml` are now released, tagged, and published to GitHub Releases automatically (see [RELEASING.md](RELEASING.md))
+
 ## [0.1.25] - 2026-03-26
 ### Added
 - Added new quantity `Pressure Squared` with the following units:

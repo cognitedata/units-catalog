@@ -63,6 +63,8 @@ class EquivalentUnits {
             "volume_flow_rate:l-per-min",
             "volume_flow_rate:decim3-per-sec",
             "volume_flow_rate:l-per-sec",
+            "volume_flow_rate:kilol-per-hr",
+            "volume_flow_rate:m3-per-hr",
             "volume_fraction:centim3-per-centim3",
             "volume_fraction:l-per-l",
             "volume_fraction:m3-per-m3",

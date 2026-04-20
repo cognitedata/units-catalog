@@ -10,8 +10,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     environment: CD
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
+
     - name: Set up Apache Maven Central
       uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4
       with: # running setup-java again overwrites the settings.xml
@@ -31,7 +34,7 @@ jobs:
     - name: Detect version change
       id: detect
       run: |
-        CENTRAL_VERSION=$(curl -H "Accept: application/json" -L "https://central.sonatype.com/solrsearch/select?q=g:com.cognite.units+a:units-catalog&rows=1&wt=json" | jq -r '.response.docs[0].latestVersion')
+        CENTRAL_VERSION=$(curl -H "Accept: application/json" -L "https://central.sonatype.com/solrsearch/select?q=g:com.cognite.units+a:units-catalog&rows=1&wt=json" | ./jq -r '.response.docs[0].latestVersion')
         MVN_VERSION=$(mvn -q \
             -Dexec.executable=echo \
             -Dexec.args='${project.version}' \
@@ -42,7 +45,21 @@ jobs:
         echo "central_version=$CENTRAL_VERSION" >> $GITHUB_OUTPUT
         echo "maven_version=$MVN_VERSION" >> $GITHUB_OUTPUT
 
+    - name: Check if GitHub release exists for current version
+      id: gh_release_check
+      if: ${{ !endsWith(steps.detect.outputs.maven_version, 'SNAPSHOT') }}
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        V="${{ steps.detect.outputs.maven_version }}"
+        if gh release view "v${V}" >/dev/null 2>&1; then
+          echo "release_missing=false" >> $GITHUB_OUTPUT
+        else
+          echo "release_missing=true" >> $GITHUB_OUTPUT
+        fi
+
     - name: Publish to Apache Maven Central
+      id: maven_deploy
       if: ${{ !endsWith(steps.detect.outputs.maven_version, 'SNAPSHOT') && steps.detect.outputs.maven_version != steps.detect.outputs.central_version }}
       run: |
         mvn -B clean deploy -P release
@@ -50,3 +67,66 @@ jobs:
         MAVEN_USERNAME: ${{ secrets.SONATYPE_CENTRAL_PORTAL_USER }}
         MAVEN_CENTRAL_TOKEN: ${{ secrets.SONATYPE_CENTRAL_PORTAL_PASSWORD }}
         MAVEN_GPG_PASSPHRASE: ${{ secrets.SONATYPE_CENTRAL_PORTAL_GPG_KEY_PASSPHRASE }}
+
+    - name: Prepare GitHub release notes
+      if: >-
+        ${{ !endsWith(steps.detect.outputs.maven_version, 'SNAPSHOT')
+        && steps.gh_release_check.outputs.release_missing == 'true'
+        && (steps.maven_deploy.outcome == 'success'
+            || steps.detect.outputs.maven_version == steps.detect.outputs.central_version) }}
+      run: |
+        VERSION="${{ steps.detect.outputs.maven_version }}"
+        awk -v v="$VERSION" '
+          $0 ~ "^## \\["v"\\]" {flag=1; next}
+          flag && /^## \[/ {exit}
+          flag {print}
+        ' CHANGELOG.md > RELEASE_NOTES.md
+        if [ ! -s RELEASE_NOTES.md ]; then
+          echo "CHANGELOG.md has no section for version ${VERSION}"
+          exit 1
+        fi
+        {
+          echo ""
+          echo "---"
+          echo "Maven Central: https://central.sonatype.com/artifact/com.cognite.units/units-catalog/${VERSION}"
+        } >> RELEASE_NOTES.md
+
+    - name: Wait for Maven Central index (optional)
+      if: >-
+        ${{ !endsWith(steps.detect.outputs.maven_version, 'SNAPSHOT')
+        && steps.gh_release_check.outputs.release_missing == 'true'
+        && (steps.maven_deploy.outcome == 'success'
+            || steps.detect.outputs.maven_version == steps.detect.outputs.central_version) }}
+      continue-on-error: true
+      run: |
+        VERSION="${{ steps.detect.outputs.maven_version }}"
+        for i in $(seq 1 24); do
+          LATEST=$(curl -s -H "Accept: application/json" -L "https://central.sonatype.com/solrsearch/select?q=g:com.cognite.units+a:units-catalog&rows=1&wt=json" | ./jq -r '.response.docs[0].latestVersion')
+          if [ "$LATEST" = "$VERSION" ]; then
+            echo "Maven Central lists latestVersion=$VERSION"
+            exit 0
+          fi
+          echo "Attempt $i/24: latestVersion=$LATEST (want $VERSION), waiting 5s..."
+          sleep 5
+        done
+        echo "Timeout waiting for Central index; continuing."
+
+    - name: Create GitHub Release
+      if: >-
+        ${{ !endsWith(steps.detect.outputs.maven_version, 'SNAPSHOT')
+        && steps.gh_release_check.outputs.release_missing == 'true'
+        && (steps.maven_deploy.outcome == 'success'
+            || steps.detect.outputs.maven_version == steps.detect.outputs.central_version) }}
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        VERSION="${{ steps.detect.outputs.maven_version }}"
+        if gh release view "v${VERSION}" >/dev/null 2>&1; then
+          echo "Release v${VERSION} already exists, skipping."
+          exit 0
+        fi
+        gh release create "v${VERSION}" \
+          --title "v${VERSION}" \
+          --notes-file RELEASE_NOTES.md \
+          --target "${GITHUB_SHA}" \
+          --latest

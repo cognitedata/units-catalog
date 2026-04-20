@@ -87,6 +87,10 @@ The test suite includes duplicate detection (`DuplicatedUnitsTest`) that identif
 
 Known equivalent units are whitelisted in `src/test/kotlin/EquivalentUnits.kt`. The CI pipeline runs duplicate detection on every PR and posts results as a comment.
 
+## Releasing
+
+Maven Central publication, Git tags, and GitHub Releases are automated from `main` when the version in `pom.xml` is bumped. Maintainer steps and retry/backfill instructions are in [RELEASING.md](RELEASING.md).
+
 ## Attribution
 Some of the units are sourced from QUDT.org, which is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 These are marked with the `qudt.org` source.

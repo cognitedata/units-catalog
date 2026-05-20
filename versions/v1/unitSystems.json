@@ -83,6 +83,22 @@
         "unitExternalId": "frequency:hz"
       },
       {
+        "name": "Heat Transfer Coefficient",
+        "unitExternalId": "heat_transfer_coefficient:watt-per-m2k"
+      },
+      {
+        "name": "Heat Transfer Coefficient Gradient",
+        "unitExternalId": "heat_transfer_coefficient_gradient:watt-per-m2k-per-day"
+      },
+      {
+        "name": "Hydraulic Resistance",
+        "unitExternalId": "hydraulic_resistance:pa-per-m3s"
+      },
+      {
+        "name": "Hydraulic Resistance Gradient",
+        "unitExternalId": "hydraulic_resistance_gradient:pa-per-m3s-per-day"
+      },
+      {
         "name": "Inductance",
         "unitExternalId": "inductance:h"
       },
@@ -318,6 +334,22 @@
       {
         "name": "Frequency",
         "unitExternalId": "frequency:hz"
+      },
+      {
+        "name": "Heat Transfer Coefficient",
+        "unitExternalId": "heat_transfer_coefficient:watt-per-m2k"
+      },
+      {
+        "name": "Heat Transfer Coefficient Gradient",
+        "unitExternalId": "heat_transfer_coefficient_gradient:watt-per-m2k-per-day"
+      },
+      {
+        "name": "Hydraulic Resistance",
+        "unitExternalId": "hydraulic_resistance:pa-per-m3s"
+      },
+      {
+        "name": "Hydraulic Resistance Gradient",
+        "unitExternalId": "hydraulic_resistance_gradient:pa-per-m3s-per-day"
       },
       {
         "name": "Inductance",

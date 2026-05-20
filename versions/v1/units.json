@@ -12455,7 +12455,7 @@
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC and https://qudt.org/vocab/unit/DAY",
-    "sourceReference": 
+    "sourceReference": null
   },
   {
     "externalId": "heat_transfer_coefficient:watt-per-m2k",

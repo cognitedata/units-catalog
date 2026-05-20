@@ -12426,8 +12426,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC",
+    "sourceReference": null
   },
   {
     "externalId": "hydraulic_resistance_gradient:pa-per-m3s-per-day",
@@ -12454,8 +12454,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC and https://qudt.org/vocab/unit/DAY"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC and https://qudt.org/vocab/unit/DAY",
+    "sourceReference": 
   },
   {
     "externalId": "heat_transfer_coefficient:watt-per-m2k",
@@ -12483,8 +12483,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/W-PER-M2-K"
+    "source": "https://qudt.org/vocab/unit/W-PER-M2-K",
+    "sourceReference": null
   },
   {
     "externalId": "heat_transfer_coefficient_gradient:watt-per-m2k-per-day",
@@ -12512,7 +12512,7 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "Custom based on qudt.org - https://qudt.org/vocab/unit/W-PER-M2-K and https://qudt.org/vocab/unit/DAY"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/W-PER-M2-K and https://qudt.org/vocab/unit/DAY",
+    "sourceReference": null
   }
 ]

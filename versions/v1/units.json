@@ -12458,8 +12458,8 @@
     "sourceReference": null
   },
   {
-    "externalId": "coefficient_of_heat_transfer:watt-per-m2k",
-    "name": "WATT-PER-M2K",
+    "externalId": "coefficient_of_heat_transfer:w-per-m2-k",
+    "name": "W-PER-M2-K",
     "quantity": "Coefficient of Heat Transfer",
     "longName": "Watt per Square Meter Kelvin",
     "aliasNames": [

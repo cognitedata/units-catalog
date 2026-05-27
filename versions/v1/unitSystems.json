@@ -83,20 +83,20 @@
         "unitExternalId": "frequency:hz"
       },
       {
-        "name": "Heat Transfer Coefficient",
-        "unitExternalId": "heat_transfer_coefficient:watt-per-m2k"
+        "name": "Coefficient of Heat Transfer",
+        "unitExternalId": "coefficient_of_heat_transfer:w-per-m2-k"
       },
       {
-        "name": "Heat Transfer Coefficient Gradient",
-        "unitExternalId": "heat_transfer_coefficient_gradient:watt-per-m2k-per-day"
+        "name": "Coefficient of Heat Transfer Per Time",
+        "unitExternalId": "coefficient_of_heat_transfer_per_time:watt-per-m2k-per-day"
       },
       {
-        "name": "Hydraulic Resistance",
-        "unitExternalId": "hydraulic_resistance:pa-per-m3s"
+        "name": "Pressure in Relation to Squared Volume Flow Rate",
+        "unitExternalId": "pressure_in_relation_to_squared_volume_flow_rate:pa-per-m3s"
       },
       {
-        "name": "Hydraulic Resistance Gradient",
-        "unitExternalId": "hydraulic_resistance_gradient:pa-per-m3s-per-day"
+        "name": "Pressure in Relation to Squared Volume Flow Rate Per Time",
+        "unitExternalId": "pressure_in_relation_to_squared_volume_flow_rate_per_time:pa-per-m3s-per-day"
       },
       {
         "name": "Inductance",
@@ -336,20 +336,20 @@
         "unitExternalId": "frequency:hz"
       },
       {
-        "name": "Heat Transfer Coefficient",
-        "unitExternalId": "heat_transfer_coefficient:watt-per-m2k"
+        "name": "Coefficient of Heat Transfer",
+        "unitExternalId": "coefficient_of_heat_transfer:w-per-m2-k"
       },
       {
-        "name": "Heat Transfer Coefficient Gradient",
-        "unitExternalId": "heat_transfer_coefficient_gradient:watt-per-m2k-per-day"
+        "name": "Coefficient of Heat Transfer Per Time",
+        "unitExternalId": "coefficient_of_heat_transfer_per_time:watt-per-m2k-per-day"
       },
       {
-        "name": "Hydraulic Resistance",
-        "unitExternalId": "hydraulic_resistance:pa-per-m3s"
+        "name": "Pressure in Relation to Squared Volume Flow Rate",
+        "unitExternalId": "pressure_in_relation_to_squared_volume_flow_rate:pa-per-m3s"
       },
       {
-        "name": "Hydraulic Resistance Gradient",
-        "unitExternalId": "hydraulic_resistance_gradient:pa-per-m3s-per-day"
+        "name": "Pressure in Relation to Squared Volume Flow Rate Per Time",
+        "unitExternalId": "pressure_in_relation_to_squared_volume_flow_rate_per_time:pa-per-m3s-per-day"
       },
       {
         "name": "Inductance",

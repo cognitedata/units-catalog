@@ -12489,7 +12489,7 @@
   {
     "externalId": "coefficient_of_heat_transfer_per_time:watt-per-m2k-per-day",
     "name": "WATT-PER-M2K-PER-DAY",
-    "quantity": "Coefficient of Heat Transfer Coefficient Per Time",
+    "quantity": "Coefficient of Heat Transfer Per Time",
     "longName": "Watt per Square Meter Kelvin per Day",
     "aliasNames": [
       "W/(m²·K)/day",

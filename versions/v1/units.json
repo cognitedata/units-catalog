@@ -12402,7 +12402,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "hydraulic_resistance:pa-per-m3s",
+    "externalId": "pressure_in_relation_to_squared_volume_flow_rate:pa-per-m3s",
     "name": "PA-PER-M3S",
     "quantity": "Pressure in Relation to Squared Volume Flow Rate",
     "longName": "Pascal per Cubic Meter per Second Squared",
@@ -12430,7 +12430,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "hydraulic_resistance_gradient:pa-per-m3s-per-day",
+    "externalId": "pressure_in_relation_to_squared_volume_flow_rate_per_time:pa-per-m3s-per-day",
     "name": "PA-PER-M3S-PER-DAY",
     "quantity": "Pressure in Relation to Squared Volume Flow Rate Per Time",
     "longName": "Pascal per Cubic Meter per Second Squared per Day",
@@ -12458,7 +12458,7 @@
     "sourceReference": null
   },
   {
-    "externalId": "heat_transfer_coefficient:watt-per-m2k",
+    "externalId": "coefficient_of_heat_transfer:watt-per-m2k",
     "name": "WATT-PER-M2K",
     "quantity": "Coefficient of Heat Transfer",
     "longName": "Watt per Square Meter Kelvin",
@@ -12487,7 +12487,7 @@
     "sourceReference": "https://qudt.org/vocab/unit/W-PER-M2-K"
   },
   {
-    "externalId": "heat_transfer_coefficient_gradient:watt-per-m2k-per-day",
+    "externalId": "coefficient_of_heat_transfer_per_time:watt-per-m2k-per-day",
     "name": "WATT-PER-M2K-PER-DAY",
     "quantity": "Coefficient of Heat Transfer Coefficient Per Time",
     "longName": "Watt per Square Meter Kelvin per Day",

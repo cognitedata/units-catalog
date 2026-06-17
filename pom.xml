@@ -6,7 +6,7 @@
 
   <groupId>com.cognite.units</groupId>
   <artifactId>units-catalog</artifactId>
-  <version>0.1.16</version>
+  <version>0.1.26</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A comprehensive unit catalog for Cognite Data Fusion (CDF) with a focus on standardization, comprehensiveness, and consistency.</description>
@@ -41,10 +41,10 @@
   <properties>
     <kotlin.version>1.9.25</kotlin.version>
     <maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
-    <nexus-staging-maven-plugin.version>1.7.0</nexus-staging-maven-plugin.version>
     <maven-dokka-plugin.version>1.9.20</maven-dokka-plugin.version>
     <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+    <central-publishing-maven-plugin.version>0.7.0</central-publishing-maven-plugin.version>
     <!-- For reproducible builds -->
     <project.build.outputTimestamp>2020-01-01T01:01:00Z</project.build.outputTimestamp>
   </properties>
@@ -227,12 +227,12 @@
       <id>release</id>
       <distributionManagement>
         <snapshotRepository>
-          <id>ossrh</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+          <id>central</id>
+          <url>https://central.sonatype.com/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-          <id>ossrh</id>
-          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+          <id>central</id>
+          <url>https://central.sonatype.com/</url>
         </repository>
       </distributionManagement>
       <build>
@@ -266,17 +266,16 @@
               </execution>
             </executions>
           </plugin>
-          <plugin>
-            <groupId>org.sonatype.plugins</groupId>
-            <artifactId>nexus-staging-maven-plugin</artifactId>
-            <version>${nexus-staging-maven-plugin.version}</version>
-            <extensions>true</extensions>
-            <configuration>
-              <serverId>ossrh</serverId>
-              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-              <autoReleaseAfterClose>true</autoReleaseAfterClose>
-              <stagingProgressTimeoutMinutes>15</stagingProgressTimeoutMinutes>
-            </configuration>
+           <plugin>
+              <groupId>org.sonatype.central</groupId>
+              <artifactId>central-publishing-maven-plugin</artifactId>
+              <version>${central-publishing-maven-plugin.version}</version>
+              <extensions>true</extensions>
+              <configuration>
+                  <publishingServerId>central</publishingServerId>
+                  <autoPublish>true</autoPublish>
+                  <deploymentName>${project.groupId}:${project.artifactId}:${project.version}</deploymentName>
+              </configuration>
           </plugin>
         </plugins>
       </build>

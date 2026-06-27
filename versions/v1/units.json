@@ -4089,6 +4089,22 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliM"
   },
   {
+    "externalId": "length:smoot",
+    "name": "smoot",
+    "quantity": "Length",
+    "longName": "smoot",
+    "aliasNames": [
+      "smoot",
+    ],
+    "symbol": "smoot",
+    "conversion": {
+      "multiplier": 1.7018,
+      "offset": 0.0
+    },
+    "source": "wikipedia.org",
+    "sourceReference": "https://en.wikipedia.org/wiki/Smoot"
+  },  
+  {
     "externalId": "length:yd",
     "name": "YD",
     "quantity": "Length",

@@ -4139,14 +4139,14 @@
     "externalId": "linear_density:lb-per-ft",
     "name": "LB-PER-FT",
     "quantity": "Linear Density",
-    "longName": "Pound per Foot",
+    "longName": "Pound Mass per Foot",
     "aliasNames": [
       "lb-per-ft",
       "LB/FT"
     ],
-    "symbol": "lb/ft",
+    "symbol": "lbm/ft",
     "conversion": {
-      "multiplier": 1.48816,
+      "multiplier": 1.4881639435695537,
       "offset": 0.0
     },
     "source": "qudt.org",

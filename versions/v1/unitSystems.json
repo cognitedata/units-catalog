@@ -55,6 +55,10 @@
         "unitExternalId": "dynamic_viscosity:pa-sec"
       },
       {
+        "name": "Electric Conductivity",
+        "unitExternalId": "electric_conductivity:s-per-m"
+      },
+      {
         "name": "Electric Current",
         "unitExternalId": "electric_current:a"
       },

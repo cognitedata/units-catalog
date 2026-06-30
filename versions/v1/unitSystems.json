@@ -111,6 +111,10 @@
         "unitExternalId": "mass_flow_rate:kilogm-per-sec"
       },
       {
+        "name": "Molar Flux",
+        "unitExternalId": "molar_flux:mol-per-m2-sec"
+      },
+      {
         "name": "Permeability",
         "unitExternalId": "permeability:h-per-m"
       },

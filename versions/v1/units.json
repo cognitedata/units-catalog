@@ -2199,8 +2199,8 @@
     "sourceReference": "https://qudt.org/vocab/unit/S-PER-M"
   },
   {
-    "externalId": "electric_conductivity:micros-per-cm",
-    "name": "MicroS-PER-CM",
+    "externalId": "electric_conductivity:micros-per-centim",
+    "name": "MicroS-PER-CentiM",
     "quantity": "Electric Conductivity",
     "longName": "Microsiemens Per Centimeter",
     "aliasNames": [

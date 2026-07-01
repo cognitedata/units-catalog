@@ -551,6 +551,10 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi"
+      },
+      {
+        "name": "Linear Density",
+        "unitExternalId": "linear_density:lb-per-ft"
       }
     ]
   }

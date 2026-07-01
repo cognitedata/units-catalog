@@ -4199,6 +4199,23 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M"
   },
   {
+    "externalId": "linear_density:lb-per-ft",
+    "name": "LB-PER-FT",
+    "quantity": "Linear Density",
+    "longName": "Pound Mass per Foot",
+    "aliasNames": [
+      "lb-per-ft",
+      "LB/FT"
+    ],
+    "symbol": "lbm/ft",
+    "conversion": {
+      "multiplier": 1.4881639435695537,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-FT"
+  },
+  {
     "externalId": "mass:centigm",
     "name": "CentiGM",
     "quantity": "Mass",

@@ -2221,8 +2221,8 @@
     "sourceReference": "https://qudt.org/vocab/unit/MicroS-PER-CentiM"
   },
   {
-    "externalId": "electric_conductivity:millis-per-cm",
-    "name": "MilliS-PER-CM",
+    "externalId": "electric_conductivity:millis-per-centim",
+    "name": "MilliS-PER-CentiM",
     "quantity": "Electric Conductivity",
     "longName": "Millisiemens Per Centimeter",
     "aliasNames": [

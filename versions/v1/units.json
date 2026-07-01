@@ -2217,8 +2217,8 @@
       "multiplier": 0.0001,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org",
-    "sourceReference": null
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroS-PER-CentiM"
   },
   {
     "externalId": "electric_conductivity:millis-per-cm",

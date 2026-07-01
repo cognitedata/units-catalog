@@ -2237,8 +2237,8 @@
       "multiplier": 0.1,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org",
-    "sourceReference": null
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliS-PER-CentiM"
   },
   {
     "externalId": "electric_current:a",

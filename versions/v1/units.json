@@ -12165,8 +12165,8 @@
       "multiplier": 1e-06,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org",
-    "sourceReference": null
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC"
   },
   {
     "externalId": "volume_per_time_per_pressure:m3-per-sec-per-pa",

@@ -2178,6 +2178,69 @@
     "sourceReference": "https://qudt.org/vocab/unit/POISE"
   },
   {
+    "externalId": "electric_conductivity:s-per-m",
+    "name": "S-PER-M",
+    "quantity": "Electric Conductivity",
+    "longName": "Siemens Per Meter",
+    "aliasNames": [
+      "S/m",
+      "S per m",
+      "siemens per meter",
+      "Siemens per Meter",
+      "Siemens Per Meter",
+      "mho/m"
+    ],
+    "symbol": "S/m",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/S-PER-M"
+  },
+  {
+    "externalId": "electric_conductivity:micros-per-centim",
+    "name": "MicroS-PER-CentiM",
+    "quantity": "Electric Conductivity",
+    "longName": "Microsiemens Per Centimeter",
+    "aliasNames": [
+      "µS/cm",
+      "uS/cm",
+      "μS/cm",
+      "microsiemens per centimeter",
+      "Microsiemens per Centimeter",
+      "Microsiemens Per Centimeter",
+      "µmho/cm"
+    ],
+    "symbol": "µS/cm",
+    "conversion": {
+      "multiplier": 0.0001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroS-PER-CentiM"
+  },
+  {
+    "externalId": "electric_conductivity:millis-per-centim",
+    "name": "MilliS-PER-CentiM",
+    "quantity": "Electric Conductivity",
+    "longName": "Millisiemens Per Centimeter",
+    "aliasNames": [
+      "mS/cm",
+      "millisiemens per centimeter",
+      "Millisiemens per Centimeter",
+      "Millisiemens Per Centimeter",
+      "mmho/cm"
+    ],
+    "symbol": "mS/cm",
+    "conversion": {
+      "multiplier": 0.1,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliS-PER-CentiM"
+  },
+  {
     "externalId": "electric_current:a",
     "name": "A",
     "quantity": "Electric Current",

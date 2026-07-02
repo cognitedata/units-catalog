@@ -12145,6 +12145,47 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-DAY"
   },
   {
+    "externalId": "molar_flux:mol-per-m2-sec",
+    "name": "MOL-PER-M2-SEC",
+    "quantity": "Molar Flux",
+    "longName": "Mole Per Square Meter Per Second",
+    "aliasNames": [
+      "mol/(m²·s)",
+      "mol/m²/s",
+      "mol/m2/s",
+      "mole per square meter per second",
+      "Mole per Square Meter per Second"
+    ],
+    "symbol": "mol/(m²·s)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MOL-PER-M2-SEC"
+  },
+  {
+    "externalId": "molar_flux:micromol-per-m2-sec",
+    "name": "MicroMOL-PER-M2-SEC",
+    "quantity": "Molar Flux",
+    "longName": "Micromole Per Square Meter Per Second",
+    "aliasNames": [
+      "µmol/(m²·s)",
+      "µmol/m²/s",
+      "umol/m2/s",
+      "umol m-2 s-1",
+      "micromole per square meter per second",
+      "Micromole per Square Meter per Second"
+    ],
+    "symbol": "µmol/(m²·s)",
+    "conversion": {
+      "multiplier": 1e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC"
+  },
+  {
     "externalId": "volume_per_time_per_pressure:m3-per-sec-per-pa",
     "name": "M3-PER-SEC-PER-PA",
     "quantity": "Volume per time per pressure",

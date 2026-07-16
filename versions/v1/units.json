@@ -12521,5 +12521,119 @@
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
+  },
+  {
+    "externalId": "pressure_in_relation_to_squared_volume_flow_rate:pa-per-m3s",
+    "name": "PA-PER-M3S",
+    "quantity": "Pressure in Relation to Squared Volume Flow Rate",
+    "longName": "Pascal per Cubic Meter per Second Squared",
+    "aliasNames": [
+      "Pa·s²/m⁶",
+      "pa·s²/m⁶",
+      "PA·s²/m⁶",
+      "Pa.s^2/m^6",
+      "pa.s^2/m^6",
+      "PA.s^2/m^6",
+      "Pa·s² / m⁶",
+      "pa·s² / m⁶",
+      "Pa.s^2 / m^6",
+      "pa.s^2 / m^6",
+      "Pascal second squared per cubic meter squared",
+      "pascal second squared per cubic meter squared",
+      "Pa·s²·m⁻⁶"
+    ],
+    "symbol": "Pa·s²/m⁶",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC",
+    "sourceReference": null
+  },
+  {
+    "externalId": "pressure_in_relation_to_squared_volume_flow_rate_per_time:pa-per-m3s-per-day",
+    "name": "PA-PER-M3S-PER-DAY",
+    "quantity": "Pressure in Relation to Squared Volume Flow Rate Per Time",
+    "longName": "Pascal per Cubic Meter per Second Squared per Day",
+    "aliasNames": [
+      "Pa·s²/m⁶/day",
+      "pa·s²/m⁶/day",
+      "PA·s²/m⁶/day",
+      "Pa.s^2/m^6/day",
+      "pa.s^2/m^6/day",
+      "PA.s^2/m^6/day",
+      "Pa·s² / m⁶ / day",
+      "pa·s² / m⁶ / day",
+      "Pa.s^2 / m^6 / day",
+      "pa.s^2 / m^6 / day",
+      "Pascal second squared per cubic meter squared per day",
+      "pascal second squared per cubic meter squared per day",
+      "Pa·s²·m⁻⁶/day"
+    ],
+    "symbol": "Pa·s²/(m⁶·day)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/PA and https://qudt.org/vocab/unit/M3-PER-SEC and https://qudt.org/vocab/unit/DAY",
+    "sourceReference": null
+  },
+  {
+    "externalId": "coefficient_of_heat_transfer:w-per-m2-k",
+    "name": "W-PER-M2-K",
+    "quantity": "Coefficient of Heat Transfer",
+    "longName": "Watt per Square Meter Kelvin",
+    "aliasNames": [
+      "W/(m²·K)",
+      "w/(m²·k)",
+      "W/(m^2*K)",
+      "w/(m^2*k)",
+      "W/m²K",
+      "w/m²k",
+      "W/m^2K",
+      "w/m^2k",
+      "W per m²K",
+      "w per m²k",
+      "W per m^2K",
+      "w per m^2k",
+      "W per square meter per Kelvin",
+      "w per square meter per Kelvin"
+    ],
+    "symbol": "W/(m²·K)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/W-PER-M2-K"
+  },
+  {
+    "externalId": "coefficient_of_heat_transfer_per_time:watt-per-m2k-per-day",
+    "name": "WATT-PER-M2K-PER-DAY",
+    "quantity": "Coefficient of Heat Transfer Per Time",
+    "longName": "Watt per Square Meter Kelvin per Day",
+    "aliasNames": [
+      "W/(m²·K)/day",
+      "w/(m²·k)/day",
+      "W/(m^2*K)/day",
+      "w/(m^2*k)/day",
+      "W/m²K/day",
+      "w/m²k/day",
+      "W/m^2K/day",
+      "w/m^2k/day",
+      "W per m²K per day",
+      "w per m²k per day",
+      "W per m^2K per day",
+      "w per m^2k per day",
+      "W per square meter per Kelvin per day",
+      "w per square meter per Kelvin per day"
+    ],
+    "symbol": "W/(m²·K·day)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/W-PER-M2-K and https://qudt.org/vocab/unit/DAY",
+    "sourceReference": null
   }
 ]

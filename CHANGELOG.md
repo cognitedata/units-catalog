@@ -10,6 +10,18 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.27] - 2026-07-16
+### Added
+- Added new quantity `Molar Flux` with the following units:
+  - Mole Per Square Meter Per Second (mol/(m²·s))
+  - Micromole Per Square Meter Per Second (µmol/(m²·s))
+- Added new quantity `Electric Conductivity` with the following units:
+  - Siemens Per Meter (S/m)
+  - Microsiemens Per Centimeter (µS/cm)
+  - Millisiemens Per Centimeter (mS/cm)
+- Added new unit for quantity `Linear Density`:
+  - Pound Mass per Foot (lbm/ft)
+
 ## [0.1.26] - 2026-04-21
 ### Changed
 - Aligned conversion multipliers with the latest QUDT definitions, increasing precision (IEEE 754 double) for many units across `Angle`, `Angular Acceleration`, `Angular Velocity`, `Density`, `Dynamic Viscosity`, `Energy`, `Energy Density`, `Torque`, and others

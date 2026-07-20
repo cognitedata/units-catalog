@@ -245,6 +245,10 @@
       {
         "name": "Reservoir Volume Flow Rate",
         "unitExternalId": "reservoir_volume_flow_rate:rb-per-day"
+      },
+      {
+        "name": "Revolutions Per Unit Volume",
+        "unitExternalId": "revolutions_per_unit_volume:rev-per-gal_us"
       }
     ]
   },
@@ -442,6 +446,10 @@
       {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
+      },
+      {
+        "name": "Revolutions Per Unit Volume",
+        "unitExternalId": "revolutions_per_unit_volume:rev-per-l"
       }
     ]
   },
@@ -559,6 +567,10 @@
       {
         "name": "Linear Density",
         "unitExternalId": "linear_density:lb-per-ft"
+      },
+      {
+        "name": "Revolutions Per Unit Volume",
+        "unitExternalId": "revolutions_per_unit_volume:rev-per-gal_us"
       }
     ]
   }

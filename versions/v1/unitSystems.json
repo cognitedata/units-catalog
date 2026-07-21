@@ -449,7 +449,7 @@
       },
       {
         "name": "Revolutions Per Unit Volume",
-        "unitExternalId": "revolutions_per_unit_volume:rev-per-l"
+        "unitExternalId": "revolutions_per_unit_volume:rev-per-m3"
       }
     ]
   },

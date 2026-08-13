@@ -12526,7 +12526,7 @@
     "externalId": "volume_flow_rate:quarts-per-day",
     "name": "QT_US-PER-DAY",
     "quantity": "Quarts Per Day",
-    "longName": "Quartz Per Day",
+    "longName": "Quarts Per Day",
     "aliasNames": [
       "qt/day",
       "quarts-per-day",
@@ -12541,17 +12541,17 @@
       "pa² / Hz",
       "Pa^2 / Hz",
       "pa^2 / Hz",
-      "Quartz Per Day",
-      "quartz per day",
-      "Quartz per Day",
-      "quartz per day"
+      "Quarts Per Day",
+      "quarts per day",
+      "Quarts per Day",
+      "quarts per day"
     ],
     "symbol": "qt/day",
     "conversion": {
       "multiplier": 1.0953159097222223e-08
       "offset": 0
     },
-    "source": "",
+    "source": "https://qudt.org/vocab/unit/QT_US-PER-HR",
     "sourceReference": null
   }, 
   {

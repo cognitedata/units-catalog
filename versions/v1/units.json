@@ -12079,6 +12079,33 @@
     "sourceReference": null
   },
   {
+  "externalId": "standard_volume_flow_rate:scm-per-day",
+  "name": "SCM-PER-DAY",
+  "quantity": "Standard Volume Flow Rate",
+  "longName": "Standard Cubic Meter Per Day (@15°C, 101.325 kPa)",
+  "aliasNames": [
+    "Sm3/d",
+    "Sm³/d",
+    "sm3/d",
+    "SM3/D",
+    "Sm3/D",
+    "SCM/d",
+    "SCM/D",
+    "SCMD",
+    "Standard Cubic Meter Per Day",
+    "Standard cubic meter per day",
+    "standard cubic metre per day",
+    "Standard cubic metre per day"
+  ],
+  "symbol": "Sm³/d",
+  "conversion": {
+    "multiplier": 0.000011574074074074074,
+    "offset": 0.0
+  },
+  "source": "Custom based on Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+  "sourceReference": null
+  },
+  {
     "externalId": "pressure:millibarg",
     "name": "MilliBARg",
     "quantity": "Pressure",

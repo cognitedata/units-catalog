@@ -155,6 +155,10 @@
         "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
       {
+        "name": "Standard Volume Flow Rate",
+        "unitExternalId": "standard_volume_flow_rate:scm-per-day"
+      },
+      {
         "name": "Surface Tension",
         "unitExternalId": "surface_tension:j-per-m2"
       },

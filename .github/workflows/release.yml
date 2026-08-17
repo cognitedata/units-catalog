@@ -38,10 +38,18 @@ jobs:
             -Dexec.args='${project.version}' \
             --non-recursive \
             exec:exec)
+        # The version comes from pom.xml, which a pull request can change, so treat
+        # it as untrusted and reject anything that is not a plain version string.
+        if [[ ! "$MVN_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?$ ]]; then
+          echo "::error::Refusing to release: unexpected project version '$MVN_VERSION'"
+          exit 1
+        fi
         echo "CENTRAL_VERSION=$CENTRAL_VERSION"
         echo "MVN_VERSION=$MVN_VERSION"
         echo "central_version=$CENTRAL_VERSION" >> $GITHUB_OUTPUT
         echo "maven_version=$MVN_VERSION" >> $GITHUB_OUTPUT
+        # Exported once so later steps can use "$VERSION" in their scripts.
+        echo "VERSION=$MVN_VERSION" >> $GITHUB_ENV
 
     - name: Check if GitHub release exists for current version
       id: gh_release_check
@@ -49,8 +57,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        V="${{ steps.detect.outputs.maven_version }}"
-        if gh release view "v${V}" >/dev/null 2>&1; then
+        if gh release view "v${VERSION}" >/dev/null 2>&1; then
           echo "release_missing=false" >> $GITHUB_OUTPUT
         else
           echo "release_missing=true" >> $GITHUB_OUTPUT
@@ -73,7 +80,6 @@ jobs:
         && (steps.maven_deploy.outcome == 'success'
             || steps.detect.outputs.maven_version == steps.detect.outputs.central_version) }}
       run: |
-        VERSION="${{ steps.detect.outputs.maven_version }}"
         awk -v v="$VERSION" '
           $0 ~ "^## \\["v"\\]" {flag=1; next}
           flag && /^## \[/ {exit}
@@ -97,7 +103,6 @@ jobs:
             || steps.detect.outputs.maven_version == steps.detect.outputs.central_version) }}
       continue-on-error: true
       run: |
-        VERSION="${{ steps.detect.outputs.maven_version }}"
         for i in $(seq 1 24); do
           LATEST=$(curl -s -H "Accept: application/json" -L "https://central.sonatype.com/solrsearch/select?q=g:com.cognite.units+a:units-catalog&rows=1&wt=json" | jq -r '.response.docs[0].latestVersion')
           if [ "$LATEST" = "$VERSION" ]; then
@@ -118,7 +123,6 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        VERSION="${{ steps.detect.outputs.maven_version }}"
         if gh release view "v${VERSION}" >/dev/null 2>&1; then
           echo "Release v${VERSION} already exists, skipping."
           exit 0

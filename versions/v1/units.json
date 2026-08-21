@@ -7135,6 +7135,26 @@
     "sourceReference": "https://qudt.org/vocab/unit/OHM"
   },
   {
+    "externalId": "resistance:megaohm",
+    "name": "MegaOHM",
+    "quantity": "Resistance",
+    "longName": "MegaOhm",
+    "aliasNames": [
+      "Mohm",
+      "MOhm",
+      "MΩ",
+      "MOHM",
+      "MegaOHM"
+    ],
+    "symbol": "MΩ",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaOHM"
+  },
+  {
     "externalId": "standard_volume:scm_1atm_15deg_c_iso",
     "name": "SCM_1ATM_15DEG_C_ISO",
     "quantity": "Standard Volume",

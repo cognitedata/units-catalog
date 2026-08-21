@@ -7144,7 +7144,8 @@
       "MOhm",
       "MΩ",
       "MOHM",
-      "MegaOHM"
+      "MegaOHM", 
+      "MegaOhm"
     ],
     "symbol": "MΩ",
     "conversion": {

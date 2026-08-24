@@ -1804,6 +1804,30 @@
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/PPTH"
   },
+    {
+    "externalId": "dimensionless_ratio:specific_gravity",
+    "name": "SPECIFIC_GRAVITY",
+    "quantity": "Dimensionless Ratio",
+    "longName": "Specific Gravity",
+    "aliasNames": [
+      "Relative density",
+      "r.d.",
+      "RD",
+      "specific gravity",
+      "Specific Gravity",
+      "sp. gravity",
+      "SG",
+      "sg",
+      "sp gr"
+    ],
+    "symbol": "SG",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom",
+    "sourceReference": null
+  },
   {
     "externalId": "dimensionless_ratio:unitless",
     "name": "UNITLESS",

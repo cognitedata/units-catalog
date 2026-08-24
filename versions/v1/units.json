@@ -1825,8 +1825,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "Custom",
-    "sourceReference": null
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/quantitykind/RelativeMassDensity.html"
   },
   {
     "externalId": "dimensionless_ratio:unitless",

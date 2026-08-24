@@ -11245,6 +11245,45 @@
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-SEC"
   },
   {
+    "externalId": "molar_mass:lb-per-lb-mol",
+    "name": "LB-PER-LB-MOL",
+    "quantity": "Molar Mass",
+    "longName": "Pound Mass per Pound Mole",
+    "aliasNames": [
+      "lb/lb mol",
+      "lb/lbmol",
+      "lbm/lbmol",
+      "pound mass per pound mole",
+      "pound per pound mole"
+    ],
+    "symbol": "lb/lb mol",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Derived from https://qudt.org/vocab/unit/KiloGM-PER-MOL.html",
+    "sourceReference": null
+  },
+  {
+    "externalId": "molar_mass:kilogm-per-mol",
+    "name": "KiloGM-PER-MOL",
+    "quantity": "Molar Mass",
+    "longName": "Kilogram per Mole",
+    "aliasNames": [
+      "kg/mol",
+      "kg per mol",
+      "kilogram per mole",
+      "KiloGM-PER-MOL"
+    ],
+    "symbol": "kg/mol",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-MOL"
+  },
+  {
     "externalId": "power_per_area:w-per-m2",
     "name": "W-PER-M2",
     "quantity": "Power Per Area",

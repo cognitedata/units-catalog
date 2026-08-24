@@ -8095,6 +8095,8 @@
     "BTU/(hr·ft·°F)",
     "Btu/(h·ft·°F)",
     "BTU/hr-ft-F",
+    "BTU/hr/ft/F",
+    "BTU/hr/ft/°F",
     "BTU_IT per hour per foot per degree Fahrenheit",
     "BTU per hour per foot per degree Fahrenheit",
     "BTU_per_hr_per_ft_per_F"

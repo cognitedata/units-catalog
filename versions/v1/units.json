@@ -12249,6 +12249,95 @@
     "sourceReference": "https://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC"
   },
   {
+    "externalId": "revolutions_per_unit_volume:rev-per-m3",
+    "name": "REV-PER-M3",
+    "quantity": "Revolutions Per Unit Volume",
+    "longName": "Revolution Per Cubic Meter",
+    "aliasNames": [
+      "rev/m3",
+      "rev/m³",
+      "rev per m3",
+      "rev per cubic meter",
+      "revolutions per cubic meter",
+      "Revolution Per Cubic Meter"
+    ],
+    "symbol": "rev/m³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV and https://qudt.org/vocab/unit/M3",
+    "sourceReference": null
+  },
+  {
+    "externalId": "revolutions_per_unit_volume:rev-per-l",
+    "name": "REV-PER-L",
+    "quantity": "Revolutions Per Unit Volume",
+    "longName": "Revolution Per Liter",
+    "aliasNames": [
+      "rev/l",
+      "rev/L",
+      "revs/L",
+      "rev per l",
+      "rev per liter",
+      "rev per litre",
+      "revolutions per liter",
+      "revolutions per litre",
+      "Revolution Per Liter"
+    ],
+    "symbol": "rev/L",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV and https://qudt.org/vocab/unit/L",
+    "sourceReference": null
+  },
+  {
+    "externalId": "revolutions_per_unit_volume:rev-per-gal_us",
+    "name": "REV-PER-GAL_US",
+    "quantity": "Revolutions Per Unit Volume",
+    "longName": "Revolution Per US Gallon",
+    "aliasNames": [
+      "rev/gal",
+      "revs/gal",
+      "Rev/Gal",
+      "RPG",
+      "rev per gal",
+      "revolutions per gallon",
+      "motor speed ratio",
+      "speed ratio",
+      "Revolution Per US Gallon"
+    ],
+    "symbol": "rev/gal{US}",
+    "conversion": {
+      "multiplier": 264.1720523581484,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV and https://qudt.org/vocab/unit/GAL_US",
+    "sourceReference": null
+  },
+  {
+    "externalId": "revolutions_per_unit_volume:rev-per-gal_uk",
+    "name": "REV-PER-GAL_UK",
+    "quantity": "Revolutions Per Unit Volume",
+    "longName": "Revolution Per UK Gallon",
+    "aliasNames": [
+      "rev/gal{UK}",
+      "revs per UK gallon",
+      "rev per UK gallon",
+      "revolutions per UK gallon",
+      "Revolution Per UK Gallon"
+    ],
+    "symbol": "rev/gal{UK}",
+    "conversion": {
+      "multiplier": 219.96924829908778,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV and https://qudt.org/vocab/unit/GAL_UK",
+    "sourceReference": null
+  },
+  {
     "externalId": "volume_per_time_per_pressure:m3-per-sec-per-pa",
     "name": "M3-PER-SEC-PER-PA",
     "quantity": "Volume per time per pressure",

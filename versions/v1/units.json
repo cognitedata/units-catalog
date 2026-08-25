@@ -7138,7 +7138,7 @@
     "externalId": "resistance:megaohm",
     "name": "MegaOHM",
     "quantity": "Resistance",
-    "longName": "MegaOhm",
+    "longName": "Megaohm",
     "aliasNames": [
       "Mohm",
       "MOhm",

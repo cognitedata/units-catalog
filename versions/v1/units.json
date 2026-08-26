@@ -1804,30 +1804,6 @@
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/PPTH"
   },
-    {
-    "externalId": "dimensionless_ratio:specific_gravity",
-    "name": "SPECIFIC_GRAVITY",
-    "quantity": "Dimensionless Ratio",
-    "longName": "Specific Gravity",
-    "aliasNames": [
-      "Relative density",
-      "r.d.",
-      "RD",
-      "specific gravity",
-      "Specific Gravity",
-      "sp. gravity",
-      "SG",
-      "sg",
-      "sp gr"
-    ],
-    "symbol": "SG",
-    "conversion": {
-      "multiplier": 1.0,
-      "offset": 0.0
-    },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/quantitykind/RelativeMassDensity.html"
-  },
   {
     "externalId": "dimensionless_ratio:unitless",
     "name": "UNITLESS",
@@ -7099,6 +7075,30 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
+  },
+  {
+    "externalId": "relative_density:specific_gravity",
+    "name": "SPECIFIC_GRAVITY",
+    "quantity": "Dimensionless Ratio",
+    "longName": "Specific Gravity",
+    "aliasNames": [
+      "Relative density",
+      "r.d.",
+      "RD",
+      "specific gravity",
+      "Specific Gravity",
+      "sp. gravity",
+      "SG",
+      "sg",
+      "sp gr"
+    ],
+    "symbol": "SG",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/quantitykind/RelativeMassDensity",
+    "sourceReference": null
   },
   {
     "externalId": "resistance:kiloohm",

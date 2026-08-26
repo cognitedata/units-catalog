@@ -11281,7 +11281,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/KiloGM-PER-MOL"
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-MOL"
   },
   {
     "externalId": "power_per_area:w-per-m2",

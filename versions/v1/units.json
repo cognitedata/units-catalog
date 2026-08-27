@@ -1677,7 +1677,9 @@
       "number",
       "#",
       "NUM",
-      "Number"
+      "Number",
+      "count",
+      "counts"
     ],
     "symbol": "#",
     "conversion": {

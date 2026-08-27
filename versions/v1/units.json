@@ -3990,6 +3990,27 @@
     "sourceReference": "https://qudt.org/vocab/unit/DeciM"
   },
   {
+    "externalId": "length:nanom",
+    "name": "NanoM",
+    "quantity": "Length",
+    "longName": "Nanometer",
+    "aliasNames": [
+      "nanometre",
+      "nanometer",
+      "Nanometer",
+      "Nanometre",
+      "nm",
+      "NanoM"
+    ],
+    "symbol": "nm",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/NanoM"
+  },
+  {
     "externalId": "length:ft",
     "name": "FT",
     "quantity": "Length",

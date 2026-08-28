@@ -11315,7 +11315,7 @@
       "pound mass per pound mole",
       "pound per pound mole"
     ],
-    "symbol": "lb/lb mol",
+    "symbol": "lbm/lbmol",
     "conversion": {
       "multiplier": 0.001,
       "offset": 0.0

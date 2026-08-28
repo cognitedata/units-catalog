@@ -7079,7 +7079,7 @@
   {
     "externalId": "relative_density:specific_gravity",
     "name": "SPECIFIC_GRAVITY",
-    "quantity": "Dimensionless Ratio",
+    "quantity": "Relative Density",
     "longName": "Specific Gravity",
     "aliasNames": [
       "Relative density",

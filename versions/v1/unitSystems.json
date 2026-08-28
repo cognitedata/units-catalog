@@ -356,6 +356,10 @@
         "unitExternalId": "mass_flow_rate:kilogm-per-sec"
       },
       {
+        "name": "Molar Mass",
+        "unitExternalId": "molar_mass:kilogm-per-mol"
+      },
+      {
         "name": "Permeability",
         "unitExternalId": "permeability:h-per-m"
       },
@@ -499,6 +503,10 @@
       {
         "name": "Mass Flow Rate",
         "unitExternalId": "mass_flow_rate:lb-per-sec"
+      },
+      {
+        "name": "Molar Mass",
+        "unitExternalId": "molar_mass:lb-per-lb-mol"
       },
       {
         "name": "Power",

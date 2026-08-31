@@ -406,7 +406,7 @@
       {
         "name": "Thermal Conductivity",
         "unitExternalId": "thermal_conductivity:w-per-m-k"
-      },      
+      },
       {
         "name": "Time",
         "unitExternalId": "time:sec"
@@ -530,7 +530,7 @@
       },
       {
         "name": "Thermal Conductivity",
-        "unitExternalId": "thermal_conductivity:btu_it-per-hr-per-ft-per-deg_f"
+        "unitExternalId": "thermal_conductivity:btu_it-ft-per-ft2-hr-deg_f"
       },
       {
         "name": "Torque",

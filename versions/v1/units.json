@@ -8133,7 +8133,7 @@
       "multiplier": 1.730734666371391,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org",
+    "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-FT-PER-FT2-HR-DEG_F"
   },
   {

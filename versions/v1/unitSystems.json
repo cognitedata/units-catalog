@@ -151,6 +151,10 @@
         "unitExternalId": "reactive_power:var"
       },
       {
+        "name": "Relative Density",
+        "unitExternalId": "relative_density:specific_gravity"
+      },
+      {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
       },

@@ -7100,6 +7100,30 @@
     "sourceReference": "https://qudt.org/vocab/unit/MegaVAR"
   },
   {
+    "externalId": "relative_density:specific_gravity",
+    "name": "SPECIFIC_GRAVITY",
+    "quantity": "Relative Density",
+    "longName": "Specific Gravity",
+    "aliasNames": [
+      "Relative density",
+      "r.d.",
+      "RD",
+      "specific gravity",
+      "Specific Gravity",
+      "sp. gravity",
+      "SG",
+      "sg",
+      "sp gr"
+    ],
+    "symbol": "SG",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/quantitykind/RelativeMassDensity",
+    "sourceReference": null
+  },
+  {
     "externalId": "resistance:kiloohm",
     "name": "KiloOHM",
     "quantity": "Resistance",
@@ -11312,6 +11336,64 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/LB-PER-SEC"
+  },
+  {
+    "externalId": "molar_mass:gm-per-mol",
+    "name": "GM-PER-MOL",
+    "quantity": "Molar Mass",
+    "longName": "Gram per Mole",
+    "aliasNames": [
+      "g/mol",
+      "g per mol",
+      "gram per mole",
+      "GM-PER-MOL"
+    ],
+    "symbol": "g/mol",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-MOL"
+  },
+  {
+    "externalId": "molar_mass:kilogm-per-mol",
+    "name": "KiloGM-PER-MOL",
+    "quantity": "Molar Mass",
+    "longName": "Kilogram per Mole",
+    "aliasNames": [
+      "kg/mol",
+      "kg per mol",
+      "kilogram per mole",
+      "KiloGM-PER-MOL"
+    ],
+    "symbol": "kg/mol",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-MOL"
+  },
+  {
+    "externalId": "molar_mass:lb-per-lb-mol",
+    "name": "LB-PER-LB-MOL",
+    "quantity": "Molar Mass",
+    "longName": "Pound Mass per Pound Mole",
+    "aliasNames": [
+      "lb/lb mol",
+      "lb/lbmol",
+      "lbm/lbmol",
+      "pound mass per pound mole",
+      "pound per pound mole"
+    ],
+    "symbol": "lbm/lbmol",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "Derived from base unit definitions in qudt.org (1 lb = 0.45359237 kg and 1 lb-mol = 453.59237 mol). Numerically equal to https://qudt.org/vocab/unit/GM-PER-MOL",
+    "sourceReference": null
   },
   {
     "externalId": "power_per_area:w-per-m2",

@@ -22,7 +22,10 @@ import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import java.net.URL
+import kotlin.math.pow
+import kotlin.random.Random
 import kotlin.test.DefaultAsserter
+import kotlin.test.assertNotEquals
 
 class UnitTest {
 
@@ -54,6 +57,81 @@ class UnitTest {
         assertEquals(33.8, unitService.convertBetweenUnits(unitCelsius, unitFahrenheit, 1.0))
         assertEquals(0.555555555556, unitService.convertBetweenUnits(unitFahrenheit, unitCelsius, 33.0))
     }
+
+    @Test
+    fun testConversionRanges() {
+        val unitService = UnitService.service
+        val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
+        val unitFahrenheit = unitService.getUnitByExternalId("temperature:deg_f")
+
+        // Generate random numbers with a wide range of magnitudes
+        fun randomTemperature() : Double {
+            val power = Random.nextInt(-10, 12)
+            val targetTemperature = Random.nextDouble(-1.0, 1.0) * 10.0.pow(power.toDouble())
+            val roundedTarget = unitService.roundToSignificantDigits(targetTemperature, 12)
+            return roundedTarget
+        }
+
+        repeat (100) {
+            val temperature = randomTemperature()
+            println("Testing temperature: $temperature")
+            for ((targetUnit, sourceUnit) in listOf(
+                Pair(unitCelsius, unitFahrenheit),
+                Pair(unitFahrenheit, unitCelsius),
+            )) {
+                val (lowerBound, upperBound) = unitService
+                    .convertBetweenUnitsInverseRange(sourceUnit, targetUnit, temperature)
+                if (lowerBound > upperBound) {
+                    println("Not possible to reach temperature. SourceUnit: ${sourceUnit.name} Lower bound: $lowerBound, Upper bound: $upperBound, Temperature: $temperature")
+                    continue
+                }
+                assertEquals(
+                    temperature,
+                    unitService.convertBetweenUnits(sourceUnit, targetUnit, lowerBound),
+                )
+                assertEquals(
+                    temperature,
+                    unitService.convertBetweenUnits(sourceUnit, targetUnit, upperBound),
+                )
+                assertNotEquals(
+                    temperature,
+                    unitService.convertBetweenUnits(
+                        sourceUnit,
+                        targetUnit,
+                        unitService.roundingNeighbors(lowerBound, 12).nextLower),
+                    0.0,
+                    "Failed for temperature $temperature, lowerBound $lowerBound, sourceUnit ${sourceUnit.name}"
+                )
+                assertNotEquals(
+                    temperature,
+                    unitService.convertBetweenUnits(
+                        sourceUnit,
+                        targetUnit,
+                        unitService.roundingNeighbors(upperBound, 12).nextUpper),
+                    0.0,
+                    "Failed for temperature $temperature, upperBound $upperBound, sourceUnit ${sourceUnit.name}",
+                )
+                println("OK conversion from ${sourceUnit.name} for temperature $temperature")
+            }
+        }
+    }
+
+    @Test
+    fun blah() {
+        val unitService = UnitService.service
+        val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
+        val unitFahrenheit = unitService.getUnitByExternalId("temperature:deg_f")
+
+        val temperature = -196.593259651
+        val upperTemp = -196.5932596505
+        val upperBound = -321.867867372
+        val nextUpperB = -321.867867371
+        println("Converted temperature: ${unitService.convertBetweenUnits(unitCelsius, unitFahrenheit, temperature)}")
+        println("Converted upperTemp: ${unitService.convertBetweenUnits(unitCelsius, unitFahrenheit, upperTemp)}")
+        println("Converted upperBound: ${unitService.convertBetweenUnits(unitFahrenheit, unitCelsius, upperBound)}")
+        println("Converted nextUpperB: ${unitService.convertBetweenUnits(unitFahrenheit, unitCelsius, nextUpperB)}")
+    }
+
 
     @Test
     fun convertToSystem() {

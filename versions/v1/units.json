@@ -8110,7 +8110,7 @@
     "externalId": "thermal_conductivity:btu_it-ft-per-ft2-hr-deg_f",
     "name": "BTU_IT-FT-PER-FT2-HR-DEG_F",
     "quantity": "Thermal Conductivity",
-    "longName": "British Thermal Unit (International Definition) per Hour per Foot per Degree Fahrenheit",
+    "longName": "British Thermal Unit (International Definition) Foot per Square Foot Hour Degree Fahrenheit",
     "aliasNames": [
       "BTU per hr per ft per F",
       "BTU feet per hour per square foot per degree Fahrenheit",

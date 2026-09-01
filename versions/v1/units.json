@@ -1677,7 +1677,9 @@
       "number",
       "#",
       "NUM",
-      "Number"
+      "Number",
+      "count",
+      "counts"
     ],
     "symbol": "#",
     "conversion": {
@@ -3986,6 +3988,27 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/DeciM"
+  },
+  {
+    "externalId": "length:nanom",
+    "name": "NanoM",
+    "quantity": "Length",
+    "longName": "Nanometer",
+    "aliasNames": [
+      "nanometre",
+      "nanometer",
+      "Nanometer",
+      "Nanometre",
+      "nm",
+      "NanoM"
+    ],
+    "symbol": "nm",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/NanoM"
   },
   {
     "externalId": "length:ft",
@@ -10158,6 +10181,31 @@
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
     "sourceReference": null
+  },
+  {
+    "externalId": "volume_flow_rate:kilo-m3-per-day",
+    "name": "Kilo-M3-PER-DAY",
+    "quantity": "Volume Flow Rate",
+    "longName": "Thousand Cubic Meter per Day",
+    "aliasNames": [
+      "kilo cubic meter per day",
+      "kilo cubic meter / d",
+      "thousand cubic meter per day",
+      "thousand cubic meter / d",
+      "km3/day",
+      "km3/d",
+      "km³/d",
+      "km³/day",
+      "1000 m3/d",
+      "1000 m³/d"
+    ],
+    "symbol": "km³/day",
+    "conversion": {
+      "multiplier": 0.01157407407407410,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_flow_rate:l-per-hr",

@@ -26,13 +26,17 @@ jobs:
         gpg-private-key: ${{ secrets.SONATYPE_CENTRAL_PORTAL_GPG_PRIVATE_KEY }}
         gpg-passphrase: MAVEN_GPG_PASSPHRASE
 
-    - name: Install jq
-      run: sudo apt-get update && sudo apt-get install -y jq
-
     - name: Detect version change
       id: detect
       run: |
-        CENTRAL_VERSION=$(curl -H "Accept: application/json" -L "https://central.sonatype.com/solrsearch/select?q=g:com.cognite.units+a:units-catalog&rows=1&wt=json" | jq -r '.response.docs[0].latestVersion')
+        # The search API (central.sonatype.com/solrsearch) started rejecting our
+        # query and its index can lag; the repository metadata is authoritative.
+        CENTRAL_VERSION=$(curl -fsSL "https://repo1.maven.org/maven2/com/cognite/units/units-catalog/maven-metadata.xml" \
+          | sed -n 's:.*<release>\(.*\)</release>.*:\1:p')
+        if [[ ! "$CENTRAL_VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z0-9.]+)?$ ]]; then
+          echo "::error::Refusing to release: could not determine the released version on Maven Central (got '$CENTRAL_VERSION')"
+          exit 1
+        fi
         MVN_VERSION=$(mvn -q \
             -Dexec.executable=echo \
             -Dexec.args='${project.version}' \
@@ -104,12 +108,13 @@ jobs:
       continue-on-error: true
       run: |
         for i in $(seq 1 24); do
-          LATEST=$(curl -s -H "Accept: application/json" -L "https://central.sonatype.com/solrsearch/select?q=g:com.cognite.units+a:units-catalog&rows=1&wt=json" | jq -r '.response.docs[0].latestVersion')
+          LATEST=$(curl -fsSL "https://repo1.maven.org/maven2/com/cognite/units/units-catalog/maven-metadata.xml" \
+            | sed -n 's:.*<release>\(.*\)</release>.*:\1:p')
           if [ "$LATEST" = "$VERSION" ]; then
-            echo "Maven Central lists latestVersion=$VERSION"
+            echo "Maven Central lists release=$VERSION"
             exit 0
           fi
-          echo "Attempt $i/24: latestVersion=$LATEST (want $VERSION), waiting 5s..."
+          echo "Attempt $i/24: release=$LATEST (want $VERSION), waiting 5s..."
           sleep 5
         done
         echo "Timeout waiting for Central index; continuing."

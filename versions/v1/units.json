@@ -12761,5 +12761,60 @@
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
-  }
+  },
+  {
+    "externalId": "volume_flow_rate:quarts-per-day",
+    "name": "QT_US-PER-DAY",
+    "quantity": "Quarts Per Day",
+    "longName": "Quarts Per Day",
+    "aliasNames": [
+      "qt/day",
+      "quarts-per-day",
+      "PA²/Hz",
+      "Pa^2/Hz",
+      "pa^2/Hz",
+      "PA^2/Hz",
+      "Pa2/Hz",
+      "pa2/Hz",
+      "PA2/Hz",
+      "Pa² / Hz",
+      "pa² / Hz",
+      "Pa^2 / Hz",
+      "pa^2 / Hz",
+      "Quarts Per Day",
+      "quarts per day",
+      "Quarts per Day",
+      "quarts per day"
+    ],
+    "symbol": "qt/day",
+    "conversion": {
+      "multiplier": 1.0953159097222223e-08
+      "offset": 0
+    },
+    "source": "https://qudt.org/vocab/unit/QT_US-PER-HR",
+    "sourceReference": null
+  }, 
+  {
+    "externalId": "velocity:1/1000 inch per year",
+    "name": "MIL-PER-YEAR",
+    "quantity": "Mil Per Year",
+    "longName": "Mil Per Year",
+    "aliasNames": [
+      "a thou per year",
+      "a mil per year",
+      "A Mil Per Year",
+      "A Mil per year",
+      "A Mil Per year",
+      "A thou per year",
+      "A Thou Per Year",
+      "A Thou Per year"
+    ],
+    "symbol": "mpy",
+    "conversion": {
+      "multiplier": 8.054282814563485e-13
+      "offset": 0
+    },
+    "source": "Custom based on Well unit standards - https://glossary.slb.com/terms/c/corrosion_rate",
+    "sourceReference": null
+  },  
 ]

@@ -175,6 +175,10 @@
         "unitExternalId": "temperature_gradient:k-per-m"
       },
       {
+        "name": "Thermal Conductivity",
+        "unitExternalId": "thermal_conductivity:w-per-m-k"
+      },
+      {
         "name": "Time",
         "unitExternalId": "time:sec"
       },
@@ -412,6 +416,10 @@
         "unitExternalId": "temperature_gradient:k-per-m"
       },
       {
+        "name": "Thermal Conductivity",
+        "unitExternalId": "thermal_conductivity:w-per-m-k"
+      },
+      {
         "name": "Time",
         "unitExternalId": "time:sec"
       },
@@ -535,6 +543,10 @@
       {
         "name": "Temperature",
         "unitExternalId": "temperature:deg_f"
+      },
+      {
+        "name": "Thermal Conductivity",
+        "unitExternalId": "thermal_conductivity:btu_it-ft-per-ft2-hr-deg_f"
       },
       {
         "name": "Torque",

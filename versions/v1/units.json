@@ -8154,6 +8154,58 @@
     "sourceReference": "https://qudt.org/vocab/unit/K-PER-M"
   },
   {
+    "externalId": "thermal_conductivity:btu_it-ft-per-ft2-hr-deg_f",
+    "name": "BTU_IT-FT-PER-FT2-HR-DEG_F",
+    "quantity": "Thermal Conductivity",
+    "longName": "British Thermal Unit (International Definition) Foot per Square Foot Hour Degree Fahrenheit",
+    "aliasNames": [
+      "BTU per hr per ft per F",
+      "BTU feet per hour per square foot per degree Fahrenheit",
+      "BTU/(hr·ft·°F)",
+      "BTU·ft/(hr·ft²·°F)",
+      "Btu/(h·ft·°F)",
+      "BTU·ft/(h·ft²·°F)",
+      "BTU/hr-ft-F",
+      "BTU-ft/hr-ft²-F",
+      "BTU/hr/ft/F",
+      "BTU/hr/ft/°F",
+      "BTU_IT per hour per foot per degree Fahrenheit",
+      "BTU_IT feet per hour per square foot per degree Fahrenheit",
+      "BTU per hour per foot per degree Fahrenheit",
+      "BTU_per_hr_per_ft_per_F",
+      "BTU_feet_per_hr_per_sq_ft_per_F"
+    ],
+    "symbol": "Btu{IT}·ft/(ft²·h·°F)",
+    "conversion": {
+      "multiplier": 1.730734666371391,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/BTU_IT-FT-PER-FT2-HR-DEG_F"
+  },
+  {
+    "externalId": "thermal_conductivity:w-per-m-k",
+    "name": "W-PER-M-K",
+    "quantity": "Thermal Conductivity",
+    "longName": "Watt per Meter Kelvin",
+    "aliasNames": [
+      "W/m·K",
+      "W/(m·K)",
+      "W/m/K",
+      "W per m K",
+      "watt per meter kelvin",
+      "watt per metre kelvin",
+      "W_per_m_K"
+    ],
+    "symbol": "W/(m·K)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/W-PER-M-K"
+  },
+  {
     "externalId": "time:day",
     "name": "DAY",
     "quantity": "Time",

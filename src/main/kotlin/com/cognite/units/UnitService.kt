@@ -23,6 +23,7 @@ import java.net.URL
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.log10
+import kotlin.math.nextDown
 import kotlin.math.pow
 import kotlin.math.roundToLong
 
@@ -231,12 +232,42 @@ class UnitService(units: String, systems: String) {
         return roundToSignificantDigits(targetUnitValue, 12)
     }
 
+    // Find the range of numbers that would convert to the given valueTo in the target unit
+    fun convertBetweenUnitsInverseRange(unitFrom: TypedUnit, unitTo: TypedUnit, valueTo: Double): Pair<Double, Double> {
+        if (unitFrom == unitTo) {
+            return valueTo to valueTo // avoid rounding errors
+        }
+        verifyIsConvertible(unitFrom, unitTo)
+        val roundingValues = roundingNeighbors(valueTo, 12)
+        // roundedTarget is the aim: we want to find everything that would convert and round to this value
+        val roundedTarget = roundingValues.rounded
+        // Find the bounds for the target value. Anything between these bounds would round to roundedTarget
+        val lowerBoundTo = (roundingValues.nextLower + roundedTarget) / 2
+        val upperBoundTo = (roundedTarget + roundingValues.nextUpper) / 2
+        // Do the reverse conversion to find the corresponding bounds in the source unit
+        val lowerBaseUnit = convertBetweenUnits(unitTo, unitFrom, lowerBoundTo)
+        val upperBaseUnit = convertBetweenUnits(unitTo, unitFrom, upperBoundTo)
+        // Because the bounds can not be represented exactly, we do one more check to see if we are correct.
+        // If they do not convert to the exact roundedTarget, we must use the neighbor number instead.
+        val adjustedLower = if (convertBetweenUnits(unitFrom, unitTo, lowerBaseUnit) == roundedTarget) {
+            lowerBaseUnit
+        } else {
+            roundingNeighbors(lowerBaseUnit, 12).nextUpper
+        }
+        val adjustedUpper = if (convertBetweenUnits(unitFrom, unitTo, upperBaseUnit) == roundedTarget) {
+            upperBaseUnit
+        } else {
+            roundingNeighbors(upperBaseUnit, 12).nextLower
+        }
+        return adjustedLower to adjustedUpper
+    }
+
     /*
      * Conversion factors can't always be represented exactly in floating point. Also, some arithmetics may result
      * in numbers like 0.9999999999999999 which should be rounded to 1.0.
      * This function rounds to the specified number of significant digits.
      */
-    private fun roundToSignificantDigits(value: Double, significantDigits: Int): Double {
+    fun roundToSignificantDigits(value: Double, significantDigits: Int): Double {
         if (value == 0.0 || !value.isFinite()) {
             return value
         }
@@ -245,6 +276,30 @@ class UnitService(units: String, systems: String) {
         val magnitude = 10.0.pow(power)
         val shifted = (value * magnitude).roundToLong()
         return shifted / magnitude
+    }
+
+    data class RoundingValues(
+        val nextLower: Double,
+        val rounded: Double,
+        val nextUpper: Double,
+    )
+
+    /* Find the rounding neighbors. Eg. with 2 significant digits,
+     * the neighbors of 1.234 are (1.22, 1.24). (First round to 1.23, then find neighbors.)
+     */
+    fun roundingNeighbors(value: Double, significantDigits: Int) : RoundingValues{
+        if (value == 0.0 || !value.isFinite()) {
+            return RoundingValues(value, value, value)
+        }
+        val digits = ceil(log10(abs(value)))
+        val power = significantDigits - digits
+        val magnitude = 10.0.pow(power)
+        val shifted = (value * magnitude).roundToLong()
+        return RoundingValues(
+            (shifted - 1) / magnitude,
+            shifted / magnitude,
+            (shifted + 1) / magnitude,
+            )
     }
 
     fun isValidUnit(unitExternalId: String): Boolean {

@@ -154,7 +154,7 @@ class UnitTest {
         )
         assertEquals(
             unitService.getUnitByExternalId("amount_of_substance_per_unit_volume:millimol-per-l"),
-            unitService.getUnitByQuantityAndAlias("Amount Of Substance Per Unit Volume","mmol/L"),
+            unitService.getUnitByQuantityAndAlias("Amount Of Substance Per Unit Volume", "mmol/L"),
         )
     }
 

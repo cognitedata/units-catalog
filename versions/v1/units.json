@@ -4987,7 +4987,9 @@
       "tonne / HR",
       "TONNE per Hour",
       "t / hr",
-      "TONNE PER HR"
+      "TONNE PER HR",
+      "t/h",
+      "t/hr"
     ],
     "symbol": "t/h",
     "conversion": {

@@ -2867,6 +2867,7 @@
       "kilowatthour",
       "Kilowatt hr",
       "kWh",
+      "KWH",
       "kWhr",
       "kW·h: kilowatt hour"
     ],
@@ -4986,7 +4987,9 @@
       "tonne / HR",
       "TONNE per Hour",
       "t / hr",
-      "TONNE PER HR"
+      "TONNE PER HR",
+      "t/h",
+      "t/hr"
     ],
     "symbol": "t/h",
     "conversion": {

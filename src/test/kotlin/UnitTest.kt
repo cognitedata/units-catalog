@@ -148,6 +148,14 @@ class UnitTest {
             listOf(unitService.getUnitByExternalId("temperature:deg_c")),
             unitService.getUnitsByAlias("Celsius"),
         )
+        assertEquals(
+            listOf(unitService.getUnitByExternalId("amount_of_substance_per_unit_volume:millimol-per-l")),
+            unitService.getUnitsByAlias("mmol/L"), // symbol, not in alias list
+        )
+        assertEquals(
+            unitService.getUnitByExternalId("amount_of_substance_per_unit_volume:millimol-per-l"),
+            unitService.getUnitByQuantityAndAlias("Amount Of Substance Per Unit Volume","mmol/L"),
+        )
     }
 
     @Test

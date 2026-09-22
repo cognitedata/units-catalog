@@ -8279,6 +8279,7 @@
     "longName": "Millisecond",
     "aliasNames": [
       "millisecond",
+      "milliseconds",
       "ms",
       "MilliSEC"
     ],

@@ -37,6 +37,7 @@
       "foot / square second",
       "ft per square second",
       "Foot per Square Second",
+      "ft/s²",
       "Foot / Square Second"
     ],
     "symbol": "ft/s²",
@@ -86,6 +87,7 @@
       "in per SEC2",
       "IN per square second",
       "IN per SEC2",
+      "in/s²",
       "IN / SEC2"
     ],
     "symbol": "in/s²",
@@ -144,6 +146,7 @@
       "metre / s²",
       "Metre per Square Second",
       "meter per SEC2",
+      "m/s²",
       "M PER S2"
     ],
     "symbol": "m/s²",
@@ -295,6 +298,7 @@
       "CentiMOL per Liter",
       "CentiMOL per Litre",
       "CentiMOL per L",
+      "cmol/L",
       "centimole per L"
     ],
     "symbol": "cmol/L",
@@ -353,6 +357,7 @@
       "Kilomole / cubic meter",
       "kmol / m³",
       "kilomole per cubic metre",
+      "kmol/m³",
       "kilomole / cubic meter"
     ],
     "symbol": "kmol/m³",
@@ -411,6 +416,7 @@
       "Micromole per Litre",
       "MicroMOL / litre",
       "MicroMOL per liter",
+      "µmol/L",
       "Micromole / liter"
     ],
     "symbol": "µmol/L",
@@ -468,6 +474,7 @@
       "millimole per Liter",
       "MilliMOL / Litre",
       "millimole / litre",
+      "mmol/L",
       "mmol per litre"
     ],
     "symbol": "mmol/L",
@@ -526,6 +533,7 @@
       "mmol per m³",
       "MilliMOL per M3",
       "mmol / cubic meter",
+      "mmol/m³",
       "millimole / cubic metre"
     ],
     "symbol": "mmol/m³",
@@ -580,6 +588,7 @@
       "MOL / cubic decimeter",
       "MOL per Cubic Decimetre",
       "Mole Per Cubic Decimetre",
+      "mol/dm³",
       "mole per cubic decimeter"
     ],
     "symbol": "mol/dm³",
@@ -628,6 +637,7 @@
       "mole / litre",
       "mole / L",
       "mole per litre",
+      "mol/L",
       "mol / litre"
     ],
     "symbol": "mol/L",
@@ -676,6 +686,7 @@
       "mole / Cubic Meter",
       "MOL / cubic metre",
       "mol per M3",
+      "mol/m³",
       "mol per Cubic Meter"
     ],
     "symbol": "mol/m³",
@@ -854,6 +865,7 @@
       "revolution per s²",
       "Revolution per Square Second",
       "REV per SEC2",
+      "rev/s²",
       "REV per square second"
     ],
     "symbol": "rev/s²",
@@ -904,6 +916,7 @@
       "Revolution per hr",
       "rev / hour",
       "REV / hour",
+      "rev/h",
       "RPH"
     ],
     "symbol": "rev/h",
@@ -956,6 +969,7 @@
       "RPM",
       "rpm",
       "ROT PER MIN",
+      "rev/min",
       "r/min: revolutions per minute"
     ],
     "symbol": "rev/min",
@@ -998,6 +1012,7 @@
       "Revolution per second",
       "Revolution / SEC",
       "rev / s",
+      "rev/s",
       "RPS"
     ],
     "symbol": "rev/s",
@@ -1138,6 +1153,7 @@
       "Square Yard",
       "square yard",
       "sqyd",
+      "yd²",
       "YD2"
     ],
     "symbol": "yd²",
@@ -1245,6 +1261,7 @@
       "Gram / CM3",
       "Gram / cm³",
       "g/cm^3",
+      "g/cm³",
       "g/cm3"
     ],
     "symbol": "g/cm³",
@@ -1304,6 +1321,7 @@
       "Gram / M3",
       "Gram per cubic metre",
       "Gram / m³",
+      "g/m³",
       "G PER CM?"
     ],
     "symbol": "g/m³",
@@ -1369,6 +1387,7 @@
     "aliasNames": [
       "kilogram / Litre",
       "kg/l",
+      "kg/L",
       "KG PER L"
     ],
     "symbol": "kg/L",
@@ -1420,6 +1439,7 @@
       "lbm per Cubic Foot",
       "Pound Mass / Cubic Foot",
       "pound mass / FT3",
+      "lbm/ft³",
       "Pound Mass per Cubic Foot"
     ],
     "symbol": "lbm/ft³",
@@ -1449,6 +1469,7 @@
       "lbm / GAL",
       "Pound Mass per GAL",
       "LBM PER GAL",
+      "lb/gal",
       "PPG"
     ],
     "symbol": "lb/gal",
@@ -1500,6 +1521,7 @@
       "Pound Mass / in³",
       "Pound per Cubic Inch",
       "LB / cubic inch",
+      "lbm/in³",
       "lbm per cubic inch"
     ],
     "symbol": "lbm/in³",
@@ -1551,6 +1573,7 @@
       "lb / yd³",
       "pound mass per Cubic Yard",
       "LB / Cubic Yard",
+      "lbm/yd³",
       "pound mass / Cubic Yard"
     ],
     "symbol": "lbm/yd³",
@@ -1580,6 +1603,7 @@
       "milligm / m3",
       "milligm / m³",
       "mg / m3",
+      "mg/m³",
       "mg / m³"
     ],
     "symbol": "mg/m³",
@@ -1607,6 +1631,7 @@
       "imperial mass ounce per gallon",
       "ounce mass per GAL",
       "OZ per GAL",
+      "oz/gal{US}",
       "oz per GAL"
     ],
     "symbol": "oz/gal{US}",
@@ -1658,6 +1683,7 @@
       "OZ PER IN3",
       "oz per in³",
       "OZ / IN3",
+      "oz/in³",
       "Ounce Mass / IN3"
     ],
     "symbol": "oz/in³",
@@ -1981,6 +2007,7 @@
       "LB PER FT HR",
       "LB per ft hr",
       "Pound Mass / foot Hour",
+      "lbm/(ft⋅h)",
       "LB / ft HR"
     ],
     "symbol": "lbm/(ft⋅h)",
@@ -2096,6 +2123,7 @@
       "lbm per FT s",
       "Pound Mass / Foot second",
       "lbm / ft second",
+      "lbm/(ft⋅s)",
       "pound mass per FT SEC"
     ],
     "symbol": "lbm/(ft⋅s)",
@@ -2125,6 +2153,7 @@
       "mPa ⋅ s",
       "mPa SEC",
       "millipascal second",
+      "mPa⋅s",
       "MilliPA s"
     ],
     "symbol": "mPa⋅s",
@@ -2150,6 +2179,7 @@
       "PA s",
       "pascal s",
       "Pa SEC",
+      "Pa⋅s",
       "Pa ⋅ s"
     ],
     "symbol": "Pa⋅s",
@@ -2343,6 +2373,7 @@
       "amp per hour",
       "amp per hr",
       "amp/hour",
+      "A/h",
       "amp/hr"
     ],
     "symbol": "A/h",
@@ -2639,6 +2670,7 @@
       "ft ⋅ lbf",
       "Foot lbf",
       "foot lbf",
+      "ft⋅lbf",
       "ft.lbf"
     ],
     "symbol": "ft⋅lbf",
@@ -2690,6 +2722,7 @@
       "GigaW hour",
       "GW Hour",
       "GW HR",
+      "GW⋅h",
       "gigawatt HR"
     ],
     "symbol": "GW⋅h",
@@ -2831,6 +2864,7 @@
       "Kilovolt ampere hr",
       "KiloV ampere Hour",
       "kV ampere HR",
+      "kV·A·h",
       "kilovolt A Hour"
     ],
     "symbol": "kV·A·h",
@@ -2868,6 +2902,7 @@
       "Kilowatt hr",
       "kWh",
       "kWhr",
+      "kW⋅h",
       "kW·h: kilowatt hour"
     ],
     "symbol": "kW⋅h",
@@ -2906,6 +2941,7 @@
       "megatoe",
       "MegaTOE",
       "Megaton of Oil Equivalent",
+      "Mtoe",
       "megaton of oil equivalent"
     ],
     "symbol": "Mtoe",
@@ -2955,6 +2991,7 @@
       "Megavolt ampere hour",
       "Megavolt ampere hr",
       "MegaV A HR",
+      "MV⋅A⋅h",
       "MegaV A hr"
     ],
     "symbol": "MV⋅A⋅h",
@@ -2985,6 +3022,7 @@
       "MW hr",
       "megaw Hour",
       "megaw hour",
+      "MW⋅h",
       "Megawatt Hour"
     ],
     "symbol": "MW⋅h",
@@ -3074,6 +3112,7 @@
       "terawatt Hour",
       "terawatt HR",
       "TW hr",
+      "TW⋅h",
       "TeraW HR"
     ],
     "symbol": "TW⋅h",
@@ -3126,6 +3165,7 @@
       "V ⋅ A ⋅ hr",
       "V ampere hr",
       "volt A HR",
+      "V⋅A⋅h",
       "volt ampere HR"
     ],
     "symbol": "V⋅A⋅h",
@@ -3152,6 +3192,7 @@
       "W hour",
       "W Hour",
       "watt hr",
+      "W⋅h",
       "W HR"
     ],
     "symbol": "W⋅h",
@@ -3175,6 +3216,7 @@
       "watt second",
       "watt SEC",
       "W second",
+      "W⋅s",
       "Watt Second"
     ],
     "symbol": "W⋅s",
@@ -3245,6 +3287,7 @@
       "british thermal unit (international definition) per FT3",
       "Btu{IT} per ft³",
       "BTU_IT / FT3",
+      "Btu{IT}/ft³",
       "Btu{IT} / Cubic Foot"
     ],
     "symbol": "Btu{IT}/ft³",
@@ -3295,6 +3338,7 @@
       "Btu{th} / ft³",
       "british thermal unit (thermochemical definition) per ft³",
       "British Thermal Unit (Thermochemical Definition) per ft³",
+      "Btu{th}/ft³",
       "BTU_TH per Cubic Foot"
     ],
     "symbol": "Btu{th}/ft³",
@@ -3333,6 +3377,7 @@
       "J / m³",
       "J / cubic meter",
       "joule per cubic meter",
+      "J/m³",
       "J per M3"
     ],
     "symbol": "J/m³",
@@ -3391,6 +3436,7 @@
       "megajoule per cubic meter",
       "megajoule / m³",
       "Megajoule per Cubic Meter",
+      "MJ/m³",
       "Megajoule / m³"
     ],
     "symbol": "MJ/m³",
@@ -3492,6 +3538,7 @@
       "W HR per M3",
       "watt hr / cubic meter",
       "watthour per cubic meter",
+      "W⋅h/m³",
       "Watthour per Cubic meter"
     ],
     "symbol": "W⋅h/m³",
@@ -3765,6 +3812,7 @@
       "# per Hour",
       "NUM per hour",
       "Number per hr",
+      "#/h",
       "NUM / hour"
     ],
     "symbol": "#/h",
@@ -3808,6 +3856,7 @@
       "# per s",
       "counts per second",
       "Number / second",
+      "#/s",
       "NUM per second"
     ],
     "symbol": "#/s",
@@ -3856,6 +3905,7 @@
       "# / Year",
       "Number per year",
       "# per year",
+      "#/yr",
       "NUM / yr"
     ],
     "symbol": "#/yr",
@@ -3879,6 +3929,7 @@
       "per min",
       "spm",
       "SPM",
+      "/min",
       "1 PER MIN"
     ],
     "symbol": "/min",
@@ -3937,6 +3988,7 @@
       "/ metre",
       "/ m",
       "per meter",
+      "/m",
       "per metre"
     ],
     "symbol": "/m",
@@ -4211,6 +4263,7 @@
       "kg per metre",
       "kilogram / m",
       "kilogm / m",
+      "kg/m",
       "kg / m"
     ],
     "symbol": "kg/m",
@@ -4228,6 +4281,7 @@
     "longName": "Pound Mass per Foot",
     "aliasNames": [
       "lb-per-ft",
+      "lbm/ft",
       "LB/FT"
     ],
     "symbol": "lbm/ft",
@@ -4379,6 +4433,7 @@
     "longName": "Long Ton",
     "aliasNames": [
       "ton",
+      "t{long}",
       "ton (UK): ton (UK) or long ton (US)"
     ],
     "symbol": "t{long}",
@@ -4502,6 +4557,7 @@
       "MilliGM / Millilitre",
       "Milligram per MilliL",
       "milligram / mL",
+      "mg/mL",
       "Milligram Per Millilitre"
     ],
     "symbol": "mg/mL",
@@ -4551,6 +4607,7 @@
       "g per minute",
       "g / Minute",
       "gram per minute",
+      "g/min",
       "GM / min"
     ],
     "symbol": "g/min",
@@ -4631,6 +4688,7 @@
       "KiloGM PER DAY",
       "KiloGM per Day",
       "kg per day",
+      "kg/day",
       "kg/d"
     ],
     "symbol": "kg/day",
@@ -4718,6 +4776,7 @@
       "KiloGM per minute",
       "KiloGM / min",
       "kg / min",
+      "kg/min",
       "kilogram / MIN"
     ],
     "symbol": "kg/min",
@@ -4753,6 +4812,7 @@
       "kilogram per second",
       "KiloGM per s",
       "Kilogram per Second",
+      "kg/s",
       "kilogram per SEC"
     ],
     "symbol": "kg/s",
@@ -4804,6 +4864,7 @@
       "lbm / Hour",
       "LB per HR",
       "pound mass per hr",
+      "lbm/h",
       "LB / hr"
     ],
     "symbol": "lbm/h",
@@ -4855,6 +4916,7 @@
       "LB per MIN",
       "pound mass / minute",
       "pound mass / MIN",
+      "lbm/min",
       "lbm per min"
     ],
     "symbol": "lbm/min",
@@ -4896,6 +4958,7 @@
       "milligram / s",
       "mg per s",
       "Milligram / SEC",
+      "mg/s",
       "mg / s"
     ],
     "symbol": "mg/s",
@@ -4937,6 +5000,7 @@
       "tonne / Day",
       "Tonne / Day",
       "Tonne per Day",
+      "t/day",
       "TONNE / DAY"
     ],
     "symbol": "t/day",
@@ -4986,6 +5050,7 @@
       "tonne / HR",
       "TONNE per Hour",
       "t / hr",
+      "t/h",
       "TONNE PER HR"
     ],
     "symbol": "t/h",
@@ -5035,6 +5100,7 @@
       "TONNE per minute",
       "TONNE / minute",
       "Tonne per min",
+      "t/min",
       "Tonne per minute"
     ],
     "symbol": "t/min",
@@ -5076,6 +5142,7 @@
       "Tonne / SEC",
       "tonne / SEC",
       "Tonne / second",
+      "t/s",
       "tonne per second"
     ],
     "symbol": "t/s",
@@ -5114,6 +5181,7 @@
       "H per meter",
       "henry per metre",
       "henry per M",
+      "H/m",
       "henry / m"
     ],
     "symbol": "H/m",
@@ -5164,6 +5232,7 @@
       "Btu{IT} / Hour",
       "Btu{IT} per hour",
       "Btu{IT} per Hour",
+      "Btu{IT}/h",
       "British Thermal Unit (International Definition) / hour"
     ],
     "symbol": "Btu{IT}/h",
@@ -5206,6 +5275,7 @@
       "british thermal unit (international definition) per SEC",
       "BTU per Second",
       "Btu{IT} per s",
+      "Btu{IT}/s",
       "British Thermal Unit (International Definition) per s"
     ],
     "symbol": "Btu{IT}/s",
@@ -5351,6 +5421,7 @@
       "FT LB_F / hour",
       "FT LB_F per hour",
       "FT lbf / Hour",
+      "ft⋅lbf/h",
       "Foot lbf per hr"
     ],
     "symbol": "ft⋅lbf/h",
@@ -5496,6 +5567,7 @@
       "foot pound force per min",
       "foot Pound Force / min",
       "FT Pound Force per min",
+      "ft⋅lbf/min",
       "FT lbf / minute"
     ],
     "symbol": "ft⋅lbf/min",
@@ -5610,6 +5682,7 @@
       "FT Pound Force / second",
       "foot LB_F per s",
       "FT pound force per SEC",
+      "ft⋅lbf/s",
       "foot pound force / second"
     ],
     "symbol": "ft⋅lbf/s",
@@ -5699,6 +5772,7 @@
       "J per hour",
       "J per Hour",
       "joule per hour",
+      "J/h",
       "joule per hr"
     ],
     "symbol": "J/h",
@@ -5728,6 +5802,7 @@
       "joule / minute",
       "J / MIN",
       "J per minute",
+      "J/min",
       "J/min: joule per minute"
     ],
     "symbol": "J/min",
@@ -5757,6 +5832,7 @@
       "joule per second",
       "joule / second",
       "J / SEC",
+      "J/s",
       "J per second"
     ],
     "symbol": "J/s",
@@ -5805,6 +5881,7 @@
       "KiloBTU_IT per Hour",
       "kilo british thermal unit (international definition) per hour",
       "kilo british thermal unit (international definition) / HR",
+      "kBtu{IT}/h",
       "Kilo British Thermal Unit (International Definition) / HR"
     ],
     "symbol": "kBtu{IT}/h",
@@ -5854,6 +5931,7 @@
       "KiloCAL per MIN",
       "kilocalorie per Minute",
       "KiloCAL / minute",
+      "kcal/min",
       "kcal per MIN"
     ],
     "symbol": "kcal/min",
@@ -5895,6 +5973,7 @@
       "kcal / SEC",
       "KiloCAL / s",
       "kilocalorie / SEC",
+      "kcal/s",
       "Kilocalorie per second"
     ],
     "symbol": "kcal/s",
@@ -5920,6 +5999,7 @@
       "kV ⋅ A",
       "Kilovolt Ampere",
       "Kilovolt ampere",
+      "kV⋅A",
       "kV A"
     ],
     "symbol": "kV⋅A",
@@ -5968,6 +6048,7 @@
       "MegaBTU_IT / Hour",
       "mega british thermal unit (international definition) per hour",
       "MegaBTU_IT per HR",
+      "MBtu{IT}/h",
       "MegaBTU_IT PER HR"
     ],
     "symbol": "MBtu{IT}/h",
@@ -6009,6 +6090,7 @@
       "megajoule per second",
       "MegaJ / second",
       "MJ / s",
+      "MJ/s",
       "MegaJ / SEC"
     ],
     "symbol": "MJ/s",
@@ -6034,6 +6116,7 @@
       "mV A",
       "mV ampere",
       "Megavolt ampere",
+      "MV⋅A",
       "MV ⋅ A"
     ],
     "symbol": "MV⋅A",
@@ -6109,6 +6192,7 @@
       "volt A",
       "V ampere",
       "volt ampere",
+      "V⋅A",
       "V A"
     ],
     "symbol": "V⋅A",
@@ -6393,6 +6477,7 @@
       "kg per metre SEC2",
       "kilogram / Meter SEC2",
       "kilogram / M Square Second",
+      "kg/(m⋅s²)",
       "kilogram / metre SEC2"
     ],
     "symbol": "kg/(m⋅s²)",
@@ -6487,6 +6572,7 @@
       "kilogram_force per cm2",
       "Kilogram_force / cm2",
       "kilogm_force per cm2",
+      "kgf/cm²",
       "Kilogm_force / cm2"
     ],
     "symbol": "kgf/cm²",
@@ -6579,6 +6665,7 @@
       "Pound Force / Square Foot",
       "lbf per Square Foot",
       "pound force per ft²",
+      "lbf/ft²",
       "LB_F per FT2"
     ],
     "symbol": "lbf/ft²",
@@ -6597,6 +6684,7 @@
     "aliasNames": [
       "LB_F per 100 square foot",
       "Pound Force / 100 FT2",
+      "lbf/100ft²",
       "LB_F / 100FT2"
     ],
     "symbol": "lbf/100ft²",
@@ -6700,6 +6788,7 @@
       "mmWC",
       "mmwg",
       "mmwg: millimeters of water gauge",
+      "mmH₂0",
       "mmWG"
     ],
     "symbol": "mmH₂0",
@@ -6725,6 +6814,7 @@
       "in.WG",
       "in. WG",
       "\"WS",
+      "inH₂O",
       "\"H2O"
     ],
     "symbol": "inH₂O",
@@ -6786,6 +6876,7 @@
       "N per cm²",
       "N per Square Centimetre",
       "newton / cm²",
+      "N/cm²",
       "N per Square Centimeter"
     ],
     "symbol": "N/cm²",
@@ -6826,6 +6917,7 @@
       "N PER M2",
       "N / Square Meter",
       "newton per M2",
+      "N/m²",
       "newton per square meter"
     ],
     "symbol": "N/m²",
@@ -6868,6 +6960,7 @@
       "N per MilliM2",
       "N / Square Millimeter",
       "N / square millimeter",
+      "N/mm²",
       "N / mm²"
     ],
     "symbol": "N/mm²",
@@ -7053,6 +7146,7 @@
     "longName": "Volt Ampere Reactive",
     "aliasNames": [
       "VAR",
+      "var",
       "VAr"
     ],
     "symbol": "var",
@@ -7072,6 +7166,7 @@
       "kVAR",
       "kVAr",
       "kvar: kilovar",
+      "kvar",
       "KVAr"
     ],
     "symbol": "kvar",
@@ -7089,6 +7184,7 @@
     "longName": "Mega Volt Ampere Reactive",
     "aliasNames": [
       "MVAR",
+      "Mvar",
       "MVAr"
     ],
     "symbol": "Mvar",
@@ -7295,6 +7391,7 @@
     "aliasNames": [
       "kSft³",
       "kSCF",
+      "MSCF",
       "kSFT3"
     ],
     "symbol": "MSCF",
@@ -7460,6 +7557,7 @@
       "ft pound force per square foot",
       "Foot LB_F / Square Foot",
       "Foot lbf per FT2",
+      "ft⋅lbf/ft²",
       "Foot pound force / ft²"
     ],
     "symbol": "ft⋅lbf/ft²",
@@ -7502,6 +7600,7 @@
       "joule / square centimetre",
       "J per square centimeter",
       "J / Square Centimeter",
+      "J/cm²",
       "joule / Square Centimetre"
     ],
     "symbol": "J/cm²",
@@ -7581,6 +7680,7 @@
       "KiloGM per Square Second",
       "kg / square second",
       "Kilogram per Square Second",
+      "kg/s²",
       "kg / Square Second"
     ],
     "symbol": "kg/s²",
@@ -7758,6 +7858,7 @@
       "N m / m²",
       "N meter / square meter",
       "newton meter per square meter",
+      "N⋅m/m²",
       "newton M per square meter"
     ],
     "symbol": "N⋅m/m²",
@@ -7856,6 +7957,7 @@
       "watt Hour / Square Meter",
       "watt hour / m²",
       "watt hour per M2",
+      "W⋅h/m²",
       "W hour per square metre"
     ],
     "symbol": "W⋅h/m²",
@@ -7935,6 +8037,7 @@
       "W second per square metre",
       "W s per m²",
       "watt second per square meter",
+      "W⋅s/m²",
       "W SEC per square metre"
     ],
     "symbol": "W⋅s/m²",
@@ -8143,6 +8246,7 @@
       "kelvin per meter",
       "kelvin / m",
       "Kelvins per metre",
+      "K/m",
       "Degrees Kelvin per metre"
     ],
     "symbol": "K/m",
@@ -8173,6 +8277,7 @@
       "BTU_IT feet per hour per square foot per degree Fahrenheit",
       "BTU per hour per foot per degree Fahrenheit",
       "BTU_per_hr_per_ft_per_F",
+      "Btu{IT}·ft/(ft²·h·°F)",
       "BTU_feet_per_hr_per_sq_ft_per_F"
     ],
     "symbol": "Btu{IT}·ft/(ft²·h·°F)",
@@ -8407,6 +8512,7 @@
       "LB_F FT",
       "pound force FT",
       "LBF.FT",
+      "lbf⋅ft",
       "LBF·FT"
     ],
     "symbol": "lbf⋅ft",
@@ -8427,6 +8533,7 @@
       "kLB_F foot",
       "KFT.LBF",
       "KiloLB_F foot",
+      "klbf⋅ft",
       "KLB*FT"
     ],
     "symbol": "klbf⋅ft",
@@ -8459,6 +8566,7 @@
       "Pound Force inch",
       "LB_F inch",
       "LB_F in",
+      "lbf⋅in",
       "lbf inch"
     ],
     "symbol": "lbf⋅in",
@@ -8488,6 +8596,7 @@
       "N metre",
       "newton metre",
       "N.M",
+      "N⋅m",
       "NM"
     ],
     "symbol": "N⋅m",
@@ -8536,6 +8645,7 @@
       "FT / Hour",
       "Foot / hour",
       "foot / hour",
+      "ft/h",
       "FT PER HR"
     ],
     "symbol": "ft/h",
@@ -8935,6 +9045,7 @@
       "international mile per hour",
       "MI per HR",
       "MI / hour",
+      "mi/h",
       "mi / hour"
     ],
     "symbol": "mi/h",
@@ -9404,6 +9515,7 @@
       "kilo cubic meter",
       "kilo cubic metre",
       "km3",
+      "km³",
       "k.m3"
     ],
     "symbol": "km³",
@@ -9423,6 +9535,7 @@
       "mega cubic meter",
       "mega cubic metre",
       "Mm3",
+      "Mm³",
       "MCM"
     ],
     "symbol": "Mm³",
@@ -9669,6 +9782,7 @@
       "cubic centimeter / s",
       "CentiM3 per SEC",
       "cubic centimetre / SEC",
+      "cm³/s",
       "cm³ / SEC"
     ],
     "symbol": "cm³/s",
@@ -9735,6 +9849,7 @@
       "Cubic Decimeter / Minute",
       "cubic decimetre / Minute",
       "Cubic Decimeter / min",
+      "dm³/min",
       "dm³ / min"
     ],
     "symbol": "dm³/min",
@@ -9789,6 +9904,7 @@
       "Cubic Decimetre / s",
       "cubic decimetre per second",
       "DeciM3 / SEC",
+      "dm³/s",
       "cubic decimetre per s"
     ],
     "symbol": "dm³/s",
@@ -9830,6 +9946,7 @@
       "FT3 per Day",
       "Cubic Foot / day",
       "cubic foot / DAY",
+      "ft³/day",
       "ft³ per DAY"
     ],
     "symbol": "ft³/day",
@@ -9879,6 +9996,7 @@
       "cubic foot per Hour",
       "Cubic Foot per hr",
       "cubic foot per hour",
+      "ft³/h",
       "cubic foot per hr"
     ],
     "symbol": "ft³/h",
@@ -9927,6 +10045,7 @@
       "cubic foot per min",
       "cubic foot per MIN",
       "ft³ per MIN",
+      "ft³/min",
       "cubic foot per Minute"
     ],
     "symbol": "ft³/min",
@@ -9968,6 +10087,7 @@
       "ft³ per second",
       "cubic foot / s",
       "Cubic Foot per Second",
+      "ft³/s",
       "ft³ / s"
     ],
     "symbol": "ft³/s",
@@ -10017,6 +10137,7 @@
       "gallon (uk) / hr",
       "gal{UK} per HR",
       "Gallon (UK) per hr",
+      "gal{UK}/h",
       "gal{UK} / HR"
     ],
     "symbol": "gal{UK}/h",
@@ -10066,6 +10187,7 @@
       "GAL_UK per Minute",
       "Gallon (UK) per min",
       "gal{UK} / MIN",
+      "gal{UK}/min",
       "GAL_UK / minute"
     ],
     "symbol": "gal{UK}/min",
@@ -10107,6 +10229,7 @@
       "Gallon (UK) per second",
       "Gallon (UK) / second",
       "Gallon (UK) / SEC",
+      "gal{UK}/s",
       "gal{UK} per second"
     ],
     "symbol": "gal{UK}/s",
@@ -10148,6 +10271,7 @@
       "in³ per SEC",
       "IN3 / SEC",
       "cubic inch per s",
+      "in³/s",
       "Cubic Inch per s"
     ],
     "symbol": "in³/s",
@@ -10197,6 +10321,7 @@
       "KiloL per Hour",
       "kilolitre / Hour",
       "kL / Hour",
+      "kL/h",
       "KiloL per hr"
     ],
     "symbol": "kL/h",
@@ -10224,6 +10349,7 @@
       "MSCFD",
       "Mscf/d",
       "mscf/d",
+      "kft³/day",
       "MSCF/D"
     ],
     "symbol": "kft³/day",
@@ -10342,6 +10468,7 @@
       "LPM",
       "Ltr/m",
       "l/min",
+      "L/min",
       "l/min: litre per minute"
     ],
     "symbol": "L/min",
@@ -10391,6 +10518,7 @@
       "litre / SEC",
       "liter / second",
       "Liter Per Second",
+      "L/s",
       "l/s: litre per second"
     ],
     "symbol": "L/s",
@@ -10410,6 +10538,7 @@
       "Million Cubic Meter / DAY",
       "Mm3/D",
       "Mm3/d",
+      "Mm³/day",
       "Mm³/d: million cubic meter per day"
     ],
     "symbol": "Mm³/day",
@@ -10462,6 +10591,7 @@
       "m3/d",
       "m³/d:",
       "M3/D",
+      "m³/day",
       "m3/D"
     ],
     "symbol": "m³/day",
@@ -10595,6 +10725,7 @@
       "cubic metre per MIN",
       "Cubic Meter Per Minute",
       "cubic metre / Minute",
+      "m³/min",
       "m3/min"
     ],
     "symbol": "m³/min",
@@ -10645,6 +10776,7 @@
       "m³ / s",
       "cubic meter per second",
       "m3/s",
+      "m³/s",
       "m3/sec"
     ],
     "symbol": "m³/s",
@@ -10686,6 +10818,7 @@
       "MilliL per SEC",
       "millilitre / SEC",
       "Millilitre per second",
+      "mL/s",
       "MilliL / SEC"
     ],
     "symbol": "mL/s",
@@ -10727,6 +10860,7 @@
       "YD3 per DAY",
       "Cubic Yard per day",
       "Cubic Yard Per Day",
+      "yd³/day",
       "YD3 / day"
     ],
     "symbol": "yd³/day",
@@ -10746,6 +10880,7 @@
       "US Gallon per Minute",
       "GAL_US-PER-MIN",
       "galUS/min",
+      "gal{US}/min",
       "GALUS PER MIN"
     ],
     "symbol": "gal{US}/min",
@@ -10795,6 +10930,7 @@
       "cubic yard / hr",
       "Cubic Yard / hour",
       "cubic yard / HR",
+      "yd³/h",
       "Cubic Yard per hr"
     ],
     "symbol": "yd³/h",
@@ -10843,6 +10979,7 @@
       "YD3 per Minute",
       "Cubic Yard / Minute",
       "cubic yard / minute",
+      "yd³/min",
       "Cubic Yard per min"
     ],
     "symbol": "yd³/min",
@@ -10884,6 +11021,7 @@
       "YD3 per s",
       "cubic yard per s",
       "YD3 / SEC",
+      "yd³/s",
       "yd³ per SEC"
     ],
     "symbol": "yd³/s",
@@ -10918,6 +11056,7 @@
       "mcf/d",
       "Mcf/d",
       "mmscfd",
+      "MMscf/day",
       "MMScf/d"
     ],
     "symbol": "MMscf/day",
@@ -10968,6 +11107,7 @@
       "cubic centimeter per cubic centimetre",
       "cubic centimeter / cm³",
       "cm³ / CentiM3",
+      "cm³/cm³",
       "CentiM3 / cubic centimetre"
     ],
     "symbol": "cm³/cm³",
@@ -11026,6 +11166,7 @@
       "cubic centimetre per M3",
       "cubic centimeter / m³",
       "cubic centimeter / cubic metre",
+      "cm³/m³",
       "CentiM3 per m³"
     ],
     "symbol": "cm³/m³",
@@ -11094,6 +11235,7 @@
       "Litre / liter",
       "litre per litre",
       "L PER L",
+      "L/L",
       "L / Liter"
     ],
     "symbol": "L/L",
@@ -11162,6 +11304,7 @@
       "cubic metre per cubic meter",
       "cubic metre / cubic metre",
       "Cubic Meter / m³",
+      "m³/m³",
       "M3 per cubic meter"
     ],
     "symbol": "m³/m³",
@@ -11220,6 +11363,7 @@
       "Microlitre per L",
       "μL per Liter",
       "microlitre / liter",
+      "μL/L",
       "μL per litre"
     ],
     "symbol": "μL/L",
@@ -11278,6 +11422,7 @@
       "mL / litre",
       "Millilitre per L",
       "Millilitre / Litre",
+      "mL/L",
       "millilitre per Litre"
     ],
     "symbol": "mL/L",
@@ -11336,6 +11481,7 @@
       "MilliL per cubic metre",
       "millilitre / cubic metre",
       "millilitre per m³",
+      "mL/m³",
       "millilitre per cubic meter"
     ],
     "symbol": "mL/m³",
@@ -11379,6 +11525,7 @@
       "pound mass / second",
       "lbm / s",
       "lbm / SEC",
+      "lbm/s",
       "LB / SEC"
     ],
     "symbol": "lbm/s",
@@ -11575,6 +11722,7 @@
     "longName": "Degrees Per Meter",
     "aliasNames": [
       "deg/m",
+      "°/m",
       "deg.m-1"
     ],
     "symbol": "°/m",
@@ -11592,6 +11740,7 @@
     "longName": "Degrees Per 30 Meters",
     "aliasNames": [
       "deg/30m",
+      "°/30m",
       "deg.30m-1"
     ],
     "symbol": "°/30m",
@@ -11670,6 +11819,7 @@
       "litre per day",
       "l/d: litre per day",
       "L/D",
+      "L/day",
       "l/d"
     ],
     "symbol": "L/day",
@@ -11832,6 +11982,7 @@
     "aliasNames": [
       "KN.M",
       "KN.m",
+      "kN·m",
       "kilo newton meter"
     ],
     "symbol": "kN·m",
@@ -11901,6 +12052,7 @@
     "longName": "Pounds per Square Feet",
     "aliasNames": [
       "lb/ft2",
+      "lbm/ft²",
       "lb/ft²"
     ],
     "symbol": "lbm/ft²",
@@ -11954,6 +12106,7 @@
       "gauss",
       "Gauss",
       "G",
+      "Gs",
       "g"
     ],
     "symbol": "Gs",
@@ -12046,6 +12199,7 @@
       "1-64 in",
       "1/64th in",
       "1/64th inch",
+      "¹⁄₆₄″",
       "sixty-fourth inch"
     ],
     "symbol": "¹⁄₆₄″",
@@ -12066,6 +12220,7 @@
       "thousand barrels per day",
       "kbpd",
       "kb/d",
+      "kbbl/d",
       "kBbl/day"
     ],
     "symbol": "kbbl/d",
@@ -12202,6 +12357,7 @@
       "barrel per thousand cubic feet",
       "BBL/thousand cubic feet",
       "bbl/thousand cubic feet",
+      "bbl/kft³",
       "barrel/thousand cubic feet"
     ],
     "symbol": "bbl/kft³",
@@ -12326,6 +12482,7 @@
       "MMBTU_IT/d",
       "MMBTU_IT/day",
       "MMBTU_IT/Day",
+      "MBtu{IT}/d",
       "MMBTU_IT/DAY"
     ],
     "symbol": "MBtu{IT}/d",
@@ -12510,6 +12667,7 @@
       "revolutions per gallon",
       "motor speed ratio",
       "speed ratio",
+      "rev/gal{US}",
       "Revolution Per US Gallon"
     ],
     "symbol": "rev/gal{US}",

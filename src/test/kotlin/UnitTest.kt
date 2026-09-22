@@ -18,6 +18,8 @@ import com.cognite.units.Conversion
 import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertNotEquals
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -25,6 +27,14 @@ import java.net.URL
 import kotlin.test.DefaultAsserter
 
 class UnitTest {
+
+    private val symbolAliasCompatibilityExceptions = mapOf(
+        "density:kilogm-per-m3" to "mass_concentration:kilogm-per-m3",
+        "surface_tension:j-per-m2" to "energy_per_area:j-per-m2",
+        "surface_tension:megaj-per-m2" to "energy_per_area:megaj-per-m2",
+        "gas_liquid_ratio:sm3-per-sm3" to "liquid_gas_ratio:sm3-per-sm3",
+        "liquid_gas_ratio:sm3-per-sm3" to "gas_liquid_ratio:sm3-per-sm3",
+    )
 
     private fun getTestResource(filename: String): URL {
         return UnitTest::class.java.getResource("/$filename")!!
@@ -117,6 +127,28 @@ class UnitTest {
 
         listOfUnits.forEach {
             validateUniqueAliases(it)
+        }
+    }
+
+    @Test
+    fun checkSymbolsAreAliasesExceptCompatibilityExceptions() {
+        val units = UnitService.service.getUnits()
+        val unitsByExternalId = units.associateBy { it.externalId }
+        val unitsMissingSymbolAlias = units
+            .filter { it.symbol.isNotEmpty() && it.symbol !in it.aliasNames }
+            .map { it.externalId }
+            .toSet()
+
+        assertEquals(symbolAliasCompatibilityExceptions.keys, unitsMissingSymbolAlias)
+        symbolAliasCompatibilityExceptions.forEach { (externalId, conflictingExternalId) ->
+            val unit = unitsByExternalId.getValue(externalId)
+            val conflictingUnit = unitsByExternalId.getValue(conflictingExternalId)
+            assertEquals(unit.symbol, conflictingUnit.symbol)
+            assertNotEquals(unit.quantity, conflictingUnit.quantity)
+            assertTrue(
+                unit.symbol in conflictingUnit.aliasNames ||
+                    conflictingExternalId in symbolAliasCompatibilityExceptions,
+            )
         }
     }
 

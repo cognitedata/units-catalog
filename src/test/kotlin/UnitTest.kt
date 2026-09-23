@@ -155,11 +155,11 @@ class UnitTest {
         assertFalse(symbol in angularVelocityUnit.aliasNames)
         assertEquals(
             listOf(angularVelocityUnit),
-            unitService.getUnitsByAlias(symbol)
+            unitService.getUnitsByAlias(symbol),
         )
         assertEquals(
             angularVelocityUnit,
-            unitService.getUnitByQuantityAndAlias("Angular Velocity", symbol)
+            unitService.getUnitByQuantityAndAlias("Angular Velocity", symbol),
         )
     }
 

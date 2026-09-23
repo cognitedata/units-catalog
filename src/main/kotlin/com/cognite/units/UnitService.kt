@@ -117,8 +117,10 @@ class UnitService(units: String, systems: String) {
 
             unitsByQuantity.computeIfAbsent(it.quantity) { ArrayList() }.add(it)
             unitsByQuantityAndAlias.computeIfAbsent(it.quantity) { LinkedHashMap() }
-            // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C")
-            it.aliasNames.toSet().forEach { alias ->
+            // Symbol, if present, is also considered an alias.
+            val nonEmptySymbol = listOfNotNull(it.symbol.takeIf(String::isNotBlank))
+            // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C") and symbol
+            (it.aliasNames + nonEmptySymbol).toSet().forEach { alias ->
                 unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
                 // 6. Unique Quantity-Alias Pairs: All pairs of (alias and quantity) must be unique, for all aliases in
                 // `aliasNames`

@@ -18,6 +18,7 @@ import com.cognite.units.Conversion
 import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -147,6 +148,18 @@ class UnitTest {
         assertEquals(
             listOf(unitService.getUnitByExternalId("temperature:deg_c")),
             unitService.getUnitsByAlias("Celsius"),
+        )
+        val angularVelocityUnit = unitService.getUnitByExternalId("angular_velocity:rev-per-sec")
+        val symbol = "rev/s"
+        // We should get the unit by alias even if the symbol is not in the aliasNames list
+        assertFalse(symbol in angularVelocityUnit.aliasNames)
+        assertEquals(
+            listOf(angularVelocityUnit),
+            unitService.getUnitsByAlias(symbol),
+        )
+        assertEquals(
+            angularVelocityUnit,
+            unitService.getUnitByQuantityAndAlias("Angular Velocity", symbol),
         )
     }
 

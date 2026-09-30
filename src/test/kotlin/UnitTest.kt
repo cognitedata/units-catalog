@@ -238,10 +238,12 @@ class UnitTest {
 
     private fun checkForIllegalCharacters(unit: TypedUnit): List<String> {
         return (unit.aliasNames + unit.symbol).mapNotNull {
-            if (it.contains("μ")) {
-                "Unit ${unit.name} contains greek letter μ (U+03BC) instead of micro symbol µ (U+00B5): $it"
+            if (it.contains("µ")) {
+                "Unit ${unit.name} contains micro symbol µ (U+00B5) instead of greek letter μ (U+03BC): $it"
             } else if (it.contains("·")) {
-                "Unit ${unit.name} contains dot operator · (U+00B7) instead of middle dot ⋅ (U+22C5): $it"
+                "Unit ${unit.name} contains middle dot · (U+00B7) instead of dot operator ⋅ (U+22C5): $it"
+            } else if (it.contains("Ω")) {
+                "Unit ${unit.name} contains ohm sign Ω (U+2126) instead of greek letter omega Ω (U+03A9): $it"
             } else {
                 null
             }

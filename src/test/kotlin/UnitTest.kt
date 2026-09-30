@@ -164,6 +164,32 @@ class UnitTest {
     }
 
     @Test
+    fun lookupUnitsWithWrongCharacter() {
+        val unitService = UnitService.service
+        val variants = listOf(
+            "kW${"\u00b7"}h" to "kW${"\u22c5"}h", // middle dot/dot operator
+            "kN${"\u22c5"}m" to "kN${"\u00b7"}m", // dot operator/middle dot
+            "${"\u00b5"}mol" to "${"\u03bc"}mol", // micro sign/greek mu
+            "${"\u00b5"}F" to "${"\u03bc"}F", // micro sign/greek mu
+            "\u03a9" to "\u2126", // greek omega/ohm sign
+            "${"\u00ba"}C" to "${"\u00b0"}C", // ordinal indicator/degree sign
+        )
+
+        for (variant in variants) {
+            val first = unitService.getUnitsByAlias(variant.first).first()
+            assertEquals(
+                first,
+                unitService.getUnitsByAlias(variant.second).first(),
+            )
+            val quantity = first.quantity
+            assertEquals(
+                unitService.getUnitByQuantityAndAlias(quantity, variant.first),
+                unitService.getUnitByQuantityAndAlias(quantity, variant.second),
+            )
+        }
+    }
+
+    @Test
     fun lookupIllegalUnits() {
         val unitService = UnitService.service
         assertThrows<IllegalArgumentException> {

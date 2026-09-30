@@ -55,6 +55,14 @@ class UnitService(units: String, systems: String) {
         return identifier.lowercase().replace(Regex("[^a-z0-9_-]"), "_")
     }
 
+    private fun normalizeName(name: String): String {
+        return name
+            .replace("\u22c5", "\u00b7") // dot operator -> middle dot
+            .replace("\u00b5", "\u03bc") // micro sign -> greek mu
+            .replace("\u2126", "\u03a9") // ohm sign -> greek omega
+            .replace("\u00ba", "\u00b0") // masculine ordinal indicator -> degree sign
+    }
+
     private fun generateExpectedExternalId(unit: TypedUnit): String {
         val sanitizedQuantity = sanitizeIdentifier(unit.quantity)
         val sanitizedName = sanitizeIdentifier(unit.name)
@@ -120,15 +128,21 @@ class UnitService(units: String, systems: String) {
             // Symbol, if present, is also considered an alias.
             val nonEmptySymbol = listOfNotNull(it.symbol.takeIf(String::isNotBlank))
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C") and symbol
-            (it.aliasNames + nonEmptySymbol).toSet().forEach { alias ->
-                unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
-                // 6. Unique Quantity-Alias Pairs: All pairs of (alias and quantity) must be unique, for all aliases in
-                // `aliasNames`
-                assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
-                    "Duplicate alias $alias for quantity ${it.quantity}"
+            (it.aliasNames + nonEmptySymbol)
+                // Add both the name and the normalized ("correct") name
+                // TODO: once all searches uses the correct version, change units.json to
+                // the correct (normalized) version, and remove the duplicates.
+                .flatMap { name -> listOf(name, normalizeName(name)) }
+                .toSet()
+                .forEach { alias ->
+                    unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
+                    // 6. Unique Quantity-Alias Pairs: All pairs of (alias and quantity) must be unique, for all aliases in
+                    // `aliasNames`
+                    assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
+                        "Duplicate alias $alias for quantity ${it.quantity}"
+                    }
+                    unitsByQuantityAndAlias[it.quantity]!![alias] = it
                 }
-                unitsByQuantityAndAlias[it.quantity]!![alias] = it
-            }
         }
     }
 
@@ -173,7 +187,8 @@ class UnitService(units: String, systems: String) {
         val quantityTable = unitsByQuantityAndAlias[quantity] ?: throw IllegalArgumentException(
             "Unknown quantity '$quantity'",
         )
-        return quantityTable[alias] ?: throw IllegalArgumentException(
+        return quantityTable[alias]
+            ?: quantityTable[normalizeName(alias)] ?: throw IllegalArgumentException(
             "Unknown unit alias '$alias' for quantity '$quantity'",
         )
     }
@@ -189,7 +204,8 @@ class UnitService(units: String, systems: String) {
     }
 
     fun getUnitsByAlias(alias: String): ArrayList<TypedUnit> {
-        return unitsByAlias[alias] ?: throw IllegalArgumentException("Unknown alias '$alias'")
+        return unitsByAlias[alias]
+            ?: unitsByAlias[normalizeName(alias)] ?: throw IllegalArgumentException("Unknown alias '$alias'")
     }
 
     fun verifyIsConvertible(unitFrom: TypedUnit, unitTo: TypedUnit) {

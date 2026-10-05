@@ -810,7 +810,7 @@
     ],
     "symbol": "krev",
     "conversion": {
-      "multiplier": 6283.18531,
+      "multiplier": 6283.185307179586,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV",
@@ -6604,7 +6604,7 @@
     ],
     "symbol": "lbf/100ft²",
     "conversion": {
-      "multiplier": 0.478802631,
+      "multiplier": 0.47880258980335844,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB_F-PER-FT2",
@@ -7022,7 +7022,7 @@
     ],
     "symbol": "psi/ft",
     "conversion": {
-      "multiplier": 22620.6,
+      "multiplier": 22620.594793859455,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
@@ -7043,7 +7043,7 @@
     ],
     "symbol": "psi/m",
     "conversion": {
-      "multiplier": 6894.75789,
+      "multiplier": 6894.757293168362,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
@@ -8435,7 +8435,7 @@
     ],
     "symbol": "klbf⋅ft",
     "conversion": {
-      "multiplier": 1355.81807,
+      "multiplier": 1355.8179483314004,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB_F-FT",
@@ -9606,7 +9606,7 @@
     ],
     "symbol": "RB/d",
     "conversion": {
-      "multiplier": 1.84e-06,
+      "multiplier": 1.8401307283333333e-06,
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
@@ -10232,7 +10232,7 @@
     ],
     "symbol": "kft³/day",
     "conversion": {
-      "multiplier": 3.277413e-04,
+      "multiplier": 0.00032774128,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
@@ -10257,7 +10257,7 @@
     ],
     "symbol": "km³/day",
     "conversion": {
-      "multiplier": 0.01157407407407410,
+      "multiplier": 0.011574074074074073,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -10926,7 +10926,7 @@
     ],
     "symbol": "MMscf/day",
     "conversion": {
-      "multiplier": 0.3277413,
+      "multiplier": 0.32774128,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
@@ -11600,7 +11600,7 @@
     ],
     "symbol": "°/30m",
     "conversion": {
-      "multiplier": 0.000581776417,
+      "multiplier": 0.0005817764173314432,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEG-PER-M",
@@ -11617,7 +11617,7 @@
     ],
     "symbol": "rad/ft",
     "conversion": {
-      "multiplier": 3.280839895,
+      "multiplier": 3.2808398950131235,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12031,7 +12031,7 @@
     ],
     "symbol": "lb/100ft²",
     "conversion": {
-      "multiplier": 0.04882,
+      "multiplier": 0.04882427636383051,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
@@ -12074,7 +12074,7 @@
     ],
     "symbol": "kbbl/d",
     "conversion": {
-      "multiplier": 0.0018401307283,
+      "multiplier": 0.0018401307283333332,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12115,7 +12115,7 @@
     ],
     "symbol": "ft³/bbl",
     "conversion": {
-      "multiplier": 0.178107606679035,
+      "multiplier": 0.17810760667903525,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12210,7 +12210,7 @@
     ],
     "symbol": "bbl/kft³",
     "conversion": {
-      "multiplier": 0.00561458333,
+      "multiplier": 0.005614583333333333,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12244,7 +12244,7 @@
     ],
     "symbol": "scf/STB",
     "conversion": {
-      "multiplier": 0.178108,
+      "multiplier": 0.17810760667903525,
       "offset": 0.0
     },
     "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions(scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
@@ -12279,7 +12279,7 @@
     ],
     "symbol": "STB/MMscf",
     "conversion": {
-      "multiplier": 0.000005614583333,
+      "multiplier": 5.614583333333334e-06,
       "offset": 0.0
     },
     "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions (scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
@@ -12334,7 +12334,7 @@
     ],
     "symbol": "MBtu{IT}/d",
     "conversion": {
-      "multiplier": 12211.29,
+      "multiplier": 12211.29459050926,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/MegaBTU_IT-PER-HR",
@@ -12355,7 +12355,7 @@
     ],
     "symbol": "kft³/bbl",
     "conversion": {
-      "multiplier": 178.107606679035,
+      "multiplier": 178.10760667903526,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12591,7 +12591,7 @@
     ],
     "symbol": "bbl/(psi.d)",
     "conversion": {
-      "multiplier": 0.0000000002668884,
+      "multiplier": 2.668883979653089e-10,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12617,7 +12617,7 @@
     ],
     "symbol": "m³/(bar.d)",
     "conversion": {
-      "multiplier": 0.00000000011574074,
+      "multiplier": 1.1574074074074074e-10,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12656,7 +12656,7 @@
     ],
     "symbol": "kft³/(psi.d)",
     "conversion": {
-      "multiplier": 0.000000047536,
+      "multiplier": 4.7534853812003064e-08,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12684,7 +12684,7 @@
     ],
     "symbol": "ft³/(psi.s)",
     "conversion": {
-      "multiplier": 0.00000410701,
+      "multiplier": 4.107011369357065e-06,
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",

@@ -55,12 +55,13 @@ class UnitService(units: String, systems: String) {
         return identifier.lowercase().replace(Regex("[^a-z0-9_-]"), "_")
     }
 
-    private fun normalizeName(name: String): String {
+    fun normalizeName(name: String): String {
         return name
             .replace("\u22c5", "\u00b7") // dot operator -> middle dot
             .replace("\u00b5", "\u03bc") // micro sign -> greek mu
             .replace("\u2126", "\u03a9") // ohm sign -> greek omega
             .replace("\u00ba", "\u00b0") // masculine ordinal indicator -> degree sign
+            .replace(" ","") // drop whitespace
     }
 
     private fun generateExpectedExternalId(unit: TypedUnit): String {

@@ -19,6 +19,7 @@ import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -171,21 +172,26 @@ class UnitTest {
             "kN${"\u22c5"}m" to "kN${"\u00b7"}m", // dot operator/middle dot
             "${"\u00b5"}mol" to "${"\u03bc"}mol", // micro sign/greek mu
             "${"\u00b5"}F" to "${"\u03bc"}F", // micro sign/greek mu
-            "\u03a9" to "\u2126", // greek omega/ohm sign
-            "${"\u00ba"}C" to "${"\u00b0"}C", // ordinal indicator/degree sign
+            "\u2126" to "\u03a9", // ohm sign/greek omega
+            "${"\u00ba"}R" to "${"\u00b0"}R", // ordinal indicator/degree sign
+            "k W h" to "kWh",
         )
 
-        for (variant in variants) {
-            val first = unitService.getUnitsByAlias(variant.first).first()
+        for ((wrong, right) in variants) {
+            val first = unitService.getUnitsByAlias(wrong).first()
             assertEquals(
                 first,
-                unitService.getUnitsByAlias(variant.second).first(),
+                unitService.getUnitsByAlias(right).first(),
             )
             val quantity = first.quantity
+            val unit = unitService.getUnitByQuantityAndAlias(quantity, wrong)
             assertEquals(
-                unitService.getUnitByQuantityAndAlias(quantity, variant.first),
-                unitService.getUnitByQuantityAndAlias(quantity, variant.second),
+                unit,
+                unitService.getUnitByQuantityAndAlias(quantity, right),
             )
+            val aliasList = unit.aliasNames + unit.symbol
+            assertFalse(wrong in aliasList)
+            assertTrue(right in aliasList)
         }
     }
 
@@ -233,6 +239,30 @@ class UnitTest {
             unitService.getDuplicateConversions(unitService.getUnits()).containsKey("Linear Density"),
             false,
         )
+    }
+
+    @Test
+    fun `normalized alias unique in quantity`() {
+        val aliasesByQuantity = mutableMapOf<String, MutableSet<String>>()
+        val unitService = UnitService.service
+        unitService.getUnits().forEach { unit ->
+            // Use set to remove duplicates (after normalization) within a unit
+            val aliases = unit.aliasNames
+                .map(unitService::normalizeName)
+                .toMutableSet()
+            if (unit.symbol.isNotBlank()) {
+                aliases.add(unitService.normalizeName(unit.symbol))
+            }
+            val quantitySet = aliasesByQuantity.getOrDefault(unit.quantity, mutableSetOf())
+            aliases.forEach { alias ->
+                if (!quantitySet.add(alias)) {
+                    DefaultAsserter.fail(
+                        "Duplicate normalized alias '$alias' found for quantity ${unit.quantity}"
+                    )
+                }
+            }
+            aliasesByQuantity[unit.quantity] = quantitySet
+        }
     }
 
     private fun validateUniqueAliases(unit: TypedUnit) {

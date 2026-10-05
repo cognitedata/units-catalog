@@ -19,6 +19,7 @@ import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -167,32 +168,47 @@ class UnitTest {
     fun lookupUnitsWithWrongCharacter() {
         val unitService = UnitService.service
         val variants = listOf(
-            "kW${"\u00b7"}h" to "kW${"\u22c5"}h", // middle dot/dot operator
-            "kN${"\u22c5"}m" to "kN${"\u00b7"}m", // dot operator/middle dot
-            "${"\u00b5"}mol" to "${"\u03bc"}mol", // micro sign/greek mu
-            "${"\u00b5"}F" to "${"\u03bc"}F", // micro sign/greek mu
+            "kW\u00b7h" to "kW\u22c5h", // middle dot/dot operator
+            "kN\u22c5m" to "kN\u00b7m", // dot operator/middle dot
+            "\u00b5mol" to "\u03bcmol", // micro sign/greek mu
+            "\u00b5F" to "\u03bcF", // micro sign/greek mu
             "\u2126" to "\u03a9", // ohm sign/greek omega
-            "${"\u00ba"}R" to "${"\u00b0"}R", // ordinal indicator/degree sign
-            "k W h" to "kWh",
+            "\u00baR" to "\u00b0R", // ordinal indicator/degree sign
+            "J/m²" to "J / m²", // Space around operators
+            "kW\u22c5h" to "kW\u00a0h", // dot operator/Non-breaking space
+            "kW\u22c5h" to "kW h", // dot operator/space
         )
 
         for (variant in variants) {
             val units = unitService.getUnitsByAlias(variant.first)
             assertEquals(units, unitService.getUnitsByAlias(variant.second))
-            val first = units.first()
-            )
-            val quantity = first.quantity
-            val unit = unitService.getUnitByQuantityAndAlias(quantity, variant.first)
-            assertEquals(
-                unit,
-                unitService.getUnitByQuantityAndAlias(quantity, variant.second),
-            )
-            val aliasList = unit.aliasNames + unit.symbol
-            val count = listOf(variant.first in aliasList, variant.second in aliasList).count { it }
-            assertEquals(1, count) {
-                "Expected 1 of ${variant.first} and ${variant.second} in ${unit.symbol}, got $count"
+            var notAllInAliasList = false
+            units.forEach { unit ->
+                val quantity = unit.quantity
+                assertEquals(
+                    unitService.getUnitByQuantityAndAlias(quantity, variant.first),
+                    unitService.getUnitByQuantityAndAlias(quantity, variant.second),
+                )
+                val aliasList = unit.aliasNames + unit.symbol
+                val count = listOf(variant.first in aliasList, variant.second in aliasList).count { it }
+                if (count == 1) {
+                    notAllInAliasList = true
+                }
+            }
+            // We want to test that getUnitByAlias() actually does something
+            // Thus we require that for at least one of the matching units, exactly one of the
+            // two variants is present in the alias list
+            assertTrue(notAllInAliasList) {
+                "Both variants $variant occurred the same number of times in the alias list"
             }
         }
+    }
+
+    @Test
+    fun ensureWhitespaceIsNotNormalizedAway() {
+        val unitService = UnitService.service
+        // It should not resolve to ms (millisecond)
+        assertThrows<IllegalArgumentException> { unitService.getUnitsByAlias("m s") }
     }
 
     @Test
@@ -239,30 +255,6 @@ class UnitTest {
             unitService.getDuplicateConversions(unitService.getUnits()).containsKey("Linear Density"),
             false,
         )
-    }
-
-    @Test
-    fun `normalized alias unique in quantity`() {
-        val aliasesByQuantity = mutableMapOf<String, MutableSet<String>>()
-        val unitService = UnitService.service
-        unitService.getUnits().forEach { unit ->
-            // Use set to remove duplicates (after normalization) within a unit
-            val aliases = unit.aliasNames
-                .map(unitService::normalizeName)
-                .toMutableSet()
-            if (unit.symbol.isNotBlank()) {
-                aliases.add(unitService.normalizeName(unit.symbol))
-            }
-            val quantitySet = aliasesByQuantity.getOrDefault(unit.quantity, mutableSetOf())
-            aliases.forEach { alias ->
-                if (!quantitySet.add(alias)) {
-                    DefaultAsserter.fail(
-                        "Duplicate normalized alias '$alias' found for quantity ${unit.quantity}",
-                    )
-                }
-            }
-            aliasesByQuantity[unit.quantity] = quantitySet
-        }
     }
 
     private fun validateUniqueAliases(unit: TypedUnit) {

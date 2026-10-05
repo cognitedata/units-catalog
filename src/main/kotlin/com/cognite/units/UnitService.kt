@@ -37,6 +37,8 @@ class UnitService(units: String, systems: String) {
                 UnitService::class.java.getResource("/unitSystems.json")!!,
             )
         }
+        private val whitespace = Regex("[\\s\\u00a0\\u2009\\u202f]+")
+        private val spaceAroundOperator = Regex(" ?([/*^()]) ?")
     }
 
     private val unitsByAlias = mutableMapOf<String, ArrayList<TypedUnit>>()
@@ -55,13 +57,16 @@ class UnitService(units: String, systems: String) {
         return identifier.lowercase().replace(Regex("[^a-z0-9_-]"), "_")
     }
 
-    fun normalizeName(name: String): String {
+    internal fun normalizeName(name: String): String {
         return name
-            .replace("\u22c5", "\u00b7") // dot operator -> middle dot
+            .replace("\u22c5", " ") // dot operator -> space (multiplication)
+            .replace("\u00b7", " ") // middle dot -> space (multiplication)
             .replace("\u00b5", "\u03bc") // micro sign -> greek mu
             .replace("\u2126", "\u03a9") // ohm sign -> greek omega
             .replace("\u00ba", "\u00b0") // masculine ordinal indicator -> degree sign
-            .replace(" ", "") // drop whitespace
+            .replace(whitespace, " ")
+            .trim()
+            .replace(spaceAroundOperator, "$1") // "J / m²" -> "J/m²"
     }
 
     private fun generateExpectedExternalId(unit: TypedUnit): String {
@@ -130,9 +135,6 @@ class UnitService(units: String, systems: String) {
             val nonEmptySymbol = listOfNotNull(it.symbol.takeIf(String::isNotBlank))
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C") and symbol
             (it.aliasNames + nonEmptySymbol)
-                // Add both the name and the normalized ("correct") name
-                // TODO: once all searches uses the correct version, change units.json to
-                // the correct (normalized) version, and remove the duplicates.
                 .map(::normalizeName)
                 .toSet()
                 .forEach { alias ->

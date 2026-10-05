@@ -61,7 +61,7 @@ class UnitService(units: String, systems: String) {
             .replace("\u00b5", "\u03bc") // micro sign -> greek mu
             .replace("\u2126", "\u03a9") // ohm sign -> greek omega
             .replace("\u00ba", "\u00b0") // masculine ordinal indicator -> degree sign
-            .replace(" ","") // drop whitespace
+            .replace(" ", "") // drop whitespace
     }
 
     private fun generateExpectedExternalId(unit: TypedUnit): String {

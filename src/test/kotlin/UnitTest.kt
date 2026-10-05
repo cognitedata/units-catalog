@@ -19,7 +19,6 @@ import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
-import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -177,21 +176,23 @@ class UnitTest {
             "k W h" to "kWh",
         )
 
-        for ((wrong, right) in variants) {
-            val first = unitService.getUnitsByAlias(wrong).first()
+        for (variant in variants) {
+            val first = unitService.getUnitsByAlias(variant.first).first()
             assertEquals(
                 first,
-                unitService.getUnitsByAlias(right).first(),
+                unitService.getUnitsByAlias(variant.second).first(),
             )
             val quantity = first.quantity
-            val unit = unitService.getUnitByQuantityAndAlias(quantity, wrong)
+            val unit = unitService.getUnitByQuantityAndAlias(quantity, variant.first)
             assertEquals(
                 unit,
-                unitService.getUnitByQuantityAndAlias(quantity, right),
+                unitService.getUnitByQuantityAndAlias(quantity, variant.second),
             )
             val aliasList = unit.aliasNames + unit.symbol
-            assertFalse(wrong in aliasList)
-            assertTrue(right in aliasList)
+            val count = listOf(variant.first in aliasList, variant.second in aliasList).count { it }
+            assertEquals(1, count) {
+                "Expected 1 of ${variant.first} and ${variant.second} in ${unit.symbol}, got $count"
+            }
         }
     }
 
@@ -257,7 +258,7 @@ class UnitTest {
             aliases.forEach { alias ->
                 if (!quantitySet.add(alias)) {
                     DefaultAsserter.fail(
-                        "Duplicate normalized alias '$alias' found for quantity ${unit.quantity}"
+                        "Duplicate normalized alias '$alias' found for quantity ${unit.quantity}",
                     )
                 }
             }

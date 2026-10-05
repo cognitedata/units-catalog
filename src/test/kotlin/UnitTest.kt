@@ -122,6 +122,38 @@ class UnitTest {
     }
 
     @Test
+    // 9. Standard Conditions: aliases and symbols referring to volumes at standard conditions (Sm³, scf, STB) must only
+    // be used by units of quantities defined at standard conditions, so they are never converted to in-situ volumes.
+    fun checkStandardConditionAliases() {
+        val standardConditionPattern = Regex(
+            """\b[kM]{0,2}S[mM][3³]|\b[kM]{0,2}(scf|SCF)|STB|\bstb|[Ss]tandard [Cc]ubic""",
+        )
+        val standardConditionQuantities = setOf(
+            "Standard Volume",
+            "Standard Volume Flow Rate",
+            "Mass Per Standard Volume",
+            "Gas Liquid Ratio",
+            "Liquid Gas Ratio",
+        )
+        // Productivity index; no standard-condition quantity exists yet (Energistics Usage Guide 3.3.4)
+        val allowedAliases = setOf("STB/d/psi")
+
+        val violations = UnitService.service.getUnits()
+            .filterNot { it.quantity in standardConditionQuantities }
+            .flatMap { unit ->
+                (unit.aliasNames + unit.symbol)
+                    .filter { standardConditionPattern.containsMatchIn(it) && it !in allowedAliases }
+                    .map { "'$it' in ${unit.externalId} (${unit.quantity})" }
+            }
+        if (violations.isNotEmpty()) {
+            fail<Unit>(
+                "Standard-condition aliases found outside standard-condition quantities:\n" +
+                    violations.joinToString("\n"),
+            )
+        }
+    }
+
+    @Test
     fun jsonWithInvalidExternalId() {
         try {
             UnitService(getTestResource("invalidExternalId.json"), getTestResource("unitSystems.json"))

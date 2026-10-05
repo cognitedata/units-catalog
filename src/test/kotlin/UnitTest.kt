@@ -177,10 +177,9 @@ class UnitTest {
         )
 
         for (variant in variants) {
-            val first = unitService.getUnitsByAlias(variant.first).first()
-            assertEquals(
-                first,
-                unitService.getUnitsByAlias(variant.second).first(),
+            val units = unitService.getUnitsByAlias(variant.first)
+            assertEquals(units, unitService.getUnitsByAlias(variant.second))
+            val first = units.first()
             )
             val quantity = first.quantity
             val unit = unitService.getUnitByQuantityAndAlias(quantity, variant.first)

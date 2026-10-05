@@ -156,6 +156,28 @@ class UnitTest {
     }
 
     @Test
+    // 10. Source References: units defined in the Energistics dictionary must reference the standard, and custom or
+    // derived units must not point to a single canonical definition.
+    fun checkSourceReferences() {
+        val energisticsReference = "https://www.energistics.org/energistics-unit-of-measure-standard"
+        val violations = UnitService.service.getUnits().mapNotNull { unit ->
+            val source = unit.source ?: return@mapNotNull null
+            val reference = unit.sourceReference
+            when {
+                source == "Energistics" && reference != energisticsReference ->
+                    "${unit.externalId}: Energistics units must reference $energisticsReference"
+                (source.startsWith("Custom based on") || source.startsWith("Derived from")) &&
+                    reference != null && !reference.startsWith("https://rds.posccaesar.org/") ->
+                    "${unit.externalId}: custom or derived units must have a null sourceReference"
+                else -> null
+            }
+        }
+        if (violations.isNotEmpty()) {
+            fail<Unit>("Inconsistent source references:\n" + violations.joinToString("\n"))
+        }
+    }
+
+    @Test
     fun jsonWithInvalidExternalId() {
         try {
             UnitService(getTestResource("invalidExternalId.json"), getTestResource("unitSystems.json"))

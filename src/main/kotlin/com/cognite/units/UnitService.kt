@@ -133,7 +133,7 @@ class UnitService(units: String, systems: String) {
                 // Add both the name and the normalized ("correct") name
                 // TODO: once all searches uses the correct version, change units.json to
                 // the correct (normalized) version, and remove the duplicates.
-                .flatMap { name -> listOf(name, normalizeName(name)) }
+                .map(::normalizeName)
                 .toSet()
                 .forEach { alias ->
                     unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
@@ -188,8 +188,7 @@ class UnitService(units: String, systems: String) {
         val quantityTable = unitsByQuantityAndAlias[quantity] ?: throw IllegalArgumentException(
             "Unknown quantity '$quantity'",
         )
-        return quantityTable[alias]
-            ?: quantityTable[normalizeName(alias)] ?: throw IllegalArgumentException(
+        return quantityTable[normalizeName(alias)] ?: throw IllegalArgumentException(
             "Unknown unit alias '$alias' for quantity '$quantity'",
         )
     }
@@ -205,8 +204,7 @@ class UnitService(units: String, systems: String) {
     }
 
     fun getUnitsByAlias(alias: String): ArrayList<TypedUnit> {
-        return unitsByAlias[alias]
-            ?: unitsByAlias[normalizeName(alias)] ?: throw IllegalArgumentException("Unknown alias '$alias'")
+        return unitsByAlias[normalizeName(alias)] ?: throw IllegalArgumentException("Unknown alias '$alias'")
     }
 
     fun verifyIsConvertible(unitFrom: TypedUnit, unitTo: TypedUnit) {

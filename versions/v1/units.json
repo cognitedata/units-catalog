@@ -2985,6 +2985,7 @@
       "MW Hour",
       "MW ⋅ hr",
       "MW hr",
+      "MWh",
       "megaw Hour",
       "megaw hour",
       "Megawatt Hour"
@@ -8243,6 +8244,7 @@
       "hours",
       "Hr",
       "Hrs",
+      "hrs",
       "h",
       "h: hour",
       "HOURS"

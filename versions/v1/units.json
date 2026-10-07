@@ -9172,7 +9172,7 @@
     ],
     "symbol": "bbl",
     "conversion": {
-      "multiplier": 0.1589873,
+      "multiplier": 0.158987294928,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -9584,7 +9584,7 @@
     ],
     "symbol": "bbl/day",
     "conversion": {
-      "multiplier": 0.0000018401307870370370,
+      "multiplier": 1.8401307283333333e-06,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -9635,7 +9635,7 @@
     ],
     "symbol": "bbl/h",
     "conversion": {
-      "multiplier": 0.000044163138888888889,
+      "multiplier": 4.416313748e-05,
       "offset": 0.0
     },
     "source": "qudt.org",

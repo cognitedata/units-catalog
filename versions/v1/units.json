@@ -1404,6 +1404,7 @@
       "pound mass / ft³",
       "LB / cubic foot",
       "lb / ft³",
+      "lb/ft³",
       "lbm / Cubic Foot",
       "lbm / cubic foot",
       "lbm per FT3",
@@ -2984,6 +2985,7 @@
       "MW Hour",
       "MW ⋅ hr",
       "MW hr",
+      "MWh",
       "megaw Hour",
       "megaw hour",
       "Megawatt Hour"
@@ -8242,6 +8244,7 @@
       "hours",
       "Hr",
       "Hrs",
+      "hrs",
       "h",
       "h: hour",
       "HOURS"
@@ -11438,6 +11441,7 @@
     "longName": "Pound Mass per Pound Mole",
     "aliasNames": [
       "lb/lb mol",
+      "lb/lb·mol",
       "lb/lbmol",
       "lbm/lbmol",
       "pound mass per pound mole",

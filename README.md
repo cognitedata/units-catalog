@@ -69,6 +69,7 @@ To ensure the integrity of the catalog, the following tests are conducted:
 6. **Unique Quantity-Alias Pairs**: All pairs of (`alias` and `quantity`) must be unique across all units, for all aliases in `aliasNames`.
 7. **Unique Unit Aliases**: Each unit's `aliasNames` array must contain only unique values, with no duplicate entries allowed.
 8. **ExternalId Format**: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both `quantity` and `unit` are in **snake_case**.
+10. **Source References**: Units with source `Energistics` must reference `https://www.energistics.org/energistics-unit-of-measure-standard`, and custom or derived units must have a `null` `sourceReference`.
 9. **Standard Conditions**: Aliases and symbols referring to volumes at standard conditions (e.g. `Sm³`, `scf`, `STB`) may only be used by units of standard-condition quantities (`Standard Volume`, `Standard Volume Flow Rate`, `Mass Per Standard Volume`, `Gas Liquid Ratio`, `Liquid Gas Ratio`).
 
 ### Running Tests
@@ -128,6 +129,8 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
    - Prefer using QUDT units when available (source from https://qudt.org/vocab/unit/)
    - For QUDT units, ensure `sourceReference` follows the format: `https://qudt.org/vocab/unit/{UNIT_NAME}`
    - Other standards or publications may be used when a suitable QUDT entry does not exist
+   - Units defined in the [Energistics Unit of Measure Standard](https://www.energistics.org/energistics-unit-of-measure-standard) use `"source": "Energistics"` and `"sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"`
+   - Units that are not defined directly by a source use `"source": "Custom based on <source> - <url>"` (or `"Derived from ..."` with the derivation) and `"sourceReference": null`
 
 4. **Keep measurement conditions in the quantity, not in the alias**:
    - Volumes at standard conditions (`Sm³`, `scf`, `STB`, ...) belong to the standard-condition quantities, never to `Volume` or `Volume Flow Rate`, so that they are not converted to in-situ volumes. Units within a standard-condition quantity are converted as plain volumes (Energistics Unit of Measure Usage Guide §3.3.3 and §3.3.4)

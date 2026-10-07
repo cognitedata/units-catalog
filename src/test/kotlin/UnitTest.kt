@@ -126,7 +126,7 @@ class UnitTest {
     // be used by units of quantities defined at standard conditions, so they are never converted to in-situ volumes.
     fun checkStandardConditionAliases() {
         val standardConditionPattern = Regex(
-            """\b[kM]{0,2}S[mM][3³]|\b[kM]{0,2}(scf|SCF)|STB|\bstb|[Ss]tandard [Cc]ubic""",
+            """\b(k|M|MM)?(S[mM][3³]|scf|SCF|STB|stb)|[Ss]tandard [Cc]ubic""",
         )
         val standardConditionQuantities = setOf(
             "Standard Volume",
@@ -135,14 +135,16 @@ class UnitTest {
             "Gas Liquid Ratio",
             "Liquid Gas Ratio",
         )
-        // Productivity index; no standard-condition quantity exists yet (Energistics Usage Guide 3.3.4)
-        val allowedAliases = setOf("STB/d/psi")
+        // These aliases are allowed outside standard-condition quantities
+        val aliasExceptions = setOf(
+            "STB/d/psi", // productivity index, no standard-condition quantity exists for it yet
+        )
 
         val violations = UnitService.service.getUnits()
             .filterNot { it.quantity in standardConditionQuantities }
             .flatMap { unit ->
                 (unit.aliasNames + unit.symbol)
-                    .filter { standardConditionPattern.containsMatchIn(it) && it !in allowedAliases }
+                    .filter { standardConditionPattern.containsMatchIn(it) && it !in aliasExceptions }
                     .map { "'$it' in ${unit.externalId} (${unit.quantity})" }
             }
         if (violations.isNotEmpty()) {

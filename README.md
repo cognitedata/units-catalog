@@ -141,6 +141,7 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
 6. **Validate unit structure**:
    - Ensure `externalId` follows the pattern `{quantity}:{unit}` in snake_case
    - Add comprehensive aliases to support various naming conventions users might use
+   - Follow the oilfield prefix convention for oilfield units: `M` means thousand and `MM` means million (e.g. `Mscf` = 10³ scf, `MMscf` = 10⁶ scf)
    - Verify conversion factors are correct (formula: `baseUnitValue = (unitValue + offset) * multiplier`)
 
 ### Release Schedule

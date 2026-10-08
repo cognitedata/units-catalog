@@ -252,7 +252,7 @@
     "externalId": "amount_of_substance_per_unit_volume:centimol-per-l",
     "name": "CentiMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Centimole per Litre",
+    "longName": "Centimole per Liter",
     "aliasNames": [
       "CentiMOL / liter",
       "CentiMole per Liter",
@@ -367,7 +367,7 @@
     "externalId": "amount_of_substance_per_unit_volume:micromol-per-l",
     "name": "MicroMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Micromoles per Litre",
+    "longName": "Micromole per Liter",
     "aliasNames": [
       "μmol per litre",
       "micromole per liter",
@@ -425,7 +425,7 @@
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-l",
     "name": "MilliMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Millimoles per Litre",
+    "longName": "Millimole per Liter",
     "aliasNames": [
       "Millimole per Liter",
       "mmol per liter",
@@ -482,7 +482,7 @@
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-m3",
     "name": "MilliMOL-PER-M3",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Millimoles per Cubic Metre",
+    "longName": "Millimole per Cubic Meter",
     "aliasNames": [
       "millimole per Cubic Meter",
       "Millimole / Cubic Meter",
@@ -1365,7 +1365,7 @@
     "externalId": "density:kilogm-per-l",
     "name": "KiloGM-PER-L",
     "quantity": "Density",
-    "longName": "Kilogram per Litre",
+    "longName": "Kilogram per Liter",
     "aliasNames": [
       "kilogram / Litre",
       "kg/l",
@@ -1383,7 +1383,7 @@
     "externalId": "density:lb-per-ft3",
     "name": "LB-PER-FT3",
     "quantity": "Density",
-    "longName": "Pound per Cubic Foot",
+    "longName": "Pound Mass per Cubic Foot",
     "aliasNames": [
       "Pound Mass / FT3",
       "pound mass per Cubic Foot",
@@ -1464,7 +1464,7 @@
     "externalId": "density:lb-per-in3",
     "name": "LB-PER-IN3",
     "quantity": "Density",
-    "longName": "Pound per Cubic Inch",
+    "longName": "Pound Mass per Cubic Inch",
     "aliasNames": [
       "Pound Mass / Cubic Inch",
       "pound mass / cubic inch",
@@ -1515,7 +1515,7 @@
     "externalId": "density:lb-per-yd3",
     "name": "LB-PER-YD3",
     "quantity": "Density",
-    "longName": "Pound per Cubic Yard",
+    "longName": "Pound Mass per Cubic Yard",
     "aliasNames": [
       "LB / cubic yard",
       "lbm / cubic yard",
@@ -1622,7 +1622,7 @@
     "externalId": "density:oz-per-in3",
     "name": "OZ-PER-IN3",
     "quantity": "Density",
-    "longName": "Imperial Mass Ounce per Cubic Inch",
+    "longName": "Ounce Mass per Cubic Inch",
     "aliasNames": [
       "Ounce Mass per cubic inch",
       "oz / in³{US}",
@@ -1849,7 +1849,7 @@
     "externalId": "dynamic_viscosity:lb-per-ft-hr",
     "name": "LB-PER-FT-HR",
     "quantity": "Dynamic Viscosity",
-    "longName": "Pound per Foot Hour",
+    "longName": "Pound Mass per Foot Hour",
     "aliasNames": [
       "pound mass per ft hr",
       "lbm per foot Hour",
@@ -1996,7 +1996,7 @@
     "externalId": "dynamic_viscosity:lb-per-ft-sec",
     "name": "LB-PER-FT-SEC",
     "quantity": "Dynamic Viscosity",
-    "longName": "Pound per Foot Second",
+    "longName": "Pound Mass per Foot Second",
     "aliasNames": [
       "Pound Mass / FT SEC",
       "Pound Mass per foot second",
@@ -2846,7 +2846,7 @@
     "externalId": "energy:kilow-hr",
     "name": "KiloW-HR",
     "quantity": "Energy",
-    "longName": "Kilowatthour",
+    "longName": "Kilowatt Hour",
     "aliasNames": [
       "Kilowatt hour",
       "Kilowatthour",
@@ -3143,7 +3143,7 @@
     "externalId": "energy:w-hr",
     "name": "W-HR",
     "quantity": "Energy",
-    "longName": "Watthour",
+    "longName": "Watt Hour",
     "aliasNames": [
       "Watthour",
       "W hr",
@@ -3212,7 +3212,7 @@
     "externalId": "energy_density:btu_it-per-ft3",
     "name": "BTU_IT-PER-FT3",
     "quantity": "Energy Density",
-    "longName": "British Thermal Unit (IT) Per Cubic Foot",
+    "longName": "British Thermal Unit (International Definition) per Cubic Foot",
     "aliasNames": [
       "British Thermal Unit (International Definition) per Cubic Foot",
       "BTU_IT / cubic foot",
@@ -3262,7 +3262,7 @@
     "externalId": "energy_density:btu_th-per-ft3",
     "name": "BTU_TH-PER-FT3",
     "quantity": "Energy Density",
-    "longName": "British Thermal Unit (TH) Per Cubic Foot",
+    "longName": "British Thermal Unit (Thermochemical Definition) per Cubic Foot",
     "aliasNames": [
       "BTU_TH / cubic foot",
       "BTU_TH per cubic foot",
@@ -3408,7 +3408,7 @@
     "externalId": "energy_density:w-hr-per-m3",
     "name": "W-HR-PER-M3",
     "quantity": "Energy Density",
-    "longName": "Watthour per Cubic Meter",
+    "longName": "Watt Hour per Cubic Meter",
     "aliasNames": [
       "W ⋅ hr / m³",
       "watt Hour per cubic metre",
@@ -4770,7 +4770,7 @@
     "externalId": "mass_flow_rate:lb-per-hr",
     "name": "LB-PER-HR",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound per Hour",
+    "longName": "Pound Mass per Hour",
     "aliasNames": [
       "Pound Mass / HR",
       "pound mass / hr",
@@ -4821,7 +4821,7 @@
     "externalId": "mass_flow_rate:lb-per-min",
     "name": "LB-PER-MIN",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound per Minute",
+    "longName": "Pound Mass per Minute",
     "aliasNames": [
       "lbm / min",
       "Pound Mass per minute",
@@ -5133,7 +5133,7 @@
     "externalId": "power:btu_it-per-hr",
     "name": "BTU_IT-PER-HR",
     "quantity": "Power",
-    "longName": "BTU per Hour",
+    "longName": "British Thermal Unit (International Definition) per Hour",
     "aliasNames": [
       "british thermal unit (international definition) per Hour",
       "BTU_IT / HR",
@@ -5183,7 +5183,7 @@
     "externalId": "power:btu_it-per-sec",
     "name": "BTU_IT-PER-SEC",
     "quantity": "Power",
-    "longName": "BTU per Second",
+    "longName": "British Thermal Unit (International Definition) per Second",
     "aliasNames": [
       "BTU_IT / SEC",
       "BTU_IT per s",
@@ -5667,7 +5667,7 @@
     "externalId": "power:gigaj-per-hr",
     "name": "GigaJ-PER-HR",
     "quantity": "Power",
-    "longName": "Giga Joule Per Hour",
+    "longName": "Gigajoule per Hour",
     "aliasNames": [
       "GJ/h",
       "GJ/hr",
@@ -6053,7 +6053,7 @@
     "externalId": "power:megaw",
     "name": "MegaW",
     "quantity": "Power",
-    "longName": "MegaW",
+    "longName": "Megawatt",
     "aliasNames": [
       "MW",
       "megaw",
@@ -6071,7 +6071,7 @@
     "externalId": "power:milliw",
     "name": "MilliW",
     "quantity": "Power",
-    "longName": "MilliW",
+    "longName": "Milliwatt",
     "aliasNames": [
       "mW",
       "MilliW",
@@ -6273,7 +6273,7 @@
     "externalId": "pressure:kilogm-per-m-sec2",
     "name": "KiloGM-PER-M-SEC2",
     "quantity": "Pressure",
-    "longName": "Kilograms per Meter per Square Second",
+    "longName": "Kilogram per Meter Square Second",
     "aliasNames": [
       "KiloGM per metre SEC2",
       "KiloGM per M SEC2",
@@ -6805,7 +6805,7 @@
     "externalId": "pressure:n-per-m2",
     "name": "N-PER-M2",
     "quantity": "Pressure",
-    "longName": "Newtons Per Square Meter",
+    "longName": "Newton per Square Meter",
     "aliasNames": [
       "N per square metre",
       "N per m²",
@@ -7332,7 +7332,7 @@
     "externalId": "surface_tension:ft-lb_f-per-ft2",
     "name": "FT-LB_F-PER-FT2",
     "quantity": "Surface Tension",
-    "longName": "Foot Pound per Square Foot",
+    "longName": "Foot Pound Force per Square Foot",
     "aliasNames": [
       "foot pound force per Square Foot",
       "FT LB_F per FT2",
@@ -7875,7 +7875,7 @@
     "externalId": "surface_tension:w-sec-per-m2",
     "name": "W-SEC-PER-M2",
     "quantity": "Surface Tension",
-    "longName": "Watt Seconds per Square Meter",
+    "longName": "Watt Second per Square Meter",
     "aliasNames": [
       "watt SEC / m²",
       "W second per Square Meter",
@@ -8122,7 +8122,7 @@
     "externalId": "temperature_gradient:k-per-m",
     "name": "K-PER-M",
     "quantity": "Temperature Gradient",
-    "longName": "Degrees Kelvin per Meter",
+    "longName": "Kelvin per Meter",
     "aliasNames": [
       "kelvin per m",
       "kelvins per metre",
@@ -9204,7 +9204,7 @@
     "externalId": "volume:decil",
     "name": "DeciL",
     "quantity": "Volume",
-    "longName": "Decilitre",
+    "longName": "Deciliter",
     "aliasNames": [
       "dL",
       "DeciL",
@@ -9324,7 +9324,7 @@
     "externalId": "volume:kilol",
     "name": "KiloL",
     "quantity": "Volume",
-    "longName": "Kilolitre",
+    "longName": "Kiloliter",
     "aliasNames": [
       "KiloL",
       "Kilolitre",
@@ -9387,7 +9387,7 @@
     "externalId": "volume:megal",
     "name": "MegaL",
     "quantity": "Volume",
-    "longName": "Megalitre",
+    "longName": "Megaliter",
     "aliasNames": [
       "Megalitre",
       "megalitre",
@@ -9444,7 +9444,7 @@
     "externalId": "volume:microl",
     "name": "MicroL",
     "quantity": "Volume",
-    "longName": "Microlitre",
+    "longName": "Microliter",
     "aliasNames": [
       "Microlitre",
       "MicroL",
@@ -9463,7 +9463,7 @@
     "externalId": "volume:microm3",
     "name": "MicroM3",
     "quantity": "Volume",
-    "longName": "Cubic Micrometers (Microns)",
+    "longName": "Cubic Micrometer",
     "aliasNames": [
       "cubic micrometres (microns)",
       "µm³",
@@ -9482,7 +9482,7 @@
     "externalId": "volume:millil",
     "name": "MilliL",
     "quantity": "Volume",
-    "longName": "Millilitre",
+    "longName": "Milliliter",
     "aliasNames": [
       "Millilitre",
       "millilitre",
@@ -10169,7 +10169,7 @@
     "externalId": "volume_flow_rate:kilol-per-hr",
     "name": "KiloL-PER-HR",
     "quantity": "Volume Flow Rate",
-    "longName": "Kilolitre Per Hour",
+    "longName": "Kiloliter per Hour",
     "aliasNames": [
       "Kilolitre Per Hour",
       "kilolitre per hr",
@@ -10666,7 +10666,7 @@
     "externalId": "volume_flow_rate:millil-per-sec",
     "name": "MilliL-PER-SEC",
     "quantity": "Volume Flow Rate",
-    "longName": "Millilitre Per Second",
+    "longName": "Milliliter per Second",
     "aliasNames": [
       "MilliL PER SEC",
       "Millilitre / second",
@@ -11183,7 +11183,7 @@
     "externalId": "volume_fraction:microl-per-l",
     "name": "MicroL-PER-L",
     "quantity": "Volume Fraction",
-    "longName": "Microlitre Per Liter",
+    "longName": "Microliter per Liter",
     "aliasNames": [
       "μL / liter",
       "Microlitre per liter",
@@ -11241,7 +11241,7 @@
     "externalId": "volume_fraction:millil-per-l",
     "name": "MilliL-PER-L",
     "quantity": "Volume Fraction",
-    "longName": "Millilitre Per Liter",
+    "longName": "Milliliter per Liter",
     "aliasNames": [
       "MilliL per Litre",
       "MilliL per L",
@@ -11299,7 +11299,7 @@
     "externalId": "volume_fraction:millil-per-m3",
     "name": "MilliL-PER-M3",
     "quantity": "Volume Fraction",
-    "longName": "Millilitre Per Cubic Meter",
+    "longName": "Milliliter per Cubic Meter",
     "aliasNames": [
       "MilliL per Cubic Meter",
       "Millilitre / m³",
@@ -11357,7 +11357,7 @@
     "externalId": "mass_flow_rate:lb-per-sec",
     "name": "LB-PER-SEC",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound (avoirdupois) Per Second",
+    "longName": "Pound Mass per Second",
     "aliasNames": [
       "pound mass / SEC",
       "LB / s",
@@ -11563,7 +11563,7 @@
     "externalId": "angle_per_length:rad-per-m",
     "name": "RAD-PER-M",
     "quantity": "Angle Per Length",
-    "longName": "Radians Per Meter",
+    "longName": "Radian per Meter",
     "aliasNames": [
       "rad/m",
       "rad.m-1"
@@ -11580,7 +11580,7 @@
     "externalId": "angle_per_length:deg-per-m",
     "name": "DEG-PER-M",
     "quantity": "Angle Per Length",
-    "longName": "Degrees Per Meter",
+    "longName": "Degree per Meter",
     "aliasNames": [
       "deg/m",
       "deg.m-1"
@@ -11836,7 +11836,7 @@
     "externalId": "torque:kilon-m",
     "name": "KiloN-M",
     "quantity": "Torque",
-    "longName": "Kilo Newton Meter",
+    "longName": "Kilonewton Meter",
     "aliasNames": [
       "KN.M",
       "KN.m",
@@ -11906,7 +11906,7 @@
     "externalId": "areal_density:lb-per-ft2",
     "name": "LB-PER-FT2",
     "quantity": "Areal Density",
-    "longName": "Pounds per Square Feet",
+    "longName": "Pound Mass per Square Foot",
     "aliasNames": [
       "lb/ft2",
       "lb/ft²"
@@ -11976,7 +11976,7 @@
     "externalId": "magnetic_field:nanot",
     "name": "NanoT",
     "quantity": "Magnetic Field",
-    "longName": "Nano Tesla",
+    "longName": "Nanotesla",
     "aliasNames": [
       "NT",
       "nT"
@@ -12129,7 +12129,7 @@
     "externalId": "density:milligm-per-l",
     "name": "MilliGM-PER-L",
     "quantity": "Density",
-    "longName": "Milligram per Litre",
+    "longName": "Milligram per Liter",
     "aliasNames": [
       "mg/L",
       "milligrams per liter",
@@ -12149,7 +12149,7 @@
     "externalId": "mass_concentration:milligm-per-l",
     "name": "MilliGM-PER-L",
     "quantity": "Mass Concentration",
-    "longName": "Milligram per Litre",
+    "longName": "Milligram per Liter",
     "aliasNames": [
       "mg/L",
       "milligrams per liter",
@@ -12369,7 +12369,7 @@
     "externalId": "mass_flow_rate:lb-per-day",
     "name": "LB-PER-DAY",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound per Day",
+    "longName": "Pound Mass per Day",
     "aliasNames": [
       "Pound Mass / Day",
       "pound mass / day",
@@ -12422,7 +12422,7 @@
     "externalId": "molar_flux:mol-per-m2-sec",
     "name": "MOL-PER-M2-SEC",
     "quantity": "Molar Flux",
-    "longName": "Mole Per Square Meter Per Second",
+    "longName": "Mole per Square Meter Second",
     "aliasNames": [
       "mol/(m²·s)",
       "mol/m²/s",
@@ -12442,7 +12442,7 @@
     "externalId": "molar_flux:micromol-per-m2-sec",
     "name": "MicroMOL-PER-M2-SEC",
     "quantity": "Molar Flux",
-    "longName": "Micromole Per Square Meter Per Second",
+    "longName": "Micromole per Square Meter Second",
     "aliasNames": [
       "µmol/(m²·s)",
       "µmol/m²/s",

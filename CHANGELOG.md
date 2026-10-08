@@ -10,6 +10,41 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.28] - 2026-09-30
+### Added
+- Added new quantity `Revolutions Per Unit Volume` (mud motor speed ratio) with the following units:
+  - Revolution Per Cubic Meter (rev/m³)
+  - Revolution Per Liter (rev/L)
+  - Revolution Per US Gallon (rev/gal{US})
+  - Revolution Per UK Gallon (rev/gal{UK})
+- Added new quantity `Molar Mass` with the following units:
+  - Gram Per Mole (g/mol)
+  - Kilogram Per Mole (kg/mol)
+  - Pound Mass Per Pound Mole (lbm/lbmol)
+- Added new quantity `Relative Density` with the following unit:
+  - Specific Gravity (SG)
+- Added new quantity `Thermal Conductivity` with the following units:
+  - Watt Per Meter Kelvin (W/(m·K))
+  - British Thermal Unit (International Definition) Foot Per Square Foot Hour Degree Fahrenheit (Btu{IT}·ft/(ft²·h·°F))
+- Added new unit for quantity `Resistance`:
+  - Megaohm (MΩ)
+- Added new unit for quantity `Length`:
+  - Nanometer (nm)
+- Added new unit for quantity `Volume Flow Rate`:
+  - Thousand Cubic Meter Per Day (km³/day)
+- Added new aliases for existing units:
+  - `t/h` and `t/hr` for Tonne Per Hour
+  - `KWH` for Kilowatt Hour
+  - `milliseconds` for Millisecond
+
+### Changed
+- `getUnitsByAlias()` and `getUnitByQuantityAndAlias()` now also match a unit's symbol, even when the symbol is not listed in its `aliasNames` (#229)
+
+### Fixed
+- Release workflow now reads the published version from Maven Central repository metadata, fixing failed duplicate-publish attempts (#224)
+- Release workflow validates the `pom.xml` version before using it in scripts (#215)
+- Set UTF-8 source encoding in `pom.xml` to fix builds on Windows
+
 ## [0.1.27] - 2026-07-16
 ### Added
 - Added new quantity `Molar Flux` with the following units:

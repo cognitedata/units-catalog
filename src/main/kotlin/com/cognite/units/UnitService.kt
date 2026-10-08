@@ -37,6 +37,8 @@ class UnitService(units: String, systems: String) {
                 UnitService::class.java.getResource("/unitSystems.json")!!,
             )
         }
+        private val whitespace = Regex("[\\s\\u00a0\\u2009\\u202f]+")
+        private val spaceAroundOperator = Regex(" ?([/*^()]) ?")
     }
 
     private val unitsByAlias = mutableMapOf<String, ArrayList<TypedUnit>>()
@@ -53,6 +55,18 @@ class UnitService(units: String, systems: String) {
     private fun sanitizeIdentifier(identifier: String): String {
         // remove all special characters except - and _
         return identifier.lowercase().replace(Regex("[^a-z0-9_-]"), "_")
+    }
+
+    internal fun normalizeName(name: String): String {
+        return name
+            .replace("\u22c5", " ") // dot operator -> space (multiplication)
+            .replace("\u00b7", " ") // middle dot -> space (multiplication)
+            .replace("\u00b5", "\u03bc") // micro sign -> greek mu
+            .replace("\u2126", "\u03a9") // ohm sign -> greek omega
+            .replace("\u00ba", "\u00b0") // masculine ordinal indicator -> degree sign
+            .replace(whitespace, " ")
+            .trim()
+            .replace(spaceAroundOperator, "$1") // "J / m²" -> "J/m²"
     }
 
     private fun generateExpectedExternalId(unit: TypedUnit): String {
@@ -120,15 +134,18 @@ class UnitService(units: String, systems: String) {
             // Symbol, if present, is also considered an alias.
             val nonEmptySymbol = listOfNotNull(it.symbol.takeIf(String::isNotBlank))
             // convert to set first, to remove duplicate aliases due to encoding (e.g. "\u00b0C" vs "°C") and symbol
-            (it.aliasNames + nonEmptySymbol).toSet().forEach { alias ->
-                unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
-                // 6. Unique Quantity-Alias Pairs: All pairs of (alias and quantity) must be unique, for all aliases in
-                // `aliasNames`
-                assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
-                    "Duplicate alias $alias for quantity ${it.quantity}"
+            (it.aliasNames + nonEmptySymbol)
+                .map(::normalizeName)
+                .toSet()
+                .forEach { alias ->
+                    unitsByAlias.computeIfAbsent(alias) { ArrayList() }.add(it)
+                    // 6. Unique Quantity-Alias Pairs: All pairs of (alias and quantity) must be unique, for all aliases in
+                    // `aliasNames`
+                    assert(unitsByQuantityAndAlias[it.quantity]!![alias] == null) {
+                        "Duplicate alias $alias for quantity ${it.quantity}"
+                    }
+                    unitsByQuantityAndAlias[it.quantity]!![alias] = it
                 }
-                unitsByQuantityAndAlias[it.quantity]!![alias] = it
-            }
         }
     }
 
@@ -173,7 +190,7 @@ class UnitService(units: String, systems: String) {
         val quantityTable = unitsByQuantityAndAlias[quantity] ?: throw IllegalArgumentException(
             "Unknown quantity '$quantity'",
         )
-        return quantityTable[alias] ?: throw IllegalArgumentException(
+        return quantityTable[normalizeName(alias)] ?: throw IllegalArgumentException(
             "Unknown unit alias '$alias' for quantity '$quantity'",
         )
     }
@@ -189,7 +206,7 @@ class UnitService(units: String, systems: String) {
     }
 
     fun getUnitsByAlias(alias: String): ArrayList<TypedUnit> {
-        return unitsByAlias[alias] ?: throw IllegalArgumentException("Unknown alias '$alias'")
+        return unitsByAlias[normalizeName(alias)] ?: throw IllegalArgumentException("Unknown alias '$alias'")
     }
 
     fun verifyIsConvertible(unitFrom: TypedUnit, unitTo: TypedUnit) {

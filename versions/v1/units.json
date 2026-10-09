@@ -4451,8 +4451,6 @@
       "kilogram per M3",
       "kg/m³",
       "kg/m3",
-      "kg/Sm³",
-      "kg/Sm3",
       "KG PER M3",
       "Kg/m3"
     ],
@@ -4463,6 +4461,26 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M3"
+  },
+  {
+    "externalId": "mass_per_standard_volume:kilogm-per-scm_1atm_15deg_c_iso",
+    "name": "KiloGM-PER-SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Mass Per Standard Volume",
+    "longName": "Kilogram per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kg/Sm³",
+      "kg/Sm3",
+      "kg/scm",
+      "Kilogram per Standard Cubic Meter",
+      "kilogram per standard cubic meter"
+    ],
+    "symbol": "kg/Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "mass_concentration:milligm-per-millil",
@@ -7329,6 +7347,286 @@
     "sourceReference": null
   },
   {
+    "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-sec",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-SEC",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Meter per Second (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/s",
+      "Sm³/s",
+      "scm(15C)/s",
+      "Standard Cubic Meter per Second",
+      "standard cubic meter per second",
+      "Standard Cubic Metre per Second"
+    ],
+    "symbol": "Sm³/s",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-hr",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-HR",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Meter per Hour (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/h",
+      "Sm3/hr",
+      "Sm3/hour",
+      "Sm³/h",
+      "Sm³/hr",
+      "Sm³/hour",
+      "Standard Cubic Meter per Hour",
+      "standard cubic meter per hour",
+      "Standard Cubic Metre per Hour"
+    ],
+    "symbol": "Sm³/h",
+    "conversion": {
+      "multiplier": 0.0002777777777777778,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-day",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Meter per Day (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/d",
+      "Sm³/d",
+      "Sm3/day",
+      "Sm³/day",
+      "SM3/D",
+      "scm(15C)/d",
+      "Standard Cubic Meter per Day",
+      "standard cubic meter per day",
+      "Standard Cubic Metre per Day"
+    ],
+    "symbol": "Sm³/d",
+    "conversion": {
+      "multiplier": 1.1574074074074073e-05,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_scm_1atm_15deg_c_iso-per-day",
+    "name": "KILO_SCM_1ATM_15DEG_C_ISO-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Standard Cubic Meter per Day (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kSm3/d",
+      "kSm³/d",
+      "kSm3/day",
+      "kSm³/day",
+      "kSM3/D",
+      "Mscm(15C)/d",
+      "Thousand Standard Cubic Meter per Day",
+      "thousand standard cubic meter per day"
+    ],
+    "symbol": "kSm³/d",
+    "conversion": {
+      "multiplier": 0.011574074074074073,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:mega_scm_1atm_15deg_c_iso-per-day",
+    "name": "MEGA_SCM_1ATM_15DEG_C_ISO-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Million Standard Cubic Meter per Day (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "MSm3/d",
+      "MSm³/d",
+      "MSm3/day",
+      "MSm³/day",
+      "MSM3/D",
+      "MMscm(15C)/d",
+      "Million Standard Cubic Meter per Day",
+      "million standard cubic meter per day"
+    ],
+    "symbol": "MSm³/d",
+    "conversion": {
+      "multiplier": 11.574074074074074,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scf_1atm_60deg_f-per-day",
+    "name": "SCF_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Foot per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "scf/d",
+      "SCF/D",
+      "scf/day",
+      "SCF/day",
+      "scfd",
+      "SCFD",
+      "scf(60F)/d",
+      "Standard Cubic Foot per Day",
+      "standard cubic foot per day",
+      "Standard Cubic Feet per Day"
+    ],
+    "symbol": "scf/d",
+    "conversion": {
+      "multiplier": 3.2774128e-07,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_scf_1atm_60deg_f-per-day",
+    "name": "KILO_SCF_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Standard Cubic Foot per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "Mscfd",
+      "mscfd",
+      "MSCFD",
+      "Mscf/d",
+      "mscf/d",
+      "MSCF/D",
+      "Mscf/day",
+      "kscf/d",
+      "Mscf(60F)/d",
+      "Thousand Standard Cubic Feet per Day",
+      "thousand standard cubic feet per day"
+    ],
+    "symbol": "Mscf/d",
+    "conversion": {
+      "multiplier": 0.00032774128,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:mega_scf_1atm_60deg_f-per-day",
+    "name": "MEGA_SCF_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Million Standard Cubic Foot per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMSCFD",
+      "MMSCF/d",
+      "MMSCF/day",
+      "MMscf/d",
+      "mmscfd",
+      "MMScf/d",
+      "MMscf/day",
+      "MMscfd",
+      "MMscf(60F)/d",
+      "Million Standard Cubic Feet per Day",
+      "million standard cubic feet per day"
+    ],
+    "symbol": "MMscf/d",
+    "conversion": {
+      "multiplier": 0.32774128,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446/"
+  },
+  {
+    "externalId": "standard_volume_flow_rate:stb_1atm_60deg_f-per-day",
+    "name": "STB_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Stock Tank Barrel per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "STB/d",
+      "STB/day",
+      "STBD",
+      "stb/d",
+      "STB/D",
+      "stb(60F)/d",
+      "Stock Tank Barrel per Day",
+      "stock tank barrel per day"
+    ],
+    "symbol": "STB/d",
+    "conversion": {
+      "multiplier": 1.8401307283333333e-06,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:stb_1atm_60deg_f-per-hr",
+    "name": "STB_1ATM_60DEG_F-PER-HR",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Stock Tank Barrel per Hour (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "STB/h",
+      "STB/hour",
+      "STBH",
+      "stb/h",
+      "stb(60F)/h",
+      "Stock Tank Barrel per Hour",
+      "stock tank barrel per hour"
+    ],
+    "symbol": "STB/h",
+    "conversion": {
+      "multiplier": 4.416313748e-05,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_stb_1atm_60deg_f-per-day",
+    "name": "KILO_STB_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Stock Tank Barrel per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MSTB/d",
+      "Mstb/d",
+      "MSTB/D",
+      "MSTBD",
+      "kSTB/d",
+      "Mstb(60F)/d",
+      "Thousand Stock Tank Barrel per Day"
+    ],
+    "symbol": "MSTB/d",
+    "conversion": {
+      "multiplier": 0.0018401307283333332,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:mega_stb_1atm_60deg_f-per-day",
+    "name": "MEGA_STB_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Million Stock Tank Barrel per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMSTB/d",
+      "MMstb/d",
+      "MMSTB/D",
+      "MMSTBD",
+      "MMstb(60F)/d",
+      "Million Stock Tank Barrel per Day"
+    ],
+    "symbol": "MMSTB/d",
+    "conversion": {
+      "multiplier": 1.8401307283333333,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "surface_tension:ft-lb_f-per-ft2",
     "name": "FT-LB_F-PER-FT2",
     "quantity": "Surface Tension",
@@ -9576,9 +9874,6 @@
       "BB/D",
       "BPD",
       "bpd",
-      "STB/d",
-      "STB/day",
-      "STBD",
       "bbls/d",
       "bbls/day",
       "BBl/d",
@@ -9630,9 +9925,6 @@
       "BB/H",
       "BPH",
       "bph",
-      "STB/h",
-      "STB/hour",
-      "STBH",
       "bbls/h",
       "bbls/hour"
     ],
@@ -10218,7 +10510,7 @@
     "externalId": "volume_flow_rate:kilo-ft3-per-day",
     "name": "Kilo-FT3-PER-DAY",
     "quantity": "Volume Flow Rate",
-    "longName": "Thousand Standard Cubic Feet per Day",
+    "longName": "Thousand Cubic Foot per Day",
     "aliasNames": [
       "kilo cubic foot per day",
       "kilo cubic foot / d",
@@ -10226,14 +10518,9 @@
       "thousand cubic foot / d",
       "kft3 / day",
       "kft3 / d",
-      "Mscfd",
-      "mscfd",
-      "MSCFD",
-      "Mscf/d",
-      "mscf/d",
-      "MSCF/D"
+      "kft³/day"
     ],
-    "symbol": "kft³/day",
+    "symbol": "kft³/d",
     "conversion": {
       "multiplier": 3.277413e-04,
       "offset": 0.0
@@ -10530,12 +10817,6 @@
       "m³/h",
       "m³/hr",
       "m³/hour",
-      "Sm3/h",
-      "Sm3/hr",
-      "Sm3/hour",
-      "Sm³/h",
-      "Sm³/hr",
-      "Sm³/hour",
       "m3/h",
       "m3/hr",
       "m3/hour",
@@ -10905,7 +11186,7 @@
     "externalId": "volume_flow_rate:mega-ft3-per-day",
     "name": "Mega-FT3-PER-DAY",
     "quantity": "Volume Flow Rate",
-    "longName": "Million Standard Cubic Feet per Day",
+    "longName": "Million Cubic Foot per Day",
     "aliasNames": [
       "MCFD",
       "Mega Cubic Feet per Day",
@@ -10916,24 +11197,18 @@
       "Million FT3/day",
       "Million ft³/day",
       "MMCFD",
-      "MMSCFD",
       "MMCF/d",
       "MMCF/day",
-      "MMSCF/d",
-      "MMSCF/day",
-      "MMscf/d",
       "mcf/d",
-      "Mcf/d",
-      "mmscfd",
-      "MMScf/d"
+      "Mcf/d"
     ],
-    "symbol": "MMscf/day",
+    "symbol": "MMCF/d",
     "conversion": {
       "multiplier": 0.3277413,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
-    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446/"
+    "sourceReference": null
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",
@@ -12113,9 +12388,7 @@
       "cf/bbl",
       "ft³/bbl",
       "ft3/bbl",
-      "CF/BBL",
-      "scf/bbl",
-      "SCF/BBL"
+      "CF/BBL"
     ],
     "symbol": "ft³/bbl",
     "conversion": {
@@ -12244,7 +12517,9 @@
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
-      "Standard Cubic Feet per Barrel"
+      "Standard Cubic Feet per Barrel",
+      "scf/bbl",
+      "SCF/BBL"
     ],
     "symbol": "scf/STB",
     "conversion": {
@@ -12252,6 +12527,27 @@
       "offset": 0.0
     },
     "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions(scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "sourceReference": null
+  },
+  {
+    "externalId": "gas_liquid_ratio:kilo_scf-per-stb",
+    "name": "KILO_SCF-PER-STB",
+    "quantity": "Gas Liquid Ratio",
+    "longName": "Thousand Standard Cubic Feet per Stock Tank Barrel",
+    "aliasNames": [
+      "Mscf/STB",
+      "MSCF/STB",
+      "Mscf/stb",
+      "Mscf/bbl",
+      "MSCF/BBL",
+      "Thousand Standard Cubic Feet per Stock Tank Barrel"
+    ],
+    "symbol": "Mscf/STB",
+    "conversion": {
+      "multiplier": 178.10760667903526,
+      "offset": 0.0
+    },
+    "source": "Derived from base unit definitions (1 ft³ = 0.028316846592 m³; 1 bbl = 42 gal[US] = 0.158987294928 m³). Ratio of standard volumes converted as plain volumes per Energistics Unit of Measure Standard v1.0.1 Usage Guide §3.3.3 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -12353,9 +12649,7 @@
       "Mcf/bbl",
       "kft³/bbl",
       "kft3/bbl",
-      "MCF/BBL",
-      "Mscf/bbl",
-      "MSCF/BBL"
+      "MCF/BBL"
     ],
     "symbol": "kft³/bbl",
     "conversion": {

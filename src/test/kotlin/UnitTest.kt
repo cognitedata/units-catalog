@@ -19,6 +19,7 @@ import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -118,6 +119,18 @@ class UnitTest {
 
         listOfUnits.forEach {
             validateUniqueAliases(it)
+        }
+    }
+
+    @Test
+    fun checkIllegalCharacters() {
+        val unitService = UnitService.service
+        val listOfUnits = unitService.getUnits()
+        val errors = listOfUnits.flatMap {
+            checkForIllegalCharacters(it)
+        }
+        assertTrue(errors.isEmpty()) {
+            errors.joinToString(separator = "\n", prefix = "\n")
         }
     }
 
@@ -222,4 +235,19 @@ class UnitTest {
             }
         }
     }
+
+    private fun checkForIllegalCharacters(unit: TypedUnit): List<String> {
+        return (unit.aliasNames + unit.symbol).mapNotNull {
+            if (it.contains("µ")) {
+                "Unit ${unit.name} contains micro symbol µ (U+00B5) instead of greek letter μ (U+03BC): $it"
+            } else if (it.contains("·")) {
+                "Unit ${unit.name} contains middle dot · (U+00B7) instead of dot operator ⋅ (U+22C5): $it"
+            } else if (it.contains("Ω")) {
+                "Unit ${unit.name} contains ohm sign Ω (U+2126) instead of greek letter omega Ω (U+03A9): $it"
+            } else {
+                null
+            }
+        }
+    }
+
 }

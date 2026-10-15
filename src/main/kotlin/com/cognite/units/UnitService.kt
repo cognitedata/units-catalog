@@ -38,7 +38,7 @@ class UnitService(units: String, systems: String) {
             )
         }
         private val whitespace = Regex("[\\s\\u00a0\\u2009\\u202f]+")
-        private val spaceAroundOperator = Regex(" ?([/*^()]) ?")
+        private val spaceAroundOperator = Regex(" ?([/^()]) ?")
     }
 
     private val unitsByAlias = mutableMapOf<String, ArrayList<TypedUnit>>()
@@ -61,6 +61,7 @@ class UnitService(units: String, systems: String) {
         return name
             .replace("\u22c5", " ") // dot operator -> space (multiplication)
             .replace("\u00b7", " ") // middle dot -> space (multiplication)
+            .replace("*", " ") // asterisk -> space (multiplication)
             .replace("\u00b5", "\u03bc") // micro sign -> greek mu
             .replace("\u2126", "\u03a9") // ohm sign -> greek omega
             .replace("\u00ba", "\u00b0") // masculine ordinal indicator -> degree sign

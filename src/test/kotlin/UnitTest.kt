@@ -177,6 +177,8 @@ class UnitTest {
             "J/m²" to "J / m²", // Space around operators
             "kW\u22c5h" to "kW\u00a0h", // dot operator/Non-breaking space
             "kW\u22c5h" to "kW h", // dot operator/space
+            "KLB*FT" to "KLB FT", // asterisk/space
+            "klbf\u22c5ft" to "klbf*ft", // dot operator/asterisk
         )
 
         for (variant in variants) {

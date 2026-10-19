@@ -69,6 +69,7 @@ To ensure the integrity of the catalog, the following tests are conducted:
 6. **Unique Quantity-Alias Pairs**: All pairs of (`alias` and `quantity`) must be unique across all units, for all aliases in `aliasNames`.
 7. **Unique Unit Aliases**: Each unit's `aliasNames` array must contain only unique values, with no duplicate entries allowed.
 8. **ExternalId Format**: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both `quantity` and `unit` are in **snake_case**.
+9. **Standard Conditions**: Aliases and symbols referring to volumes at standard conditions (e.g. `Sm³`, `scf`, `STB`) may only be used by units of standard-condition quantities (`Standard Volume`, `Standard Volume Flow Rate`, `Mass Per Standard Volume`, `Gas Liquid Ratio`, `Liquid Gas Ratio`).
 
 ### Running Tests
 
@@ -128,12 +129,16 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
    - For QUDT units, ensure `sourceReference` follows the format: `https://qudt.org/vocab/unit/{UNIT_NAME}`
    - Other standards or publications may be used when a suitable QUDT entry does not exist
 
-4. **Handle equivalent units appropriately**:
+4. **Keep measurement conditions in the quantity, not in the alias**:
+   - Volumes at standard conditions (`Sm³`, `scf`, `STB`, ...) belong to the standard-condition quantities, never to `Volume` or `Volume Flow Rate`, so that they are not converted to in-situ volumes. Units within a standard-condition quantity are converted as plain volumes (Energistics Unit of Measure Usage Guide §3.3.3 and §3.3.4)
+   - Gauge pressure units (e.g. `barg`, `psig`) convert to absolute pressure by adding one standard atmosphere (Energistics Unit of Measure Usage Guide §3.3.1)
+
+5. **Handle equivalent units appropriately**:
    - If adding a unit with the same conversion factors as an existing unit for the same quantity, determine if it's a legitimate equivalent or a duplicate
    - Legitimate equivalent units (e.g., different scientific notations like "W" vs "V·A") should be added to the whitelist in `src/test/kotlin/EquivalentUnits.kt`
    - True duplicates should be avoided; instead, add the alternative name as an alias to the existing unit
 
-5. **Validate unit structure**:
+6. **Validate unit structure**:
    - Ensure `externalId` follows the pattern `{quantity}:{unit}` in snake_case
    - Add comprehensive aliases to support various naming conventions users might use
    - Verify conversion factors are correct (formula: `baseUnitValue = (unitValue + offset) * multiplier`)

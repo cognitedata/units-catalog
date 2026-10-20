@@ -58,6 +58,18 @@ class UnitTest {
     }
 
     @Test
+    fun lookupAndConvertMillihertz() {
+        val unitService = UnitService.service
+        val unitMillihertz = unitService.getUnitByExternalId("frequency:millihz")
+        val unitHertz = unitService.getUnitByExternalId("frequency:hz")
+
+        assertEquals(unitMillihertz, unitService.getUnitByQuantityAndAlias("Frequency", "mHz"))
+        assertEquals(listOf(unitMillihertz), unitService.getUnitsByAlias("mHz"))
+        assertEquals(1.0, unitService.convertBetweenUnits(unitMillihertz, unitHertz, 1000.0))
+        assertEquals(1000.0, unitService.convertBetweenUnits(unitHertz, unitMillihertz, 1.0))
+    }
+
+    @Test
     fun convertToSystem() {
         val unitService = UnitService.service
         val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")
@@ -119,6 +131,40 @@ class UnitTest {
 
         listOfUnits.forEach {
             validateUniqueAliases(it)
+        }
+    }
+
+    @Test
+    // 9. Standard Conditions: aliases and symbols referring to volumes at standard conditions (Sm³, scf, STB) must only
+    // be used by units of quantities defined at standard conditions, so they are never converted to in-situ volumes.
+    fun checkStandardConditionAliases() {
+        val standardConditionPattern = Regex(
+            """\b(k|M|MM)?(S[mM][3³]|scf|SCF|STB|stb)|[Ss]tandard [Cc]ubic""",
+        )
+        val standardConditionQuantities = setOf(
+            "Standard Volume",
+            "Standard Volume Flow Rate",
+            "Mass Per Standard Volume",
+            "Gas Liquid Ratio",
+            "Liquid Gas Ratio",
+        )
+        // These aliases are allowed outside standard-condition quantities
+        val aliasExceptions = setOf(
+            "STB/d/psi", // productivity index, no standard-condition quantity exists for it yet
+        )
+
+        val violations = UnitService.service.getUnits()
+            .filterNot { it.quantity in standardConditionQuantities }
+            .flatMap { unit ->
+                (unit.aliasNames + unit.symbol)
+                    .filter { standardConditionPattern.containsMatchIn(it) && it !in aliasExceptions }
+                    .map { "'$it' in ${unit.externalId} (${unit.quantity})" }
+            }
+        if (violations.isNotEmpty()) {
+            fail<Unit>(
+                "Standard-condition aliases found outside standard-condition quantities:\n" +
+                    violations.joinToString("\n"),
+            )
         }
     }
 

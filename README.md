@@ -69,8 +69,8 @@ To ensure the integrity of the catalog, the following tests are conducted:
 6. **Unique Quantity-Alias Pairs**: All pairs of (`alias` and `quantity`) must be unique across all units, for all aliases in `aliasNames`.
 7. **Unique Unit Aliases**: Each unit's `aliasNames` array must contain only unique values, with no duplicate entries allowed.
 8. **ExternalId Format**: All unit `externalIds` must follow the pattern `{quantity}:{unit}`, where both `quantity` and `unit` are in **snake_case**.
-10. **Source References**: Units with source `Energistics` must reference `https://www.energistics.org/energistics-unit-of-measure-standard`, and custom or derived units must have a `null` `sourceReference`.
 9. **Standard Conditions**: Aliases and symbols referring to volumes at standard conditions (e.g. `Sm³`, `scf`, `STB`) may only be used by units of standard-condition quantities (`Standard Volume`, `Standard Volume Flow Rate`, `Mass Per Standard Volume`, `Gas Liquid Ratio`, `Liquid Gas Ratio`).
+10. **Source References**: Units with source `Energistics` must reference `https://www.energistics.org/energistics-unit-of-measure-standard`, and custom or derived units must have a `null` `sourceReference`.
 
 ### Running Tests
 

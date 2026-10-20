@@ -57,6 +57,18 @@ class UnitTest {
     }
 
     @Test
+    fun lookupAndConvertMillihertz() {
+        val unitService = UnitService.service
+        val unitMillihertz = unitService.getUnitByExternalId("frequency:millihz")
+        val unitHertz = unitService.getUnitByExternalId("frequency:hz")
+
+        assertEquals(unitMillihertz, unitService.getUnitByQuantityAndAlias("Frequency", "mHz"))
+        assertEquals(listOf(unitMillihertz), unitService.getUnitsByAlias("mHz"))
+        assertEquals(1.0, unitService.convertBetweenUnits(unitMillihertz, unitHertz, 1000.0))
+        assertEquals(1000.0, unitService.convertBetweenUnits(unitHertz, unitMillihertz, 1.0))
+    }
+
+    @Test
     fun convertToSystem() {
         val unitService = UnitService.service
         val unitCelsius = unitService.getUnitByExternalId("temperature:deg_c")

@@ -7314,7 +7314,7 @@
       "multiplier": 1000.0,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7336,7 +7336,7 @@
       "multiplier": 1.0e6,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7356,7 +7356,7 @@
       "multiplier": 0.028316846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7374,7 +7374,7 @@
       "multiplier": 28.316846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7392,7 +7392,7 @@
       "multiplier": 28316.846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -9771,7 +9771,7 @@
       "multiplier": 1.0e+3,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -9794,7 +9794,7 @@
       "multiplier": 1.0e+6,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -9965,7 +9965,7 @@
       "multiplier": 1.8401307283333333e-06,
       "offset": 0.0
     },
-    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (RB/d converted as bbl/d, bbl = 42 gal[US]) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -10613,7 +10613,7 @@
       "multiplier": 0.011574074074074073,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -10778,7 +10778,7 @@
       "multiplier": 11.574074074074074,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -11963,8 +11963,8 @@
       "multiplier": 3.2808398950131235,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:l-per-day",
@@ -12420,8 +12420,8 @@
       "multiplier": 0.0018401307283333332,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume:kilo-bbl_us",
@@ -12440,8 +12440,8 @@
       "multiplier": 158.987294928,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_fraction:ft3-per-bbl_us",
@@ -12459,8 +12459,8 @@
       "multiplier": 0.17810760667903525,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "density:milligm-per-l",
@@ -12527,8 +12527,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_fraction:bbl_us-per-kilo-ft3",
@@ -12554,8 +12554,8 @@
       "multiplier": 0.005614583333333333,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "gas_liquid_ratio:sm3-per-sm3",
@@ -12720,8 +12720,8 @@
       "multiplier": 178.10760667903526,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "mass_flow_rate:lb-per-day",
@@ -12927,8 +12927,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_per_time_per_pressure:bbl_us-per-day-per-psi",
@@ -12956,8 +12956,8 @@
       "multiplier": 2.668883979653089e-10,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_per_time_per_pressure:m3-per-day-per-bar",
@@ -12982,8 +12982,8 @@
       "multiplier": 1.1574074074074074e-10,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_per_time_per_pressure:kilo-ft3-per-day-per-psi",
@@ -13021,8 +13021,8 @@
       "multiplier": 4.7534853812003064e-08,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi",
@@ -13049,7 +13049,7 @@
       "multiplier": 4.107011369357065e-06,
       "offset": 0.0
     },
-    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (derived from ft3, psi and s) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -13075,8 +13075,8 @@
       "multiplier": 1e10,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "pressure_squared_per_frequency:bar2-per-hz",
@@ -13113,7 +13113,7 @@
       "multiplier": 1e10,
       "offset": 0.0
     },
-    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (derived from bar2 and Hz) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -13139,8 +13139,8 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics Unit of Measure Standard v1.0.1 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "pressure_squared_per_frequency:pa2-per-hz",
@@ -13177,7 +13177,7 @@
       "multiplier": 1.0,
       "offset": 0.0
     },
-    "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (derived from Pa2 and Hz) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   }
 ]

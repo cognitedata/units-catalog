@@ -6581,7 +6581,7 @@
       "offset": 101.325
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
-    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357"
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357/"
   },
   {
     "externalId": "pressure:lb_f-per-ft2",
@@ -7021,8 +7021,8 @@
       "multiplier": 100000.0,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "pressure_gradient:kilopa-per-m",
@@ -7064,8 +7064,8 @@
       "multiplier": 22620.594793859455,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "pressure_gradient:psi-per-m",
@@ -7085,8 +7085,8 @@
       "multiplier": 6894.757293168362,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "reactive_power:var",
@@ -7284,7 +7284,7 @@
       "multiplier": 1000.0,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7306,7 +7306,7 @@
       "multiplier": 1.0e6,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7326,7 +7326,7 @@
       "multiplier": 0.028316846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7344,7 +7344,7 @@
       "multiplier": 28.316846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7362,7 +7362,7 @@
       "multiplier": 28316.846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -8758,8 +8758,8 @@
       "multiplier": 1355.8179483314004,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB_F-FT",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "torque:lb_f-in",
@@ -9634,8 +9634,8 @@
       "multiplier": 28.316846592,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/Kilo-FT3"
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume:kilol",
@@ -9735,8 +9735,8 @@
       "multiplier": 1.0e+3,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume:mega-m3",
@@ -9754,8 +9754,8 @@
       "multiplier": 1.0e+6,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume:microl",
@@ -10544,8 +10544,8 @@
       "multiplier": 0.00032774128,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_flow_rate:kilo-m3-per-day",
@@ -10730,8 +10730,8 @@
       "multiplier": 11.574074074074074,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_flow_rate:m3-per-day",
@@ -11226,8 +11226,8 @@
       "multiplier": 0.32774128,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",
@@ -12545,7 +12545,7 @@
       "multiplier": 0.17810760667903525,
       "offset": 0.0
     },
-    "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions(scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "source": "Derived from base unit definitions (1 ft³ = 0.028316846592 m³; 1 bbl = 42 gal[US] = 0.158987294928 m³). Ratio of standard volumes converted as plain volumes per Energistics Unit of Measure Standard v1.0.1 Usage Guide §3.3.3 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -12601,7 +12601,7 @@
       "multiplier": 5.614583333333334e-06,
       "offset": 0.0
     },
-    "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions (scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "source": "Derived from base unit definitions (1 ft³ = 0.028316846592 m³; 1 bbl = 42 gal[US] = 0.158987294928 m³). Ratio of standard volumes converted as plain volumes per Energistics Unit of Measure Standard v1.0.1 Usage Guide §3.3.3 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {

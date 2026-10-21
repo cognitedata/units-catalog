@@ -1442,15 +1442,16 @@
       "lb/imp gal",
       "Pound per Imperial Gallon",
       "pound per imperial gallon",
-      "Pound Mass per Imperial Gallon"
+      "Pound Mass per Imperial Gallon",
+      "lbm/gal{Imp}"
     ],
     "symbol": "lbm/gal{UK}",
     "conversion": {
-      "multiplier": 99.7763727,
+      "multiplier": 99.7763726631017,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-GAL"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-GAL_UK",
+    "sourceReference": null
   },
   {
     "externalId": "density:lb-per-gal_us",
@@ -9761,7 +9762,9 @@
       "km3",
       "k.m3",
       "km³",
-      "1000 m³"
+      "1000 m³",
+      "E3m3",
+      "e3m3"
     ],
     "symbol": "1000 m³",
     "conversion": {
@@ -9782,7 +9785,9 @@
       "Mm3",
       "MCM",
       "Mm³",
-      "1E6 m³"
+      "1E6 m³",
+      "E6m3",
+      "e6m3"
     ],
     "symbol": "1E6 m³",
     "conversion": {
@@ -10599,15 +10604,17 @@
       "km³/d",
       "km³/day",
       "1000 m3/d",
-      "1000 m³/d"
+      "1000 m³/d",
+      "E3m3/d",
+      "e3m3/d"
     ],
     "symbol": "1000 m³/d",
     "conversion": {
       "multiplier": 0.011574074074074073,
       "offset": 0.0
     },
-    "source": "Energistics",
-    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "volume_flow_rate:l-per-hr",
@@ -10762,14 +10769,16 @@
       "Mm3/d",
       "Mm³/d: million cubic meter per day",
       "Mm³/day",
-      "1E6 m³/d"
+      "1E6 m³/d",
+      "E6m3/d",
+      "e6m3/d"
     ],
     "symbol": "1E6 m³/d",
     "conversion": {
       "multiplier": 11.574074074074074,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
+    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {

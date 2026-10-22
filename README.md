@@ -145,6 +145,7 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
    - Ensure `externalId` follows the pattern `{quantity}:{unit}` in snake_case
    - Add comprehensive aliases to support various naming conventions users might use
    - Follow the oilfield prefix convention for oilfield units: `M` means thousand and `MM` means million (e.g. `Mscf` = 10³ scf, `MMscf` = 10⁶ scf)
+   - No need to add spacing or character variants of an alias: lookups ignore whitespace around `/`, `^`, `(` and `)`, treat `·`, `⋅`, `*` and spaces as multiplication, and treat `µ`/`μ`, `Ω`/`Ω` and `º`/`°` as the same character (e.g. `LB / GAL` matches `LB/GAL`, and `kW h` matches `kW·h`)
    - Verify conversion factors are correct (formula: `baseUnitValue = (unitValue + offset) * multiplier`)
 
 ### Release Schedule

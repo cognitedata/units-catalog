@@ -10,7 +10,7 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
-## [0.1.28] - 2026-09-30
+## [0.1.28] - 2026-10-26
 ### Added
 - Added new quantity `Revolutions Per Unit Volume` (mud motor speed ratio) with the following units:
   - Revolution Per Cubic Meter (rev/m³)
@@ -60,7 +60,7 @@ Each release should include the following types of changes when applicable:
 ### Changed
 - `getUnitsByAlias()` and `getUnitByQuantityAndAlias()` now also match a unit's symbol, even when the symbol is not listed in its `aliasNames` (#229)
 - Alias lookups now ignore whitespace differences and look-alike characters: spaces around `/`, `^`, `(` and `)` are ignored, `·`, `⋅`, `*` and spaces all mean multiplication, and `µ`/`μ`, `Ω`/`Ω` and `º`/`°` are treated as the same character (#238)
-- **Breaking:** aliases for volumes at standard conditions moved from `Volume Flow Rate`, `Volume Fraction` and `Mass Concentration` to the new standard-condition units, so they are no longer converted to in-situ volumes (#239):
+- Moved aliases for volumes at standard conditions from `Volume Flow Rate`, `Volume Fraction` and `Mass Concentration` to the new standard-condition units, so they are no longer converted to in-situ volumes (#239):
   - `STB/d`, `STB/h`, `Sm3/h`, `Mscf/d`, `MMscf/d`, `scf/bbl`, `Mscf/bbl`, `kg/Sm3` and their variants
   - `volume_flow_rate:kilo-ft3-per-day` and `volume_flow_rate:mega-ft3-per-day` now describe plain (not standard) cubic feet
 - **Breaking:** updated symbols (#240):
@@ -74,8 +74,8 @@ Each release should include the following types of changes when applicable:
 - Normalized `source` and `sourceReference` across the catalog, and added validations for standard-condition aliases and source references (#239, #242)
 
 ### Fixed
-- **Breaking:** `MCF`, `MCFD`, `Mcf/d` and `mcf/d` resolved to the million cubic foot units. In the oilfield convention `M` means thousand, so they now resolve to the thousand cubic foot units (#240)
-- **Breaking:** `PPG`, `ppg`, `lb/gal`, `lbm/gal` and the other generic pound per gallon aliases resolved to the UK gallon. They now resolve to the new US gallon unit, which is what PPG (mud weight) means (#240)
+- `MCF`, `MCFD`, `Mcf/d` and `mcf/d` now resolve to the thousand cubic foot units instead of the million cubic foot units, following the oilfield convention where `M` means thousand (#240)
+- `PPG`, `ppg`, `lb/gal`, `lbm/gal` and the other generic pound per gallon aliases now resolve to the new US gallon unit instead of the UK gallon, matching how PPG (mud weight) is used (#240)
 - Release workflow now reads the published version from Maven Central repository metadata, fixing failed duplicate-publish attempts (#224)
 - Release workflow validates the `pom.xml` version before using it in scripts (#215)
 - Set UTF-8 source encoding in `pom.xml` to fix builds on Windows

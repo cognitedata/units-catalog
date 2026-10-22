@@ -1435,7 +1435,29 @@
     "externalId": "density:lb-per-gal",
     "name": "LB-PER-GAL",
     "quantity": "Density",
-    "longName": "Pound per Gallon",
+    "longName": "Pound Mass per Gallon (UK)",
+    "aliasNames": [
+      "lb/gal{UK}",
+      "lbm/gal[UK]",
+      "lb/imp gal",
+      "Pound per Imperial Gallon",
+      "pound per imperial gallon",
+      "Pound Mass per Imperial Gallon",
+      "lbm/gal{Imp}"
+    ],
+    "symbol": "lbm/gal{UK}",
+    "conversion": {
+      "multiplier": 99.7763726631017,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-GAL_UK",
+    "sourceReference": null
+  },
+  {
+    "externalId": "density:lb-per-gal_us",
+    "name": "LB-PER-GAL_US",
+    "quantity": "Density",
+    "longName": "Pound Mass per US Gallon",
     "aliasNames": [
       "Pound Mass / GAL",
       "LB PER GAL",
@@ -1450,15 +1472,21 @@
       "lbm / GAL",
       "Pound Mass per GAL",
       "LBM PER GAL",
-      "PPG"
+      "PPG",
+      "ppg",
+      "lbm/gal",
+      "lb/gal{US}",
+      "lbm/gal[US]",
+      "pound per US gallon",
+      "pound mass per US gallon"
     ],
-    "symbol": "lb/gal",
+    "symbol": "lbm/gal{US}",
     "conversion": {
-      "multiplier": 99.7763727,
+      "multiplier": 119.82642731689663,
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-GAL"
+    "sourceReference": "https://qudt.org/vocab/unit/LB-PER-GAL_US"
   },
   {
     "externalId": "density:lb-per-in3",
@@ -1595,7 +1623,7 @@
     "externalId": "density:oz-per-gal",
     "name": "OZ-PER-GAL",
     "quantity": "Density",
-    "longName": "Imperial Mass Ounce per Gallon",
+    "longName": "Ounce Mass per Gallon (UK)",
     "aliasNames": [
       "ounce mass / GAL",
       "Ounce Mass / GAL",
@@ -1603,20 +1631,21 @@
       "Ounce Mass per GAL",
       "OZ PER GAL",
       "oz / GAL",
-      "oz / gal{US}",
       "Imperial Mass Ounce per Gallon",
       "imperial mass ounce per gallon",
       "ounce mass per GAL",
       "OZ per GAL",
-      "oz per GAL"
+      "oz per GAL",
+      "oz/gal{UK}",
+      "ozm/gal[UK]"
     ],
-    "symbol": "oz/gal{US}",
+    "symbol": "oz/gal{UK}",
     "conversion": {
       "multiplier": 6.23602329,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/OZ-PER-GAL"
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/OZ-PER-GAL_UK",
+    "sourceReference": null
   },
   {
     "externalId": "density:oz-per-in3",
@@ -9627,7 +9656,9 @@
       "Kilo FT3",
       "k.ft³",
       "Kilo ft³",
-      "kft³"
+      "kft³",
+      "MCF",
+      "Mcf"
     ],
     "symbol": "kft³",
     "conversion": {
@@ -9728,9 +9759,13 @@
       "kilo cubic meter",
       "kilo cubic metre",
       "km3",
-      "k.m3"
+      "k.m3",
+      "km³",
+      "1000 m³",
+      "E3m3",
+      "e3m3"
     ],
-    "symbol": "km³",
+    "symbol": "1000 m³",
     "conversion": {
       "multiplier": 1.0e+3,
       "offset": 0.0
@@ -9747,9 +9782,13 @@
       "mega cubic meter",
       "mega cubic metre",
       "Mm3",
-      "MCM"
+      "MCM",
+      "Mm³",
+      "1E6 m³",
+      "E6m3",
+      "e6m3"
     ],
-    "symbol": "Mm³",
+    "symbol": "1E6 m³",
     "conversion": {
       "multiplier": 1.0e+6,
       "offset": 0.0
@@ -9861,7 +9900,6 @@
     "quantity": "Volume",
     "longName": "Million Cubic Feet",
     "aliasNames": [
-      "MCF",
       "Mega Cubic Feet",
       "Mega Cubic Foot",
       "Mega FT3",
@@ -10537,7 +10575,10 @@
       "thousand cubic foot / d",
       "kft3 / day",
       "kft3 / d",
-      "kft³/day"
+      "kft³/day",
+      "MCFD",
+      "Mcf/d",
+      "mcf/d"
     ],
     "symbol": "kft³/d",
     "conversion": {
@@ -10562,9 +10603,11 @@
       "km³/d",
       "km³/day",
       "1000 m3/d",
-      "1000 m³/d"
+      "1000 m³/d",
+      "E3m3/d",
+      "e3m3/d"
     ],
-    "symbol": "km³/day",
+    "symbol": "1000 m³/d",
     "conversion": {
       "multiplier": 0.011574074074074073,
       "offset": 0.0
@@ -10723,9 +10766,13 @@
       "Million Cubic Meter / DAY",
       "Mm3/D",
       "Mm3/d",
-      "Mm³/d: million cubic meter per day"
+      "Mm³/d: million cubic meter per day",
+      "Mm³/day",
+      "1E6 m³/d",
+      "E6m3/d",
+      "e6m3/d"
     ],
-    "symbol": "Mm³/day",
+    "symbol": "1E6 m³/d",
     "conversion": {
       "multiplier": 11.574074074074074,
       "offset": 0.0
@@ -11207,7 +11254,6 @@
     "quantity": "Volume Flow Rate",
     "longName": "Million Cubic Foot per Day",
     "aliasNames": [
-      "MCFD",
       "Mega Cubic Feet per Day",
       "Mega Cubic Foot per Day",
       "Mega FT3/day",
@@ -11217,9 +11263,7 @@
       "Million ft³/day",
       "MMCFD",
       "MMCF/d",
-      "MMCF/day",
-      "mcf/d",
-      "Mcf/d"
+      "MMCF/day"
     ],
     "symbol": "MMCF/d",
     "conversion": {

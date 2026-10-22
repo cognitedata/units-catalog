@@ -253,6 +253,14 @@ class UnitTest {
     }
 
     @Test
+    fun normalizerTest() {
+        val unitService = UnitService.service
+        assertEquals("J/m²", unitService.normalizeName("J  \n \t \u00a0  /  m²"))
+        assertEquals("a b c d e f", unitService.normalizeName("a  b*  c \u00a0 d \u00b7 e \u22c5 f"))
+        assertEquals("\u03bc \u03a9 \u00b0", unitService.normalizeName("\u00b5 \u2126 \u00ba"))
+    }
+
+    @Test
     fun ensureWhitespaceIsNotNormalizedAway() {
         val unitService = UnitService.service
         // It should not resolve to ms (millisecond)

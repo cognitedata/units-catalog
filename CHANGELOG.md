@@ -63,7 +63,7 @@ Each release should include the following types of changes when applicable:
 - Moved aliases for volumes at standard conditions from `Volume Flow Rate`, `Volume Fraction` and `Mass Concentration` to the new standard-condition units, so they are no longer converted to in-situ volumes (#239):
   - `STB/d`, `STB/h`, `Sm3/h`, `Mscf/d`, `MMscf/d`, `scf/bbl`, `Mscf/bbl`, `kg/Sm3` and their variants
   - `volume_flow_rate:kilo-ft3-per-day` and `volume_flow_rate:mega-ft3-per-day` now describe plain (not standard) cubic feet
-- **Breaking:** updated symbols (#240):
+- Updated symbols (#240):
   - Pound Mass per Gallon (UK): `lb/gal` → `lbm/gal{UK}`
   - Ounce Mass per Gallon (UK): `oz/gal{US}` → `oz/gal{UK}`
   - Thousand Cubic Meter: `km³` → `1000 m³` (`km³` strictly means 10⁹ m³; kept as an alias)

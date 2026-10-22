@@ -252,7 +252,7 @@
     "externalId": "amount_of_substance_per_unit_volume:centimol-per-l",
     "name": "CentiMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Centimole per Litre",
+    "longName": "Centimole per Liter",
     "aliasNames": [
       "CentiMOL / liter",
       "CentiMole per Liter",
@@ -367,7 +367,7 @@
     "externalId": "amount_of_substance_per_unit_volume:micromol-per-l",
     "name": "MicroMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Micromoles per Litre",
+    "longName": "Micromole per Liter",
     "aliasNames": [
       "μmol per litre",
       "micromole per liter",
@@ -425,7 +425,7 @@
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-l",
     "name": "MilliMOL-PER-L",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Millimoles per Litre",
+    "longName": "Millimole per Liter",
     "aliasNames": [
       "Millimole per Liter",
       "mmol per liter",
@@ -482,7 +482,7 @@
     "externalId": "amount_of_substance_per_unit_volume:millimol-per-m3",
     "name": "MilliMOL-PER-M3",
     "quantity": "Amount Of Substance Per Unit Volume",
-    "longName": "Millimoles per Cubic Metre",
+    "longName": "Millimole per Cubic Meter",
     "aliasNames": [
       "millimole per Cubic Meter",
       "Millimole / Cubic Meter",
@@ -810,7 +810,7 @@
     ],
     "symbol": "krev",
     "conversion": {
-      "multiplier": 6283.18531,
+      "multiplier": 6283.185307179586,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV",
@@ -1365,7 +1365,7 @@
     "externalId": "density:kilogm-per-l",
     "name": "KiloGM-PER-L",
     "quantity": "Density",
-    "longName": "Kilogram per Litre",
+    "longName": "Kilogram per Liter",
     "aliasNames": [
       "kilogram / Litre",
       "kg/l",
@@ -1383,7 +1383,7 @@
     "externalId": "density:lb-per-ft3",
     "name": "LB-PER-FT3",
     "quantity": "Density",
-    "longName": "Pound per Cubic Foot",
+    "longName": "Pound Mass per Cubic Foot",
     "aliasNames": [
       "Pound Mass / FT3",
       "pound mass per Cubic Foot",
@@ -1404,6 +1404,7 @@
       "pound mass / ft³",
       "LB / cubic foot",
       "lb / ft³",
+      "lb/ft³",
       "lbm / Cubic Foot",
       "lbm / cubic foot",
       "lbm per FT3",
@@ -1463,7 +1464,7 @@
     "externalId": "density:lb-per-in3",
     "name": "LB-PER-IN3",
     "quantity": "Density",
-    "longName": "Pound per Cubic Inch",
+    "longName": "Pound Mass per Cubic Inch",
     "aliasNames": [
       "Pound Mass / Cubic Inch",
       "pound mass / cubic inch",
@@ -1514,7 +1515,7 @@
     "externalId": "density:lb-per-yd3",
     "name": "LB-PER-YD3",
     "quantity": "Density",
-    "longName": "Pound per Cubic Yard",
+    "longName": "Pound Mass per Cubic Yard",
     "aliasNames": [
       "LB / cubic yard",
       "lbm / cubic yard",
@@ -1621,7 +1622,7 @@
     "externalId": "density:oz-per-in3",
     "name": "OZ-PER-IN3",
     "quantity": "Density",
-    "longName": "Imperial Mass Ounce per Cubic Inch",
+    "longName": "Ounce Mass per Cubic Inch",
     "aliasNames": [
       "Ounce Mass per cubic inch",
       "oz / in³{US}",
@@ -1848,7 +1849,7 @@
     "externalId": "dynamic_viscosity:lb-per-ft-hr",
     "name": "LB-PER-FT-HR",
     "quantity": "Dynamic Viscosity",
-    "longName": "Pound per Foot Hour",
+    "longName": "Pound Mass per Foot Hour",
     "aliasNames": [
       "pound mass per ft hr",
       "lbm per foot Hour",
@@ -1995,7 +1996,7 @@
     "externalId": "dynamic_viscosity:lb-per-ft-sec",
     "name": "LB-PER-FT-SEC",
     "quantity": "Dynamic Viscosity",
-    "longName": "Pound per Foot Second",
+    "longName": "Pound Mass per Foot Second",
     "aliasNames": [
       "Pound Mass / FT SEC",
       "Pound Mass per foot second",
@@ -2845,7 +2846,7 @@
     "externalId": "energy:kilow-hr",
     "name": "KiloW-HR",
     "quantity": "Energy",
-    "longName": "Kilowatthour",
+    "longName": "Kilowatt Hour",
     "aliasNames": [
       "Kilowatt hour",
       "Kilowatthour",
@@ -2984,6 +2985,7 @@
       "MW Hour",
       "MW ⋅ hr",
       "MW hr",
+      "MWh",
       "megaw Hour",
       "megaw hour",
       "Megawatt Hour"
@@ -3141,7 +3143,7 @@
     "externalId": "energy:w-hr",
     "name": "W-HR",
     "quantity": "Energy",
-    "longName": "Watthour",
+    "longName": "Watt Hour",
     "aliasNames": [
       "Watthour",
       "W hr",
@@ -3210,7 +3212,7 @@
     "externalId": "energy_density:btu_it-per-ft3",
     "name": "BTU_IT-PER-FT3",
     "quantity": "Energy Density",
-    "longName": "British Thermal Unit (IT) Per Cubic Foot",
+    "longName": "British Thermal Unit (International Definition) per Cubic Foot",
     "aliasNames": [
       "British Thermal Unit (International Definition) per Cubic Foot",
       "BTU_IT / cubic foot",
@@ -3260,7 +3262,7 @@
     "externalId": "energy_density:btu_th-per-ft3",
     "name": "BTU_TH-PER-FT3",
     "quantity": "Energy Density",
-    "longName": "British Thermal Unit (TH) Per Cubic Foot",
+    "longName": "British Thermal Unit (Thermochemical Definition) per Cubic Foot",
     "aliasNames": [
       "BTU_TH / cubic foot",
       "BTU_TH per cubic foot",
@@ -3406,7 +3408,7 @@
     "externalId": "energy_density:w-hr-per-m3",
     "name": "W-HR-PER-M3",
     "quantity": "Energy Density",
-    "longName": "Watthour per Cubic Meter",
+    "longName": "Watt Hour per Cubic Meter",
     "aliasNames": [
       "W ⋅ hr / m³",
       "watt Hour per cubic metre",
@@ -3724,6 +3726,25 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloHZ"
+  },
+  {
+    "externalId": "frequency:millihz",
+    "name": "MilliHZ",
+    "quantity": "Frequency",
+    "longName": "Millihertz",
+    "aliasNames": [
+      "mHz",
+      "Millihertz",
+      "millihertz",
+      "MilliHZ"
+    ],
+    "symbol": "mHz",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliHZ"
   },
   {
     "externalId": "frequency:num-per-hr",
@@ -4449,8 +4470,6 @@
       "kilogram per M3",
       "kg/m³",
       "kg/m3",
-      "kg/Sm³",
-      "kg/Sm3",
       "KG PER M3",
       "Kg/m3"
     ],
@@ -4461,6 +4480,26 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-M3"
+  },
+  {
+    "externalId": "mass_per_standard_volume:kilogm-per-scm_1atm_15deg_c_iso",
+    "name": "KiloGM-PER-SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Mass Per Standard Volume",
+    "longName": "Kilogram per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kg/Sm³",
+      "kg/Sm3",
+      "kg/scm",
+      "Kilogram per Standard Cubic Meter",
+      "kilogram per standard cubic meter"
+    ],
+    "symbol": "kg/Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
   },
   {
     "externalId": "mass_concentration:milligm-per-millil",
@@ -4768,7 +4807,7 @@
     "externalId": "mass_flow_rate:lb-per-hr",
     "name": "LB-PER-HR",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound per Hour",
+    "longName": "Pound Mass per Hour",
     "aliasNames": [
       "Pound Mass / HR",
       "pound mass / hr",
@@ -4819,7 +4858,7 @@
     "externalId": "mass_flow_rate:lb-per-min",
     "name": "LB-PER-MIN",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound per Minute",
+    "longName": "Pound Mass per Minute",
     "aliasNames": [
       "lbm / min",
       "Pound Mass per minute",
@@ -5131,7 +5170,7 @@
     "externalId": "power:btu_it-per-hr",
     "name": "BTU_IT-PER-HR",
     "quantity": "Power",
-    "longName": "BTU per Hour",
+    "longName": "British Thermal Unit (International Definition) per Hour",
     "aliasNames": [
       "british thermal unit (international definition) per Hour",
       "BTU_IT / HR",
@@ -5181,7 +5220,7 @@
     "externalId": "power:btu_it-per-sec",
     "name": "BTU_IT-PER-SEC",
     "quantity": "Power",
-    "longName": "BTU per Second",
+    "longName": "British Thermal Unit (International Definition) per Second",
     "aliasNames": [
       "BTU_IT / SEC",
       "BTU_IT per s",
@@ -5665,7 +5704,7 @@
     "externalId": "power:gigaj-per-hr",
     "name": "GigaJ-PER-HR",
     "quantity": "Power",
-    "longName": "Giga Joule Per Hour",
+    "longName": "Gigajoule per Hour",
     "aliasNames": [
       "GJ/h",
       "GJ/hr",
@@ -6051,7 +6090,7 @@
     "externalId": "power:megaw",
     "name": "MegaW",
     "quantity": "Power",
-    "longName": "MegaW",
+    "longName": "Megawatt",
     "aliasNames": [
       "MW",
       "megaw",
@@ -6069,7 +6108,7 @@
     "externalId": "power:milliw",
     "name": "MilliW",
     "quantity": "Power",
-    "longName": "MilliW",
+    "longName": "Milliwatt",
     "aliasNames": [
       "mW",
       "MilliW",
@@ -6271,7 +6310,7 @@
     "externalId": "pressure:kilogm-per-m-sec2",
     "name": "KiloGM-PER-M-SEC2",
     "quantity": "Pressure",
-    "longName": "Kilograms per Meter per Square Second",
+    "longName": "Kilogram per Meter Square Second",
     "aliasNames": [
       "KiloGM per metre SEC2",
       "KiloGM per M SEC2",
@@ -6542,7 +6581,7 @@
       "offset": 101.325
     },
     "source": "Experimental Methods and Instrumentation for Chemical Engineers - ISBN 9780444538055 - https://isbnsearch.org/isbn/9780444538055",
-    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357"
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005357/"
   },
   {
     "externalId": "pressure:lb_f-per-ft2",
@@ -6604,7 +6643,7 @@
     ],
     "symbol": "lbf/100ft²",
     "conversion": {
-      "multiplier": 0.478802631,
+      "multiplier": 0.47880258980335844,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB_F-PER-FT2",
@@ -6803,7 +6842,7 @@
     "externalId": "pressure:n-per-m2",
     "name": "N-PER-M2",
     "quantity": "Pressure",
-    "longName": "Newtons Per Square Meter",
+    "longName": "Newton per Square Meter",
     "aliasNames": [
       "N per square metre",
       "N per m²",
@@ -6982,8 +7021,8 @@
       "multiplier": 100000.0,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "pressure_gradient:kilopa-per-m",
@@ -7022,11 +7061,11 @@
     ],
     "symbol": "psi/ft",
     "conversion": {
-      "multiplier": 22620.6,
+      "multiplier": 22620.594793859455,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "pressure_gradient:psi-per-m",
@@ -7043,11 +7082,11 @@
     ],
     "symbol": "psi/m",
     "conversion": {
-      "multiplier": 6894.75789,
+      "multiplier": 6894.757293168362,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/KiloPA-PER-M",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "reactive_power:var",
@@ -7245,7 +7284,7 @@
       "multiplier": 1000.0,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7267,7 +7306,7 @@
       "multiplier": 1.0e6,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7287,7 +7326,7 @@
       "multiplier": 0.028316846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7305,7 +7344,7 @@
       "multiplier": 28.316846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -7323,14 +7362,294 @@
       "multiplier": 28316.846592,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-sec",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-SEC",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Meter per Second (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/s",
+      "Sm³/s",
+      "scm(15C)/s",
+      "Standard Cubic Meter per Second",
+      "standard cubic meter per second",
+      "Standard Cubic Metre per Second"
+    ],
+    "symbol": "Sm³/s",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-hr",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-HR",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Meter per Hour (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/h",
+      "Sm3/hr",
+      "Sm3/hour",
+      "Sm³/h",
+      "Sm³/hr",
+      "Sm³/hour",
+      "Standard Cubic Meter per Hour",
+      "standard cubic meter per hour",
+      "Standard Cubic Metre per Hour"
+    ],
+    "symbol": "Sm³/h",
+    "conversion": {
+      "multiplier": 0.0002777777777777778,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-day",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Meter per Day (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/d",
+      "Sm³/d",
+      "Sm3/day",
+      "Sm³/day",
+      "SM3/D",
+      "scm(15C)/d",
+      "Standard Cubic Meter per Day",
+      "standard cubic meter per day",
+      "Standard Cubic Metre per Day"
+    ],
+    "symbol": "Sm³/d",
+    "conversion": {
+      "multiplier": 1.1574074074074073e-05,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_scm_1atm_15deg_c_iso-per-day",
+    "name": "KILO_SCM_1ATM_15DEG_C_ISO-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Standard Cubic Meter per Day (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kSm3/d",
+      "kSm³/d",
+      "kSm3/day",
+      "kSm³/day",
+      "kSM3/D",
+      "Mscm(15C)/d",
+      "Thousand Standard Cubic Meter per Day",
+      "thousand standard cubic meter per day"
+    ],
+    "symbol": "kSm³/d",
+    "conversion": {
+      "multiplier": 0.011574074074074073,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:mega_scm_1atm_15deg_c_iso-per-day",
+    "name": "MEGA_SCM_1ATM_15DEG_C_ISO-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Million Standard Cubic Meter per Day (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "MSm3/d",
+      "MSm³/d",
+      "MSm3/day",
+      "MSm³/day",
+      "MSM3/D",
+      "MMscm(15C)/d",
+      "Million Standard Cubic Meter per Day",
+      "million standard cubic meter per day"
+    ],
+    "symbol": "MSm³/d",
+    "conversion": {
+      "multiplier": 11.574074074074074,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:scf_1atm_60deg_f-per-day",
+    "name": "SCF_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Standard Cubic Foot per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "scf/d",
+      "SCF/D",
+      "scf/day",
+      "SCF/day",
+      "scfd",
+      "SCFD",
+      "scf(60F)/d",
+      "Standard Cubic Foot per Day",
+      "standard cubic foot per day",
+      "Standard Cubic Feet per Day"
+    ],
+    "symbol": "scf/d",
+    "conversion": {
+      "multiplier": 3.2774128e-07,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_scf_1atm_60deg_f-per-day",
+    "name": "KILO_SCF_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Standard Cubic Foot per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "Mscfd",
+      "mscfd",
+      "MSCFD",
+      "Mscf/d",
+      "mscf/d",
+      "MSCF/D",
+      "Mscf/day",
+      "kscf/d",
+      "Mscf(60F)/d",
+      "Thousand Standard Cubic Feet per Day",
+      "thousand standard cubic feet per day"
+    ],
+    "symbol": "Mscf/d",
+    "conversion": {
+      "multiplier": 0.00032774128,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:mega_scf_1atm_60deg_f-per-day",
+    "name": "MEGA_SCF_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Million Standard Cubic Foot per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMSCFD",
+      "MMSCF/d",
+      "MMSCF/day",
+      "MMscf/d",
+      "mmscfd",
+      "MMScf/d",
+      "MMscf/day",
+      "MMscfd",
+      "MMscf(60F)/d",
+      "Million Standard Cubic Feet per Day",
+      "million standard cubic feet per day"
+    ],
+    "symbol": "MMscf/d",
+    "conversion": {
+      "multiplier": 0.32774128,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446/"
+  },
+  {
+    "externalId": "standard_volume_flow_rate:stb_1atm_60deg_f-per-day",
+    "name": "STB_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Stock Tank Barrel per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "STB/d",
+      "STB/day",
+      "STBD",
+      "stb/d",
+      "STB/D",
+      "stb(60F)/d",
+      "Stock Tank Barrel per Day",
+      "stock tank barrel per day"
+    ],
+    "symbol": "STB/d",
+    "conversion": {
+      "multiplier": 1.8401307283333333e-06,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:stb_1atm_60deg_f-per-hr",
+    "name": "STB_1ATM_60DEG_F-PER-HR",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Stock Tank Barrel per Hour (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "STB/h",
+      "STB/hour",
+      "STBH",
+      "stb/h",
+      "stb(60F)/h",
+      "Stock Tank Barrel per Hour",
+      "stock tank barrel per hour"
+    ],
+    "symbol": "STB/h",
+    "conversion": {
+      "multiplier": 4.416313748e-05,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_stb_1atm_60deg_f-per-day",
+    "name": "KILO_STB_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Stock Tank Barrel per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MSTB/d",
+      "Mstb/d",
+      "MSTB/D",
+      "MSTBD",
+      "kSTB/d",
+      "Mstb(60F)/d",
+      "Thousand Stock Tank Barrel per Day"
+    ],
+    "symbol": "MSTB/d",
+    "conversion": {
+      "multiplier": 0.0018401307283333332,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:mega_stb_1atm_60deg_f-per-day",
+    "name": "MEGA_STB_1ATM_60DEG_F-PER-DAY",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Million Stock Tank Barrel per Day (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMSTB/d",
+      "MMstb/d",
+      "MMSTB/D",
+      "MMSTBD",
+      "MMstb(60F)/d",
+      "Million Stock Tank Barrel per Day"
+    ],
+    "symbol": "MMSTB/d",
+    "conversion": {
+      "multiplier": 1.8401307283333333,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
     "externalId": "surface_tension:ft-lb_f-per-ft2",
     "name": "FT-LB_F-PER-FT2",
     "quantity": "Surface Tension",
-    "longName": "Foot Pound per Square Foot",
+    "longName": "Foot Pound Force per Square Foot",
     "aliasNames": [
       "foot pound force per Square Foot",
       "FT LB_F per FT2",
@@ -7873,7 +8192,7 @@
     "externalId": "surface_tension:w-sec-per-m2",
     "name": "W-SEC-PER-M2",
     "quantity": "Surface Tension",
-    "longName": "Watt Seconds per Square Meter",
+    "longName": "Watt Second per Square Meter",
     "aliasNames": [
       "watt SEC / m²",
       "W second per Square Meter",
@@ -8120,7 +8439,7 @@
     "externalId": "temperature_gradient:k-per-m",
     "name": "K-PER-M",
     "quantity": "Temperature Gradient",
-    "longName": "Degrees Kelvin per Meter",
+    "longName": "Kelvin per Meter",
     "aliasNames": [
       "kelvin per m",
       "kelvins per metre",
@@ -8242,6 +8561,7 @@
       "hours",
       "Hr",
       "Hrs",
+      "hrs",
       "h",
       "h: hour",
       "HOURS"
@@ -8435,11 +8755,11 @@
     ],
     "symbol": "klbf⋅ft",
     "conversion": {
-      "multiplier": 1355.81807,
+      "multiplier": 1355.8179483314004,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB_F-FT",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "torque:lb_f-in",
@@ -9172,7 +9492,7 @@
     ],
     "symbol": "bbl",
     "conversion": {
-      "multiplier": 0.1589873,
+      "multiplier": 0.158987294928,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -9201,7 +9521,7 @@
     "externalId": "volume:decil",
     "name": "DeciL",
     "quantity": "Volume",
-    "longName": "Decilitre",
+    "longName": "Deciliter",
     "aliasNames": [
       "dL",
       "DeciL",
@@ -9314,14 +9634,14 @@
       "multiplier": 28.316846592,
       "offset": 0.0
     },
-    "source": "qudt.org",
-    "sourceReference": "https://qudt.org/vocab/unit/Kilo-FT3"
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume:kilol",
     "name": "KiloL",
     "quantity": "Volume",
-    "longName": "Kilolitre",
+    "longName": "Kiloliter",
     "aliasNames": [
       "KiloL",
       "Kilolitre",
@@ -9384,7 +9704,7 @@
     "externalId": "volume:megal",
     "name": "MegaL",
     "quantity": "Volume",
-    "longName": "Megalitre",
+    "longName": "Megaliter",
     "aliasNames": [
       "Megalitre",
       "megalitre",
@@ -9415,8 +9735,8 @@
       "multiplier": 1.0e+3,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume:mega-m3",
@@ -9434,14 +9754,14 @@
       "multiplier": 1.0e+6,
       "offset": 0.0
     },
-    "source": "Energistics: Unit of Measure Standard (revision June 2014) - https://www.energistics.org/energistics-unit-of-measure-standard",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume:microl",
     "name": "MicroL",
     "quantity": "Volume",
-    "longName": "Microlitre",
+    "longName": "Microliter",
     "aliasNames": [
       "Microlitre",
       "MicroL",
@@ -9460,7 +9780,7 @@
     "externalId": "volume:microm3",
     "name": "MicroM3",
     "quantity": "Volume",
-    "longName": "Cubic Micrometers (Microns)",
+    "longName": "Cubic Micrometer",
     "aliasNames": [
       "cubic micrometres (microns)",
       "µm³",
@@ -9479,7 +9799,7 @@
     "externalId": "volume:millil",
     "name": "MilliL",
     "quantity": "Volume",
-    "longName": "Millilitre",
+    "longName": "Milliliter",
     "aliasNames": [
       "Millilitre",
       "millilitre",
@@ -9573,9 +9893,6 @@
       "BB/D",
       "BPD",
       "bpd",
-      "STB/d",
-      "STB/day",
-      "STBD",
       "bbls/d",
       "bbls/day",
       "BBl/d",
@@ -9584,7 +9901,7 @@
     ],
     "symbol": "bbl/day",
     "conversion": {
-      "multiplier": 0.0000018401307870370370,
+      "multiplier": 1.8401307283333333e-06,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -9606,7 +9923,7 @@
     ],
     "symbol": "RB/d",
     "conversion": {
-      "multiplier": 1.84e-06,
+      "multiplier": 1.8401307283333333e-06,
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
@@ -9627,15 +9944,12 @@
       "BB/H",
       "BPH",
       "bph",
-      "STB/h",
-      "STB/hour",
-      "STBH",
       "bbls/h",
       "bbls/hour"
     ],
     "symbol": "bbl/h",
     "conversion": {
-      "multiplier": 0.000044163138888888889,
+      "multiplier": 4.416313748e-05,
       "offset": 0.0
     },
     "source": "qudt.org",
@@ -10166,7 +10480,7 @@
     "externalId": "volume_flow_rate:kilol-per-hr",
     "name": "KiloL-PER-HR",
     "quantity": "Volume Flow Rate",
-    "longName": "Kilolitre Per Hour",
+    "longName": "Kiloliter per Hour",
     "aliasNames": [
       "Kilolitre Per Hour",
       "kilolitre per hr",
@@ -10215,7 +10529,7 @@
     "externalId": "volume_flow_rate:kilo-ft3-per-day",
     "name": "Kilo-FT3-PER-DAY",
     "quantity": "Volume Flow Rate",
-    "longName": "Thousand Standard Cubic Feet per Day",
+    "longName": "Thousand Cubic Foot per Day",
     "aliasNames": [
       "kilo cubic foot per day",
       "kilo cubic foot / d",
@@ -10223,20 +10537,15 @@
       "thousand cubic foot / d",
       "kft3 / day",
       "kft3 / d",
-      "Mscfd",
-      "mscfd",
-      "MSCFD",
-      "Mscf/d",
-      "mscf/d",
-      "MSCF/D"
+      "kft³/day"
     ],
-    "symbol": "kft³/day",
+    "symbol": "kft³/d",
     "conversion": {
-      "multiplier": 3.277413e-04,
+      "multiplier": 0.00032774128,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_flow_rate:kilo-m3-per-day",
@@ -10257,7 +10566,7 @@
     ],
     "symbol": "km³/day",
     "conversion": {
-      "multiplier": 0.01157407407407410,
+      "multiplier": 0.011574074074074073,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -10421,8 +10730,8 @@
       "multiplier": 11.574074074074074,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/M3-PER-DAY",
-    "sourceReference": null
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_flow_rate:m3-per-day",
@@ -10527,12 +10836,6 @@
       "m³/h",
       "m³/hr",
       "m³/hour",
-      "Sm3/h",
-      "Sm3/hr",
-      "Sm3/hour",
-      "Sm³/h",
-      "Sm³/hr",
-      "Sm³/hour",
       "m3/h",
       "m3/hr",
       "m3/hour",
@@ -10663,7 +10966,7 @@
     "externalId": "volume_flow_rate:millil-per-sec",
     "name": "MilliL-PER-SEC",
     "quantity": "Volume Flow Rate",
-    "longName": "Millilitre Per Second",
+    "longName": "Milliliter per Second",
     "aliasNames": [
       "MilliL PER SEC",
       "Millilitre / second",
@@ -10902,7 +11205,7 @@
     "externalId": "volume_flow_rate:mega-ft3-per-day",
     "name": "Mega-FT3-PER-DAY",
     "quantity": "Volume Flow Rate",
-    "longName": "Million Standard Cubic Feet per Day",
+    "longName": "Million Cubic Foot per Day",
     "aliasNames": [
       "MCFD",
       "Mega Cubic Feet per Day",
@@ -10913,24 +11216,18 @@
       "Million FT3/day",
       "Million ft³/day",
       "MMCFD",
-      "MMSCFD",
       "MMCF/d",
       "MMCF/day",
-      "MMSCF/d",
-      "MMSCF/day",
-      "MMscf/d",
       "mcf/d",
-      "Mcf/d",
-      "mmscfd",
-      "MMScf/d"
+      "Mcf/d"
     ],
-    "symbol": "MMscf/day",
+    "symbol": "MMCF/d",
     "conversion": {
-      "multiplier": 0.3277413,
+      "multiplier": 0.32774128,
       "offset": 0.0
     },
-    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/FT3-PER-DAY",
-    "sourceReference": "https://rds.posccaesar.org/ontology/plm/rdl/PCA_100005446/"
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
     "externalId": "volume_fraction:centim3-per-centim3",
@@ -11180,7 +11477,7 @@
     "externalId": "volume_fraction:microl-per-l",
     "name": "MicroL-PER-L",
     "quantity": "Volume Fraction",
-    "longName": "Microlitre Per Liter",
+    "longName": "Microliter per Liter",
     "aliasNames": [
       "μL / liter",
       "Microlitre per liter",
@@ -11238,7 +11535,7 @@
     "externalId": "volume_fraction:millil-per-l",
     "name": "MilliL-PER-L",
     "quantity": "Volume Fraction",
-    "longName": "Millilitre Per Liter",
+    "longName": "Milliliter per Liter",
     "aliasNames": [
       "MilliL per Litre",
       "MilliL per L",
@@ -11296,7 +11593,7 @@
     "externalId": "volume_fraction:millil-per-m3",
     "name": "MilliL-PER-M3",
     "quantity": "Volume Fraction",
-    "longName": "Millilitre Per Cubic Meter",
+    "longName": "Milliliter per Cubic Meter",
     "aliasNames": [
       "MilliL per Cubic Meter",
       "Millilitre / m³",
@@ -11354,7 +11651,7 @@
     "externalId": "mass_flow_rate:lb-per-sec",
     "name": "LB-PER-SEC",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound (avoirdupois) Per Second",
+    "longName": "Pound Mass per Second",
     "aliasNames": [
       "pound mass / SEC",
       "LB / s",
@@ -11438,6 +11735,7 @@
     "longName": "Pound Mass per Pound Mole",
     "aliasNames": [
       "lb/lb mol",
+      "lb/lb·mol",
       "lb/lbmol",
       "lbm/lbmol",
       "pound mass per pound mole",
@@ -11559,7 +11857,7 @@
     "externalId": "angle_per_length:rad-per-m",
     "name": "RAD-PER-M",
     "quantity": "Angle Per Length",
-    "longName": "Radians Per Meter",
+    "longName": "Radian per Meter",
     "aliasNames": [
       "rad/m",
       "rad.m-1"
@@ -11576,7 +11874,7 @@
     "externalId": "angle_per_length:deg-per-m",
     "name": "DEG-PER-M",
     "quantity": "Angle Per Length",
-    "longName": "Degrees Per Meter",
+    "longName": "Degree per Meter",
     "aliasNames": [
       "deg/m",
       "deg.m-1"
@@ -11600,7 +11898,7 @@
     ],
     "symbol": "°/30m",
     "conversion": {
-      "multiplier": 0.000581776417,
+      "multiplier": 0.0005817764173314432,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/DEG-PER-M",
@@ -11617,7 +11915,7 @@
     ],
     "symbol": "rad/ft",
     "conversion": {
-      "multiplier": 3.280839895,
+      "multiplier": 3.2808398950131235,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -11832,7 +12130,7 @@
     "externalId": "torque:kilon-m",
     "name": "KiloN-M",
     "quantity": "Torque",
-    "longName": "Kilo Newton Meter",
+    "longName": "Kilonewton Meter",
     "aliasNames": [
       "KN.M",
       "KN.m",
@@ -11902,7 +12200,7 @@
     "externalId": "areal_density:lb-per-ft2",
     "name": "LB-PER-FT2",
     "quantity": "Areal Density",
-    "longName": "Pounds per Square Feet",
+    "longName": "Pound Mass per Square Foot",
     "aliasNames": [
       "lb/ft2",
       "lb/ft²"
@@ -11972,7 +12270,7 @@
     "externalId": "magnetic_field:nanot",
     "name": "NanoT",
     "quantity": "Magnetic Field",
-    "longName": "Nano Tesla",
+    "longName": "Nanotesla",
     "aliasNames": [
       "NT",
       "nT"
@@ -12031,7 +12329,7 @@
     ],
     "symbol": "lb/100ft²",
     "conversion": {
-      "multiplier": 0.04882,
+      "multiplier": 0.04882427636383051,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/LB-PER-FT2",
@@ -12074,7 +12372,7 @@
     ],
     "symbol": "kbbl/d",
     "conversion": {
-      "multiplier": 0.0018401307283,
+      "multiplier": 0.0018401307283333332,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12109,13 +12407,11 @@
       "cf/bbl",
       "ft³/bbl",
       "ft3/bbl",
-      "CF/BBL",
-      "scf/bbl",
-      "SCF/BBL"
+      "CF/BBL"
     ],
     "symbol": "ft³/bbl",
     "conversion": {
-      "multiplier": 0.178107606679035,
+      "multiplier": 0.17810760667903525,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12125,7 +12421,7 @@
     "externalId": "density:milligm-per-l",
     "name": "MilliGM-PER-L",
     "quantity": "Density",
-    "longName": "Milligram per Litre",
+    "longName": "Milligram per Liter",
     "aliasNames": [
       "mg/L",
       "milligrams per liter",
@@ -12145,7 +12441,7 @@
     "externalId": "mass_concentration:milligm-per-l",
     "name": "MilliGM-PER-L",
     "quantity": "Mass Concentration",
-    "longName": "Milligram per Litre",
+    "longName": "Milligram per Liter",
     "aliasNames": [
       "mg/L",
       "milligrams per liter",
@@ -12210,7 +12506,7 @@
     ],
     "symbol": "bbl/kft³",
     "conversion": {
-      "multiplier": 0.00561458333,
+      "multiplier": 0.005614583333333333,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12240,14 +12536,37 @@
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
-      "Standard Cubic Feet per Barrel"
+      "Standard Cubic Feet per Barrel",
+      "scf/bbl",
+      "SCF/BBL"
     ],
     "symbol": "scf/STB",
     "conversion": {
-      "multiplier": 0.178108,
+      "multiplier": 0.17810760667903525,
       "offset": 0.0
     },
-    "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions(scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "source": "Derived from base unit definitions (1 ft³ = 0.028316846592 m³; 1 bbl = 42 gal[US] = 0.158987294928 m³). Ratio of standard volumes converted as plain volumes per Energistics Unit of Measure Standard v1.0.1 Usage Guide §3.3.3 - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "gas_liquid_ratio:kilo_scf-per-stb",
+    "name": "KILO_SCF-PER-STB",
+    "quantity": "Gas Liquid Ratio",
+    "longName": "Thousand Standard Cubic Feet per Stock Tank Barrel",
+    "aliasNames": [
+      "Mscf/STB",
+      "MSCF/STB",
+      "Mscf/stb",
+      "Mscf/bbl",
+      "MSCF/BBL",
+      "Thousand Standard Cubic Feet per Stock Tank Barrel"
+    ],
+    "symbol": "Mscf/STB",
+    "conversion": {
+      "multiplier": 178.10760667903526,
+      "offset": 0.0
+    },
+    "source": "Derived from base unit definitions (1 ft³ = 0.028316846592 m³; 1 bbl = 42 gal[US] = 0.158987294928 m³). Ratio of standard volumes converted as plain volumes per Energistics Unit of Measure Standard v1.0.1 Usage Guide §3.3.3 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -12279,10 +12598,10 @@
     ],
     "symbol": "STB/MMscf",
     "conversion": {
-      "multiplier": 0.000005614583333,
+      "multiplier": 5.614583333333334e-06,
       "offset": 0.0
     },
-    "source": "Derived from base unit definitions in qudt.org (1 ft³ = 0.028316846592 m³; 1 bbl = 0.1589873 m³) and assumed standard conditions (scf @60°F/14.73 psia; STB @60°F/14.7 psia; Sm³ @15°C/101.325 kPa). Converts the ratio to the dimensionless SI base Sm³/Sm³.",
+    "source": "Derived from base unit definitions (1 ft³ = 0.028316846592 m³; 1 bbl = 42 gal[US] = 0.158987294928 m³). Ratio of standard volumes converted as plain volumes per Energistics Unit of Measure Standard v1.0.1 Usage Guide §3.3.3 - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {
@@ -12334,7 +12653,7 @@
     ],
     "symbol": "MBtu{IT}/d",
     "conversion": {
-      "multiplier": 12211.29,
+      "multiplier": 12211.29459050926,
       "offset": 0.0
     },
     "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/MegaBTU_IT-PER-HR",
@@ -12349,13 +12668,11 @@
       "Mcf/bbl",
       "kft³/bbl",
       "kft3/bbl",
-      "MCF/BBL",
-      "Mscf/bbl",
-      "MSCF/BBL"
+      "MCF/BBL"
     ],
     "symbol": "kft³/bbl",
     "conversion": {
-      "multiplier": 178.107606679035,
+      "multiplier": 178.10760667903526,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12365,7 +12682,7 @@
     "externalId": "mass_flow_rate:lb-per-day",
     "name": "LB-PER-DAY",
     "quantity": "Mass Flow Rate",
-    "longName": "Pound per Day",
+    "longName": "Pound Mass per Day",
     "aliasNames": [
       "Pound Mass / Day",
       "pound mass / day",
@@ -12418,7 +12735,7 @@
     "externalId": "molar_flux:mol-per-m2-sec",
     "name": "MOL-PER-M2-SEC",
     "quantity": "Molar Flux",
-    "longName": "Mole Per Square Meter Per Second",
+    "longName": "Mole per Square Meter Second",
     "aliasNames": [
       "mol/(m²·s)",
       "mol/m²/s",
@@ -12438,7 +12755,7 @@
     "externalId": "molar_flux:micromol-per-m2-sec",
     "name": "MicroMOL-PER-M2-SEC",
     "quantity": "Molar Flux",
-    "longName": "Micromole Per Square Meter Per Second",
+    "longName": "Micromole per Square Meter Second",
     "aliasNames": [
       "µmol/(m²·s)",
       "µmol/m²/s",
@@ -12591,7 +12908,7 @@
     ],
     "symbol": "bbl/(psi.d)",
     "conversion": {
-      "multiplier": 0.0000000002668884,
+      "multiplier": 2.668883979653089e-10,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12617,7 +12934,7 @@
     ],
     "symbol": "m³/(bar.d)",
     "conversion": {
-      "multiplier": 0.00000000011574074,
+      "multiplier": 1.1574074074074074e-10,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12656,7 +12973,7 @@
     ],
     "symbol": "kft³/(psi.d)",
     "conversion": {
-      "multiplier": 0.000000047536,
+      "multiplier": 4.7534853812003064e-08,
       "offset": 0.0
     },
     "source": "Energistics",
@@ -12684,7 +13001,7 @@
     ],
     "symbol": "ft³/(psi.s)",
     "conversion": {
-      "multiplier": 0.00000410701,
+      "multiplier": 4.107011369357065e-06,
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",

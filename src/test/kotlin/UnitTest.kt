@@ -19,6 +19,7 @@ import com.cognite.units.TypedUnit
 import com.cognite.units.UnitService
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
@@ -54,6 +55,18 @@ class UnitTest {
         assertEquals(50.0, unitService.convertBetweenUnits(unitFahrenheit, unitFahrenheit, 50.0))
         assertEquals(33.8, unitService.convertBetweenUnits(unitCelsius, unitFahrenheit, 1.0))
         assertEquals(0.555555555556, unitService.convertBetweenUnits(unitFahrenheit, unitCelsius, 33.0))
+    }
+
+    @Test
+    fun lookupAndConvertMillihertz() {
+        val unitService = UnitService.service
+        val unitMillihertz = unitService.getUnitByExternalId("frequency:millihz")
+        val unitHertz = unitService.getUnitByExternalId("frequency:hz")
+
+        assertEquals(unitMillihertz, unitService.getUnitByQuantityAndAlias("Frequency", "mHz"))
+        assertEquals(listOf(unitMillihertz), unitService.getUnitsByAlias("mHz"))
+        assertEquals(1.0, unitService.convertBetweenUnits(unitMillihertz, unitHertz, 1000.0))
+        assertEquals(1000.0, unitService.convertBetweenUnits(unitHertz, unitMillihertz, 1.0))
     }
 
     @Test
@@ -122,6 +135,62 @@ class UnitTest {
     }
 
     @Test
+    // 9. Standard Conditions: aliases and symbols referring to volumes at standard conditions (Sm³, scf, STB) must only
+    // be used by units of quantities defined at standard conditions, so they are never converted to in-situ volumes.
+    fun checkStandardConditionAliases() {
+        val standardConditionPattern = Regex(
+            """\b(k|M|MM)?(S[mM][3³]|scf|SCF|STB|stb)|[Ss]tandard [Cc]ubic""",
+        )
+        val standardConditionQuantities = setOf(
+            "Standard Volume",
+            "Standard Volume Flow Rate",
+            "Mass Per Standard Volume",
+            "Gas Liquid Ratio",
+            "Liquid Gas Ratio",
+        )
+        // These aliases are allowed outside standard-condition quantities
+        val aliasExceptions = setOf(
+            "STB/d/psi", // productivity index, no standard-condition quantity exists for it yet
+        )
+
+        val violations = UnitService.service.getUnits()
+            .filterNot { it.quantity in standardConditionQuantities }
+            .flatMap { unit ->
+                (unit.aliasNames + unit.symbol)
+                    .filter { standardConditionPattern.containsMatchIn(it) && it !in aliasExceptions }
+                    .map { "'$it' in ${unit.externalId} (${unit.quantity})" }
+            }
+        if (violations.isNotEmpty()) {
+            fail<Unit>(
+                "Standard-condition aliases found outside standard-condition quantities:\n" +
+                    violations.joinToString("\n"),
+            )
+        }
+    }
+
+    @Test
+    // 10. Source References: units defined in the Energistics dictionary must reference the standard, and custom or
+    // derived units must not point to a single canonical definition.
+    fun checkSourceReferences() {
+        val energisticsReference = "https://www.energistics.org/energistics-unit-of-measure-standard"
+        val violations = UnitService.service.getUnits().mapNotNull { unit ->
+            val source = unit.source ?: return@mapNotNull null
+            val reference = unit.sourceReference
+            when {
+                source == "Energistics" && reference != energisticsReference ->
+                    "${unit.externalId}: Energistics units must reference $energisticsReference"
+                (source.startsWith("Custom based on") || source.startsWith("Derived from")) &&
+                    reference != null && !reference.startsWith("https://rds.posccaesar.org/") ->
+                    "${unit.externalId}: custom or derived units must have a null sourceReference"
+                else -> null
+            }
+        }
+        if (violations.isNotEmpty()) {
+            fail<Unit>("Inconsistent source references:\n" + violations.joinToString("\n"))
+        }
+    }
+
+    @Test
     fun jsonWithInvalidExternalId() {
         try {
             UnitService(getTestResource("invalidExternalId.json"), getTestResource("unitSystems.json"))
@@ -161,6 +230,63 @@ class UnitTest {
             angularVelocityUnit,
             unitService.getUnitByQuantityAndAlias("Angular Velocity", symbol),
         )
+    }
+
+    @Test
+    fun lookupUnitsWithWrongCharacter() {
+        val unitService = UnitService.service
+        val variants = listOf(
+            "kW\u00b7h" to "kW\u22c5h", // middle dot/dot operator
+            "kN\u22c5m" to "kN\u00b7m", // dot operator/middle dot
+            "\u00b5mol" to "\u03bcmol", // micro sign/greek mu
+            "\u00b5F" to "\u03bcF", // micro sign/greek mu
+            "\u2126" to "\u03a9", // ohm sign/greek omega
+            "\u00baR" to "\u00b0R", // ordinal indicator/degree sign
+            "J/m²" to "J / m²", // Space around operators
+            "kW\u22c5h" to "kW\u00a0h", // dot operator/Non-breaking space
+            "kW\u22c5h" to "kW h", // dot operator/space
+            "KLB*FT" to "KLB FT", // asterisk/space
+            "klbf\u22c5ft" to "klbf*ft", // dot operator/asterisk
+        )
+
+        for (variant in variants) {
+            val units = unitService.getUnitsByAlias(variant.first)
+            assertEquals(units, unitService.getUnitsByAlias(variant.second))
+            var notAllInAliasList = false
+            units.forEach { unit ->
+                val quantity = unit.quantity
+                assertEquals(
+                    unitService.getUnitByQuantityAndAlias(quantity, variant.first),
+                    unitService.getUnitByQuantityAndAlias(quantity, variant.second),
+                )
+                val aliasList = unit.aliasNames + unit.symbol
+                val count = listOf(variant.first in aliasList, variant.second in aliasList).count { it }
+                if (count == 1) {
+                    notAllInAliasList = true
+                }
+            }
+            // We want to test that getUnitByAlias() actually does something
+            // Thus we require that for at least one of the matching units, exactly one of the
+            // two variants is present in the alias list
+            assertTrue(notAllInAliasList) {
+                "Both variants $variant occurred the same number of times in the alias list"
+            }
+        }
+    }
+
+    @Test
+    fun normalizerTest() {
+        val unitService = UnitService.service
+        assertEquals("J/m²", unitService.normalizeName("J  \n \t \u00a0  /  m²"))
+        assertEquals("a b c d e f", unitService.normalizeName("a  b*  c \u00a0 d \u00b7 e \u22c5 f"))
+        assertEquals("\u03bc \u03a9 \u00b0", unitService.normalizeName("\u00b5 \u2126 \u00ba"))
+    }
+
+    @Test
+    fun ensureWhitespaceIsNotNormalizedAway() {
+        val unitService = UnitService.service
+        // It should not resolve to ms (millisecond)
+        assertThrows<IllegalArgumentException> { unitService.getUnitsByAlias("m s") }
     }
 
     @Test

@@ -10,6 +10,76 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
+## [0.1.28] - 2026-10-26
+### Added
+- Added new quantity `Revolutions Per Unit Volume` (mud motor speed ratio) with the following units:
+  - Revolution Per Cubic Meter (rev/m³)
+  - Revolution Per Liter (rev/L)
+  - Revolution Per US Gallon (rev/gal{US})
+  - Revolution Per UK Gallon (rev/gal{UK})
+- Added new quantity `Molar Mass` with the following units:
+  - Gram per Mole (g/mol)
+  - Kilogram per Mole (kg/mol)
+  - Pound Mass per Pound Mole (lbm/lbmol)
+- Added new quantity `Relative Density` with the following unit:
+  - Specific Gravity (SG)
+- Added new quantity `Thermal Conductivity` with the following units:
+  - Watt per Meter Kelvin (W/(m·K))
+  - British Thermal Unit (International Definition) Foot per Square Foot Hour Degree Fahrenheit (Btu{IT}·ft/(ft²·h·°F))
+- Added new quantity `Standard Volume Flow Rate` with the following units (#239):
+  - Standard Cubic Meter per Second, per Hour and per Day (Sm³/s, Sm³/h, Sm³/d)
+  - Thousand and Million Standard Cubic Meter per Day (kSm³/d, MSm³/d)
+  - Standard, Thousand and Million Standard Cubic Foot per Day (scf/d, Mscf/d, MMscf/d)
+  - Stock Tank Barrel per Day and per Hour (STB/d, STB/h)
+  - Thousand and Million Stock Tank Barrel per Day (MSTB/d, MMSTB/d)
+- Added new quantity `Mass Per Standard Volume` with the following unit (#239):
+  - Kilogram per Standard Cubic Meter (kg/Sm³)
+- Added new unit for quantity `Gas Liquid Ratio`:
+  - Thousand Standard Cubic Feet per Stock Tank Barrel (Mscf/STB) (#239)
+- Added new unit for quantity `Density`:
+  - Pound Mass per US Gallon (lbm/gal{US}) (#240)
+- Added new unit for quantity `Frequency`:
+  - Millihertz (mHz) (#244)
+- Added new unit for quantity `Resistance`:
+  - Megaohm (MΩ)
+- Added new unit for quantity `Length`:
+  - Nanometer (nm)
+- Added new unit for quantity `Volume Flow Rate`:
+  - Thousand Cubic Meter per Day (1000 m³/d)
+- Added new aliases for existing units:
+  - `t/h` and `t/hr` for Tonne Per Hour
+  - `KWH` for Kilowatt Hour
+  - `milliseconds` for Millisecond
+  - `hrs` for Hour (#231)
+  - `MWh` for Megawatt Hour (#236)
+  - `lb/ft³` for Pound Mass per Cubic Foot (#237)
+  - `lb/lb·mol` for Pound Mass per Pound Mole (#232)
+  - `lbm/gal{Imp}` for Pound Mass per Gallon (UK) (#240)
+  - `E3m3`, `e3m3`, `E6m3`, `e6m3` and their `/d` forms for the thousand and million cubic meter units (#240)
+
+### Changed
+- `getUnitsByAlias()` and `getUnitByQuantityAndAlias()` now also match a unit's symbol, even when the symbol is not listed in its `aliasNames` (#229)
+- Alias lookups now ignore whitespace differences and look-alike characters: spaces around `/`, `^`, `(` and `)` are ignored, `·`, `⋅`, `*` and spaces all mean multiplication, and `µ`/`μ`, `Ω`/`Ω` and `º`/`°` are treated as the same character (#238)
+- Moved aliases for volumes at standard conditions from `Volume Flow Rate`, `Volume Fraction` and `Mass Concentration` to the new standard-condition units, so they are no longer converted to in-situ volumes (#239):
+  - `STB/d`, `STB/h`, `Sm3/h`, `Mscf/d`, `MMscf/d`, `scf/bbl`, `Mscf/bbl`, `kg/Sm3` and their variants
+  - `volume_flow_rate:kilo-ft3-per-day` and `volume_flow_rate:mega-ft3-per-day` now describe plain (not standard) cubic feet
+- Updated symbols (#240):
+  - Pound Mass per Gallon (UK): `lb/gal` → `lbm/gal{UK}`
+  - Ounce Mass per Gallon (UK): `oz/gal{US}` → `oz/gal{UK}`
+  - Thousand Cubic Meter: `km³` → `1000 m³` (`km³` strictly means 10⁹ m³; kept as an alias)
+  - Million Cubic Meter: `Mm³` → `1E6 m³` (kept as an alias)
+  - Million Cubic Meter per Day: `Mm³/day` → `1E6 m³/d` (kept as an alias)
+- Replaced truncated conversion multipliers with exact values, checked against the Energistics Unit of Measure Standard v1.0.1 where the unit is defined there (#241)
+- Aligned 50 `longName` values with their QUDT labels. `longName` is not used for lookups (#243)
+- Normalized `source` and `sourceReference` across the catalog, and added validations for standard-condition aliases and source references (#239, #242)
+
+### Fixed
+- `MCF`, `MCFD`, `Mcf/d` and `mcf/d` now resolve to the thousand cubic foot units instead of the million cubic foot units, following the oilfield convention where `M` means thousand (#240)
+- `PPG`, `ppg`, `lb/gal`, `lbm/gal` and the other generic pound per gallon aliases now resolve to the new US gallon unit instead of the UK gallon, matching how PPG (mud weight) is used (#240)
+- Release workflow now reads the published version from Maven Central repository metadata, fixing failed duplicate-publish attempts (#224)
+- Release workflow validates the `pom.xml` version before using it in scripts (#215)
+- Set UTF-8 source encoding in `pom.xml` to fix builds on Windows
+
 ## [0.1.27] - 2026-07-16
 ### Added
 - Added new quantity `Molar Flux` with the following units:

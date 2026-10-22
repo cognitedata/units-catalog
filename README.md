@@ -144,6 +144,7 @@ To maintain the consistency and quality of the unit catalog, please ensure any c
 6. **Validate unit structure**:
    - Ensure `externalId` follows the pattern `{quantity}:{unit}` in snake_case
    - Add comprehensive aliases to support various naming conventions users might use
+   - No need to add spacing or character variants of an alias: lookups ignore whitespace around `/`, `^`, `(` and `)`, treat `·`, `⋅`, `*` and spaces as multiplication, and treat `µ`/`μ`, `Ω`/`Ω` and `º`/`°` as the same character (e.g. `LB / GAL` matches `LB/GAL`, and `kW h` matches `kW·h`)
    - Verify conversion factors are correct (formula: `baseUnitValue = (unitValue + offset) * multiplier`)
 
 ### Release Schedule

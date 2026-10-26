@@ -7366,6 +7366,41 @@
     "sourceReference": null
   },
   {
+    "externalId": "standard_volume:stb_1atm_60deg_f",
+    "name": "STB_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Stock Tank Barrel (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "stb",
+      "Stock Tank Barrel",
+      "Stock tank barrel"
+    ],
+    "symbol": "STB",
+    "conversion": {
+      "multiplier": 0.158987294928,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (stb(60F) maps to bbl = 42 gal[US], see Usage Guide §3.3.4) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume:mega_stb_1atm_60deg_f",
+    "name": "MEGA_STB_1ATM_60DEG_F",
+    "quantity": "Standard Volume",
+    "longName": "Million Stock Tank Barrel (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "MMstb",
+      "Million Stock Tank Barrels"
+    ],
+    "symbol": "MMSTB",
+    "conversion": {
+      "multiplier": 158987.294928,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (MMstb(60F) maps to 1E6 bbl, see Usage Guide §3.3.4) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-sec",
     "name": "SCM_1ATM_15DEG_C_ISO-PER-SEC",
     "quantity": "Standard Volume Flow Rate",
@@ -7644,41 +7679,6 @@
     },
     "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
-  },
-  {
-    "externalId": "standard_volume:stb_1atm_60deg_f",
-    "name": "STB_1ATM_60DEG_F",
-    "quantity": "Standard Volume",
-    "longName": "Stock Tank Barrel (@60°F, 14.7 psi)",
-    "aliasNames": [
-      "stb",
-      "Stock Tank Barrel",
-      "Stock tank barrel"
-    ],
-    "symbol": "STB",
-    "conversion": {
-      "multiplier": 0.158987294928,
-      "offset": 0.0
-    },
-    "source": "Energistics",
-    "sourceReference": "https://energistics.org/sites/default/files/schema/WITSML_v1.4.1.1_Data_Schema_with_Raster_v1.0/witsml_v1.4.1.1_data/ancillary/witsmlUnitDict.html"
-  },
-  {
-    "externalId": "standard_volume:mega_stb_1atm_60deg_f",
-    "name": "MEGA_STB_1ATM_60DEG_F",
-    "quantity": "Standard Volume",
-    "longName": "Million Stock Tank Barrels (@60°F, 14.7 psi)",
-    "aliasNames": [
-      "MMstb",
-      "Million Stock Tank Barrels"
-    ],
-    "symbol": "MMSTB",
-    "conversion": {
-      "multiplier": 158987.294928,
-      "offset": 0.0
-    },
-    "source": "Energistics",
-    "sourceReference": "https://energistics.org/sites/default/files/schema/WITSML_v1.4.1.1_Data_Schema_with_Raster_v1.0/witsml_v1.4.1.1_data/ancillary/witsmlUnitDict.html"
   },
   {
     "externalId": "surface_tension:ft-lb_f-per-ft2",

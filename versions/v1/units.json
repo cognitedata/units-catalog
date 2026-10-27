@@ -7397,7 +7397,7 @@
       "multiplier": 158987.294928,
       "offset": 0.0
     },
-    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (MMstb(60F) maps to 1E6 bbl, see Usage Guide §3.3.4) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {

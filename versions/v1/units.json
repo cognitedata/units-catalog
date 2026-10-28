@@ -7427,6 +7427,14 @@
       "Sm³/h",
       "Sm³/hr",
       "Sm³/hour",
+      "sm3/h",
+      "Sm3/H",
+      "SM3/h",
+      "SM3/H",
+      "SM3/HR",
+      "Sm3h",
+      "SCMH",
+      "scm/hr",
       "Standard Cubic Meter per Hour",
       "standard cubic meter per hour",
       "Standard Cubic Metre per Hour"
@@ -7450,6 +7458,11 @@
       "Sm3/day",
       "Sm³/day",
       "SM3/D",
+      "sm3/d",
+      "sm³/d",
+      "Sm³/D",
+      "Sm3d",
+      "SCMD",
       "scm(15C)/d",
       "Standard Cubic Meter per Day",
       "standard cubic meter per day",
@@ -7458,6 +7471,30 @@
     "symbol": "Sm³/d",
     "conversion": {
       "multiplier": 1.1574074074074073e-05,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_flow_rate:kilo_scm_1atm_15deg_c_iso-per-hr",
+    "name": "KILO_SCM_1ATM_15DEG_C_ISO-PER-HR",
+    "quantity": "Standard Volume Flow Rate",
+    "longName": "Thousand Standard Cubic Meter per Hour (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "kSm3/h",
+      "kSm3/hr",
+      "kSm3/hour",
+      "kSm³/hr",
+      "kSm³/hour",
+      "KSm³/h",
+      "Thousand Standard Cubic Meter per Hour",
+      "thousand standard cubic meter per hour",
+      "Thousand Standard Cubic Metre per Hour"
+    ],
+    "symbol": "kSm³/h",
+    "conversion": {
+      "multiplier": 0.2777777777777778,
       "offset": 0.0
     },
     "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
@@ -7474,6 +7511,7 @@
       "kSm3/day",
       "kSm³/day",
       "kSM3/D",
+      "ksm3/d",
       "Mscm(15C)/d",
       "Thousand Standard Cubic Meter per Day",
       "thousand standard cubic meter per day"

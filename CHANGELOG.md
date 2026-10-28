@@ -10,7 +10,7 @@ Each release should include the following types of changes when applicable:
 - `Fixed` for any bug fixes
 - `Security` in case of vulnerabilities
 
-## [0.1.28] - 2026-10-29
+## [0.2.0] - 2026-10-29
 ### Added
 - Added new quantity `Revolutions Per Unit Volume` (mud motor speed ratio) with the following units:
   - Revolution Per Cubic Meter (rev/m³)

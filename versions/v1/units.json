@@ -4518,6 +4518,10 @@
     "aliasNames": [
       "kg/Sm³",
       "kg/Sm3",
+      "Kg/Sm3",
+      "Kg/Sm³",
+      "kg/SM3",
+      "kg/sm3",
       "kg/scm",
       "Kilogram per Standard Cubic Meter",
       "kilogram per standard cubic meter"
@@ -7620,7 +7624,9 @@
       "mscf/d",
       "MSCF/D",
       "Mscf/day",
+      "MScf/d",
       "kscf/d",
+      "kScf/d",
       "Mscf(60F)/d",
       "Thousand Standard Cubic Feet per Day",
       "thousand standard cubic feet per day"
@@ -7644,6 +7650,7 @@
       "MMSCF/day",
       "MMscf/d",
       "mmscfd",
+      "mmscf/d",
       "MMScf/d",
       "MMscf/day",
       "MMscfd",
@@ -12674,6 +12681,7 @@
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
+      "scf/stb",
       "Standard Cubic Feet per Barrel",
       "scf/bbl",
       "SCF/BBL"

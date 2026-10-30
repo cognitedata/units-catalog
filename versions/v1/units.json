@@ -11867,6 +11867,27 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-MOL"
   },
   {
+    "externalId": "molar_mass:kilogm-per-kilomol",
+    "name": "KiloGM-PER-KiloMOL",
+    "quantity": "Molar Mass",
+    "longName": "Kilogram per Kilomole",
+    "aliasNames": [
+      "Kg/kmol",
+      "Kg/Kmol",
+      "kg/kg-mol",
+      "kg per kmol",
+      "kilogram per kilomole",
+      "KiloGM-PER-KiloMOL"
+    ],
+    "symbol": "kg/kmol",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-KiloMOL"
+  },
+  {
     "externalId": "molar_mass:lb-per-lb-mol",
     "name": "LB-PER-LB-MOL",
     "quantity": "Molar Mass",

@@ -12684,7 +12684,8 @@
       "scf/stb",
       "Standard Cubic Feet per Barrel",
       "scf/bbl",
-      "SCF/BBL"
+      "SCF/BBL",
+      "SCF/BO"
     ],
     "symbol": "scf/STB",
     "conversion": {

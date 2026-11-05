@@ -3535,6 +3535,64 @@
     "sourceReference": "https://qudt.org/vocab/unit/W-HR-PER-M3"
   },
   {
+    "externalId": "energy_per_standard_volume:btu_it-per-scf_1atm_60deg_f",
+    "name": "BTU_IT-PER-SCF_1ATM_60DEG_F",
+    "quantity": "Energy Per Standard Volume",
+    "longName": "British Thermal Unit (International Definition) per Standard Cubic Foot (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "BTU/scf",
+      "Btu/scf",
+      "BTU/SCF",
+      "British Thermal Unit (International Definition) per Standard Cubic Foot",
+      "british thermal unit (international definition) per standard cubic foot"
+    ],
+    "symbol": "Btu{IT}/scf",
+    "conversion": {
+      "multiplier": 37258.94580783128,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "energy_per_standard_volume:j-per-scm_1atm_15deg_c_iso",
+    "name": "J-PER-SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Energy Per Standard Volume",
+    "longName": "Joule per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "J/Sm3",
+      "J/scm",
+      "Joule per Standard Cubic Meter",
+      "joule per standard cubic meter"
+    ],
+    "symbol": "J/Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "energy_per_standard_volume:megaj-per-scm_1atm_15deg_c_iso",
+    "name": "MegaJ-PER-SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Energy Per Standard Volume",
+    "longName": "Megajoule per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "MJ/Sm3",
+      "MJ/scm",
+      "Megajoule per Standard Cubic Meter",
+      "megajoule per standard cubic meter"
+    ],
+    "symbol": "MJ/Sm³",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "force:centin",
     "name": "CentiN",
     "quantity": "Force",

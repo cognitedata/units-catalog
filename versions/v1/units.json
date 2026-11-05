@@ -12174,6 +12174,26 @@
     "sourceReference": "https://qudt.org/vocab/unit/B"
   },
   {
+    "externalId": "signal_strength:decib-milliw",
+    "name": "DeciB-MilliW",
+    "quantity": "Signal Strength",
+    "longName": "Decibel Milliwatt",
+    "aliasNames": [
+      "dBm",
+      "dBmW",
+      "DBM", 
+      "DBM_MILLIWATT", 
+      "DECIBEL_MILLIWATT"
+    ],
+    "symbol": "dB·mW",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "http://qudt.org/vocab/unit/DeciB-MilliW"
+  },
+  {
     "externalId": "frequency:hectohz",
     "name": "HectoHZ",
     "quantity": "Frequency",

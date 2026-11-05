@@ -163,6 +163,10 @@
         "unitExternalId": "resistance:ohm"
       },
       {
+        "name": "Signal Strength",
+        "unitExternalId": "signal_strength:decib-milliw"
+      },
+      {
         "name": "Standard Volume",
         "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
@@ -412,6 +416,10 @@
         "unitExternalId": "resistance:ohm"
       },
       {
+        "name": "Signal Strength",
+        "unitExternalId": "signal_strength:decib-milliw"
+      },
+      {
         "name": "Standard Volume",
         "unitExternalId": "standard_volume:scm_1atm_15deg_c_iso"
       },
@@ -547,6 +555,10 @@
       {
         "name": "Pressure Gradient",
         "unitExternalId": "pressure_gradient:psi-per-ft"
+      },
+      {
+        "name": "Signal Strength",
+        "unitExternalId": "signal_strength:decib-milliw"
       },
       {
         "name": "Standard Volume",

@@ -3776,6 +3776,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliHZ"
   },
   {
+    "externalId": "frequency:megahz",
+    "name": "MegaHZ",
+    "quantity": "Frequency",
+    "longName": "Megahertz",
+    "aliasNames": [
+      "MHz",
+      "MHZ",
+      "Megahertz",
+      "megahertz"
+    ],
+    "symbol": "MHz",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaHZ"
+  },
+  {
     "externalId": "frequency:num-per-hr",
     "name": "NUM-PER-HR",
     "quantity": "Frequency",

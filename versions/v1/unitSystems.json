@@ -171,6 +171,10 @@
         "unitExternalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-sec"
       },
       {
+        "name": "Standard Volume per time per pressure",
+        "unitExternalId": "standard_volume_per_time_per_pressure:scm_1atm_15deg_c_iso-per-sec-per-pa"
+      },
+      {
         "name": "Surface Tension",
         "unitExternalId": "surface_tension:j-per-m2"
       },
@@ -420,6 +424,10 @@
         "unitExternalId": "standard_volume_flow_rate:scm_1atm_15deg_c_iso-per-sec"
       },
       {
+        "name": "Standard Volume per time per pressure",
+        "unitExternalId": "standard_volume_per_time_per_pressure:scm_1atm_15deg_c_iso-per-sec-per-pa"
+      },
+      {
         "name": "Surface Tension",
         "unitExternalId": "surface_tension:j-per-m2"
       },
@@ -555,6 +563,10 @@
       {
         "name": "Standard Volume Flow Rate",
         "unitExternalId": "standard_volume_flow_rate:scf_1atm_60deg_f-per-day"
+      },
+      {
+        "name": "Standard Volume per time per pressure",
+        "unitExternalId": "standard_volume_per_time_per_pressure:stb_1atm_60deg_f-per-day-per-psi"
       },
       {
         "name": "Surface Tension",

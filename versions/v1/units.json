@@ -13041,8 +13041,7 @@
       "bbl per psi d",
       "bbl/psi/day",
       "barrels per (psi.d)",
-      "bbl per (psi.d)",
-      "STB/d/psi"
+      "bbl per (psi.d)"
     ],
     "symbol": "bbl/(psi.d)",
     "conversion": {
@@ -13143,6 +13142,75 @@
       "offset": 0.0
     },
     "source": "Custom based on Energistics - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_per_time_per_pressure:scm_1atm_15deg_c_iso-per-sec-per-pa",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-SEC-PER-PA",
+    "quantity": "Standard Volume per time per pressure",
+    "longName": "Standard Cubic Meter per Pascal Second (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/(Pa.s)",
+      "Sm3/Pa.s",
+      "Sm³/Pa.s",
+      "Standard Cubic Meter per Pascal Second",
+      "standard cubic meter per pascal second",
+      "Standard Cubic Metre per Pascal Second"
+    ],
+    "symbol": "Sm³/(Pa.s)",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_per_time_per_pressure:scm_1atm_15deg_c_iso-per-day-per-bar",
+    "name": "SCM_1ATM_15DEG_C_ISO-PER-DAY-PER-BAR",
+    "quantity": "Standard Volume per time per pressure",
+    "longName": "(Standard Cubic Meter per Day) per Bar (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "Sm3/(bar.d)",
+      "Sm3/bar/d",
+      "Sm³/bar/d",
+      "Sm3/bar/day",
+      "Sm³/bar/day",
+      "Sm3/d/bar",
+      "Sm³/d/bar",
+      "Sm3/day/bar",
+      "Sm³/day/bar",
+      "Standard Cubic Meter per Day per Bar",
+      "standard cubic meter per day per bar",
+      "Standard Cubic Metre per Day per Bar"
+    ],
+    "symbol": "Sm³/(bar.d)",
+    "conversion": {
+      "multiplier": 1.1574074074074074e-10,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "standard_volume_per_time_per_pressure:stb_1atm_60deg_f-per-day-per-psi",
+    "name": "STB_1ATM_60DEG_F-PER-DAY-PER-PSI",
+    "quantity": "Standard Volume per time per pressure",
+    "longName": "(Stock Tank Barrel per Day) per Psi (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "STB/d/psi",
+      "STB/day/psi",
+      "STB/psi/d",
+      "STB/psi/day",
+      "Stock Tank Barrel per Day per Psi",
+      "stock tank barrel per day per psi"
+    ],
+    "symbol": "STB/(psi.d)",
+    "conversion": {
+      "multiplier": 2.668883979653089e-10,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
     "sourceReference": null
   },
   {

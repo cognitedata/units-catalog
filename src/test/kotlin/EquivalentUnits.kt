@@ -80,6 +80,7 @@ class EquivalentUnits {
             "density:kilogm-per-l",
             "density:gm-per-m3",
             "density:milligm-per-l",
+            "signal_strength:decib-milliw",
         )
     }
 }

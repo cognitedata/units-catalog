@@ -12191,7 +12191,7 @@
       "offset": 0.0
     },
     "source": "qudt.org",
-    "sourceReference": "http://qudt.org/vocab/unit/DeciB-MilliW"
+    "sourceReference": "https://qudt.org/vocab/unit/DeciB-MilliW"
   },
   {
     "externalId": "frequency:hectohz",

@@ -145,19 +145,16 @@ class UnitTest {
             "Standard Volume",
             "Standard Volume Flow Rate",
             "Mass Per Standard Volume",
+            "Standard Volume per time per pressure",
             "Gas Liquid Ratio",
             "Liquid Gas Ratio",
-        )
-        // These aliases are allowed outside standard-condition quantities
-        val aliasExceptions = setOf(
-            "STB/d/psi", // productivity index, no standard-condition quantity exists for it yet
         )
 
         val violations = UnitService.service.getUnits()
             .filterNot { it.quantity in standardConditionQuantities }
             .flatMap { unit ->
                 (unit.aliasNames + unit.symbol)
-                    .filter { standardConditionPattern.containsMatchIn(it) && it !in aliasExceptions }
+                    .filter { standardConditionPattern.containsMatchIn(it) }
                     .map { "'$it' in ${unit.externalId} (${unit.quantity})" }
             }
         if (violations.isNotEmpty()) {

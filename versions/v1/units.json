@@ -2560,7 +2560,8 @@
       "Volts AC",
       "volts AC",
       "VAC",
-      "VDC"
+      "VDC",
+      "CFIHOS-60001423"
     ],
     "symbol": "V",
     "conversion": {
@@ -4215,7 +4216,8 @@
       "MilliM",
       "millimetre",
       "Millimetre",
-      "mm: millimetre"
+      "mm: millimetre",
+      "CFIHOS-60001469"
     ],
     "symbol": "mm",
     "conversion": {
@@ -4335,7 +4337,8 @@
     "aliasNames": [
       "kg",
       "kilogram",
-      "KiloGM"
+      "KiloGM",
+      "CFIHOS-60001449"
     ],
     "symbol": "kg",
     "conversion": {
@@ -6268,7 +6271,8 @@
       "bar G",
       "Bar g",
       "barG",
-      "bar g"
+      "bar g",
+      "CFIHOS-60001431"
     ],
     "symbol": "bar(g)",
     "conversion": {
@@ -8416,7 +8420,8 @@
       "degreesC",
       "DEG C:",
       "degree Celsius",
-      "celcius"
+      "celcius",
+      "CFIHOS-60001435"
     ],
     "symbol": "°C",
     "conversion": {

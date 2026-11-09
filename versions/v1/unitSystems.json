@@ -99,6 +99,10 @@
         "unitExternalId": "inverse_length:per-m"
       },
       {
+        "name": "Inverse Volume",
+        "unitExternalId": "inverse_volume:per-m3"
+      },
+      {
         "name": "Length",
         "unitExternalId": "length:m"
       },
@@ -362,6 +366,10 @@
       {
         "name": "Inductance",
         "unitExternalId": "inductance:h"
+      },
+      {
+        "name": "Inverse Volume",
+        "unitExternalId": "inverse_volume:per-m3"
       },
       {
         "name": "Length",

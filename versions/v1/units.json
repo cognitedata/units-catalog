@@ -3781,7 +3781,7 @@
     "quantity": "Frequency",
     "longName": "Megahertz",
     "aliasNames": [
-      "MHz",
+      "MegaHZ",
       "MHZ",
       "Megahertz",
       "megahertz"

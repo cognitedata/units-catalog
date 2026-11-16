@@ -12174,9 +12174,9 @@
     "sourceReference": "https://qudt.org/vocab/unit/B"
   },
   {
-    "externalId": "signal_strength:decib-milliw",
+    "externalId": "power_level:decib-milliw",
     "name": "DeciB-MilliW",
-    "quantity": "Signal Strength",
+    "quantity": "Power Level",
     "longName": "Decibel Milliwatt",
     "aliasNames": [
       "dBm",

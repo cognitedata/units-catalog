@@ -12181,9 +12181,7 @@
     "aliasNames": [
       "dBm",
       "dBmW",
-      "DBM", 
-      "DBM_MILLIWATT", 
-      "DECIBEL_MILLIWATT"
+      "DBM"
     ],
     "symbol": "dB·mW",
     "conversion": {

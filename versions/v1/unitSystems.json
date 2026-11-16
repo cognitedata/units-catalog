@@ -163,8 +163,8 @@
         "unitExternalId": "resistance:ohm"
       },
       {
-        "name": "Signal Strength",
-        "unitExternalId": "signal_strength:decib-milliw"
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Standard Volume",
@@ -416,8 +416,8 @@
         "unitExternalId": "resistance:ohm"
       },
       {
-        "name": "Signal Strength",
-        "unitExternalId": "signal_strength:decib-milliw"
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Standard Volume",
@@ -557,8 +557,8 @@
         "unitExternalId": "pressure_gradient:psi-per-ft"
       },
       {
-        "name": "Signal Strength",
-        "unitExternalId": "signal_strength:decib-milliw"
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Standard Volume",

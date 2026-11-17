@@ -9986,7 +9986,8 @@
       "Mega ft³",
       "Million cu ft",
       "Million ft³",
-      "MMCF"
+      "MMCF",
+      "MMft3"
     ],
     "symbol": "MMCF",
     "conversion": {
@@ -10033,6 +10034,7 @@
     "aliasNames": [
       "RB/d",
       "rb/d",
+      "RB/day",
       "Reservoir Barrel Per Day",
       "reservoir barrel per day",
       "RB/D",
@@ -12493,7 +12495,8 @@
       "1-64 in",
       "1/64th in",
       "1/64th inch",
-      "sixty-fourth inch"
+      "sixty-fourth inch",
+      "64ths"
     ],
     "symbol": "¹⁄₆₄″",
     "conversion": {
@@ -12796,7 +12799,8 @@
       "MMBTU_IT/d",
       "MMBTU_IT/day",
       "MMBTU_IT/Day",
-      "MMBTU_IT/DAY"
+      "MMBTU_IT/DAY",
+      "MMBTU/d"
     ],
     "symbol": "MBtu{IT}/d",
     "conversion": {

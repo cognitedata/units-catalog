@@ -30,6 +30,7 @@ class EquivalentUnits {
             "frequency:num-per-sec",
             "molar_mass:lb-per-lb-mol",
             "molar_mass:gm-per-mol",
+            "molar_mass:kilogm-per-kilomol",
             "power:j-per-sec",
             "power:v-a",
             "power:w",

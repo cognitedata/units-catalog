@@ -3535,6 +3535,64 @@
     "sourceReference": "https://qudt.org/vocab/unit/W-HR-PER-M3"
   },
   {
+    "externalId": "energy_per_standard_volume:btu_it-per-scf_1atm_60deg_f",
+    "name": "BTU_IT-PER-SCF_1ATM_60DEG_F",
+    "quantity": "Energy Per Standard Volume",
+    "longName": "British Thermal Unit (International Definition) per Standard Cubic Foot (@60°F, 14.7 psi)",
+    "aliasNames": [
+      "BTU/scf",
+      "Btu/scf",
+      "BTU/SCF",
+      "British Thermal Unit (International Definition) per Standard Cubic Foot",
+      "british thermal unit (international definition) per standard cubic foot"
+    ],
+    "symbol": "Btu{IT}/scf",
+    "conversion": {
+      "multiplier": 37258.94580783128,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "energy_per_standard_volume:j-per-scm_1atm_15deg_c_iso",
+    "name": "J-PER-SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Energy Per Standard Volume",
+    "longName": "Joule per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "J/Sm3",
+      "J/scm",
+      "Joule per Standard Cubic Meter",
+      "joule per standard cubic meter"
+    ],
+    "symbol": "J/Sm³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
+    "externalId": "energy_per_standard_volume:megaj-per-scm_1atm_15deg_c_iso",
+    "name": "MegaJ-PER-SCM_1ATM_15DEG_C_ISO",
+    "quantity": "Energy Per Standard Volume",
+    "longName": "Megajoule per Standard Cubic Meter (@15°C, 101.325 kPa)",
+    "aliasNames": [
+      "MJ/Sm3",
+      "MJ/scm",
+      "Megajoule per Standard Cubic Meter",
+      "megajoule per standard cubic meter"
+    ],
+    "symbol": "MJ/Sm³",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on Energistics Unit of Measure Standard v1.0.1 (standard-condition unit, converted as plain volume per Usage Guide §3.3.3) - https://www.energistics.org/energistics-unit-of-measure-standard",
+    "sourceReference": null
+  },
+  {
     "externalId": "force:centin",
     "name": "CentiN",
     "quantity": "Force",
@@ -4518,6 +4576,10 @@
     "aliasNames": [
       "kg/Sm³",
       "kg/Sm3",
+      "Kg/Sm3",
+      "Kg/Sm³",
+      "kg/SM3",
+      "kg/sm3",
       "kg/scm",
       "Kilogram per Standard Cubic Meter",
       "kilogram per standard cubic meter"
@@ -7620,7 +7682,9 @@
       "mscf/d",
       "MSCF/D",
       "Mscf/day",
+      "MScf/d",
       "kscf/d",
+      "kScf/d",
       "Mscf(60F)/d",
       "Thousand Standard Cubic Feet per Day",
       "thousand standard cubic feet per day"
@@ -7644,6 +7708,7 @@
       "MMSCF/day",
       "MMscf/d",
       "mmscfd",
+      "mmscf/d",
       "MMScf/d",
       "MMscf/day",
       "MMscfd",
@@ -9979,7 +10044,8 @@
       "Mega ft³",
       "Million cu ft",
       "Million ft³",
-      "MMCF"
+      "MMCF",
+      "MMft3"
     ],
     "symbol": "MMCF",
     "conversion": {
@@ -10026,6 +10092,7 @@
     "aliasNames": [
       "RB/d",
       "rb/d",
+      "RB/day",
       "Reservoir Barrel Per Day",
       "reservoir barrel per day",
       "RB/D",
@@ -11867,6 +11934,27 @@
     "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-MOL"
   },
   {
+    "externalId": "molar_mass:kilogm-per-kilomol",
+    "name": "KiloGM-PER-KiloMOL",
+    "quantity": "Molar Mass",
+    "longName": "Kilogram per Kilomole",
+    "aliasNames": [
+      "Kg/kmol",
+      "Kg/Kmol",
+      "kg/kg-mol",
+      "kg per kmol",
+      "kilogram per kilomole",
+      "KiloGM-PER-KiloMOL"
+    ],
+    "symbol": "kg/kmol",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-KiloMOL"
+  },
+  {
     "externalId": "molar_mass:lb-per-lb-mol",
     "name": "LB-PER-LB-MOL",
     "quantity": "Molar Mass",
@@ -12504,7 +12592,8 @@
       "1-64 in",
       "1/64th in",
       "1/64th inch",
-      "sixty-fourth inch"
+      "sixty-fourth inch",
+      "64ths"
     ],
     "symbol": "¹⁄₆₄″",
     "conversion": {
@@ -12692,9 +12781,11 @@
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
+      "scf/stb",
       "Standard Cubic Feet per Barrel",
       "scf/bbl",
-      "SCF/BBL"
+      "SCF/BBL",
+      "SCF/BO"
     ],
     "symbol": "scf/STB",
     "conversion": {
@@ -12805,7 +12896,8 @@
       "MMBTU_IT/d",
       "MMBTU_IT/day",
       "MMBTU_IT/Day",
-      "MMBTU_IT/DAY"
+      "MMBTU_IT/DAY",
+      "MMBTU/d"
     ],
     "symbol": "MBtu{IT}/d",
     "conversion": {

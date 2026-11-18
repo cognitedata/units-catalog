@@ -145,6 +145,7 @@ class UnitTest {
             "Standard Volume",
             "Standard Volume Flow Rate",
             "Mass Per Standard Volume",
+            "Energy Per Standard Volume",
             "Gas Liquid Ratio",
             "Liquid Gas Ratio",
         )

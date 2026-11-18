@@ -79,6 +79,10 @@
         "unitExternalId": "energy_density:j-per-m3"
       },
       {
+        "name": "Energy Per Standard Volume",
+        "unitExternalId": "energy_per_standard_volume:j-per-scm_1atm_15deg_c_iso"
+      },
+      {
         "name": "Force",
         "unitExternalId": "force:n"
       },
@@ -344,6 +348,10 @@
         "unitExternalId": "energy_density:j-per-m3"
       },
       {
+        "name": "Energy Per Standard Volume",
+        "unitExternalId": "energy_per_standard_volume:j-per-scm_1atm_15deg_c_iso"
+      },
+      {
         "name": "Force",
         "unitExternalId": "force:n"
       },
@@ -515,6 +523,10 @@
       {
         "name": "Energy Density",
         "unitExternalId": "energy_density:btu_it-per-ft3"
+      },
+      {
+        "name": "Energy Per Standard Volume",
+        "unitExternalId": "energy_per_standard_volume:btu_it-per-scf_1atm_60deg_f"
       },
       {
         "name": "Force",

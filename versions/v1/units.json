@@ -4576,6 +4576,10 @@
     "aliasNames": [
       "kg/Sm³",
       "kg/Sm3",
+      "Kg/Sm3",
+      "Kg/Sm³",
+      "kg/SM3",
+      "kg/sm3",
       "kg/scm",
       "Kilogram per Standard Cubic Meter",
       "kilogram per standard cubic meter"
@@ -7678,7 +7682,9 @@
       "mscf/d",
       "MSCF/D",
       "Mscf/day",
+      "MScf/d",
       "kscf/d",
+      "kScf/d",
       "Mscf(60F)/d",
       "Thousand Standard Cubic Feet per Day",
       "thousand standard cubic feet per day"
@@ -7702,6 +7708,7 @@
       "MMSCF/day",
       "MMscf/d",
       "mmscfd",
+      "mmscf/d",
       "MMScf/d",
       "MMscf/day",
       "MMscfd",
@@ -10037,7 +10044,8 @@
       "Mega ft³",
       "Million cu ft",
       "Million ft³",
-      "MMCF"
+      "MMCF",
+      "MMft3"
     ],
     "symbol": "MMCF",
     "conversion": {
@@ -10084,6 +10092,7 @@
     "aliasNames": [
       "RB/d",
       "rb/d",
+      "RB/day",
       "Reservoir Barrel Per Day",
       "reservoir barrel per day",
       "RB/D",
@@ -12544,7 +12553,8 @@
       "1-64 in",
       "1/64th in",
       "1/64th inch",
-      "sixty-fourth inch"
+      "sixty-fourth inch",
+      "64ths"
     ],
     "symbol": "¹⁄₆₄″",
     "conversion": {
@@ -12732,9 +12742,11 @@
     "aliasNames": [
       "scf/STB",
       "SCF/STB",
+      "scf/stb",
       "Standard Cubic Feet per Barrel",
       "scf/bbl",
-      "SCF/BBL"
+      "SCF/BBL",
+      "SCF/BO"
     ],
     "symbol": "scf/STB",
     "conversion": {
@@ -12845,7 +12857,8 @@
       "MMBTU_IT/d",
       "MMBTU_IT/day",
       "MMBTU_IT/Day",
-      "MMBTU_IT/DAY"
+      "MMBTU_IT/DAY",
+      "MMBTU/d"
     ],
     "symbol": "MBtu{IT}/d",
     "conversion": {

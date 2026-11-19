@@ -139,6 +139,10 @@
         "unitExternalId": "power:w"
       },
       {
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
+      },
+      {
         "name": "Pressure Squared",
         "unitExternalId": "pressure_squared:bar2"
       },
@@ -165,10 +169,6 @@
       {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
-      },
-      {
-        "name": "Power Level",
-        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Standard Volume",
@@ -400,6 +400,10 @@
         "unitExternalId": "power:w"
       },
       {
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
+      },
+      {
         "name": "Pressure Squared",
         "unitExternalId": "pressure_squared:pa2"
       },
@@ -422,10 +426,6 @@
       {
         "name": "Resistance",
         "unitExternalId": "resistance:ohm"
-      },
-      {
-        "name": "Power Level",
-        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Standard Volume",
@@ -561,16 +561,16 @@
         "unitExternalId": "power:hp"
       },
       {
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
+      },
+      {
         "name": "Pressure",
         "unitExternalId": "pressure:psi"
       },
       {
         "name": "Pressure Gradient",
         "unitExternalId": "pressure_gradient:psi-per-ft"
-      },
-      {
-        "name": "Power Level",
-        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Standard Volume",

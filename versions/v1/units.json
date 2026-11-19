@@ -155,6 +155,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/M-PER-SEC2"
   },
   {
+    "externalId": "acceleration:millim-per-sec2",
+    "name": "MilliM-PER-SEC2",
+    "quantity": "Acceleration",
+    "longName": "Millimeter per Square Second",
+    "aliasNames": [
+      "mm/s^2",
+      "millimeter per square second",
+      "millimetre per square second",
+      "MilliM-PER-SEC2"
+    ],
+    "symbol": "mm/s²",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-SEC2"
+  },
+  {
     "externalId": "amount_of_substance:centimol",
     "name": "CentiMOL",
     "quantity": "Amount Of Substance",

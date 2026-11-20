@@ -139,6 +139,10 @@
         "unitExternalId": "power:w"
       },
       {
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
+      },
+      {
         "name": "Pressure Squared",
         "unitExternalId": "pressure_squared:bar2"
       },
@@ -400,6 +404,10 @@
         "unitExternalId": "power:w"
       },
       {
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
+      },
+      {
         "name": "Pressure Squared",
         "unitExternalId": "pressure_squared:pa2"
       },
@@ -559,6 +567,10 @@
       {
         "name": "Power",
         "unitExternalId": "power:hp"
+      },
+      {
+        "name": "Power Level",
+        "unitExternalId": "power_level:decib-milliw"
       },
       {
         "name": "Pressure",

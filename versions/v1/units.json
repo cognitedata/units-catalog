@@ -449,6 +449,7 @@
       "millimole per litre",
       "MilliMOL per litre",
       "mmol / L",
+      "mmol/l",
       "Millimole per L",
       "MilliMOL per Liter",
       "MilliMOL per Litre",
@@ -695,6 +696,8 @@
       "degree",
       "°",
       "DEG",
+      "deg",
+      "Deg",
       "Degree",
       "DEGA"
     ],
@@ -955,6 +958,8 @@
       "rev / minute",
       "RPM",
       "rpm",
+      "Rpm",
+      "rpM",
       "ROT PER MIN",
       "r/min: revolutions per minute"
     ],
@@ -1709,7 +1714,9 @@
       "NUM",
       "Number",
       "count",
-      "counts"
+      "Count",
+      "counts",
+      "Counts"
     ],
     "symbol": "#",
     "conversion": {
@@ -2454,6 +2461,7 @@
       "KiloV",
       "kilovolt",
       "kV",
+      "KV",
       "kVAC",
       "kVDC"
     ],
@@ -2552,7 +2560,10 @@
     "longName": "Volt",
     "aliasNames": [
       "V",
+      "v",
       "volt",
+      "Volt",
+      "VOLT",
       "volts",
       "Volts",
       "Volts DC",
@@ -2560,6 +2571,7 @@
       "Volts AC",
       "volts AC",
       "VAC",
+      "Vac",
       "VDC"
     ],
     "symbol": "V",
@@ -2898,7 +2910,9 @@
       "Kilowatt hr",
       "kWh",
       "KWH",
+      "KWh",
       "kWhr",
+      "KWHR",
       "kW·h: kilowatt hour"
     ],
     "symbol": "kW⋅h",
@@ -3784,6 +3798,7 @@
     "aliasNames": [
       "Hz",
       "HZ",
+      "hz",
       "hertz",
       "1 PER S"
     ],
@@ -4145,6 +4160,7 @@
     "longName": "Foot",
     "aliasNames": [
       "FT",
+      "Ft",
       "foot",
       "ft",
       "Foot"
@@ -4411,6 +4427,7 @@
     "longName": "Kilogram",
     "aliasNames": [
       "kg",
+      "Kg",
       "kilogram",
       "KiloGM"
     ],
@@ -4827,6 +4844,7 @@
       "kg/hr",
       "kg/h",
       "Kg/hr",
+      "KG/HR",
       "Kg/h"
     ],
     "symbol": "kg/h",
@@ -4896,6 +4914,7 @@
       "kg / second",
       "kg / SEC",
       "kg / s",
+      "Kg/s",
       "KiloGM / SEC",
       "kilogram per s",
       "kg per s",
@@ -4950,6 +4969,7 @@
       "lbm / HR",
       "lbm per hr",
       "PPH",
+      "pph",
       "pound mass / hour",
       "lbm / Hour",
       "LB per HR",
@@ -6093,7 +6113,8 @@
       "kW",
       "KiloW",
       "kw",
-      "KW"
+      "KW",
+      "Kw"
     ],
     "symbol": "kW",
     "conversion": {
@@ -6161,6 +6182,7 @@
       "megajoule per second",
       "MegaJ / second",
       "MJ / s",
+      "MJ/S",
       "MegaJ / SEC"
     ],
     "symbol": "MJ/s",
@@ -6319,8 +6341,12 @@
       "bara",
       "BARa",
       "bar(a)",
+      "BAR(A)",
       "bar a",
       "Bara",
+      "BarA",
+      "BARA",
+      "barA",
       "Bar a"
     ],
     "symbol": "bar",
@@ -6828,7 +6854,9 @@
       "Millibar",
       "mBar",
       "mbar a",
-      "mbarA"
+      "mbarA",
+      "mbara",
+      "mBara"
     ],
     "symbol": "mbar",
     "conversion": {
@@ -6872,6 +6900,7 @@
       "Inch of water",
       "inH2O",
       "InH2O",
+      "inh2o",
       "inch of water column",
       "in WG",
       "in.WG",
@@ -7038,6 +7067,7 @@
     "aliasNames": [
       "pascal",
       "PA",
+      "pa",
       "Pa"
     ],
     "symbol": "Pa",
@@ -7224,7 +7254,8 @@
       "kVAR",
       "kVAr",
       "kvar: kilovar",
-      "KVAr"
+      "KVAr",
+      "KVAR"
     ],
     "symbol": "kvar",
     "conversion": {
@@ -8748,9 +8779,11 @@
       "Hr",
       "Hrs",
       "hrs",
+      "HRS",
       "h",
       "h: hour",
-      "HOURS"
+      "HOURS",
+      "Hours"
     ],
     "symbol": "h",
     "conversion": {
@@ -8823,6 +8856,7 @@
     "longName": "Month",
     "aliasNames": [
       "month",
+      "Month",
       "mo"
     ],
     "symbol": "mo",
@@ -9516,6 +9550,7 @@
       "millimeter / sec",
       "millimeter / s",
       "mm/s",
+      "MM/S",
       "mm/s: millimetre per second"
     ],
     "symbol": "mm/s",
@@ -9553,6 +9588,7 @@
       "Millimetre Per Year",
       "mm/yr",
       "mm/y",
+      "mm/Y",
       "mm/y: millimetre per year"
     ],
     "quantity": "Velocity",
@@ -9674,6 +9710,8 @@
       "bbl",
       "Bbl",
       "BBLS",
+      "bbls",
+      "Bbls",
       "Gross BBLS"
     ],
     "symbol": "bbl",
@@ -9751,6 +9789,7 @@
     "aliasNames": [
       "Cubic Foot",
       "FT3",
+      "ft3",
       "ft³",
       "cubic foot"
     ],
@@ -9857,7 +9896,8 @@
       "Litre",
       "l",
       "l: litre",
-      "Litres"
+      "Litres",
+      "litres"
     ],
     "symbol": "L",
     "conversion": {
@@ -10815,7 +10855,10 @@
       "l/h",
       "l/hr",
       "L/hr",
-      "L/H"
+      "L/HR",
+      "L/Hr",
+      "L/H",
+      "L/h"
     ],
     "symbol": "L/hr",
     "conversion": {
@@ -11179,6 +11222,7 @@
       "m³ / s",
       "cubic meter per second",
       "m3/s",
+      "M3/S",
       "m3/sec"
     ],
     "symbol": "m³/s",
@@ -12193,6 +12237,7 @@
       "liter / day",
       "L per Day",
       "L / day",
+      "l/day",
       "liter / D",
       "litre per D",
       "L / d",

@@ -267,6 +267,18 @@
         "unitExternalId": "liquid_gas_ratio:sm3-per-sm3"
       },
       {
+        "name": "Gas Oil Ratio",
+        "unitExternalId": "gas_oil_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Water Gas Ratio",
+        "unitExternalId": "water_gas_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Condensate Gas Ratio",
+        "unitExternalId": "condensate_gas_ratio:sm3-per-sm3"
+      },
+      {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:m3-per-sec-per-pa"
       },
@@ -362,6 +374,26 @@
       {
         "name": "Frequency",
         "unitExternalId": "frequency:hz"
+      },
+      {
+        "name": "Gas Liquid Ratio",
+        "unitExternalId": "gas_liquid_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Liquid Gas Ratio",
+        "unitExternalId": "liquid_gas_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Gas Oil Ratio",
+        "unitExternalId": "gas_oil_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Water Gas Ratio",
+        "unitExternalId": "water_gas_ratio:sm3-per-sm3"
+      },
+      {
+        "name": "Condensate Gas Ratio",
+        "unitExternalId": "condensate_gas_ratio:sm3-per-sm3"
       },
       {
         "name": "Inductance",

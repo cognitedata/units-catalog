@@ -633,6 +633,18 @@
         "unitExternalId": "areal_density:lb-per-ft2"
       },
       {
+        "name": "Gas Oil Ratio",
+        "unitExternalId": "gas_oil_ratio:scf-per-stb"
+      },
+      {
+        "name": "Water Gas Ratio",
+        "unitExternalId": "water_gas_ratio:stb-per-mmscf"
+      },
+      {
+        "name": "Condensate Gas Ratio",
+        "unitExternalId": "condensate_gas_ratio:stb-per-mmscf"
+      },
+      {
         "name": "Volume per time per pressure",
         "unitExternalId": "volume_per_time_per_pressure:ft3-per-sec-per-psi"
       },

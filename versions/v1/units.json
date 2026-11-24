@@ -3834,6 +3834,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliHZ"
   },
   {
+    "externalId": "frequency:megahz",
+    "name": "MegaHZ",
+    "quantity": "Frequency",
+    "longName": "Megahertz",
+    "aliasNames": [
+      "MegaHZ",
+      "MHZ",
+      "Megahertz",
+      "megahertz"
+    ],
+    "symbol": "MHz",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaHZ"
+  },
+  {
     "externalId": "frequency:num-per-hr",
     "name": "NUM-PER-HR",
     "quantity": "Frequency",
@@ -12323,6 +12342,24 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/B"
+  },
+  {
+    "externalId": "power_level:decib-milliw",
+    "name": "DeciB-MilliW",
+    "quantity": "Power Level",
+    "longName": "Decibel Milliwatt",
+    "aliasNames": [
+      "dBm",
+      "dBmW",
+      "DBM"
+    ],
+    "symbol": "dB·mW",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/DeciB-MilliW"
   },
   {
     "externalId": "frequency:hectohz",

@@ -7262,6 +7262,118 @@
     "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
+    "externalId": "pressure_change_rate:pa-per-sec",
+    "name": "PA-PER-SEC",
+    "quantity": "Pressure Change Rate",
+    "longName": "Pascal Per Second",
+    "aliasNames": [
+      "pascal per second",
+      "Pa per second",
+      "Pa per sec"
+    ],
+    "symbol": "Pa/s",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PA-PER-SEC"
+  },
+  {
+    "externalId": "pressure_change_rate:bar-per-hr",
+    "name": "BAR-PER-HR",
+    "quantity": "Pressure Change Rate",
+    "longName": "Bar Per Hour",
+    "aliasNames": [
+      "bar per hour",
+      "bar per hr",
+      "bar/hour",
+      "bar/hr",
+      "Bar/h",
+      "barg/h",
+      "barG/h"
+    ],
+    "symbol": "bar/h",
+    "conversion": {
+      "multiplier": 27.77777777777778,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "pressure_change_rate:bar-per-min",
+    "name": "BAR-PER-MIN",
+    "quantity": "Pressure Change Rate",
+    "longName": "Bar Per Minute",
+    "aliasNames": [
+      "bar per minute",
+      "bar per min",
+      "bar/minute"
+    ],
+    "symbol": "bar/min",
+    "conversion": {
+      "multiplier": 1666.6666666666667,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/BAR and https://qudt.org/vocab/unit/MIN",
+    "sourceReference": null
+  },
+  {
+    "externalId": "pressure_change_rate:bar-per-sec",
+    "name": "BAR-PER-SEC",
+    "quantity": "Pressure Change Rate",
+    "longName": "Bar Per Second",
+    "aliasNames": [
+      "bar per second",
+      "bar per sec",
+      "bar/sec",
+      "BarA/s"
+    ],
+    "symbol": "bar/s",
+    "conversion": {
+      "multiplier": 100000.0,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/BAR and https://qudt.org/vocab/unit/SEC",
+    "sourceReference": null
+  },
+  {
+    "externalId": "pressure_change_rate:bar-per-30min",
+    "name": "BAR-PER-30MIN",
+    "quantity": "Pressure Change Rate",
+    "longName": "Bar Per 30 Minutes",
+    "aliasNames": [
+      "bar per 30 minutes",
+      "bar per 30 min",
+      "bar/30 min"
+    ],
+    "symbol": "bar/30min",
+    "conversion": {
+      "multiplier": 55.55555555555556,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/BAR and https://qudt.org/vocab/unit/MIN",
+    "sourceReference": null
+  },
+  {
+    "externalId": "pressure_change_rate:bar-per-day",
+    "name": "BAR-PER-DAY",
+    "quantity": "Pressure Change Rate",
+    "longName": "Bar Per Day",
+    "aliasNames": [
+      "bar per day",
+      "bar/day"
+    ],
+    "symbol": "bar/d",
+    "conversion": {
+      "multiplier": 1.1574074074074074,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/BAR and https://qudt.org/vocab/unit/DAY",
+    "sourceReference": null
+  },
+  {
     "externalId": "reactive_power:var",
     "name": "VAR",
     "quantity": "Reactive Power",

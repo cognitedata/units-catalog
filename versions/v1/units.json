@@ -4076,6 +4076,69 @@
     "sourceReference": "https://qudt.org/vocab/unit/PER-M"
   },
   {
+    "externalId": "inverse_volume:per-m3",
+    "name": "PER-M3",
+    "quantity": "Inverse Volume",
+    "longName": "Reciprocal Cubic Meter",
+    "aliasNames": [
+      "reciprocal cubic meter",
+      "reciprocal cubic metre",
+      "/ cubic meter",
+      "/ cubic metre",
+      "/ m³",
+      "/m3",
+      "1/m³",
+      "1/m3",
+      "per cubic meter",
+      "per cubic metre",
+      "pulses per cubic meter",
+      "pulses per cubic metre",
+      "pulses/m3",
+      "pls/m3",
+      "Pulse/m3",
+      "P/m³",
+      "P/m3",
+      "p/m3"
+    ],
+    "symbol": "/m³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PER-M3"
+  },
+  {
+    "externalId": "inverse_volume:per-l",
+    "name": "PER-L",
+    "quantity": "Inverse Volume",
+    "longName": "Reciprocal Liter",
+    "aliasNames": [
+      "reciprocal liter",
+      "reciprocal litre",
+      "/ liter",
+      "/ litre",
+      "/ L",
+      "/l",
+      "1/L",
+      "1/l",
+      "per liter",
+      "per litre",
+      "pulses per liter",
+      "pulses per litre",
+      "pulses/L",
+      "pl/l",
+      "pl/Ltr"
+    ],
+    "symbol": "/L",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PER-L"
+  },
+  {
     "externalId": "length:centim",
     "name": "CentiM",
     "quantity": "Length",

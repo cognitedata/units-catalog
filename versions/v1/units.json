@@ -7262,10 +7262,10 @@
     "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
-    "externalId": "pressure_change_rate:pa-per-sec",
+    "externalId": "pressure_per_time:pa-per-sec",
     "name": "PA-PER-SEC",
-    "quantity": "Pressure Change Rate",
-    "longName": "Pascal Per Second",
+    "quantity": "Pressure Per Time",
+    "longName": "Pascal per Second",
     "aliasNames": [
       "pascal per second",
       "Pa per second",
@@ -7280,10 +7280,10 @@
     "sourceReference": "https://qudt.org/vocab/unit/PA-PER-SEC"
   },
   {
-    "externalId": "pressure_change_rate:bar-per-hr",
+    "externalId": "pressure_per_time:bar-per-hr",
     "name": "BAR-PER-HR",
-    "quantity": "Pressure Change Rate",
-    "longName": "Bar Per Hour",
+    "quantity": "Pressure Per Time",
+    "longName": "Bar per Hour",
     "aliasNames": [
       "bar per hour",
       "bar per hr",
@@ -7302,10 +7302,10 @@
     "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
   },
   {
-    "externalId": "pressure_change_rate:bar-per-min",
+    "externalId": "pressure_per_time:bar-per-min",
     "name": "BAR-PER-MIN",
-    "quantity": "Pressure Change Rate",
-    "longName": "Bar Per Minute",
+    "quantity": "Pressure Per Time",
+    "longName": "Bar per Minute",
     "aliasNames": [
       "bar per minute",
       "bar per min",
@@ -7320,10 +7320,10 @@
     "sourceReference": null
   },
   {
-    "externalId": "pressure_change_rate:bar-per-sec",
+    "externalId": "pressure_per_time:bar-per-sec",
     "name": "BAR-PER-SEC",
-    "quantity": "Pressure Change Rate",
-    "longName": "Bar Per Second",
+    "quantity": "Pressure Per Time",
+    "longName": "Bar per Second",
     "aliasNames": [
       "bar per second",
       "bar per sec",
@@ -7339,10 +7339,10 @@
     "sourceReference": null
   },
   {
-    "externalId": "pressure_change_rate:bar-per-30min",
+    "externalId": "pressure_per_time:bar-per-30min",
     "name": "BAR-PER-30MIN",
-    "quantity": "Pressure Change Rate",
-    "longName": "Bar Per 30 Minutes",
+    "quantity": "Pressure Per Time",
+    "longName": "Bar per 30 Minutes",
     "aliasNames": [
       "bar per 30 minutes",
       "bar per 30 min",
@@ -7357,10 +7357,10 @@
     "sourceReference": null
   },
   {
-    "externalId": "pressure_change_rate:bar-per-day",
+    "externalId": "pressure_per_time:bar-per-day",
     "name": "BAR-PER-DAY",
-    "quantity": "Pressure Change Rate",
-    "longName": "Bar Per Day",
+    "quantity": "Pressure Per Time",
+    "longName": "Bar per Day",
     "aliasNames": [
       "bar per day",
       "bar/day"

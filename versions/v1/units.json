@@ -5302,6 +5302,103 @@
     "sourceReference": "https://qudt.org/vocab/unit/TONNE-PER-SEC"
   },
   {
+    "externalId": "mass_fraction:kilogm-per-kilogm",
+    "name": "KiloGM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Kilogram per Kilogram",
+    "aliasNames": [
+      "kilogram per kilogram",
+      "kg per kg"
+    ],
+    "symbol": "kg/kg",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-KiloGM"
+  },
+  {
+    "externalId": "mass_fraction:percent",
+    "name": "PERCENT",
+    "quantity": "Mass Fraction",
+    "longName": "Percent (Mass Basis)",
+    "aliasNames": [
+      "wt%",
+      "Wt%",
+      "%wt",
+      "mass%",
+      "mass %",
+      "% Mass",
+      "mass percent",
+      "weight percent"
+    ],
+    "symbol": "%[mass]",
+    "conversion": {
+      "multiplier": 0.01,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "mass_fraction:gm-per-kilogm",
+    "name": "GM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Gram per Kilogram",
+    "aliasNames": [
+      "gram per kilogram",
+      "g per kg"
+    ],
+    "symbol": "g/kg",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-KiloGM"
+  },
+  {
+    "externalId": "mass_fraction:milligm-per-kilogm",
+    "name": "MilliGM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Milligram per Kilogram",
+    "aliasNames": [
+      "milligram per kilogram",
+      "mg per kg",
+      "ppmw",
+      "ppm[mass]"
+    ],
+    "symbol": "mg/kg",
+    "conversion": {
+      "multiplier": 1e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM-PER-KiloGM"
+  },
+  {
+    "externalId": "mass_fraction:microgm-per-kilogm",
+    "name": "MicroGM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Microgram per Kilogram",
+    "aliasNames": [
+      "microgram per kilogram",
+      "ug/kg",
+      "ppbw",
+      "PPBW",
+      "PPB(W)",
+      "ppb(w)"
+    ],
+    "symbol": "μg/kg",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroGM-PER-KiloGM"
+  },
+  {
     "externalId": "permeability:h-per-m",
     "name": "H-PER-M",
     "quantity": "Permeability",
@@ -12056,6 +12153,80 @@
     },
     "source": "Derived from base unit definitions in qudt.org (1 lb = 0.45359237 kg and 1 lb-mol = 453.59237 mol). Numerically equal to https://qudt.org/vocab/unit/GM-PER-MOL",
     "sourceReference": null
+  },
+  {
+    "externalId": "mole_fraction:mol-per-mol",
+    "name": "MOL-PER-MOL",
+    "quantity": "Mole Fraction",
+    "longName": "Mole per Mole",
+    "aliasNames": [
+      "mole per mole",
+      "mol per mol"
+    ],
+    "symbol": "mol/mol",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MOL-PER-MOL"
+  },
+  {
+    "externalId": "mole_fraction:percent",
+    "name": "PERCENT",
+    "quantity": "Mole Fraction",
+    "longName": "Percent (Molar Basis)",
+    "aliasNames": [
+      "mol%",
+      "Mol%",
+      "Mol %",
+      "mole %",
+      "Mole%",
+      "% mol",
+      "%mol",
+      "mole percent"
+    ],
+    "symbol": "%[molar]",
+    "conversion": {
+      "multiplier": 0.01,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "mole_fraction:millimol-per-mol",
+    "name": "MilliMOL-PER-MOL",
+    "quantity": "Mole Fraction",
+    "longName": "Millimole per Mole",
+    "aliasNames": [
+      "millimole per mole",
+      "mmol per mol"
+    ],
+    "symbol": "mmol/mol",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliMOL-PER-MOL"
+  },
+  {
+    "externalId": "mole_fraction:micromol-per-mol",
+    "name": "MicroMOL-PER-MOL",
+    "quantity": "Mole Fraction",
+    "longName": "Micromole per Mole",
+    "aliasNames": [
+      "micromole per mole",
+      "umol/mol"
+    ],
+    "symbol": "μmol/mol",
+    "conversion": {
+      "multiplier": 1e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL-PER-MOL"
   },
   {
     "externalId": "power_per_area:w-per-m2",

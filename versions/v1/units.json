@@ -977,7 +977,9 @@
       "KiloRevolution per Minute",
       "thousand revolution per minute",
       "krev per min",
-      "krpm"
+      "krpm",
+      "kRPM",
+      "KRPM"
     ],
     "symbol": "krev/min",
     "conversion": {

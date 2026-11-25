@@ -7290,6 +7290,8 @@
       "bar/hour",
       "bar/hr",
       "Bar/h",
+      "bara/h",
+      "BarA/h",
       "barg/h",
       "barG/h"
     ],
@@ -7309,7 +7311,11 @@
     "aliasNames": [
       "bar per minute",
       "bar per min",
-      "bar/minute"
+      "bar/minute",
+      "bara/min",
+      "BarA/min",
+      "barg/min",
+      "barG/min"
     ],
     "symbol": "bar/min",
     "conversion": {
@@ -7328,7 +7334,10 @@
       "bar per second",
       "bar per sec",
       "bar/sec",
-      "BarA/s"
+      "bara/s",
+      "BarA/s",
+      "barg/s",
+      "barG/s"
     ],
     "symbol": "bar/s",
     "conversion": {
@@ -7346,7 +7355,11 @@
     "aliasNames": [
       "bar per 30 minutes",
       "bar per 30 min",
-      "bar/30 min"
+      "bar/30 min",
+      "bara/30min",
+      "BarA/30min",
+      "barg/30min",
+      "barG/30min"
     ],
     "symbol": "bar/30min",
     "conversion": {
@@ -7363,7 +7376,11 @@
     "longName": "Bar per Day",
     "aliasNames": [
       "bar per day",
-      "bar/day"
+      "bar/day",
+      "bara/d",
+      "BarA/d",
+      "barg/d",
+      "barG/d"
     ],
     "symbol": "bar/d",
     "conversion": {

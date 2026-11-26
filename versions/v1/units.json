@@ -48,6 +48,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/FT-PER-SEC2"
   },
   {
+    "externalId": "acceleration:g",
+    "name": "G",
+    "quantity": "Acceleration",
+    "longName": "Gravity",
+    "aliasNames": [
+      "g's",
+      "gn",
+      "standard gravity",
+      "standard acceleration of gravity"
+    ],
+    "symbol": "G",
+    "conversion": {
+      "multiplier": 9.80665,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/G"
+  },
+  {
     "externalId": "acceleration:in-per-sec2",
     "name": "IN-PER-SEC2",
     "quantity": "Acceleration",

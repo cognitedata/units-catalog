@@ -155,6 +155,25 @@
     "sourceReference": "https://qudt.org/vocab/unit/M-PER-SEC2"
   },
   {
+    "externalId": "acceleration:millim-per-sec2",
+    "name": "MilliM-PER-SEC2",
+    "quantity": "Acceleration",
+    "longName": "Millimeter per Square Second",
+    "aliasNames": [
+      "mm/s^2",
+      "millimeter per square second",
+      "millimetre per square second",
+      "MilliM-PER-SEC2"
+    ],
+    "symbol": "mm/s²",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM-PER-SEC2"
+  },
+  {
     "externalId": "amount_of_substance:centimol",
     "name": "CentiMOL",
     "quantity": "Amount Of Substance",
@@ -449,6 +468,7 @@
       "millimole per litre",
       "MilliMOL per litre",
       "mmol / L",
+      "mmol/l",
       "Millimole per L",
       "MilliMOL per Liter",
       "MilliMOL per Litre",
@@ -695,6 +715,8 @@
       "degree",
       "°",
       "DEG",
+      "deg",
+      "Deg",
       "Degree",
       "DEGA"
     ],
@@ -955,8 +977,11 @@
       "rev / minute",
       "RPM",
       "rpm",
+      "Rpm",
+      "rpM",
       "ROT PER MIN",
-      "r/min: revolutions per minute"
+      "r/min: revolutions per minute",
+      "r/min"
     ],
     "symbol": "rev/min",
     "conversion": {
@@ -965,6 +990,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/REV-PER-MIN"
+  },
+  {
+    "externalId": "angular_velocity:kilorev-per-min",
+    "name": "KiloREV-PER-MIN",
+    "quantity": "Angular Velocity",
+    "longName": "Kilo Revolution per Minute",
+    "aliasNames": [
+      "kilo revolution per minute",
+      "KiloRevolution per Minute",
+      "thousand revolution per minute",
+      "krev per min",
+      "krpm",
+      "kRPM",
+      "KRPM"
+    ],
+    "symbol": "krev/min",
+    "conversion": {
+      "multiplier": 104.71975511965977,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV-PER-MIN",
+    "sourceReference": null
   },
   {
     "externalId": "angular_velocity:rev-per-sec",
@@ -1709,7 +1756,9 @@
       "NUM",
       "Number",
       "count",
-      "counts"
+      "Count",
+      "counts",
+      "Counts"
     ],
     "symbol": "#",
     "conversion": {
@@ -2454,6 +2503,7 @@
       "KiloV",
       "kilovolt",
       "kV",
+      "KV",
       "kVAC",
       "kVDC"
     ],
@@ -2552,7 +2602,10 @@
     "longName": "Volt",
     "aliasNames": [
       "V",
+      "v",
       "volt",
+      "Volt",
+      "VOLT",
       "volts",
       "Volts",
       "Volts DC",
@@ -2560,6 +2613,7 @@
       "Volts AC",
       "volts AC",
       "VAC",
+      "Vac",
       "VDC"
     ],
     "symbol": "V",
@@ -2898,7 +2952,9 @@
       "Kilowatt hr",
       "kWh",
       "KWH",
+      "KWh",
       "kWhr",
+      "KWHR",
       "kW·h: kilowatt hour"
     ],
     "symbol": "kW⋅h",
@@ -3784,6 +3840,7 @@
     "aliasNames": [
       "Hz",
       "HZ",
+      "hz",
       "hertz",
       "1 PER S"
     ],
@@ -3832,6 +3889,25 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MilliHZ"
+  },
+  {
+    "externalId": "frequency:megahz",
+    "name": "MegaHZ",
+    "quantity": "Frequency",
+    "longName": "Megahertz",
+    "aliasNames": [
+      "MegaHZ",
+      "MHZ",
+      "Megahertz",
+      "megahertz"
+    ],
+    "symbol": "MHz",
+    "conversion": {
+      "multiplier": 1000000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MegaHZ"
   },
   {
     "externalId": "frequency:num-per-hr",
@@ -4057,6 +4133,69 @@
     "sourceReference": "https://qudt.org/vocab/unit/PER-M"
   },
   {
+    "externalId": "inverse_volume:per-m3",
+    "name": "PER-M3",
+    "quantity": "Inverse Volume",
+    "longName": "Reciprocal Cubic Meter",
+    "aliasNames": [
+      "reciprocal cubic meter",
+      "reciprocal cubic metre",
+      "/ cubic meter",
+      "/ cubic metre",
+      "/ m³",
+      "/m3",
+      "1/m³",
+      "1/m3",
+      "per cubic meter",
+      "per cubic metre",
+      "pulses per cubic meter",
+      "pulses per cubic metre",
+      "pulses/m3",
+      "pls/m3",
+      "Pulse/m3",
+      "P/m³",
+      "P/m3",
+      "p/m3"
+    ],
+    "symbol": "/m³",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PER-M3"
+  },
+  {
+    "externalId": "inverse_volume:per-l",
+    "name": "PER-L",
+    "quantity": "Inverse Volume",
+    "longName": "Reciprocal Liter",
+    "aliasNames": [
+      "reciprocal liter",
+      "reciprocal litre",
+      "/ liter",
+      "/ litre",
+      "/ L",
+      "/l",
+      "1/L",
+      "1/l",
+      "per liter",
+      "per litre",
+      "pulses per liter",
+      "pulses per litre",
+      "pulses/L",
+      "pl/l",
+      "pl/Ltr"
+    ],
+    "symbol": "/L",
+    "conversion": {
+      "multiplier": 1000.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/PER-L"
+  },
+  {
     "externalId": "length:centim",
     "name": "CentiM",
     "quantity": "Length",
@@ -4126,6 +4265,7 @@
     "longName": "Foot",
     "aliasNames": [
       "FT",
+      "Ft",
       "foot",
       "ft",
       "Foot"
@@ -4392,6 +4532,7 @@
     "longName": "Kilogram",
     "aliasNames": [
       "kg",
+      "Kg",
       "kilogram",
       "KiloGM"
     ],
@@ -4808,6 +4949,7 @@
       "kg/hr",
       "kg/h",
       "Kg/hr",
+      "KG/HR",
       "Kg/h"
     ],
     "symbol": "kg/h",
@@ -4877,6 +5019,7 @@
       "kg / second",
       "kg / SEC",
       "kg / s",
+      "Kg/s",
       "KiloGM / SEC",
       "kilogram per s",
       "kg per s",
@@ -4931,6 +5074,7 @@
       "lbm / HR",
       "lbm per hr",
       "PPH",
+      "pph",
       "pound mass / hour",
       "lbm / Hour",
       "LB per HR",
@@ -5218,6 +5362,103 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/TONNE-PER-SEC"
+  },
+  {
+    "externalId": "mass_fraction:kilogm-per-kilogm",
+    "name": "KiloGM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Kilogram per Kilogram",
+    "aliasNames": [
+      "kilogram per kilogram",
+      "kg per kg"
+    ],
+    "symbol": "kg/kg",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/KiloGM-PER-KiloGM"
+  },
+  {
+    "externalId": "mass_fraction:percent",
+    "name": "PERCENT",
+    "quantity": "Mass Fraction",
+    "longName": "Percent (Mass Basis)",
+    "aliasNames": [
+      "wt%",
+      "Wt%",
+      "%wt",
+      "mass%",
+      "mass %",
+      "% Mass",
+      "mass percent",
+      "weight percent"
+    ],
+    "symbol": "%[mass]",
+    "conversion": {
+      "multiplier": 0.01,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "mass_fraction:gm-per-kilogm",
+    "name": "GM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Gram per Kilogram",
+    "aliasNames": [
+      "gram per kilogram",
+      "g per kg"
+    ],
+    "symbol": "g/kg",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/GM-PER-KiloGM"
+  },
+  {
+    "externalId": "mass_fraction:milligm-per-kilogm",
+    "name": "MilliGM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Milligram per Kilogram",
+    "aliasNames": [
+      "milligram per kilogram",
+      "mg per kg",
+      "ppmw",
+      "ppm[mass]"
+    ],
+    "symbol": "mg/kg",
+    "conversion": {
+      "multiplier": 1e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliGM-PER-KiloGM"
+  },
+  {
+    "externalId": "mass_fraction:microgm-per-kilogm",
+    "name": "MicroGM-PER-KiloGM",
+    "quantity": "Mass Fraction",
+    "longName": "Microgram per Kilogram",
+    "aliasNames": [
+      "microgram per kilogram",
+      "ug/kg",
+      "ppbw",
+      "PPBW",
+      "PPB(W)",
+      "ppb(w)"
+    ],
+    "symbol": "μg/kg",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroGM-PER-KiloGM"
   },
   {
     "externalId": "permeability:h-per-m",
@@ -6074,7 +6315,8 @@
       "kW",
       "KiloW",
       "kw",
-      "KW"
+      "KW",
+      "Kw"
     ],
     "symbol": "kW",
     "conversion": {
@@ -6142,6 +6384,7 @@
       "megajoule per second",
       "MegaJ / second",
       "MJ / s",
+      "MJ/S",
       "MegaJ / SEC"
     ],
     "symbol": "MJ/s",
@@ -6300,8 +6543,12 @@
       "bara",
       "BARa",
       "bar(a)",
+      "BAR(A)",
       "bar a",
       "Bara",
+      "BarA",
+      "BARA",
+      "barA",
       "Bar a"
     ],
     "symbol": "bar",
@@ -6809,7 +7056,9 @@
       "Millibar",
       "mBar",
       "mbar a",
-      "mbarA"
+      "mbarA",
+      "mbara",
+      "mBara"
     ],
     "symbol": "mbar",
     "conversion": {
@@ -6853,6 +7102,7 @@
       "Inch of water",
       "inH2O",
       "InH2O",
+      "inh2o",
       "inch of water column",
       "in WG",
       "in.WG",
@@ -7019,6 +7269,7 @@
     "aliasNames": [
       "pascal",
       "PA",
+      "pa",
       "Pa"
     ],
     "symbol": "Pa",
@@ -7205,7 +7456,8 @@
       "kVAR",
       "kVAr",
       "kvar: kilovar",
-      "KVAr"
+      "KVAr",
+      "KVAR"
     ],
     "symbol": "kvar",
     "conversion": {
@@ -8729,9 +8981,11 @@
       "Hr",
       "Hrs",
       "hrs",
+      "HRS",
       "h",
       "h: hour",
-      "HOURS"
+      "HOURS",
+      "Hours"
     ],
     "symbol": "h",
     "conversion": {
@@ -8804,6 +9058,7 @@
     "longName": "Month",
     "aliasNames": [
       "month",
+      "Month",
       "mo"
     ],
     "symbol": "mo",
@@ -9497,6 +9752,7 @@
       "millimeter / sec",
       "millimeter / s",
       "mm/s",
+      "MM/S",
       "mm/s: millimetre per second"
     ],
     "symbol": "mm/s",
@@ -9534,6 +9790,7 @@
       "Millimetre Per Year",
       "mm/yr",
       "mm/y",
+      "mm/Y",
       "mm/y: millimetre per year"
     ],
     "quantity": "Velocity",
@@ -9655,6 +9912,8 @@
       "bbl",
       "Bbl",
       "BBLS",
+      "bbls",
+      "Bbls",
       "Gross BBLS"
     ],
     "symbol": "bbl",
@@ -9732,6 +9991,7 @@
     "aliasNames": [
       "Cubic Foot",
       "FT3",
+      "ft3",
       "ft³",
       "cubic foot"
     ],
@@ -9838,7 +10098,8 @@
       "Litre",
       "l",
       "l: litre",
-      "Litres"
+      "Litres",
+      "litres"
     ],
     "symbol": "L",
     "conversion": {
@@ -10796,7 +11057,10 @@
       "l/h",
       "l/hr",
       "L/hr",
-      "L/H"
+      "L/HR",
+      "L/Hr",
+      "L/H",
+      "L/h"
     ],
     "symbol": "L/hr",
     "conversion": {
@@ -11160,6 +11424,7 @@
       "m³ / s",
       "cubic meter per second",
       "m3/s",
+      "M3/S",
       "m3/sec"
     ],
     "symbol": "m³/s",
@@ -11726,7 +11991,13 @@
       "Microlitre per L",
       "μL per Liter",
       "microlitre / liter",
-      "μL per litre"
+      "μL per litre",
+      "ppmv",
+      "ppmV",
+      "PPMV",
+      "ppm (vol)",
+      "ppm vol",
+      "ppm[vol]"
     ],
     "symbol": "μL/L",
     "conversion": {
@@ -11853,6 +12124,28 @@
     "sourceReference": "https://qudt.org/vocab/unit/MilliL-PER-M3"
   },
   {
+    "externalId": "volume_fraction:millim3-per-m3",
+    "name": "MilliM3-PER-M3",
+    "quantity": "Volume Fraction",
+    "longName": "Cubic Millimeter per Cubic Meter",
+    "aliasNames": [
+      "cubic millimeter per cubic meter",
+      "cubic millimetre per cubic metre",
+      "mm3/m3",
+      "ppbv",
+      "PPBV",
+      "PPB(V)",
+      "ppb(v)"
+    ],
+    "symbol": "mm³/m³",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM3-PER-M3"
+  },
+  {
     "externalId": "mass_flow_rate:lb-per-sec",
     "name": "LB-PER-SEC",
     "quantity": "Mass Flow Rate",
@@ -11974,6 +12267,80 @@
     },
     "source": "Derived from base unit definitions in qudt.org (1 lb = 0.45359237 kg and 1 lb-mol = 453.59237 mol). Numerically equal to https://qudt.org/vocab/unit/GM-PER-MOL",
     "sourceReference": null
+  },
+  {
+    "externalId": "mole_fraction:mol-per-mol",
+    "name": "MOL-PER-MOL",
+    "quantity": "Mole Fraction",
+    "longName": "Mole per Mole",
+    "aliasNames": [
+      "mole per mole",
+      "mol per mol"
+    ],
+    "symbol": "mol/mol",
+    "conversion": {
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MOL-PER-MOL"
+  },
+  {
+    "externalId": "mole_fraction:percent",
+    "name": "PERCENT",
+    "quantity": "Mole Fraction",
+    "longName": "Percent (Molar Basis)",
+    "aliasNames": [
+      "mol%",
+      "Mol%",
+      "Mol %",
+      "mole %",
+      "Mole%",
+      "% mol",
+      "%mol",
+      "mole percent"
+    ],
+    "symbol": "%[molar]",
+    "conversion": {
+      "multiplier": 0.01,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "mole_fraction:millimol-per-mol",
+    "name": "MilliMOL-PER-MOL",
+    "quantity": "Mole Fraction",
+    "longName": "Millimole per Mole",
+    "aliasNames": [
+      "millimole per mole",
+      "mmol per mol"
+    ],
+    "symbol": "mmol/mol",
+    "conversion": {
+      "multiplier": 0.001,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliMOL-PER-MOL"
+  },
+  {
+    "externalId": "mole_fraction:micromol-per-mol",
+    "name": "MicroMOL-PER-MOL",
+    "quantity": "Mole Fraction",
+    "longName": "Micromole per Mole",
+    "aliasNames": [
+      "micromole per mole",
+      "umol/mol"
+    ],
+    "symbol": "μmol/mol",
+    "conversion": {
+      "multiplier": 1e-06,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MicroMOL-PER-MOL"
   },
   {
     "externalId": "power_per_area:w-per-m2",
@@ -12174,6 +12541,7 @@
       "liter / day",
       "L per Day",
       "L / day",
+      "l/day",
       "liter / D",
       "litre per D",
       "L / d",
@@ -12921,6 +13289,29 @@
     "symbol": "kft³/bbl",
     "conversion": {
       "multiplier": 178.10760667903526,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_fraction:percent",
+    "name": "PERCENT",
+    "quantity": "Volume Fraction",
+    "longName": "Percent (Volume Basis)",
+    "aliasNames": [
+      "vol%",
+      "Vol%",
+      "VOL%",
+      "%vol",
+      "%VOL",
+      "% vol",
+      "% Vol",
+      "volume percent"
+    ],
+    "symbol": "%[vol]",
+    "conversion": {
+      "multiplier": 0.01,
       "offset": 0.0
     },
     "source": "Energistics",

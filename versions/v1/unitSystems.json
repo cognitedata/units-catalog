@@ -99,6 +99,10 @@
         "unitExternalId": "inverse_length:per-m"
       },
       {
+        "name": "Inverse Volume",
+        "unitExternalId": "inverse_volume:per-m3"
+      },
+      {
         "name": "Length",
         "unitExternalId": "length:m"
       },
@@ -123,12 +127,20 @@
         "unitExternalId": "mass_flow_rate:kilogm-per-sec"
       },
       {
+        "name": "Mass Fraction",
+        "unitExternalId": "mass_fraction:kilogm-per-kilogm"
+      },
+      {
         "name": "Molar Flux",
         "unitExternalId": "molar_flux:mol-per-m2-sec"
       },
       {
         "name": "Molar Mass",
         "unitExternalId": "molar_mass:kilogm-per-mol"
+      },
+      {
+        "name": "Mole Fraction",
+        "unitExternalId": "mole_fraction:mol-per-mol"
       },
       {
         "name": "Permeability",
@@ -372,6 +384,10 @@
         "unitExternalId": "inductance:h"
       },
       {
+        "name": "Inverse Volume",
+        "unitExternalId": "inverse_volume:per-m3"
+      },
+      {
         "name": "Length",
         "unitExternalId": "length:m"
       },
@@ -392,8 +408,16 @@
         "unitExternalId": "mass_flow_rate:kilogm-per-sec"
       },
       {
+        "name": "Mass Fraction",
+        "unitExternalId": "mass_fraction:kilogm-per-kilogm"
+      },
+      {
         "name": "Molar Mass",
         "unitExternalId": "molar_mass:kilogm-per-mol"
+      },
+      {
+        "name": "Mole Fraction",
+        "unitExternalId": "mole_fraction:mol-per-mol"
       },
       {
         "name": "Permeability",

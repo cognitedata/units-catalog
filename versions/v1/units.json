@@ -980,7 +980,8 @@
       "Rpm",
       "rpM",
       "ROT PER MIN",
-      "r/min: revolutions per minute"
+      "r/min: revolutions per minute",
+      "r/min"
     ],
     "symbol": "rev/min",
     "conversion": {
@@ -989,6 +990,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/REV-PER-MIN"
+  },
+  {
+    "externalId": "angular_velocity:kilorev-per-min",
+    "name": "KiloREV-PER-MIN",
+    "quantity": "Angular Velocity",
+    "longName": "Kilo Revolution per Minute",
+    "aliasNames": [
+      "kilo revolution per minute",
+      "KiloRevolution per Minute",
+      "thousand revolution per minute",
+      "krev per min",
+      "krpm",
+      "kRPM",
+      "KRPM"
+    ],
+    "symbol": "krev/min",
+    "conversion": {
+      "multiplier": 104.71975511965977,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV-PER-MIN",
+    "sourceReference": null
   },
   {
     "externalId": "angular_velocity:rev-per-sec",
@@ -11968,7 +11991,13 @@
       "Microlitre per L",
       "μL per Liter",
       "microlitre / liter",
-      "μL per litre"
+      "μL per litre",
+      "ppmv",
+      "ppmV",
+      "PPMV",
+      "ppm (vol)",
+      "ppm vol",
+      "ppm[vol]"
     ],
     "symbol": "μL/L",
     "conversion": {
@@ -12093,6 +12122,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/MilliL-PER-M3"
+  },
+  {
+    "externalId": "volume_fraction:millim3-per-m3",
+    "name": "MilliM3-PER-M3",
+    "quantity": "Volume Fraction",
+    "longName": "Cubic Millimeter per Cubic Meter",
+    "aliasNames": [
+      "cubic millimeter per cubic meter",
+      "cubic millimetre per cubic metre",
+      "mm3/m3",
+      "ppbv",
+      "PPBV",
+      "PPB(V)",
+      "ppb(v)"
+    ],
+    "symbol": "mm³/m³",
+    "conversion": {
+      "multiplier": 1e-09,
+      "offset": 0.0
+    },
+    "source": "qudt.org",
+    "sourceReference": "https://qudt.org/vocab/unit/MilliM3-PER-M3"
   },
   {
     "externalId": "mass_flow_rate:lb-per-sec",
@@ -13238,6 +13289,29 @@
     "symbol": "kft³/bbl",
     "conversion": {
       "multiplier": 178.10760667903526,
+      "offset": 0.0
+    },
+    "source": "Energistics",
+    "sourceReference": "https://www.energistics.org/energistics-unit-of-measure-standard"
+  },
+  {
+    "externalId": "volume_fraction:percent",
+    "name": "PERCENT",
+    "quantity": "Volume Fraction",
+    "longName": "Percent (Volume Basis)",
+    "aliasNames": [
+      "vol%",
+      "Vol%",
+      "VOL%",
+      "%vol",
+      "%VOL",
+      "% vol",
+      "% Vol",
+      "volume percent"
+    ],
+    "symbol": "%[vol]",
+    "conversion": {
+      "multiplier": 0.01,
       "offset": 0.0
     },
     "source": "Energistics",

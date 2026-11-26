@@ -980,7 +980,8 @@
       "Rpm",
       "rpM",
       "ROT PER MIN",
-      "r/min: revolutions per minute"
+      "r/min: revolutions per minute",
+      "r/min"
     ],
     "symbol": "rev/min",
     "conversion": {
@@ -989,6 +990,28 @@
     },
     "source": "qudt.org",
     "sourceReference": "https://qudt.org/vocab/unit/REV-PER-MIN"
+  },
+  {
+    "externalId": "angular_velocity:kilorev-per-min",
+    "name": "KiloREV-PER-MIN",
+    "quantity": "Angular Velocity",
+    "longName": "Kilo Revolution per Minute",
+    "aliasNames": [
+      "kilo revolution per minute",
+      "KiloRevolution per Minute",
+      "thousand revolution per minute",
+      "krev per min",
+      "krpm",
+      "kRPM",
+      "KRPM"
+    ],
+    "symbol": "krev/min",
+    "conversion": {
+      "multiplier": 104.71975511965977,
+      "offset": 0.0
+    },
+    "source": "Custom based on qudt.org - https://qudt.org/vocab/unit/REV-PER-MIN",
+    "sourceReference": null
   },
   {
     "externalId": "angular_velocity:rev-per-sec",

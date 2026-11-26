@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
     - name: Set up JDK 21
-      uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4
+      uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6.3.0
       with:
         java-version: "21"
         distribution: "temurin"
@@ -23,7 +23,7 @@ jobs:
     - name: Checkout current branch
       uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
     - name: Set up JDK 21
-      uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4
+      uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6.3.0
       with:
         java-version: "21"
         distribution: "temurin"
@@ -41,7 +41,7 @@ jobs:
         path: output/current_branch.txt
 
     - name: Print warning on forks
-      uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7
+      uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
       if: github.event.pull_request.head.repo.fork == true
       with:
         script: |
@@ -51,7 +51,7 @@ jobs:
           core.warning(duplicateContent, { file: 'versions/v1/units.json' });
 
     - name: Add Comment to Pull Request
-      uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7
+      uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
       if: github.event.pull_request.head.repo.name == github.repository
       with:
         script: |

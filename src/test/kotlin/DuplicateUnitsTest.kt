@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright 2023 Cognite AS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,8 +33,7 @@ class DuplicatedUnitsTest {
         val unitService = UnitService.service
         val duplicates = unitService.getDuplicateConversions(unitService.getUnits())
         // We want to filter out all units that are marked as equivalent
-        val newDuplicates = duplicates.mapValues {
-                (_, duplicatesByConversion) ->
+        val newDuplicates = duplicates.mapValues { (_, duplicatesByConversion) ->
             duplicatesByConversion.filterNot {
                 EquivalentUnits.equivalentUnits.containsAll(it.value.map { typedUnit -> typedUnit.externalId })
             }

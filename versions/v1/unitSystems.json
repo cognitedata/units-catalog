@@ -171,6 +171,10 @@
         "unitExternalId": "pressure_gradient:bar-per-m"
       },
       {
+        "name": "Pressure Per Time",
+        "unitExternalId": "pressure_per_time:pa-per-sec"
+      },
+      {
         "name": "Reactive Power",
         "unitExternalId": "reactive_power:var"
       },
@@ -442,6 +446,10 @@
       {
         "name": "Pressure Gradient",
         "unitExternalId": "pressure_gradient:pa-per-m"
+      },
+      {
+        "name": "Pressure Per Time",
+        "unitExternalId": "pressure_per_time:pa-per-sec"
       },
       {
         "name": "Reactive Power",
